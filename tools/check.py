@@ -75,7 +75,11 @@ def c2():
     out = []
     # a stray brace once glued itself to this selector and Chrome dropped the
     # whole rule, so 120 valve badges rendered as plain text
-    for sel in (r"code\{", r"\.tb-qr\b", r"\.warn\b", r"\.steps\b", r"\.lg\b"):
+    # "code" must appear as a selector in its own right. Matching it loosely let
+    # "h4 code{" stand in for it, so the check passed with the real rule deleted.
+    if not re.search(r"(^|[};])\s*code\s*\{", css):
+        out.append("the standalone code{} rule is missing; valve badges will render as plain text")
+    for sel in (r"\.tb-qr\b", r"\.warn\b", r"\.steps\b", r"\.lg\b"):
         if not re.search(r"(^|[};\s,])" + sel, css):
             out.append("rule for %s is missing from the stylesheet" % sel.replace("\\", ""))
     return out
@@ -280,6 +284,18 @@ def c15():
     for rel in ("README.md", SURVEY):
         if url not in read(rel): out.append("%s does not carry %s" % (rel, url))
     if short not in read(SURVEY): out.append("%s does not show the short URL" % SURVEY)
+    # presence is not enough: a second, different URL can sit happily beside it
+    for rel in walk(skip=("FACTS.txt", "tools/check.py", "tools/selftest.py")):
+        for m in re.finditer(r"https?://[A-Za-z0-9.-]*github\.io[^\s\"'<)\]]*", read(rel)):
+            if not m.group(0).startswith(url):
+                out.append("%s links to %s, which is not under %s" % (rel, m.group(0), url))
+    m = re.search(r"\[Open the survey\]\(([^)]+)\)", read("README.md"))
+    if not m:
+        out.append("README.md has lost its 'Open the survey' link")
+    elif m.group(1) != url:
+        out.append("README.md 'Open the survey' points at %s, not %s" % (m.group(1), url))
+    if 'src="qr-survey.png"' not in read("README.md"):
+        out.append("README.md no longer shows qr-survey.png")
     svg = read("qr-survey.svg")
     if url not in svg:
         out.append("qr-survey.svg aria-label does not name %s (was the QR regenerated?)" % url)
