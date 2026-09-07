@@ -1,0 +1,7 @@
+# Finder clutter
+.DS_Store
+**/.DS_Store
+
+# The staging folder stays in the tree, but nothing dropped into it is tracked.
+00_inbox/*
+!00_inbox/READ-ME.txt

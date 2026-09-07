@@ -1,0 +1,264 @@
+CHEMICAL STOCK AND WHAT EACH THING IS FOR
+Photographed 2026-09-07, 18:46 to 18:50. Nine products on the shelf, plus the
+sulphuric acid drum already plumbed into the plant room. Every figure below is
+read off the label; the "for this pool" column is that label's own rate applied
+to 72.5 m3, the midpoint of the 70 to 75 m3 estimate.
+
+===============================================================================
+THE STOCK
+===============================================================================
+
+1  CORRETTORE PH PIU' GRANULARE          photos 01, 02
+   Piscina Semplice, made by Lapi Chimici SpA (Monte S. Savino, AR)
+   Contains  SODIUM CARBONATE, CAS 497-19-8. This is soda ash.
+   Size      25 kg    Lot 13823
+   Raises pH.
+   Label dose  alkalinity over 150 mg/L: 400-600 g per 100 m3 per 0.1 pH
+               alkalinity under 125:     200-300 g per 100 m3 per 0.1 pH
+   This pool    290-435 g, or 145-218 g, per 0.1 pH unit
+   Hazard    Attenzione. H319 serious eye irritation.
+   NOTE      Soda ash is also the correct neutraliser for a sulphuric acid
+             spill, applied gradually. Never caustic soda. You already own
+             25 kg of it and it is on the wrong side of the building.
+
+2  NortemBio POOL pH+ INCREASER          photo 03
+   Nortem Chem S.A., El Puerto de Santa Maria (ES)
+   Size      6.5 kg
+   Raises pH. A second, different pH+ product.
+   Label dose  6 caps (200 g) per 10 m3 per 0.1 pH
+   This pool    1,450 g per 0.1 pH unit
+   Label target pH 7.2 to 7.6
+   WARNING   This rate is about four times the Lapi rate for the same job.
+             Do not carry a dose across from one tub to the other. Whichever
+             you use, add the smaller amount, wait, re-test, repeat.
+
+3  CLORO GRANULARE 56% RAPIDO            photos 06, 07
+   Acquaverde Srl, Corato (BA)
+   Contains  SODIUM DICHLOROISOCYANURATE, CAS 51580-86-0. Stabilised chlorine.
+   Size      5 kg     UN 3077 (9, M7, III)
+   Manual chlorine, for shock dosing and season start. Not for routine use:
+   on this pool the cell makes the chlorine.
+   Label dose  initial 10-15 g per m3; maintenance 1-3 g per m3 per day
+   This pool    initial 725-1,088 g; maintenance 73-218 g per day
+   Label target free chlorine 0.7-1.5 mg/L, pH 7.2-7.5
+   Dosing route  the label says skimmer, pool, or VASCA DI COMPENSO. This pool
+             has no skimmers, so it is the balance tank, pre-dissolved, pump
+             running.
+   Hazard    Attenzione. H302, H319, H335, H400, H410, and critically
+             EUH031 CONTACT WITH ACIDS LIBERATES A TOXIC GAS.
+   NOTE      Every dose of this also adds cyanuric acid. See item 6.
+
+4  CORRETTORE PH MENO GRANULARE          photos 04, 05
+   Piscina Semplice, Lapi Chimici SpA
+   Contains  SODIUM HYDROGEN SULFATE, CAS 7681-38-1. Sodium bisulfate.
+   Size      8 kg     Lot 6G16
+   Lowers pH, by hand. The plumbed acid drum does this automatically.
+   Label dose  400-600 g per 100 m3 per 0.1 pH
+   This pool    290-435 g per 0.1 pH unit
+   Hazard    PERICOLO. H318 serious eye damage. Corrosive.
+   NOTE      Not the gentle alternative to the acid drum it looks like. For
+             the same pH movement it leaves roughly 2.15 times the sulphate.
+             If sulphate build-up is the worry, this is worse, not better.
+
+5  SVERNANTE CONCENTRATO                 photos 15, 16
+   Controlchemi Srl, Ovada (AL). Cod. 030321
+   Contains  AMINOTRIMETHYLENE PHOSPHONIC ACID, CAS 6419-19-8. A phosphonate
+             scale inhibitor and sequestrant.
+   Size      5 kg     UN 3265     professional use
+   Winteriser and clarifier. Holds calcium and other salts in solution so they
+   cannot cloud the water or scale the surfaces while the pool sits unused.
+   Label dose  start of shutdown: 50 g per m3 (5 L per 100 m3)
+               hardness problems:  10-20 g per m3
+               balancing:          2 L per 100 m3 shock, then 1 L per 100 m3
+                                   every two weeks
+   This pool    winter 3.6 L, so about one container per season
+   Method    pre-dilute, disperse evenly, run the pumps 4-8 hours before
+             stopping the plant. ADD ONLY WHEN THE WATER IS ALREADY CLEAR,
+             otherwise it is used up flocculating the dirt.
+   Hazard    PERICOLO. Severe skin burns and serious eye damage. Very toxic
+             to aquatic life. The most hazardous item on this shelf.
+
+6  RECUPERO, RINFORZANTE DELLA CLORAZIONE  photos 13, 14
+   Controlchemi Srl. Cod. 030323
+   Contains  SODIUM BROMIDE
+   Size      5 L, and the container is about a third full
+   Restores the oxidising power of chlorination WHEN CYANURIC ACID EXCEEDS
+   50 mg/L. Also used against algae.
+   Label dose  shock: 10 g per m3, then 15 g per m3 of an HTH-type shock in
+               the evening; next morning 5 g per m3 for every mg/L of free
+               chlorine found
+               maintenance: 50-80 g per 100 m3 every 5-7 days, and stop once
+               cyanuric acid falls below 30 mg/L
+   This pool    shock 725 g; maintenance 36-58 g every 5-7 days
+   Label target free chlorine 1.3-1.8 mg/L, pH 7.5-7.7
+   Hazard    Attenzione. H315, H319, H335.
+   READ THIS  Two traps live in this bottle.
+             (a) It exists because stabilised chlorine (item 3) leaves
+                 cyanuric acid behind. A part-used bottle is evidence this
+                 pool has had chlorine lock at least once.
+             (b) The label's shock step calls for an HTH-type product, which
+                 is calcium hypochlorite, unstabilised. You do not have any.
+                 Using item 3 for that step would ADD cyanuric acid and make
+                 the problem worse. The real cure for high cyanuric acid is
+                 dilution: drain part of the water and refill.
+             (c) Its target pH of 7.5-7.7 is higher than the 7.2 the TRi PRO
+                 is set to. Bromine chemistry wants the higher figure.
+             Sodium bromide in a salt pool turns the cell into a bromine
+             generator, and the bromide stays until diluted out. Worth one
+             technician's opinion before reaching for it again.
+
+7  ANTIALGHE CONCENTRATO                 photos 08, 09, 10
+   Axton. Produced 16/06/2026
+   Contains  QUATERNARY AMMONIUM COMPOUNDS, benzyl-C12-16-alkyldimethyl
+             chlorides, CAS 68424-85-1, at 4% (40 g/kg). Benzalkonium chloride.
+   Size      5 L
+   Algaecide, preventive and curative.
+   Label dose  initial 2 L per 100 m3; maintenance 0.5 L per 100 m3 weekly
+   This pool    initial 1.45 L; maintenance 363 mL per week, so roughly one
+                container per season on maintenance alone
+   Method    pre-dilute in a bucket of water, spread over the surface, no
+             bathers in the pool
+   Hazard    PERICOLO. H315, H318 serious eye damage, H410.
+   NOTE      Quats foam. In an overflow pool the water falls into a deck
+             channel and then into the balance tank, which is the most
+             efficient foam generator you could design. Start at the low end.
+             Quats also consume chlorine, so the cell will work harder.
+
+8  FLOCCULANTE                           photos 11, 12
+   Klep Piscina, distributed by Babele SRLS, Napoli
+   Contains  POLYALUMINIUM CHLORIDE, under 20%
+   Size      5 kg
+   Clarifier. Binds the fine particles that pass straight through sand into
+   flocs large enough for the bed to catch, and forms a layer on the sand that
+   filters finer than sand alone.
+   Label dose  curative 15 g per m3, then backwash every 4-5 hours of
+               filtration, repeating until clear
+               preventive 10 g per 10 m3 in the evening, after every backwash
+   This pool    curative 1,088 g; preventive 72.5 g
+   Dosing route  the label says "the farthest skimmer". This pool has no
+             skimmers. The balance tank is the equivalent: it is where the
+             pump draws from, so the dose reaches the filter. INFERRED, not
+             from the label.
+   Hazard    Attenzione. H319.
+   NOTE      This is the right tool for this particular pool. Its sand is
+             being asked to filter at a high velocity, which is exactly the
+             condition under which fine particles slip through and the water
+             goes faintly cloudy while still looking clear.
+
+9  SALE PER PISCINE                      photo 17
+   Atisale POSEIDON
+   100% natural sea salt, NO ADDITIVES, EN 16401 QUALITY A, Art. 95 BPR
+   listed, sold specifically for electrolysis pools.
+   Size      25 kg sacks, more than one in stock
+   CEILING   Do NOT exceed 5.0 g/L. The printed sheets allow up to 9 g/L, but
+             the Maytronics robot cleaner's manual states a hard maximum of
+             5,000 ppm. The window for running both machines is 4.0 to 5.0.
+   This pool    to reach the 4 g/L minimum needs about 290 kg, so 12 sacks
+                one 25 kg sack raises this pool by 0.345 g/L
+                a backwash and rinse loses 900-1,500 L, so 3.6-6.0 kg of
+                salt: one sack replaces the loss of 4 to 7 backwashes
+   NOTE      The right salt, and the "no additives" and EN 16401 Quality A
+             marks are the reason. Anti-caking agents in cheaper salt damage
+             electrolysis cells.
+
+   PLUS, NOT ON THIS SHELF
+   SULPHURIC ACID 36%, 25 kg drum, in the plant room, plumbed to the TRi PRO
+   peristaltic pump. See the SAFETY NOTES section of the survey: at 36% it is above the
+   PWTAG ceiling of 25% for pool supply and above the 15% w/w general-public
+   limit in EU Regulation 2019/1148.
+
+===============================================================================
+SAFETY, CONSOLIDATED
+===============================================================================
+
+THE ONE COMBINATION THAT MATTERS
+  Item 3, the granular chlorine, carries EUH031: contact with acids liberates
+  a toxic gas. The acid is sulphuric at 36%, in a plant room of about 4.5 m2
+  holding roughly 10 m3 of air, below ground, with one door. The gas is
+  chlorine. Keep the chlorine bucket and the acid drum in different rooms,
+  and never stand one on the other's shelf.
+  The bucket in plant-room photograph 34 is marked UN 3077, which is this
+  product's transport code. It should not be in that room.
+
+SIGNAL WORDS, WORST FIRST
+  PERICOLO   Svernante (5)      severe skin burns AND serious eye damage
+  PERICOLO   Antialghe (7)      serious eye damage
+  PERICOLO   pH minus (4)       serious eye damage
+  Attenzione Chlorine (3)       plus EUH031, the acid interaction
+  Attenzione Recupero (6), Flocculante (8), pH plus (1)
+
+  Everything on this shelf wants gloves and eye protection. Three of them
+  will damage an eye permanently.
+
+POISON CENTRES on the Axton label
+  Roma 06 3054343     Milano 02 66101029
+
+===============================================================================
+IF SOMETHING IS WRONG WITH THE WATER
+===============================================================================
+Doses are for 72.5 m3. Test first, dose second, re-test before dosing again.
+
+CLEAR BUT SLIGHTLY CLOUDY, or dull
+  Fine particles passing the sand. This pool's weak point.
+  -> FLOCCULANTE 1,088 g pre-diluted into the balance tank. Backwash every
+     4-5 hours of filtration, repeat until clear.
+  -> Then keep it away: 72.5 g each evening after every backwash.
+  -> First check the filter gauge. Kripsol's own manual says 0.5-0.7 bar
+     normal and BACKWASH ONCE IT PASSES 1.0. If it sits near 1.0, the filter
+     is the cause and no chemical will fix it.
+
+CLOUDY AND THE WATER IS HARD, or you can see scale
+  Calcium coming out of solution.
+  -> SVERNANTE 725-1,450 g. But only once the water is already clear.
+
+GREEN, OR SLIPPERY WALLS
+  Algae.
+  -> ANTIALGHE 1.45 L initial, then 363 mL weekly.
+  -> Expect foam. Expect the cell to work harder while the quat is present.
+
+CHLORINE READS LOW THOUGH THE CELL IS RUNNING
+  Either the cell is not producing, or the chlorine is locked up.
+  -> Check the TRi PRO first: No Flow, Check Salt, Output Fault, ACL Low.
+     Check salt is above 4 g/L. Check the cell is not scaled.
+  -> If the cell is fine, measure CYANURIC ACID. Above 50 mg/L is lock-up.
+     Target is 25-30 mg/L outdoors.
+  -> The cure is dilution: drain part and refill. RECUPERO is a workaround,
+     and do NOT shock with the granular chlorine while doing it.
+
+pH KEEPS CLIMBING
+  Normal for a salt pool: electrolysis drives pH up. The acid drum should be
+  handling it.
+  -> Check the acid dosing works before touching anything: is the drum empty,
+     is the peristaltic tube perished, has the pH probe been calibrated in
+     the last two months, does the display read "pH ---"?
+  -> Only then, by hand: pH MINUS 290-435 g per 0.1 pH unit.
+
+pH TOO LOW
+  Usually over-correction.
+  -> pH PLUS. Lapi tub: 290-435 g per 0.1 pH. NortemBio tub: 1,450 g per 0.1
+     pH. THEY ARE NOT INTERCHANGEABLE BY VOLUME.
+
+CELL NOT PRODUCING, "CHECK SALT"
+  -> Salt below 4 g/L. One 25 kg sack raises this pool 0.345 g/L.
+
+SHUTTING DOWN FOR WINTER
+  -> SVERNANTE 3.6 L, pre-diluted, pumps running 4-8 hours, then stop the
+     plant. Water must be clear first.
+
+===============================================================================
+WHAT IS MISSING FROM THE SHELF
+===============================================================================
+  A CYANURIC ACID TEST. Three products on this shelf depend on knowing that
+  number and none of them can tell you it. Without it, item 6 is guesswork.
+
+  AN UNSTABILISED CHLORINE for shock, calcium hypochlorite or similar. The
+  Recupero and Svernante labels both call for one and there is none here.
+
+  A SULPHATE TEST, given years of sulphuric acid dosing. Lower priority than
+  it first appeared: the pool is finished in smooth black resin, not tile, so
+  there is no grout for sulphate to attack. What the 360 mg/L limit still
+  protects is the balance tank's coating and any place the pool's resin has
+  failed and exposed the shell. Worth one reading, not an urgent one.
+
+  SODA ASH IN THE PLANT ROOM for acid spills. You own 25 kg of it as item 1.
+  It is simply in the wrong place.

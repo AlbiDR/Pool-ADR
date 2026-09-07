@@ -1,0 +1,48 @@
+DRAWINGS
+
+01_plant-room-dimensions_t1946.jpg
+  The dimensioned sketch of the technical room. Red outline, green dimensions.
+  Closes to within 2 cm. This is the source of every plant room figure.
+
+02_rooms-plan-to-scale_t2012.png            both rooms, unlabelled
+03_rooms-plan-to-scale_labelled_t2013.png   the same, labelled
+04_rooms-and-corridor-plan_labelled_t2019.png   revision, corridor added
+
+  04 supersedes 02 and 03. The earlier pair is kept because 02 is the clean
+  unlabelled version the scale was verified against, and because a superseded
+  revision is worth keeping when it is the one a measurement came from.
+
+WHAT IS TO SCALE AND WHAT IS NOT
+
+  The two ROOMS are to scale, and it has been checked rather than assumed.
+  Measured off the drawings at one consistent scale:
+
+      technical room width     2.55 m       drawn 2.552 m
+      technical room depth     1.98 m             1.979 m
+      notch width              1.60 m             1.600 m
+      notch depth              0.30 m             0.304 m
+      right-hand projection    0.96 m             0.952 m
+      balance room width       0.91 m             0.911 m
+      balance room length      3.00 m             2.996 m
+
+  The SERVICE CORRIDOR is NOT measured. The owner said so, and the drawing
+  agrees: its horizontal leg scales to about 0.47 m deep, which is not a
+  width anyone walks down. Take the corridor as topology only, meaning which
+  way it runs and where its openings are, never as a dimension.
+
+THE LABEL THAT READS WRONG
+
+  "HATCH TO TECHNICAL ROOM" appears twice in 04, once on the balance room's
+  far end and once on the top of the corridor's vertical leg. Those are the
+  two sides of one wall, and one hatch through it. Neither side is the
+  technical room: the hatch joins the SERVICE CORRIDOR to the BALANCE ROOM.
+  That matches the entrance photograph, 05_balance-room/01, which shows the
+  hatch high in the end wall of a narrow corridor. Read the label as marking
+  where the hatch is, not where it goes.
+
+A NOTE ON PROVENANCE
+
+  The source file in Downloads was called sizes.png for both 02 and 04; it
+  was overwritten between exports, so that name means different things at
+  different times. The copies in here were hash-verified at the moment of
+  copying and are the authority. Do not go looking for the originals by name.

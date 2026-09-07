@@ -1,0 +1,10 @@
+STAGING FOLDER
+
+Drop new photos, videos, screenshots or documents in here exactly as your
+phone or camera named them. Nothing needs renaming on the way in.
+
+They get read, then renamed into whichever numbered folder they belong to,
+taking the next free index in that folder. See NAMING.txt one level up for
+the naming rule.
+
+This folder should be empty once the material has been filed.

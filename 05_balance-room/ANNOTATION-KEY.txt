@@ -1,0 +1,31 @@
+ANNOTATION KEY
+
+04_end-wall-and-inlet_annotated_t1842.jpg is a marked-up copy of
+03_end-wall-and-inlet_t1842.jpg. Same photograph: only 0.7 percent of the
+pixels differ, all of them inside the drawn marks.
+
+The four marks, in the owner's own words:
+
+  GREEN line     the water coming in from the pool's overflow
+  ORANGE circle  an outlet to expel water
+  YELLOW circle  an outlet used to show the room's water level inside the
+                 technical room; it is the transparent vertical pipe with
+                 the sensor on top
+  RED circle     an outlet to expel water, and is so high because it works
+                 as a safety in case the water level gets too high
+
+All four are on the same end wall. Green is the large orange-brown pipe that
+enters high, bends down and ends open on the floor. Yellow and orange are the
+two small sockets side by side in the lower rendered patch; yellow is the left
+one, orange the right. Red is the single socket high on the wall to the left.
+
+The yellow one is the take-off for the level column seen in the plant room at
+4_plant-room/32_level-column-and-safety-discharge_t2215.jpg: a clear vertical
+tube graduated 1 to 4, with a probe inside, a cap carrying the cable to the
+level relays in the panel, and a red-handled isolating valve at its foot.
+
+STILL OPEN
+Which of the two low sockets carries water to the pump. "An outlet to expel
+water" fits either the suction that feeds the filtration pump through valve 7,
+or a drain that dumps the tank to waste. The answer changes the circuit, so it
+is recorded here as unresolved rather than guessed.

@@ -1,0 +1,122 @@
+MANUFACTURER DOCUMENTATION
+Downloaded 2026-09-07. These are the makers' own documents, not household
+notes. Where they disagree with the printed sheets from the room, the survey
+now says so explicitly and says which one it is following.
+
+01_kripsol-sand-filter_manual_es-en.pdf     20 pp, Spanish + English
+  Kripsol sand filter range, Q400 to Q900. Covers the vessel, the six-way
+  selector valve, sand loading, backwash, rinse, initial start-up, wintering,
+  and a fault table for both the equipment and the water.
+  Source: https://cdn.hayward.fr/production/media/5/0/9/5/5e66b7.pdf
+  (Hayward's CDN. Hayward owns Kripsol.)
+  Key figures found:
+    - Gauge reads 0.5 to 0.7 during normal filtration.
+    - When it passes 1.0, stop the motor and backwash. This is a trigger,
+      not a target. The printed sheet in the room says "about 1 bar",
+      which is the backwash point rather than the normal reading.
+    - Backwash until the sight glass runs clear, two to three minutes.
+    - Rinse is very brief. It recompacts the bed loosened by the backwash.
+    - Always change valve position with the motor stopped. Press the handle
+      down firmly first, it acts as a clutch, then move it.
+    - Vessel rated for 1.6 kg/cm2 maximum working pressure.
+    - Water fault table gives pH 7.2 as the target to adjust to.
+
+02_zodiac-tri-chlorinator_manual_en.pdf     18 pp, English
+  The TRi salt chlorinator itself: the controller head, the cell, salt levels,
+  and the base error set (No Flow, Check Salt, Output Fault, Cleaning).
+  Source: https://www.jacksonsleisure.com/content/pdf/salt_chlorinator/ZodiacTRi%20manual.pdf
+  Key figures found:
+    - Maintain salt above 4000 ppm, which is 4 g/L. The printed sheet in the
+      room says minimum 4 g/L. They agree exactly.
+    - Check Salt warns between 3000 and 4000 ppm depending on water temperature.
+    - No Flow shuts production down automatically.
+    - Cleaning means the cell is reversing polarity. Wait about five minutes.
+
+03_zodiac-tri-pro-module_manual_es.pdf      20 pp, Spanish
+  The TRi PRO module: pH and ACL (ORP) regulation, the peristaltic acid pump,
+  the POD, probe calibration, and the pH/ACL error set. Manufacturer's own copy.
+  Source: https://www.zodiac-poolcare.es/medias/product/Manual%20Modulo%20Tri%20Pro%20%20en%20castellano.pdf
+  English edition, same document, readable online:
+  https://www.manualslib.com/manual/2126989/Zodiac-Tri-Pro.html
+  Key figures found:
+    - The acid injection one-way valve is mounted ON THE POD, the same body
+      that carries the pH and ACL probes. The POD goes on a horizontal pipe
+      with the probes vertical. This is where to look for the open question
+      about where the acid enters the circuit.
+    - Calibrate the probes at least once every two months during the season.
+    - pH set point default 7.2. ACL set point default 1, of 6.
+    - pH regulation is off by default and enables itself about 8 hours after
+      power-on. A display reading "pH ---" means it has not enabled yet.
+    - pH ERROR fires either when the pump has dosed a full set of cycles
+      without reaching set point, OR when it has not run for over 72 hours.
+    - ACL ERROR fires after 30 cumulative hours of production without
+      reaching set point, or 30 hours without operating.
+
+04_zodiac-tri-ph-module_manual_fr.pdf       14 pp, French
+  The pH-only module. Same peristaltic pump, POD and calibration procedure as
+  the PRO, without the ACL half. Kept as a second reading of the same hardware.
+  Source: https://ok-jardin.fr/_home/fash/Notices/notice-tri-ph.pdf
+
+05_dab-europro_technical-sheet_en.pdf        8 pp, English
+  DAB EuroPro pump curves and specifications. Official DAB document.
+  Source: https://www.dabpumps.mx/sites/dabpumps.mx/files/document/60165188_EUROPRO_HIGH%20FLOW_TS_ENG.pdf
+  The full EuroPro instruction manual is not published as a public PDF. DAB
+  distributes it through their DNA software and their FAQ page:
+  https://www.dabpumps.com/en/europro-faq
+
+06_maytronics-dolphin-x70_manual_it.pdf      17 pp, Italian
+07_maytronics-dolphin-x70_manual_en.pdf      17 pp, English
+08_maytronics-dolphin-x70_safety-instructions_en.pdf   16 pp
+09_maytronics-dolphin-x70_caddy-assembly_en.pdf         2 pp
+  Maytronics Dolphin Maximus X70 robot cleaner. Part number 8180035 Rev. 01.
+  Source: the maker's own manual portal, indexed by the FULL part number:
+  https://manuals.maytronics.com/intro/?pn=99991034-MXI
+  (The short form 99991034 does not resolve. That is what defeated an earlier
+  attempt to find this.)
+
+  READ THIS BEFORE YOU DECIDE IT IS THE WRONG MANUAL. The document is badged
+  "CLASSIC 8+ / TOP 8" and never says Maximus X70 anywhere in it. It is the
+  right manual: Maytronics badge the same chassis differently by market, and
+  the portal serves this file for part number 99991034-MXI.
+
+  OPERATING LIMITS, from section 3. The robot may be used in these water
+  conditions ONLY:
+      Chlorine     maximum 4 ppm
+      pH           7.0 to 7.8
+      Temperature  6 to 35 C, and below 15 C climbing performance suffers
+      NaCl         MAXIMUM 5,000 ppm, that is 5.0 g/L
+
+  THE SALT LIMIT CONFLICTS WITH THE PRINTED SHEETS. They give a salt range of
+  4 to 9 g/L and Zodiac asks for above 4 g/L. The robot tolerates at most 5.0.
+  The usable window for running both is therefore 4.0 to 5.0 g/L, not 4 to 9.
+  See the water section of the survey.
+
+  THE CHLORINE LIMIT CONFLICTS WITH SHOCK DOSING. A commissioning shock at the
+  granular chlorine's own rate of 10 to 15 g/m3 gives roughly 8 mg/L, double
+  the robot's limit. The robot must be out of the pool for any shock and must
+  stay out until free chlorine falls below 4.
+
+  POWER SUPPLY. Digital switch-mode, IP54, input 100-250 VAC 50-60 Hz 180 W,
+  output under 30 VDC, Bluetooth. Site it at least 3.5 m from the pool edge
+  and at least 11 cm above the ground, roughly at the centre of the long side.
+  No extension cords.
+
+  MAINTENANCE that is easy to get wrong: do NOT let the cartridge filters dry
+  out before cleaning them, so rinse them straight after the cycle rather than
+  later. Do not force the filters back into place. The troubleshooting table
+  attributes poor coverage to a badly sited power supply, too little cable let
+  out, or cable kinks, before anything mechanical.
+
+  Storage: upright on the caddy, out of sun, rain and frost, 5 to 45 C.
+
+NOT FOUND AS A DOCUMENT
+  Safety data sheet for the exact acid in the room. The drum is a battery
+  electrolyte product rather than a pool-branded one, so there is no pool
+  supplier SDS for it. The relevant references are instead:
+    - PWTAG, Choosing an acid pH correctant:
+      https://www.pwtag.org/choosing-an-acid-ph-correctant-september-2018/
+    - PWTAG, Sulphate attack (TN3):
+      https://www.pwtag.org/sulphate-attack-february-2011/
+    - EU Regulation 2019/1148 on explosives precursors, Annex I:
+      https://www.legislation.gov.uk/eur/2019/1148/annex/I
+  See the SAFETY NOTES section of the survey for what these say about a 36% drum.

@@ -1,0 +1,60 @@
+3D SCAN OF THE PLANT ROOM
+Supplied 2026-09-07 as 07_09_2026.zip. The owner's description is "poor
+quality", and for the mesh that is fair. The GEOMETRY, however, is sound, and
+that is the part worth having.
+
+  01_plant-room-scan.glb            glTF 2.0 binary, 37.5 MB
+                                    4 meshes, 1,290,227 triangles, 861k
+                                    vertices, 4 JPEG textures. No generator
+                                    string, so the capture app is unknown.
+                                    The four meshes share one bounding volume,
+                                    so they are progressive chunks of a single
+                                    scan rather than four separate objects.
+
+  02_plan-from-scan_855x1082.png    DERIVED. A top-down density plot of every
+                                    vertex between 0.35 m and 1.80 m above the
+                                    floor, which is the wall band. 380 px per
+                                    metre. Red is the owner's tape measure,
+                                    blue is the wall planes the scan itself
+                                    contains.
+
+WHAT IT CONFIRMS
+
+  It is to scale in metres, and it corroborates the tape independently:
+
+      along the long axis    scan 2.52 m    tape 2.55 m
+      along the short axis   scan 2.00 m    tape 1.96 m
+      entrance notch depth   scan 0.40 m    tape 0.30 m
+
+  Two independent methods agreeing to within a few centimetres is the useful
+  result here. The notch also reads as a genuine absence of floor area rather
+  than a recess in a wall, which is how the survey draws it.
+
+  CEILING HEIGHT, PARTLY. The floor is a hard plane: one 2 cm slice holds
+  59,000 vertices. Above it density tapers away and stops at 2.33 m, and the
+  top 25 cm of the scan holds only 1.6 percent of all vertices. There is no
+  ceiling plane, because the phone was never pointed up. So this does not
+  close the measurement, but it does move it from unknown to AT LEAST 2.33 m,
+  which puts the room's air volume at 10.5 m3 or more.
+
+WHAT IT IS NOT GOOD FOR
+
+  Counting or identifying anything. Thin objects do not survive a scan at this
+  density: the manifold appears as a row of blobs, not as four countable
+  drops. For that, use 08_panoramas/07, which is a reprojection of the
+  photosphere and has been counted, or the photographs themselves.
+
+  Positions. The scan's coordinate frame is arbitrary and its handedness is
+  not established, so the plan above can be mirrored without contradicting
+  anything in the file. The door position in the survey comes from the owner's
+  direct testimony and was corrected twice; it has NOT been re-derived from
+  this scan and should not be. To orient the scan properly one unambiguous
+  anchor is needed, for example which corner the filter stands in relative to
+  the door.
+
+HOW THE FIGURES ABOVE WERE OBTAINED
+  The GLB was parsed directly: JSON chunk for structure, BIN chunk for the
+  POSITION accessors. Wall planes were found by histogramming vertex
+  coordinates in 4 cm slices along each axis and taking the dense slices,
+  a large flat surface being the only thing that puts tens of thousands of
+  vertices in one slice. Nothing was estimated by eye.

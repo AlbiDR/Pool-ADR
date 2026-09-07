@@ -1,0 +1,75 @@
+WIDE IMAGES: TWO KINDS, AND ONE OF THEM CANNOT BE COUNTED FROM
+
+Everything in this folder is DERIVED. The evidence it came from is in
+04_plant-room/. If a wide image and a photograph disagree, the photograph wins.
+
+-------------------------------------------------------------------------------
+SAFE: REPROJECTIONS  (05 to 08)
+-------------------------------------------------------------------------------
+  05_wall-control-and-filter_rectilinear_3000x2250.jpg
+  06_wall-pipework-and-gully_rectilinear_3000x2250.jpg
+  07_wall-manifold-four-drops_rectilinear_3000x2250.jpg
+  08_corner-level-column_rectilinear_3000x2250.jpg
+
+These are flat, straightened views reprojected from ONE source image:
+04_plant-room/01_photosphere-216deg_t1626.jpg, a 39-megapixel equirectangular
+photosphere (full sphere 15492 x 7746, so 43 pixels per degree; the crop covers
+azimuth 70.9 to 286.8 and elevation +24.6 to -72.9).
+
+Why they can be trusted. A photosphere is shot from a single optical centre, so
+there is no parallax to resolve. The reprojection is gnomonic: every output
+pixel is one bilinear sample of one source location. There is no feature
+matching, no homography estimation, no seam finding and no blending anywhere in
+the process, so there is nothing with which to invent geometry. Straight lines
+in the room come out straight, which is the whole point.
+
+Parameters, so any of these can be reproduced exactly:
+
+    file  azimuth  elevation  h-fov   outside sphere coverage
+    05      125      -22       80        0.0 %
+    06      190      -25       75        0.0 %
+    07      228      -42       72        0.3 %
+    08      259      -30       50        2.8 %
+
+  Elevation is positive up. "Outside coverage" is the share of the frame that
+  falls beyond the photosphere's edge and renders black; it is reported because
+  a large number there means the view was aimed off the sphere.
+
+VERIFIED: photograph 07 was checked by counting. Four drops, four red handles,
+four pipes entering the floor. It also shows the floor gully to the LEFT of the
+drops, which is where the owner said it was. That count is the standing test
+for any wide image of that wall.
+
+-------------------------------------------------------------------------------
+NOT SAFE: STITCHES  (01 to 04)
+-------------------------------------------------------------------------------
+  01_control-wall_6863x2511.jpg
+  02_room-arc_3052x1385.jpg
+  03_electrical-panel_stitched_5569x3951.jpg
+  04_electrical-panel_single-frame_4080x3072.jpg   <- this one is a single frame
+
+  01, 02 and 03 were stitched from multiple hand-held frames. DO NOT COUNT
+  ANYTHING ON THEM and do not measure from them.
+
+  Why, plainly: an earlier stitch of the manifold wall drew SIX drops where
+  there are FOUR, and it did not look wrong. The room is 2.55 by 1.96 m, so you
+  cannot stand more than about a metre and a half from any wall, and the pipes
+  sit at several different depths. A single homography can only be correct for
+  one plane, so near multi-depth subjects duplicate. A two-frame stitch of that
+  same wall still showed five. This is a property of the capture geometry, not
+  of the effort spent, and the fix is to reproject a photosphere instead, which
+  is what 05 to 08 are.
+
+  They are kept rather than deleted because they are part of the record of how
+  this survey was built, and because 04 is a genuine single frame and therefore
+  fine. But 05 to 08 supersede 01 and 02 for every practical purpose.
+
+-------------------------------------------------------------------------------
+IF YOU WANT MORE WIDE VIEWS
+-------------------------------------------------------------------------------
+  Shoot another photosphere, from a tripod or with your elbows locked, rotating
+  about one point. Do not walk along a wall. A rotation has no parallax and
+  reprojects cleanly; a translation does not and never will.
+
+  The 07_video pans are 1080p, so frames from them would be a downgrade on the
+  39-megapixel sphere and are not worth extracting.

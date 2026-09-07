@@ -1,0 +1,161 @@
+DIMENSIONAL RECORD
+Measured by the owner, 2026-09-07. These numbers arrived partly as drawings
+and partly as text in conversation, so they are written down here rather than
+left to live in one photograph and one message.
+
+Sources
+  06_drawings/01_plant-room-dimensions_t1946.jpg    dimensioned sketch
+  06_drawings/02_rooms-plan-to-scale_t2012.png      both rooms, to scale
+  06_drawings/03_rooms-plan-to-scale_labelled_t2013.png   the same, labelled
+  Balance room dimensions: stated in conversation, 2026-09-07.
+
+THE SCALED PLAN IS GENUINELY TO SCALE
+Measured off the unlabelled version at 296 pixels per metre, one consistent
+scale across both rooms:
+
+  technical room width      2.552 m   drawn      2.55 m   measured
+  technical room depth      1.979 m              1.98 m
+  notch width               1.600 m              1.60 m
+  notch depth               0.304 m              0.30 m
+  right-hand projection     0.952 m              0.96 m
+  balance room width        0.912 m              0.91 m
+  balance room length       3.002 m              3.00 m
+
+So positions can be taken off that drawing, not only sizes. Note that it
+resolves the 2 cm closure error in the sketch in favour of 0.30 m for the
+notch depth, which makes the right side 1.96 m rather than 1.98 m.
+
+PLANT ROOM (the technical room)
+
+  Across the top          2.55 m
+  Right side, full depth  1.96 m  (1.66 + 0.30)
+  Left side               1.66 m
+  Notch, horizontal edge  1.60 m
+  Notch, step down        0.30 m
+  Bottom right edge       0.95 m
+
+  FLOOR AREA  (2.55 x 1.96) - (1.60 x 0.30) = 5.00 - 0.48 = 4.52 m2
+
+  Shape: a rectangle with a notch taken out of the bottom left corner. The
+  notch is the entrance: the door is on the shallower bottom wall, in the
+  left 1.60 m, set back 0.30 m from the rest of that wall.
+
+  Ceiling height: NOT MEASURED. It is the last number needed for the room's
+  air volume, which matters because a 25 kg drum of 36 percent sulphuric acid
+  is stored in here. At a typical 2.2 to 2.4 m the room would hold only about
+  10 to 11 m3 of air.
+
+BALANCE ROOM (the compensation tank)
+
+  Width                        0.91 m
+  Length                       3.00 m
+  Height of waterproof coating 2.00 m
+
+  PLAN AREA        0.91 x 3.00 = 2.73 m2
+  GROSS VOLUME     2.73 x 2.00 = 5.46 m3, so 5,460 litres
+  LEVEL SENSITIVITY  1 cm of depth = 27.3 litres;  1 m = 2,730 litres
+
+  MEASURED 2026-09-07, and it changes the derived figures:
+
+      the two lower sockets   0.35 m above the tank floor
+        (the outlet the pump draws through, and the level take-off,
+         side by side in the same rendered patch)
+      the safety overflow     1.35 m above the tank floor
+
+  So the tank divides into three, and only one part does any work:
+
+      0.00 to 0.35 m   DEAD.  956 litres that sit below the outlet and can
+                       only be pumped or sponged out. No fixed connection
+                       reaches them.
+      0.35 to 1.35 m   WORKING BAND.  Exactly 1.00 m, so 2,730 litres.
+                       Everything the tank does for a living happens here.
+      1.35 to 2.00 m   FREEBOARD.  1.77 m3 of coated tank above the safety
+                       overflow that never holds water in normal operation.
+
+  MAXIMUM NORMAL CONTENTS  1.35 x 2.73 = 3.69 m3, not the 5.46 m3 you get
+  from the coating line. The gross figure is not reachable while the safety
+  overflow is clear.
+
+  Starting the pump: there is nothing to draw below 0.35 m. Give the socket
+  cover so it does not vortex and start at about 0.55 m, which is 1,500
+  litres on the column.
+
+HOW THE TWO ROOMS SIT TOGETHER
+
+  The balance tank runs PERPENDICULAR to the plant room, not alongside it.
+  It extends away from the plant room's bottom wall, aligned beneath the
+  bottom-right projection and flush with the right-hand wall, and it runs
+  3.00 m out beyond the plant room's footprint.
+
+  Taken off the scaled plan: the tank's right edge is flush with the plant
+  room's right edge, and its left edge sits 4 cm inboard of the projection's
+  left edge. The projection is 0.95 m wide, the tank 0.91 m.
+
+  The shared wall is therefore the underside of that bottom-right projection,
+  about 0.95 m of wall. That is exactly the corner where the level column,
+  the waste stack and the two low wall penetrations stand, in photographs
+  04_plant-room/32 and 04_plant-room/34. Everything lines up.
+
+  The hatch is at the FAR end of the tank, 3.00 m from the shared wall. The
+  four pipe connections are on the wall at the near end. This is confirmed by
+  05_balance-room/02, which looks down the length of the tank from the hatch
+  with the penetration wall at the far end.
+
+  Access consequence: to reach any of the four connections you enter through
+  a small high hatch and traverse the full 3.00 m of a chamber 0.91 m wide
+  and 2.00 m deep, on a ladder. Single opening, below ground, no second exit.
+
+  Combined underground footprint: 4.52 + 2.73 = 7.25 m2.
+
+WHAT THESE NUMBERS MEAN
+
+  Tank size against the pool. This has to be read off the volume the tank can
+  actually reach, 3.69 m3, not the coating line. Against a pool of 70 to 75 m3
+  that is 5.1 percent, and the working band alone is 3.8 percent. Design
+  practice for a deck level pool starts at 5 to 10 percent, so THE TANK IS
+  ADEQUATE RATHER THAN GENEROUS: it sits at the floor of that band. An earlier
+  version of this file said 7.5 percent and called it correctly sized; that
+  used the coating line, which the tank never reaches.
+
+  Bather surge is not the constraint. At the design figure of 80 litres per
+  bather, ten people getting in at once takes 800 litres out of the tank,
+  which is 29 cm of level. The tank handles a full house comfortably.
+
+  Backwash is the constraint. Two to three minutes at something like 18 to
+  26 m3/h, plus the rinse, is roughly 900 to 1,500 litres, which is 33 to
+  55 cm out of a working band that is exactly 1.00 m. Ten bathers take another
+  29 cm, so a backwash with a full pool of people in it would use 62 to 84 cm
+  of the 100 available. DO NOT BACKWASH WITH A FULL POOL OF BATHERS. This is the arithmetic behind the note on the printed sheet that
+  the balance tank level drops during a backwash and will stop the pump.
+  The practical rule that follows: top the tank up before backwashing.
+
+  Flooding. If the balance tank emptied into the plant room, its normal
+  contents of 3.69 m3 over 4.52 m2 of floor would stand 0.82 m deep, and
+  1.21 m in the worst case where the safety overflow had blocked and the tank
+  had filled to the coating line. The pool overhead holds roughly
+  six times the plant room's entire air volume. The sump pump N is the only
+  drain the room has.
+
+ALSO ESTABLISHED 2026-09-07
+  There is a LOW-LEVEL PUMP INTERLOCK. The printed sheet says so in the
+  backwash procedure, and it was confirmed by accident: the pump sat on M for
+  a full day with an empty tank and never started. It is a backstop, not a
+  protection to rely on, because the clear column that feeds it has its own
+  isolating valve and shutting that valve makes the floats read a satisfied
+  level and the interlock permit a dry run.
+
+  The reintegro discharges into the RETURN MANIFOLD, so mains water reaches
+  the pool through the four wall outlets. It does not fill the tank; the tank
+  fills from the pool spilling over the deck channel.
+
+STILL UNMEASURED
+  - plant room ceiling height
+  - spacing of the marks 1 to 4 on the level column, which would let the
+    column be read in litres rather than as a position
+  - outside diameter of the suction pipe (50, 63, 75 or 90 mm), which decides
+    whether the filter is being over-flowed or not
+  - thickness of the wall between the two rooms. The scaled plan leaves about
+    7 cm between them, which is almost certainly a drawn separation rather
+    than a measurement, but it is worth confirming, because on the other side
+    of that wall sits five and a half tonnes of water.
+  - pool dimensions and true volume, still approximately 70 to 75 m3
