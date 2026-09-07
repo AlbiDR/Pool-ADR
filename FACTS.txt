@@ -1,0 +1,97 @@
+CANONICAL FACTS, AND THE THINGS THAT MUST NEVER COME BACK
+
+This file is the single place where the numbers live. tools/check.py reads it and
+verifies the rest of the repo against it, so a figure cannot quietly drift in one
+file while staying right in another.
+
+Edit a value HERE first, then run:
+
+    python3 tools/check.py
+
+and it will tell you every file that still carries the old one.
+
+Format. Lines are "key = value" inside a block. Blank lines and lines starting
+with "#" are ignored. Nothing else in the repo parses this file, so prose in it
+is free.
+
+
+[measured]
+# Tape measure and the 3D scan. These are the ones every other figure hangs off.
+plant_room_length_m        = 2.55
+plant_room_width_m         = 1.96
+plant_room_notch_long_m    = 1.60
+plant_room_notch_short_m   = 0.30
+plant_room_area_m2         = 4.52
+plant_room_ceiling_min_m   = 2.33
+plant_room_air_m3          = 10.5
+balance_room_width_m       = 0.91
+balance_room_length_m      = 3.00
+balance_room_height_m      = 2.00
+balance_room_plan_m2       = 2.73
+balance_tank_capacity_m3   = 5.46
+litres_per_cm_of_column    = 27.3
+outlet_height_m            = 0.35
+safety_overflow_height_m   = 1.35
+
+[derived]
+# Arithmetic on the measured block. If a measured value changes, these change too.
+dead_volume_l              = 956
+working_band_m             = 1.00
+working_band_l             = 2730
+freeboard_m3               = 1.77
+max_normal_contents_m3     = 3.69
+tank_as_pct_of_pool        = 5.1
+
+[pool]
+pool_volume_dosing_m3      = 72.5
+pool_volume_stated         = approx. 70 to 75
+pool_length_approx_m       = 13
+pool_finish                = black resin
+filter_diameter_mm         = 760
+filter_sand_kg             = 225
+
+[chemistry]
+salt_target_low_gl         = 4.0
+salt_target_high_gl        = 5.0
+salt_sacks_for_full_charge = 12
+salt_gl_per_sack           = 0.345
+salt_after_12_sacks_gl     = 4.1
+cyanuric_lockup_mgl        = 50
+cyanuric_target_outdoor    = 25 to 30
+sulphate_limit_mgl         = 360
+acid_kg_per_0_2_ph         = 1
+manifold_drops             = 4
+
+[hosting]
+pages_url                  = https://albidr.github.io/Pool-ADR/
+pages_url_short            = albidr.github.io/Pool-ADR
+
+
+NEVER
+=====
+Strings below are wrong and were corrected. The checker fails if any of them
+reappears anywhere. Each line is:
+
+    string || why it is wrong [|| except: paths] [|| unless: nearby phrase]
+
+FACTS.txt itself is always exempt, otherwise this list would fail on its own
+contents. "unless" is the important one: this survey deliberately records its own
+corrections in the text, so a banned phrase is fine where it sits next to a label
+saying it was superseded. It fails only when asserted straight.
+
+The point of the list is that a future edit cannot quietly reintroduce a mistake
+this survey has already worked through.
+
+correctly sized || the tank sizing verdict was revised to 5.1 percent, adequate rather than generous, once the sockets were measured at 0.35 m || unless: an earlier version
+tiled pool || the pool is finished in smooth black resin, not tile, so the grout-attack mechanism does not apply || unless: an earlier version, no grout
+between the tiles || same, there is no grout in this pool
+tops up the balance tank || the reintegro feeds the return manifold and fills the pool through four wall outlets, it does not feed the tank
+fills the balance tank || same
+stops automatically || said of the reintegro A setting, which was never verified as float-driven and may simply be a timer
+self-terminates || same
+my father || the survey attributes nothing to any person other than you
+his father || same
+01_control-wall || deleted from 08_panoramas on 2026-09-08 || except: 08_panoramas/READ-ME.txt
+02_room-arc || deleted from 08_panoramas on 2026-09-08 || except: 08_panoramas/READ-ME.txt
+03_electrical-panel_stitched || deleted from 08_panoramas on 2026-09-08 || except: 08_panoramas/READ-ME.txt
+04_electrical-panel_single-frame || deleted, it duplicated 04_plant-room/20_electrical-panel-full_t1707.jpg || except: 08_panoramas/READ-ME.txt

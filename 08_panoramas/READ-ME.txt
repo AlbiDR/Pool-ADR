@@ -41,28 +41,38 @@ drops, which is where the owner said it was. That count is the standing test
 for any wide image of that wall.
 
 -------------------------------------------------------------------------------
-NOT SAFE: STITCHES  (01 to 04)
+WHY THIS FOLDER STARTS AT 05
 -------------------------------------------------------------------------------
-  01_control-wall_6863x2511.jpg
-  02_room-arc_3052x1385.jpg
-  03_electrical-panel_stitched_5569x3951.jpg
-  04_electrical-panel_single-frame_4080x3072.jpg   <- this one is a single frame
+  01 to 04 existed and were deleted on 2026-09-08. Their numbers are not
+  reused. Under the rule in NAMING.txt a file index is permanent and
+  append-only, so a gap means something was removed, never that something is
+  missing. This is the record of what it was.
 
-  01, 02 and 03 were stitched from multiple hand-held frames. DO NOT COUNT
-  ANYTHING ON THEM and do not measure from them.
+    01_control-wall_6863x2511.jpg               stitched, deleted
+    02_room-arc_3052x1385.jpg                   stitched, deleted
+    03_electrical-panel_stitched_5569x3951.jpg  stitched, deleted
+    04_electrical-panel_single-frame_4080x3072.jpg  duplicate, deleted
 
-  Why, plainly: an earlier stitch of the manifold wall drew SIX drops where
-  there are FOUR, and it did not look wrong. The room is 2.55 by 1.96 m, so you
-  cannot stand more than about a metre and a half from any wall, and the pipes
-  sit at several different depths. A single homography can only be correct for
-  one plane, so near multi-depth subjects duplicate. A two-frame stitch of that
+  01, 02 and 03 were stitched from multiple hand-held frames and were wrong.
+  An earlier stitch of the manifold wall drew SIX drops where there are FOUR,
+  and it did not look wrong. The room is 2.55 by 1.96 m, so you cannot stand
+  more than about a metre and a half from any wall, and the pipes sit at
+  several different depths. A single homography can only be correct for one
+  plane, so near multi-depth subjects duplicate. A two-frame stitch of that
   same wall still showed five. This is a property of the capture geometry, not
-  of the effort spent, and the fix is to reproject a photosphere instead, which
-  is what 05 to 08 are.
+  of the effort spent, and the fix is to reproject a photosphere instead,
+  which is what 05 to 08 are.
 
-  They are kept rather than deleted because they are part of the record of how
-  this survey was built, and because 04 is a genuine single frame and therefore
-  fine. But 05 to 08 supersede 01 and 02 for every practical purpose.
+  They were kept for a while as a record of how the survey was built. That was
+  the wrong call. A file that cannot be counted from, sitting in a folder of
+  files that can, is a trap for whoever opens this next; the warning above it
+  only works if they read it first. The lesson is written down here, which is
+  the part worth keeping. The images were not.
+
+  04 was not a stitch at all, it was a genuine single frame and perfectly
+  usable. It was deleted because it was a byte-for-byte duplicate of
+  04_plant-room/20_electrical-panel-full_t1707.jpg, which is the original and
+  is where the evidence belongs. Use that one.
 
 -------------------------------------------------------------------------------
 IF YOU WANT MORE WIDE VIEWS

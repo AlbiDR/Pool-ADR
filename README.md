@@ -11,6 +11,15 @@ labelled with where it came from.
 
 **[Open the survey](https://albidr.github.io/Pool-ADR/)**
 
+<p align="center">
+  <a href="https://albidr.github.io/Pool-ADR/"><img src="qr-survey.png" alt="QR code linking to the survey" width="340" height="340"></a>
+</p>
+
+<p align="center">
+  <code>albidr.github.io/Pool-ADR</code><br>
+  <sub>Print this and put it on the plant room wall. It always resolves to the current version.</sub>
+</p>
+
 One self-contained HTML page. No internet needed once it has loaded, no linked
 files, every photograph embedded inside it. It prints properly if you want a
 copy on the wall down there, and it is worth having one: the plant room is
@@ -28,18 +37,18 @@ below ground, where a phone may have no signal at the moment you most need it.
 | `05_balance-room/` | The balance tank and the hatch that reaches it, plus what the coloured marks on photograph 04 mean. |
 | `06_drawings/` | Dimensioned sketches and the scaled plan of both rooms. |
 | `07_video/` | Two 360 degree pans and one floor-level survey. |
-| `08_panoramas/` | Wide images of two kinds, and **the distinction matters** — read its `READ-ME.txt` before using either. |
+| `08_panoramas/` | Straightened wall views reprojected from the photosphere, safe to count from. Its `READ-ME.txt` says why the earlier stitched versions were deleted. |
 | `09_manuals/` | The makers' own manuals, with the official link for each and the key figures found. |
 | `10_products/` | Every chemical on the shelf, photographed with its label, plus a catalogue and a symptom-to-action guide. |
 | `11_scan/` | A 3D scan of the plant room, and the plan derived from it. |
 
 ## Two things worth knowing before you use any of it
 
-**Not every wide image can be trusted.** `08_panoramas/` holds both stitched
-images and reprojections of a single photosphere. An early stitch of the
-manifold wall drew six drops where there are four, and it did not look wrong.
-The reprojections cannot do that, because there is no stitching in them. The
-folder's `READ-ME.txt` says which is which and why.
+**Not every wide image can be trusted.** An early stitch of the manifold wall
+drew six drops where there are four, and it did not look wrong. Every wide
+image kept here is now a reprojection of a single photosphere instead, which
+cannot invent geometry because there is no stitching in it. The stitches were
+deleted; `08_panoramas/READ-ME.txt` records what they were and why they went.
 
 **Where a maker's manual contradicts the printed sheets, this follows the
 manual and says so.** The clearest case is the filter gauge: the sheet says
