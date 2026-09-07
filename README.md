@@ -89,14 +89,15 @@ reading it and bad for editing it. One command checks the lot:
 python3 tools/check.py
 ```
 
-Seventeen checks, no dependencies. Section numbering, the nav, internal links,
+Eighteen checks, no dependencies. Section numbering, the nav, internal links,
 the folder table against the folders on disk, file references, offline
 self-containment, punctuation, superseded wording, the canonical numbers in
-[FACTS.txt](FACTS.txt), naming, stated counts, and GitHub's size limits. Every
+[FACTS.txt](FACTS.txt), naming, stated counts, whether the PDF and the
+diagram still match the HTML they came from, and GitHub's size limits. Every
 one of them is a mistake that actually happened here.
 
 [MAINTENANCE.md](MAINTENANCE.md) explains how to do the usual things without
-causing drift, and `python3 tools/selftest.py` breaks the repository seventeen
+causing drift, and `python3 tools/selftest.py` breaks the repository eighteen
 ways to prove the checks still detect anything.
 
 ## A disclaimer, because this is public

@@ -71,6 +71,8 @@ FAULTS = [
     ("C17", "a stated photograph count gone stale",
      lambda: edit("README.md", "| `04_plant-room/` | 34 photographs",
                               "| `04_plant-room/` | 41 photographs")),
+    ("C18", "the survey edited without rebuilding the PDF",
+     lambda: edit(SURVEY, "<body>", "<body><!-- a change the PDF has not seen -->")),
     ("C16", "a file over the 100 MB hard limit",
      lambda: touch("00_inbox/huge.bin", b"\0" * (101 * 1024 * 1024))),
 ]

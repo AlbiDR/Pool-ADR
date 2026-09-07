@@ -1,0 +1,16 @@
+DERIVED FILES AND WHAT THEY WERE BUILT FROM
+
+Both files in this folder beside the HTML are generated from it. Nothing stops
+them going stale except this record: tools/check.py (C18) recomputes each hash
+and fails when a derived file no longer matches its source.
+
+Hashing the source rather than comparing timestamps means an unrelated edit
+elsewhere in the survey does not raise a false alarm, and a real change to the
+diagram does not slip through because a file happened to be touched.
+
+Rebuild commands are in MAINTENANCE.md. After rebuilding, update the hash here.
+
+    file || source || sha256 of that source
+
+pool-plant-room-survey.pdf || the whole survey HTML || d7ce588ef1d40e8e2c2baea98da98ecf8c71fa75a83a973d8231f87913c67342
+pool-plant-room-diagram.png || the 1560x2370 schematic svg || fbf1efda21462ced9c6180f86643d6de9d26010e31d09886e64cc9dd3aca2e17

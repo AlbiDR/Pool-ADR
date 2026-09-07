@@ -39,6 +39,7 @@ being written. They are not hypothetical.
 | `C15` | The published URL differing between files | |
 | `C16` | Files over GitHub's size limits | 100 MB is a hard refusal, 50 MB a warning, 1 GB the site cap. |
 | `C17` | A count stated in prose drifting from the folder | The README says "34 photographs". Add one and that sentence is wrong, and nothing else will tell you. |
+| `C18` | The PDF or the diagram no longer matching the HTML | Both are generated from the survey. Editing it invalidates them, and neither looks wrong afterwards. The hashes are in `01_survey/DERIVED.txt`. |
 
 ## Proving the checks still work
 
@@ -46,7 +47,7 @@ being written. They are not hypothetical.
 python3 tools/selftest.py
 ```
 
-It breaks the repository seventeen ways, once per check, confirms each break is
+It breaks the repository eighteen ways, once per check, confirms each break is
 caught, and puts everything back. It refuses to run on a dirty tree, so a crash
 cannot cost you work.
 
@@ -98,6 +99,19 @@ python3 tools/check.py
 
 Cross-references in prose name the section rather than its number, so
 renumbering cannot break them. `C13` enforces that.
+
+**After editing the survey.** The PDF and the diagram PNG are built from it and
+are now wrong.
+
+```bash
+python3 tools/rebuild.py
+python3 tools/check.py
+```
+
+`rebuild.py` runs Chrome for both, then refreshes the source hashes in
+`01_survey/DERIVED.txt`. The hashes cover the source, not the output, so an edit
+to the water chemistry does not falsely flag the diagram, and a real edit to the
+diagram cannot slip past because a file happened to be touched.
 
 **Regenerating the QR code.** Only needed if the published URL changes.
 

@@ -15,7 +15,7 @@ others quietly wrong. Every check below is a mistake that actually happened
 while the document was being built. Each one is now loud instead of silent.
 """
 
-import os, re, sys, html, unicodedata
+import os, re, sys, html, hashlib, unicodedata
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SURVEY = "01_survey/pool-plant-room-survey.html"
@@ -339,6 +339,36 @@ def c17():
                           if not f.startswith(".") and not doc_names.match(f)])
             if actual != stated:
                 out.append("%s says %d %s in %s/, there are %d" % (rel, stated, noun, folder, actual))
+    return out
+
+
+@check("C18", "derived files match the source they were built from")
+def c18():
+    """The PDF and the diagram PNG are generated from the HTML. Editing the survey
+    silently invalidates both, and neither one looks wrong afterwards."""
+    rec = os.path.join(ROOT, "01_survey/DERIVED.txt")
+    if not os.path.exists(rec): return ["01_survey/DERIVED.txt is missing"]
+    s = survey()
+    m = re.search(r'<svg viewBox="0 0 1560 2370"[\s\S]*?</svg>', s)
+    sources = {
+        "pool-plant-room-survey.pdf":  s,
+        "pool-plant-room-diagram.png": m.group(0) if m else None,
+    }
+    out = []
+    for line in read("01_survey/DERIVED.txt").split("\n"):
+        if "||" not in line or line[:1].isspace(): continue
+        f, src, want = [x.strip() for x in line.split("||")]
+        if f not in sources:
+            out.append("DERIVED.txt names %s, which this check does not know how to hash" % f); continue
+        text = sources[f]
+        if text is None:
+            out.append("could not find %s in the survey any more" % src); continue
+        got = hashlib.sha256(text.encode()).hexdigest()
+        if got != want:
+            out.append("%s is stale: %s changed. Rebuild it, then put %s in DERIVED.txt"
+                       % (f, src, got[:16] + "..."))
+        if not os.path.exists(os.path.join(ROOT, "01_survey", f)):
+            out.append("01_survey/%s is listed in DERIVED.txt but does not exist" % f)
     return out
 
 
