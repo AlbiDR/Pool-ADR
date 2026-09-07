@@ -18,6 +18,15 @@ SURVEY = "01_survey/pool-plant-room-survey.html"
 def git(*a):
     return subprocess.run(["git", "-C", ROOT] + list(a), capture_output=True, text=True)
 
+CREATED = []          # files a fault makes, removed by name rather than by git clean
+
+def touch(rel, data=b""):
+    p = os.path.join(ROOT, rel)
+    os.makedirs(os.path.dirname(p), exist_ok=True)
+    with open(p, "wb") as f: f.write(data)
+    CREATED.append(rel)
+    return True
+
 def edit(rel, old, new):
     p = os.path.join(ROOT, rel)
     s = open(p, encoding="utf-8").read()
@@ -38,8 +47,7 @@ FAULTS = [
     ("C5",  "an internal link with no target",
      lambda: edit(SURVEY, 'href="#kit"', 'href="#equipmentxx"')),
     ("C6",  "a folder added but not listed in the table",
-     lambda: (os.mkdir(os.path.join(ROOT, "12_newfolder")),
-              open(os.path.join(ROOT, "12_newfolder/.keep"), "w").close(), True)[-1]),
+     lambda: touch("12_newfolder/.keep")),
     ("C7",  "prose referring to a file that was deleted",
      lambda: edit("README.md", "## Start here",
                   "See 04_plant-room/99_does-not-exist.jpg\n\n## Start here")),
@@ -57,15 +65,20 @@ FAULTS = [
     ("C13", "prose citing a section by number",
      lambda: edit(SURVEY, "<body>", "<body><p>See section 7 for details.</p>")),
     ("C14", "a file named outside the convention",
-     lambda: (open(os.path.join(ROOT, "04_plant-room/Untitled Copy 2.jpg"), "w").close(), True)[-1]),
+     lambda: touch("04_plant-room/Untitled Copy 2.jpg")),
     ("C15", "the published URL changed in one place only",
      lambda: edit("README.md", "https://albidr.github.io/Pool-ADR/", "https://example.com/")),
     ("C16", "a file over the 100 MB hard limit",
-     lambda: (open(os.path.join(ROOT, "00_inbox/huge.bin"), "wb")
-              .write(b"\0" * (101 * 1024 * 1024)), True)[-1]),
+     lambda: touch("00_inbox/huge.bin", b"\0" * (101 * 1024 * 1024))),
 ]
 
 def restore():
+    while CREATED:
+        rel = CREATED.pop()
+        p = os.path.join(ROOT, rel)
+        if os.path.exists(p): os.remove(p)
+        d = os.path.dirname(p)
+        if d != ROOT and os.path.isdir(d) and not os.listdir(d): os.rmdir(d)
     git("checkout", "--", ".")
     git("clean", "-qfd")
 

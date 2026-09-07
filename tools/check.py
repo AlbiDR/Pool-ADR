@@ -141,7 +141,7 @@ def c6():
 def c7():
     pat = re.compile(r"\b(\d\d_[a-z-]+/[A-Za-z0-9][A-Za-z0-9._-]*\.[a-z0-9]{2,4})\b")
     out = []
-    for rel in walk(skip=("FACTS.txt",)):
+    for rel in walk(skip=("FACTS.txt", "tools/selftest.py")):
         for ref in sorted(set(pat.findall(read(rel)))):
             if not os.path.exists(os.path.join(ROOT, ref)):
                 out.append("%s refers to %s, which does not exist" % (rel, ref))
@@ -168,7 +168,7 @@ def c9():
            "\u2019": "curly quote", "\u201c": "curly quote", "\u201d": "curly quote",
            "\u2026": "ellipsis", "\u00a0": "non-breaking space"}
     out = []
-    for rel in walk():
+    for rel in walk(skip=("tools/selftest.py",)):
         t = read(rel)
         for ch, name in bad.items():
             if ch in t: out.append("%s contains %d %s(s)" % (rel, t.count(ch), name))
@@ -180,7 +180,7 @@ def c9():
 @check("C10", "no third-party attribution in the prose")
 def c10():
     out = []
-    for rel in walk(skip=("FACTS.txt", "tools/check.py")):
+    for rel in walk(skip=("FACTS.txt", "tools/check.py", "tools/selftest.py")):
         for m in re.finditer(r"\b(my|his|her|their) father\b", read(rel), re.I):
             out.append("%s says %r" % (rel, m.group(0)))
     return out
@@ -203,7 +203,7 @@ def c11():
                 exempt = {x.strip() for x in p.split(":", 1)[1].split(",")}
             elif low.startswith("unless:"):
                 unless = [x.strip().lower() for x in p.split(":", 1)[1].split(",") if x.strip()]
-        for rel in walk(skip=("FACTS.txt", "tools/check.py")):
+        for rel in walk(skip=("FACTS.txt", "tools/check.py", "tools/selftest.py")):
             if rel in exempt: continue
             t = read(rel).lower()
             for m in re.finditer(re.escape(needle.lower()), t):
