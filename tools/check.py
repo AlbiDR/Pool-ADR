@@ -331,7 +331,7 @@ def c17():
     out = []
     for rel in ("README.md", SURVEY):
         text = read(rel)
-        for m in re.finditer(r"(\d\d_[a-z-]+)/[^|\n]{0,120}?\b(\d{1,3})\s+(photograph|photographs|files|images|videos|manuals|products)\b", text):
+        for m in re.finditer(r"(\d\d_[a-z-]+)/[^\n]{0,60}?\b(\d{1,3})\s+(photograph|photographs|files|images|videos|manuals|products)\b", text):
             folder, stated, noun = m.group(1), int(m.group(2)), m.group(3)
             d = os.path.join(ROOT, folder)
             if not os.path.isdir(d): continue
