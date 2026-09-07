@@ -71,14 +71,14 @@ known and merely unrecorded.
 ## Regenerating the PDF and the diagram
 
 Both are tracked, so a fresh clone has them. They are generated from the HTML,
-so after editing the survey, rebuild them with:
+so after editing the survey:
 
 ```bash
-"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
-  --headless=new --disable-gpu --no-pdf-header-footer --virtual-time-budget=35000 \
-  --print-to-pdf="01_survey/pool-plant-room-survey.pdf" \
-  "file://$PWD/01_survey/pool-plant-room-survey.html"
+python3 tools/rebuild.py
 ```
+
+That runs Chrome, rewrites both, and refreshes the source hashes in
+`01_survey/DERIVED.txt` so the checker agrees. `C18` fails if you forget.
 
 ## Keeping it consistent
 
