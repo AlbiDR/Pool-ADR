@@ -80,6 +80,25 @@ so after editing the survey, rebuild them with:
   "file://$PWD/01_survey/pool-plant-room-survey.html"
 ```
 
+## Keeping it consistent
+
+This survey states the same fact in several files at once, which is good for
+reading it and bad for editing it. One command checks the lot:
+
+```bash
+python3 tools/check.py
+```
+
+Seventeen checks, no dependencies. Section numbering, the nav, internal links,
+the folder table against the folders on disk, file references, offline
+self-containment, punctuation, superseded wording, the canonical numbers in
+[FACTS.txt](FACTS.txt), naming, stated counts, and GitHub's size limits. Every
+one of them is a mistake that actually happened here.
+
+[MAINTENANCE.md](MAINTENANCE.md) explains how to do the usual things without
+causing drift, and `python3 tools/selftest.py` breaks the repository seventeen
+ways to prove the checks still detect anything.
+
 ## A disclaimer, because this is public
 
 This is a private record of one particular installation, written by its owner

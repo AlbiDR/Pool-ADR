@@ -323,6 +323,25 @@ def c16():
     return out
 
 
+@check("C17", "counts stated in prose match the folders")
+def c17():
+    """The README says "34 photographs". Add one and that sentence is wrong, and
+    nothing else in the world will tell you."""
+    doc_names = re.compile(r"^[A-Z][A-Z0-9-]*\.txt$")
+    out = []
+    for rel in ("README.md", SURVEY):
+        text = read(rel)
+        for m in re.finditer(r"(\d\d_[a-z-]+)/[^|\n]{0,120}?\b(\d{1,3})\s+(photograph|photographs|files|images|videos|manuals|products)\b", text):
+            folder, stated, noun = m.group(1), int(m.group(2)), m.group(3)
+            d = os.path.join(ROOT, folder)
+            if not os.path.isdir(d): continue
+            actual = len([f for f in os.listdir(d)
+                          if not f.startswith(".") and not doc_names.match(f)])
+            if actual != stated:
+                out.append("%s says %d %s in %s/, there are %d" % (rel, stated, noun, folder, actual))
+    return out
+
+
 def main(argv):
     verbose = "-v" in argv
     want = [a.upper() for a in argv if re.match(r"^[Cc]\d+$", a)]
