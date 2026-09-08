@@ -40,6 +40,16 @@ def edit(rel, old, new):
     open(p, "w", encoding="utf-8").write(s.replace(old, new, 1))
     return True
 
+
+def edit_re(rel, pattern, repl):
+    """for faults that must not hard-code a value the repository may change"""
+    p = os.path.join(ROOT, rel)
+    s = open(p, encoding="utf-8").read()
+    out, n = re.subn(pattern, repl, s, count=1)
+    if not n: return False
+    open(p, "w", encoding="utf-8").write(out)
+    return True
+
 # each fault is something that has genuinely gone wrong in this repo before
 FAULTS = [
     ("C1",  "stray closing brace in the stylesheet",
@@ -75,8 +85,7 @@ FAULTS = [
     ("C15", "the published URL changed in one place only",
      lambda: edit("README.md", "https://albidr.github.io/Pool-ADR/", "https://example.com/")),
     ("C17", "a stated photograph count gone stale",
-     lambda: edit("README.md", "| `04_plant-room/` | 34 photographs",
-                              "| `04_plant-room/` | 41 photographs")),
+     lambda: edit_re("README.md", r"(\| `04_plant-room/` \| )\d+( photographs)", r"\g<1>41\g<2>")),
     ("C18", "the survey edited without rebuilding the PDF",
      lambda: edit(SURVEY, "<body>", "<body><!-- a change the PDF has not seen -->")),
     ("C19", "a second near-identical frame filed alongside the first",
