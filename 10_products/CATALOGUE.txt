@@ -161,7 +161,7 @@ THE STOCK
              marks are the reason. Anti-caking agents in cheaper salt damage
              electrolysis cells.
 
-10 SALE PER ADDOLCITORE                    photo pending, datasheet 18
+10 SALE PER ADDOLCITORE                    photo 19, datasheet 18
    Italkali "Pastiglie di Salgemma", codice 546E, Scheda N. 097
    Rock salt tablets, certified UNI EN 973:2009 Grade A, sold for softener
    regeneration. NOT certified to EN 16401, the pool standard: nothing on the
@@ -192,9 +192,16 @@ THE STOCK
              this datasheet: it is that this product has run this cell for
              about twelve years without failure. Use the 10 kg bags and about
              8 of the incoming 25 kg bags for the current charge; bank the
-             rest, dry, for future backwash losses. Photograph the delivered
-             bag front and back when it arrives, the same as every other
-             product here.
+             rest, dry, for future backwash losses.
+   PHOTO     19 is the retailer's product listing image, not a photograph
+             taken on site: studio background, no EXIF, downloaded not shot.
+             Every other entry in this catalogue is the owner's own shelf,
+             so this one is labelled differently on purpose. It shows the
+             front panel only: codice 440IT on the side tag, the UNI EN 973
+             Grade A seal, "SPECIFICO PER ADDOLCITORI". There is no
+             back-panel photo, but nothing on a back panel would say more
+             than datasheet 18 already does: a composition table beats a
+             photo of one, when both exist.
 
    PLUS, NOT ON THIS SHELF
    SULPHURIC ACID 36%, 25 kg drum, in the plant room, plumbed to the TRi PRO
