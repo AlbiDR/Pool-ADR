@@ -27,6 +27,12 @@ def touch(rel, data=b""):
     CREATED.append(rel)
     return True
 
+def append_bytes(rel, data):
+    """A binary edited in place. git checkout -- puts it back."""
+    with open(os.path.join(ROOT, rel), "ab") as f: f.write(data)
+    return True
+
+
 def copy_file(src, dst):
     shutil.copyfile(os.path.join(ROOT, src), os.path.join(ROOT, dst))
     CREATED.append(dst)
@@ -93,6 +99,14 @@ FAULTS = [
                        "04_plant-room/35_pump-strainer-lid_t2214.jpg")),
     ("C20", "a log entry filed out of order",
      lambda: edit_re("LOG.txt", r"(2026-09-08 23:25  SALT)", r"2026-09-09 09:00  SALT")),
+    ("C21", "a photograph edited under a row that still has the old hash",
+     lambda: append_bytes("06_drawings/01_plant-room-dimensions_t1946.jpg", b"\x00")),
+    ("C22", "a photograph added without rebuilding the folder's contact sheet",
+     lambda: copy_file("05_balance-room/06_low-level-sockets_t1843.jpg",
+                       "05_balance-room/07_low-level-sockets_t1843.jpg")),
+    ("C23", "a time token that matches nothing in the file",
+     lambda: edit("MEDIA.tsv", "32_level-column-and-safety-discharge_t2215.jpg",
+                  "32_level-column-and-safety-discharge_t0915.jpg")),
     ("C16", "a file over the 100 MB hard limit",
      lambda: touch("00_inbox/huge.bin", b"\0" * (101 * 1024 * 1024))),
 ]
