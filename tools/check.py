@@ -538,32 +538,34 @@ def c22():
     digest of the files it was built from in its own JPEG comment, so the
     staleness is detectable without a second file to remember.
 
+    Both sides of the comparison are computed from the folder rather than from
+    MEDIA.tsv, so this does not depend on C21 having passed first.
+
     tools/media.py sheets rebuilds them."""
-    rows = {}
-    if not os.path.exists(os.path.join(ROOT, "MEDIA.tsv")): return []   # C21 says so
-    for line in read("MEDIA.tsv").split("\n"):
-        if not line or line.startswith("#") or line.startswith("path\t"): continue
-        f = dict(zip(MEDIA_COLUMNS, line.split("\t")))
-        if f.get("kind") in ("photo", "image") and f.get("pixels"):
-            rows.setdefault(os.path.dirname(f["path"]), []).append(f)
+    sys.path.insert(0, os.path.join(ROOT, "tools"))
+    try:
+        import media
+    except ImportError as e:
+        return ["tools/media.py could not be imported: %s" % e]
     out = []
-    for d, items in sorted(rows.items()):
-        if len(items) < 2: continue
+    folders = sorted(d for d in os.listdir(ROOT)
+                     if re.match(r"^\d\d_", d) and os.path.isdir(os.path.join(ROOT, d))
+                     and d not in MEDIA_SKIP)
+    for d in folders:
+        want_from = media.sheet_inputs(d)
         sheet = os.path.join(ROOT, d, SHEET)
+        if len(want_from) < 2:
+            if os.path.exists(sheet):
+                out.append("%s/%s has no folder of images behind it any more" % (d, SHEET))
+            continue
         if not os.path.exists(sheet):
-            out.append("%s/ has %d images and no %s" % (d, len(items), SHEET)); continue
-        body = "\n".join("%s %s" % (os.path.basename(r["path"]), r["sha256"][:16]) for r in items)
-        want = hashlib.sha256(body.encode()).hexdigest()
+            out.append("%s/ has %d images and no %s" % (d, len(want_from), SHEET))
+            continue
         got = sheet_digest(sheet)
         if got is None:
             out.append("%s/%s carries no build digest; rebuild it" % (d, SHEET))
-        elif got != want:
+        elif got != media.sheet_digest(d):
             out.append("%s/%s is stale: the folder has changed since it was built" % (d, SHEET))
-    for dp, dns, fns in os.walk(ROOT):
-        dns[:] = [x for x in dns if x not in SKIP_DIRS]
-        d = os.path.relpath(dp, ROOT)
-        if SHEET in fns and d not in rows:
-            out.append("%s/%s has no folder of images behind it any more" % (d, SHEET))
     return out
 
 
