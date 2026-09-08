@@ -25,7 +25,8 @@ WHAT IS TO SCALE AND WHAT IS NOT
       balance room width       0.91 m             0.911 m
       balance room length      3.00 m             2.996 m
 
-  The SERVICE CORRIDOR is NOT measured. The owner said so, and the drawing
+  The SERVICE CORRIDOR is an intercapedine, a deliberate cavity around the
+  below-ground structure rather than a room anyone uses. It is NOT measured. The owner said so, and the drawing
   agrees: its horizontal leg scales to about 0.47 m deep, which is not a
   width anyone walks down. Take the corridor as topology only, meaning which
   way it runs and where its openings are, never as a dimension.
