@@ -152,6 +152,17 @@ ALSO ESTABLISHED 2026-09-07
   roughly 12 m. (Stated as 12 m here; elsewhere the pool length is given as
   about 13 m. Both are estimates by eye and neither has been taped.)
 
+  PLAN SHAPE, from a freehand sketch supplied 2026-09-09. Topology only: the
+  sketch was explicitly not to scale and nothing here is measured off it.
+    - An irregular quadrilateral, NOT a rectangle.
+    - The overflow runs the full length of one long side, roughly 12 m.
+    - A "high wall" runs opposite it. The two are not parallel, so the pool is
+      wider at one end than the other.
+    - Stairs occupy one end.
+  This is why the volume resists a tape: an irregular plan, a sloping floor and
+  a set of stairs. The hydraulic measurement at crest gives the true water
+  surface area directly and is the better route.
+
   Consequence worth keeping: a 12 m weir passing 1,300 to 3,300 L/h carries
   only 0.6 to 1.2 mm of head above the crest. The pool surface is therefore
   pinned to within about a millimetre once it spills, which is why the tank

@@ -25,6 +25,16 @@ files, every photograph embedded inside it. It prints properly if you want a
 copy on the wall down there, and it is worth having one: the plant room is
 below ground, where a phone may have no signal at the moment you most need it.
 
+Four things it does that a printout cannot. **Tap any circled letter or number**
+and it tells you what that valve is without scrolling back to the legend, then
+steps you through every place the document mentions it; the digits carry two
+meanings in this installation, a valve and a Kripsol lever position, and it
+shows both rather than guessing. **Press `/`** to search it. **Every photograph
+in the archive is in it**, as an index you can tap to enlarge, so the page
+answers "which picture was that?" with nothing else to hand. And it follows your
+**light or dark** setting, or whichever you pick. With scripting off it is still
+the same document, top to bottom.
+
 ## What is in here
 
 | | |
@@ -33,7 +43,7 @@ below ground, where a phone may have no signal at the moment you most need it.
 | `01_survey/` | The deliverable: the survey as HTML and PDF, plus the diagram as a PNG. |
 | `02_printed-sheets/` | The four printed pages kept in the room. The procedures section is transcribed from these. |
 | `03_nameplates/` | The plates and labels every specification rests on. |
-| `04_plant-room/` | 33 photographs, in the order they were taken. |
+| `04_plant-room/` | 33 photographs, in the order they were taken. The evidence nearly every claim rests on. |
 | `05_balance-room/` | The balance tank and the hatch that reaches it, plus what the coloured marks on photograph 04 mean. |
 | `06_drawings/` | Dimensioned sketches and the scaled plan of both rooms. |
 | `07_video/` | Two 360 degree pans and one floor-level survey. |
@@ -42,6 +52,15 @@ below ground, where a phone may have no signal at the moment you most need it.
 | `10_products/` | Every chemical on the shelf, photographed with its label, plus a catalogue and a symptom-to-action guide. |
 | `11_scan/` | A 3D scan of the plant room, and the plan derived from it. |
 | [`LOG.txt`](LOG.txt) | What was actually done and when: every switch, dose, backwash and reading. The survey describes the installation; this records its operation. |
+| [`MEDIA.tsv`](MEDIA.tsv) | One row for every media file: what it shows, its size, its dimensions, when it was taken, and its `sha256`. The one place a file's description lives. |
+| [`CHANGELOG.txt`](CHANGELOG.txt) | What was done to the **archive**, and why. `LOG.txt` is the pool; this is the filing. |
+
+Every numbered folder carries its own `READ-ME.txt` saying what is in it, what
+it is good for, and what it must not be used for. Read that before the pictures.
+Each also carries a `CONTACT-SHEET.jpg`: every image in the folder, numbered, at
+thumbnail size. Open that first. It is a few hundred kilobytes against tens of
+megabytes of originals, and it answers "which one do I want?" without opening
+anything.
 
 ## Two things worth knowing before you use any of it
 
@@ -56,12 +75,34 @@ manual and says so.** The clearest case is the filter gauge: the sheet says
 "about 1 bar", but Kripsol's own manual gives 0.5 to 0.7 bar as normal running
 and 1.0 as the point at which you stop and backwash.
 
-## How it is named
+## How it is named, and how to find anything
 
 Every file follows one rule, set out in [NAMING.txt](NAMING.txt): an index,
 what the file shows, an optional note on how it differs from its neighbour,
-then a marked technical token. Measured dimensions for both rooms and what
-follows from them are in [DIMENSIONS.txt](DIMENSIONS.txt).
+then a marked technical token. A name in capitals is apparatus rather than
+evidence, takes no index, and describes the folder it sits in.
+
+What a file actually **shows** is not in its name, because a name is a handle
+and stretching it into a description produces filenames nobody can type. That
+lives in [MEDIA.tsv](MEDIA.tsv), one line per file:
+
+```bash
+python3 tools/media.py show 04_plant-room
+```
+
+Measured dimensions for both rooms and what follows from them are in
+[DIMENSIONS.txt](DIMENSIONS.txt).
+
+## Adding or changing media
+
+```bash
+python3 tools/media.py scan      # rewrite MEDIA.tsv, keeping the captions
+python3 tools/media.py sheets    # rebuild the contact sheets
+python3 tools/check.py           # C21, C22 and C23 will tell you if you forgot
+```
+
+`scan` computes everything except the caption, which it carries forward, and
+lists any file still missing one. Write that line and the checker goes quiet.
 
 ## What is still open
 
@@ -90,18 +131,20 @@ reading it and bad for editing it. One command checks the lot:
 python3 tools/check.py
 ```
 
-Twenty checks, standard library only (one, the near-duplicate
+Twenty-three checks, standard library only (one, the near-duplicate
 scan, uses Pillow when it is available and reports itself skipped when it is not). Section numbering, the nav, internal links,
 the folder table against the folders on disk, file references, offline
 self-containment, punctuation, superseded wording, the canonical numbers in
 [FACTS.txt](FACTS.txt), naming, stated counts, whether the PDF and the
-diagram still match the HTML they came from, near-duplicate images, and
-GitHub's size limits. Every
-one of them is a mistake that actually happened here.
+diagram still match the HTML they came from, near-duplicate images,
+GitHub's size limits, the activity log's ordering, the media manifest against
+the files on disk, whether each contact sheet still shows its whole folder, and
+whether every time token in a file name is a time that file actually carries.
+Every one of them is a mistake that actually happened here.
 
 [MAINTENANCE.md](MAINTENANCE.md) explains how to do the usual things without
-causing drift, and `python3 tools/selftest.py` breaks the repository twenty
-ways to prove the checks still detect anything.
+causing drift, and `python3 tools/selftest.py` breaks the repository
+twenty-three ways to prove the checks still detect anything.
 
 ## A disclaimer, because this is public
 

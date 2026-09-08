@@ -43,6 +43,9 @@ being written. They are not hypothetical.
 | `C17` | A count stated in prose drifting from the folder | The README says "34 photographs". Add one and that sentence is wrong, and nothing else will tell you. |
 | `C18` | The PDF or the diagram no longer matching the HTML | Both are generated from the survey. Editing it invalidates them, and neither looks wrong afterwards. The hashes are in `01_survey/DERIVED.txt`. |
 | `C20` | The activity log out of order, or using an invented category | Caught two ordering slips within a minute of being written, both mine. |
+| `C21` | `MEDIA.tsv` disagreeing with the files on disk | A file added and never scanned, a photograph edited under a row still carrying the old hash, or a new file with no caption written. All three are silent. |
+| `C22` | A contact sheet that no longer shows its whole folder | A stale sheet does not look wrong. It just quietly leaves out the photograph you went looking for. Each sheet carries a digest of its inputs in its own JPEG comment. |
+| `C23` | A `tHHMM` token that is not a time the file actually carries | Left unenforced the token becomes decoration: a file is renamed, four plausible digits are typed, and from then on the archive says a thing happened at a time it did not. |
 | `C19` | Two frames of the same thing filed as two photographs | Photographs 27 and 28 were shot in the same second and differed only by camera shake. They were not byte-identical, so an exact-hash audit walked past them. This one compares what the pictures look like. |
 
 ## Proving the checks still work
@@ -51,7 +54,7 @@ being written. They are not hypothetical.
 python3 tools/selftest.py
 ```
 
-It breaks the repository twenty ways, once per check, confirms each break is
+It breaks the repository twenty-three ways, once per check, confirms each break is
 caught, and puts everything back. It refuses to run on a dirty tree, so a crash
 cannot cost you work.
 
@@ -76,10 +79,28 @@ correction stand while failing on any fresh assertion of the mistake.
 half-filed reaches the repository. File it under the right numbered folder using
 the next free index, following `NAMING.txt`. Indices are permanent and
 append-only: a gap means something was deleted, never that something is missing.
+Then tell the library about it:
+
+```bash
+python3 tools/media.py scan      # adds the row, computes everything but the caption
+python3 tools/media.py sheets    # redraws that folder's contact sheet
+python3 tools/check.py
+```
+
+`scan` prints every file still missing a caption. Write that one line into
+`MEDIA.tsv` and `C21` goes quiet. Nothing else in the row is yours to type: size,
+dimensions, capture time and hash all come from the file, which is what stops
+them drifting.
 
 **Deleting a file.** `git rm` it, then run the checker. `C7` finds every document
-that still refers to it. Record the deletion in that folder's `READ-ME.txt`
-rather than letting the index gap go unexplained.
+that still refers to it. Record the deletion in that folder's `READ-ME.txt` and
+in the register at the foot of `NAMING.txt`, rather than letting the index gap go
+unexplained. Then `python3 tools/media.py scan` and `sheets` again.
+
+**Restructuring anything.** Write down why, in `CHANGELOG.txt`, at the time. That
+file exists because a decision without a recorded reason gets undone by the next
+person who cannot see it, and every entry in it is a case where knowing the
+reason later mattered.
 
 **Adding a section to the survey.** Add the `<section id="...">`, give its
 heading a `<span class="n">&#167;X</span>`, add the nav entry in the same
@@ -103,6 +124,15 @@ python3 tools/check.py
 
 Cross-references in prose name the section rather than its number, so
 renumbering cannot break them. `C13` enforces that.
+
+**Editing the survey's interface.** The toolbar, the search, the key popovers
+and the photograph index are one `<style>` block and one `<script>` at the foot
+of the survey. They are additions to a document that works without them, and they
+must stay that way: `C8` fails on anything fetched from the network, so keep
+every asset inline, and check the page still reads top to bottom with scripting
+off before committing. The popovers read their text out of the legend and the
+Kripsol table in the page itself rather than carrying a copy, so correcting
+either one reaches them with nothing else to update.
 
 **After editing the survey.** The PDF and the diagram PNG are built from it and
 are now wrong.
@@ -145,7 +175,7 @@ actually run?" The information had never been written down, only said out loud,
 and two wrong estimates were built on the gap before it was noticed. A fill that
 was paused twice looks identical in hindsight to one that ran straight through.
 
-## The three rules underneath all of this
+## The four rules underneath all of this
 
 1. **One fact, one home.** `FACTS.txt` holds the numbers. Everything else quotes
    them.
@@ -153,3 +183,8 @@ was paused twice looks identical in hindsight to one that ran straight through.
 3. **Corrections stay visible.** The document records what it used to say and why
    that was wrong. That history is the reason it can be trusted, and `C11` is
    what stops it from being silently undone.
+4. **Anything stated twice is checked by a machine.** Every fact in this
+   repository that appears in more than one place has a check behind it. That is
+   the only reason it is safe to write the same number in the survey, the README
+   and `DIMENSIONS.txt`, which is worth doing for whoever is reading it at seven
+   in the evening with wet hands.
