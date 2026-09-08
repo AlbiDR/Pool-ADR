@@ -107,6 +107,8 @@ FAULTS = [
     ("C23", "a time token that matches nothing in the file",
      lambda: edit("MEDIA.tsv", "32_level-column-and-safety-discharge_t2215.jpg",
                   "32_level-column-and-safety-discharge_t0915.jpg")),
+    ("C24", "a folder of evidence with nothing explaining it",
+     lambda: touch("12_newfolder/01_something.jpg")),
     ("C16", "a file over the 100 MB hard limit",
      lambda: touch("00_inbox/huge.bin", b"\0" * (101 * 1024 * 1024))),
 ]

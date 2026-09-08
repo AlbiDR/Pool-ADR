@@ -55,8 +55,11 @@ the same document, top to bottom.
 | [`MEDIA.tsv`](MEDIA.tsv) | One row for every media file: what it shows, its size, its dimensions, when it was taken, and its `sha256`. The one place a file's description lives. |
 | [`CHANGELOG.txt`](CHANGELOG.txt) | What was done to the **archive**, and why. `LOG.txt` is the pool; this is the filing. |
 
-Every numbered folder carries its own `READ-ME.txt` saying what is in it, what
-it is good for, and what it must not be used for. Read that before the pictures.
+Every numbered folder carries its own file in capitals saying what is in it,
+what it is good for, and what it must not be used for. Usually that is a
+`READ-ME.txt`; where the folder needed something more specific it is a
+`CATALOGUE.txt`, a `SOURCES.txt` or an `ANNOTATION-KEY.txt`. Read it before the
+pictures. `C24` fails if a folder ever arrives without one.
 Each also carries a `CONTACT-SHEET.jpg`: every image in the folder, numbered, at
 thumbnail size. Open that first. It is a few hundred kilobytes against tens of
 megabytes of originals, and it answers "which one do I want?" without opening
@@ -131,7 +134,7 @@ reading it and bad for editing it. One command checks the lot:
 python3 tools/check.py
 ```
 
-Twenty-three checks, standard library only (one, the near-duplicate
+Twenty-four checks, standard library only (one, the near-duplicate
 scan, uses Pillow when it is available and reports itself skipped when it is not). Section numbering, the nav, internal links,
 the folder table against the folders on disk, file references, offline
 self-containment, punctuation, superseded wording, the canonical numbers in
@@ -139,12 +142,13 @@ self-containment, punctuation, superseded wording, the canonical numbers in
 diagram still match the HTML they came from, near-duplicate images,
 GitHub's size limits, the activity log's ordering, the media manifest against
 the files on disk, whether each contact sheet still shows its whole folder, and
-whether every time token in a file name is a time that file actually carries.
-Every one of them is a mistake that actually happened here.
+whether every time token in a file name is a time that file actually carries,
+and whether every folder of evidence has something beside it explaining what it
+is. Every one of them is a mistake that actually happened here.
 
 [MAINTENANCE.md](MAINTENANCE.md) explains how to do the usual things without
 causing drift, and `python3 tools/selftest.py` breaks the repository
-twenty-three ways to prove the checks still detect anything.
+twenty-four ways to prove the checks still detect anything.
 
 ## A disclaimer, because this is public
 

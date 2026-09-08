@@ -29,7 +29,15 @@ records what was done to the ARCHIVE.
 
   Four folders that had no apparatus file got one: 02_printed-sheets,
   03_nameplates, 04_plant-room and 07_video. Every numbered folder now explains
-  itself.
+  itself, and C24 keeps it that way: a folder of evidence with no note beside it
+  is a folder only its author can use, and only for as long as they remember.
+
+  Writing that up produced the twenty-fourth mistake immediately. The README was
+  given the sentence "every numbered folder carries its own READ-ME.txt", which
+  is false in four of them: 05_balance-room has an ANNOTATION-KEY.txt,
+  09_manuals a SOURCES.txt, 10_products a CATALOGUE.txt, and 01_survey a
+  DERIVED.txt. The sentence now describes the rule as it actually is, and C24
+  checks the rule rather than the sentence.
 
   THREE THINGS THE AUDIT TURNED UP.
 

@@ -596,6 +596,28 @@ def c23():
     return out
 
 
+@check("C24", "every numbered folder explains itself")
+def c24():
+    """Four of these folders went the whole life of the project with no apparatus
+    file at all, 04_plant-room among them, which is the one nearly every claim in
+    the survey rests on. Thirty-three photographs and nothing saying what they
+    were, which was better, or what the gap at 28 meant.
+
+    A folder of evidence with no note beside it is a folder only its author can
+    use, and only for as long as they remember. This is the check that stops the
+    next folder arriving the same way."""
+    out = []
+    for d in sorted(os.listdir(ROOT)):
+        if not re.match(r"^\d\d_", d) or not os.path.isdir(os.path.join(ROOT, d)):
+            continue
+        docs = [f for f in os.listdir(os.path.join(ROOT, d))
+                if APPARATUS.match(f) and f.lower().endswith(".txt")]
+        if not docs:
+            out.append("%s/ has no apparatus file. Add a READ-ME.txt saying what is in "
+                       "it, what it is good for, and what it must not be used for" % d)
+    return out
+
+
 def main(argv):
     verbose = "-v" in argv
     want = [a.upper() for a in argv if re.match(r"^[Cc]\d+$", a)]
