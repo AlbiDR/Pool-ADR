@@ -161,6 +161,41 @@ THE STOCK
              marks are the reason. Anti-caking agents in cheaper salt damage
              electrolysis cells.
 
+10 SALE PER ADDOLCITORE                    photo pending, datasheet 18
+   Italkali "Pastiglie di Salgemma", codice 546E, Scheda N. 097
+   Rock salt tablets, certified UNI EN 973:2009 Grade A, sold for softener
+   regeneration. NOT certified to EN 16401, the pool standard: nothing on the
+   bag or the datasheet claims pool or electrolysis use, and this entry is
+   about that gap, not a purity problem.
+   Size      25 kg and 10 kg bags. In stock: three 10 kg (used for years),
+             plus 15 x 25 kg ordered 2026-09-08, arriving 2026-09-14.
+   Source    https://www.zona.eu/ebsn/api/sidal-datasheet/pdf?product_id=710185
+             Downloaded 2026-09-08, saved as 18_salt-italkali-pastiglie_datasheet_it.pdf
+   Composition, from the manufacturer's own datasheet (18, in this folder):
+             NaCl              99.4% min          Lead        < 2   mg/kg
+             Sulphate        2500  mg/kg max       Cadmium     < 0.5 mg/kg
+             Calcium          400  mg/kg max       Mercury     < 0.1 mg/kg
+             Magnesium        100  mg/kg max       Insolubles  2000  mg/kg max
+             Potassium        100  mg/kg max       Moisture     500  mg/kg max
+             Arsenic         < 0.5 mg/kg           Copper      < 2   mg/kg
+             Microbiological: CODEX STAN 150-1985. No line for iron or
+             bromide anywhere in the document: EN 973 does not ask for either,
+             and both are the ones an electrolysis cell cares about that a
+             softener does not.
+   NOTE      Nothing in this composition is an additive. Every listed
+             substance is either NaCl itself or a naturally occurring trace
+             ion, tested down to heavy-metal level, and there is no line for
+             an anti-caking agent. That answers the additive question this
+             entry exists to ask. What it cannot answer is iron or bromide,
+             because the standard this salt is tested against does not
+             measure either. The strongest evidence for pool use is not on
+             this datasheet: it is that this product has run this cell for
+             about twelve years without failure. Use the 10 kg bags and about
+             8 of the incoming 25 kg bags for the current charge; bank the
+             rest, dry, for future backwash losses. Photograph the delivered
+             bag front and back when it arrives, the same as every other
+             product here.
+
    PLUS, NOT ON THIS SHELF
    SULPHURIC ACID 36%, 25 kg drum, in the plant room, plumbed to the TRi PRO
    peristaltic pump. See the SAFETY NOTES section of the survey: at 36% it is above the
