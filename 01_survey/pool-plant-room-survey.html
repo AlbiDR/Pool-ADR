@@ -1659,6 +1659,9 @@ installed, the 39-megapixel photosphere and the panel photograph are the record.
     var line = W.scrollY + (bar ? bar.offsetHeight : 0) + 24, cur = null;
     for (var i = 0; i < targets.length; i++)
       if (targets[i].el.getBoundingClientRect().top + W.scrollY <= line) cur = targets[i];
+    /* above the first section, in the title block: mark the first entry rather
+       than nothing, so the nav never looks broken on a freshly loaded page */
+    if (!cur && targets.length) cur = targets[0];
     for (var j = 0; j < targets.length; j++)
       if (targets[j] === cur) targets[j].a.setAttribute("aria-current", "true");
       else targets[j].a.removeAttribute("aria-current");
@@ -1668,8 +1671,15 @@ installed, the 39-megapixel photosphere and the panel photograph are the record.
         cur.a.parentNode.scrollLeft += r.left - nav.left - 12;
     }
   }
-  on(W, "scroll", function () { if (!ticking) { ticking = true; W.requestAnimationFrame(frame); } });
+  /* The flag must be able to recover. A requestAnimationFrame queued while the
+     page is not being painted, in a background tab or a hidden pane, never
+     runs, and without the reset below "ticking" would stay true for the life of
+     the page: the progress bar and the current-section marking would both stop
+     for good, silently, the first time the tab went to the background. */
+  function schedule() { if (ticking) return; ticking = true; W.requestAnimationFrame(frame); }
+  on(W, "scroll", schedule);
   on(W, "resize", function () { measure(); frame(); });
+  on(d, "visibilitychange", function () { ticking = false; measure(); schedule(); });
   measure(); frame();
 
   /* ----------------------------------------------------------------- find */
