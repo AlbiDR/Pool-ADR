@@ -66,13 +66,25 @@ records what was done to the ARCHIVE.
 
 
   A NOTE ON WHERE THIS LANDED IN THE HISTORY.
-  All of the above was committed inside ab96726, "Record that the overflow
-  channel runs on two walls, not the perimeter", which is a message about
-  something else entirely. Two pieces of work were in the tree at the same time
-  and one commit swept up both. It is already pushed, so it stays: rewriting
-  published history to tidy a message would be a worse trade than a message that
-  under-describes its commit. This paragraph is the correction, which is the
-  same way every other mistake in this repository is handled.
+  None of the above has a commit of its own. Two unrelated pieces of work were in
+  the tree at the same time and two commits swept up both:
+
+    ab96726  "Record that the overflow channel runs on two walls, not the
+             perimeter" also carries the whole media library: MEDIA.tsv,
+             tools/media.py, this file, the four folder READ-MEs, the seven
+             contact sheets, the NAMING.txt rewrite, .gitattributes, and C21
+             to C23.
+    015c0cd  "Record the pool's plan shape, from a sketch, as topology only"
+             also carries the survey's entire interface: the toolbar, the
+             search, the key popovers and the photograph index. The survey HTML
+             goes from 3,043,277 to 4,112,977 bytes in that one commit, and the
+             message does not mention it.
+
+  Both are pushed, so both stay: rewriting published history to tidy a message
+  would be a worse trade than a message that under-describes its commit. This
+  paragraph is the correction, which is the same way every other mistake in this
+  repository is handled. An earlier version of it named only ab96726, which was
+  itself the same error one level down.
 
   The lesson, and it is the same one this archive keeps learning: commit the
   thing you are describing, not everything the tree happens to be holding.
@@ -176,6 +188,18 @@ records what was done to the ARCHIVE.
   LATER THE SAME DAY
   Six photographs of the balance tank and its access arrived. A second room
   made "4_room" ambiguous, so it became 4_plant-room and the balance room took
-  the next slot. Three folders shifted up by one to keep the two rooms
-  adjacent, and the restructuring was done once, before the products folder was
-  filed, rather than twice.
+  the next slot. Three folders shifted up by one to keep the two rooms adjacent:
+
+    4_room      -> 4_plant-room
+    5_video     -> 6_video
+    6_panoramas -> 7_panoramas
+    7_manuals   -> 8_manuals
+    new folder   = 5_balance-room
+
+  The restructuring was done once, before the products folder was filed, rather
+  than twice. Those three then moved again in the SECOND PASS below, when
+  06_drawings was inserted and everything after it was pushed up, which is how
+  they reach today's 07_video, 08_panoramas and 09_manuals. The table is kept
+  because an old citation is only decodable if the intermediate numbering is
+  written down somewhere; condensing it to "three folders shifted up by one",
+  as an earlier version of this file did, loses exactly the part you would need.
