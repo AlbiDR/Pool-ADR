@@ -61,6 +61,8 @@ cyanuric_target_outdoor    = 25 to 30
 sulphate_limit_mgl         = 360
 acid_kg_per_0_2_ph         = 1
 manifold_drops             = 4
+acid_injection_point       = POD
+acid_injection_vs_cell     = before
 
 [hosting]
 pages_url                  = https://albidr.github.io/Pool-ADR/
@@ -89,6 +91,8 @@ tops up the balance tank || the reintegro feeds the return manifold and fills th
 fills the balance tank || same
 stops automatically || said of the reintegro A setting, which was never verified as float-driven and may simply be a timer
 self-terminates || same
+upstream would put concentrated acid across the plates || WRONG, and it was mine. Zodiac specifies the POD, which carries the pH minus injection, as the FIRST element after the filter, so injecting before the cell is the designed arrangement, not a fault || unless: an earlier version
+injection point is still not established || settled 2026-09-08 from photograph 04: the tube terminates on the POD lid || unless: an earlier version
 my father || the survey attributes nothing to any person other than you
 his father || same
 01_control-wall || deleted from 08_panoramas on 2026-09-08 || except: 08_panoramas/READ-ME.txt

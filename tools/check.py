@@ -248,8 +248,14 @@ def c13():
     s = survey()
     # the heading spans are the legitimate place for a number
     stripped = re.sub(r'<span class="n">&#167;\d+</span>', "", s)
+    text = strip_tags(stripped)
+    # citing another document's numbered section is legitimate; citing this
+    # document's own is what breaks when the survey is reordered
+    external = re.compile(r"(manual|sheet|datasheet|regulation|standard|annex|directive|norm)\b[^.]{0,40}$", re.I)
     out = []
-    for m in re.finditer(r"(?:section|&#167;|§)\s*(\d+)", strip_tags(stripped), re.I):
+    for m in re.finditer(r"(?:section|\u00a7)\s*(\d+)", text, re.I):
+        before = text[max(0, m.start()-60):m.start()]
+        if external.search(before): continue
         out.append("prose cites %r; cite the section by name so renumbering cannot break it" % m.group(0))
     return out
 

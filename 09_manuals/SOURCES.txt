@@ -39,10 +39,21 @@ now says so explicitly and says which one it is following.
   English edition, same document, readable online:
   https://www.manualslib.com/manual/2126989/Zodiac-Tri-Pro.html
   Key figures found:
-    - The acid injection one-way valve is mounted ON THE POD, the same body
-      that carries the pH and ACL probes. The POD goes on a horizontal pipe
-      with the probes vertical. This is where to look for the open question
-      about where the acid enters the circuit.
+    - The POD is one body carrying FOUR things: the flow detector that stops
+      the cell without flow, the pH probe, the ACL probe, and the pH minus
+      injection. Confirmed against photographs 04 and 29, which show exactly
+      those four ports on its lid.
+    - Placement rules, section 3.3, all of which this installation meets:
+        horizontal pipe, so the probes hang vertical
+        FIRST element after the pool filter
+        before any heater or exchanger, so it reads unheated water
+        at least 30 cm of straight pipe, and more than 20 cm from an elbow
+        probe cables away from high-voltage supply cables
+      The consequence worth writing down: the acid injects BEFORE the cell,
+      and that is the designed arrangement rather than a fault.
+    - The flow detector's arrow must be parallel to the pipe. It is.
+    - "Las valvulas del by-pass de la celula TRi deben estar siempre abiertas":
+      the cell's bypass valves must always be open.
     - Calibrate the probes at least once every two months during the season.
     - pH set point default 7.2. ACL set point default 1, of 6.
     - pH regulation is off by default and enables itself about 8 hours after
