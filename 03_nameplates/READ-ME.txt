@@ -1,0 +1,71 @@
+PLATES AND LABELS
+
+Five photographs, and they carry more weight than their number suggests: every
+specification in the survey rests on one of them. If a figure about the filter,
+the valve, the pump or the acid is ever in doubt, it is settled here and not by
+anything written down.
+
+Ordered along the water path rather than by capture time: filter, then the
+valve on top of it, then the pump that feeds it, then the chemical that is
+dosed into it.
+
+  01   the Kripsol filter's data plate, filling the frame
+  02   the same plate in place on the vessel
+  03   the six-way valve dial
+  04   the DAB EuroPro 200 M nameplate
+  05   the acid drum label
+
+WHY 01 AND 02 ARE BOTH HERE
+  01 is readable and 02 is proof. A plate photographed on its own is a
+  photograph of a plate; it says what some Kripsol filter is, not what this one
+  is. 02 shows the same plate on the red vessel standing in this room, which is
+  what ties the 760 column to the filter in the corner. Neither is redundant.
+
+WHAT THE PLATES ACTUALLY SETTLE
+  01   The 760 column is the one that applies, and it is the highlighted one on
+       the plate: 0.45 m2 of bed, 22 m3/h, 225 kg of 0.4 to 0.8 mm sand. Below
+       the model table, applying to the whole range: working pressure 0.5 to
+       1.5 kg/cm2, test pressure 3.5, and FILTRATION RATE 50 m3/h per m2.
+  03   All seven valve positions, and the sentence cast into the rim in four
+       languages: NEVER SHIFT HANDLE WHILE PUMP IS RUNNING. Turning that valve
+       against a running pump is what destroys the seal inside it.
+  04   EUROPRO 200 M, N. 2.1213, TF 60 S1. Q 31-29-26 m3/h against H 3-10-12 m,
+       max 2.5 bar, Hmin 5 m, P2 2 HP, P1 1.9 kW, 220 to 240 V, 8.6 A, and
+       2800 rpm and IP55 lower on the plate.
+  05   ACIDO SOLFORICO 36%, UN 2796, class 8, H314, 25 kg, Siac srl, sold as
+       battery electrolyte.
+
+THE TWO PLATES, READ AGAINST EACH OTHER
+  This is what makes 01 and 04 worth more together than apart, and it narrows
+  an item the survey lists as open.
+
+  The filter is rated at 22 m3/h, which is 0.45 m2 at the plate's own stated
+  50 m3/h per m2. The pump's published curve runs from 31 m3/h at 3 m of head
+  down to 26 m3/h at 12 m. So at EVERY point the maker publishes, this pump
+  delivers more than the filter is rated for: 26 m3/h through 0.45 m2 is about
+  58 m3/h per m2, some 16 percent over the plate rate, and 29 m3/h is 29
+  percent over.
+
+  What that does not settle is the duty point, because the system head has
+  never been measured and a real installation can sit beyond the published
+  curve, where flow falls further. The survey's open list asks for the suction
+  pipe's outside diameter for exactly this reason. What the two plates do
+  settle is the direction: nothing here suggests this bed is being under-run,
+  and the arithmetic says it is probably being over-run. That is consistent
+  with the one symptom the survey describes as this pool's weak point, water
+  that looks clear but reads faintly cloudy, which is what a sand bed does when
+  it is asked to filter faster than it can.
+
+  Read this as an inference from two nameplates, not as a measurement.
+
+THE ONE THAT CONTRADICTS THE PRINTED SHEETS
+  05. The sheet in the room calls that container the chlorine drum. The label
+  says sulphuric acid. The label wins, and it is not a pedantic win: the
+  granular chlorine on the shelf carries EUH031, contact with acids liberates a
+  toxic gas, and this room is 4.52 m2 below ground with one door. Filenames and
+  house notes are a claim; a label is evidence.
+
+  36% is also above what pool practice recommends. PWTAG puts the ceiling for
+  supply to pools at 25%, and 15% w/w is where EU Regulation 2019/1148 begins
+  treating sulphuric acid as a restricted explosives precursor. The survey's
+  safety notes say what to do about that; this folder only records what it is.

@@ -22,9 +22,14 @@ SURVEY = "01_survey/pool-plant-room-survey.html"
 TEXTY = (".html", ".md", ".txt", ".py")
 SKIP_DIRS = {".git", "node_modules"}
 
-# 01_survey holds the deliverables, which are named by subject rather than by
-# index; the shouting .txt files are documentation, not media.
-NAMING_EXEMPT = re.compile(r"^([A-Z][A-Z0-9-]*\.txt|pool-plant-room-(survey\.(html|pdf)|diagram\.png))$")
+# A NAME IN CAPITALS IS APPARATUS; A NAME WITH AN INDEX IS EVIDENCE.
+# That is the whole rule. READ-ME.txt, CATALOGUE.txt and CONTACT-SHEET.jpg
+# describe the folder they sit in and are not part of its numbering, so they
+# take no index and are not counted as photographs. 01_survey is exempt too:
+# its three files are the deliverable and are named by subject, because the
+# README and anyone you send this to point straight at them.
+APPARATUS = re.compile(r"^[A-Z][A-Z0-9-]*\.[a-z0-9]+$")
+NAMING_EXEMPT = re.compile(r"^([A-Z][A-Z0-9-]*\.[a-z0-9]+|pool-plant-room-(survey\.(html|pdf)|diagram\.png))$")
 NAME_OK = re.compile(r"^\d{2}_[a-z0-9]+(-[a-z0-9]+)*(_[a-zA-Z0-9-]+)*\.[a-z0-9]+$")
 
 results = []           # (id, title, ok, [lines])
@@ -51,6 +56,45 @@ def survey():
 
 def strip_tags(s):
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", s)))
+
+
+
+# ---- the media library, shared by C21, C22 and C23 -------------------------
+MEDIA_COLUMNS = ("path", "kind", "bytes", "pixels", "captured", "made", "sha256", "caption")
+MEDIA_EXT = (".jpg", ".jpeg", ".png", ".webp", ".mp4", ".pdf", ".glb", ".svg")
+SHEET = "CONTACT-SHEET.jpg"
+SHEET_TAG = "contact-sheet-of:"
+# 00_inbox is untracked staging and 01_survey is the deliverable, which has its
+# own freshness record in DERIVED.txt. The library is the numbered folders.
+MEDIA_SKIP = SKIP_DIRS | {"00_inbox", "01_survey", "tools"}
+
+
+def media_on_disk():
+    out = []
+    for dp, dns, fns in os.walk(ROOT):
+        dns[:] = [d for d in dns if d not in MEDIA_SKIP]
+        for fn in sorted(fns):
+            rel = os.path.relpath(os.path.join(dp, fn), ROOT)
+            if fn.startswith(".") or fn == SHEET or not os.path.dirname(rel): continue
+            if fn.lower().endswith(MEDIA_EXT): out.append(rel)
+    return sorted(out)
+
+
+def sheet_digest(path):
+    """Reads the build digest out of a JPEG COM marker. No Pillow needed."""
+    import struct
+    with open(path, "rb") as f:
+        d = f.read(1 << 16)
+    i = 2
+    while i + 4 < len(d):
+        if d[i] != 0xFF: return None
+        if d[i + 1] == 0xDA: return None                  # scan starts, no comment
+        n = struct.unpack(">H", d[i + 2:i + 4])[0]
+        if d[i + 1] == 0xFE:
+            t = d[i + 4:i + 2 + n].decode("ascii", "replace")
+            if t.startswith(SHEET_TAG): return t[len(SHEET_TAG):].strip()
+        i += 2 + n
+    return None
 
 
 # --------------------------------------------------------------------------
@@ -333,7 +377,6 @@ def c16():
 def c17():
     """The README says "34 photographs". Add one and that sentence is wrong, and
     nothing else in the world will tell you."""
-    doc_names = re.compile(r"^[A-Z][A-Z0-9-]*\.txt$")
     out = []
     for rel in ("README.md", SURVEY):
         text = read(rel)
@@ -342,7 +385,7 @@ def c17():
             d = os.path.join(ROOT, folder)
             if not os.path.isdir(d): continue
             actual = len([f for f in os.listdir(d)
-                          if not f.startswith(".") and not doc_names.match(f)])
+                          if not f.startswith(".") and not APPARATUS.match(f)])
             if actual != stated:
                 out.append("%s says %d %s in %s/, there are %d" % (rel, stated, noun, folder, actual))
     return out
@@ -444,6 +487,110 @@ def c20():
         prev = stamp
     if prev is None:
         out.append("LOG.txt has a header but no entries")
+    return out
+
+
+@check("C21", "MEDIA.tsv describes exactly what is on disk")
+def c21():
+    """Ninety media files, cited by number all through the survey, and until
+    there was a manifest the only way to answer "what is photograph 17?" was to
+    open a 3 MB file and look. MEDIA.tsv is now the one home for that answer,
+    and everything in it except the caption is computed, so it can go stale in
+    three ways: a file added and not scanned, a file edited under a row that
+    still carries the old hash, and a row with no caption written yet.
+
+    tools/media.py scan fixes all three."""
+    rel = "MEDIA.tsv"
+    if not os.path.exists(os.path.join(ROOT, rel)):
+        return ["MEDIA.tsv is missing. Build it with: python3 tools/media.py scan"]
+    listed, order = {}, []
+    for line in read(rel).split("\n"):
+        if not line or line.startswith("#") or line.startswith("path\t"): continue
+        f = line.split("\t")
+        if len(f) < len(MEDIA_COLUMNS):
+            return ["MEDIA.tsv row has %d columns, expected %d: %s" % (len(f), len(MEDIA_COLUMNS), f[0])]
+        listed[f[0]] = dict(zip(MEDIA_COLUMNS, f))
+        order.append(f[0])
+    disk = media_on_disk()
+    out = []
+    for f in sorted(set(disk) - set(listed)):
+        out.append("%s is on disk with no row in MEDIA.tsv" % f)
+    for f in sorted(set(listed) - set(disk)):
+        out.append("MEDIA.tsv lists %s, which is not on disk" % f)
+    if order != sorted(order):
+        out.append("MEDIA.tsv is not in path order, so two scans would produce different files")
+    for f in sorted(set(disk) & set(listed)):
+        row, full = listed[f], os.path.join(ROOT, f)
+        size = os.path.getsize(full)
+        if str(size) != row["bytes"]:
+            out.append("%s is %d bytes, MEDIA.tsv says %s" % (f, size, row["bytes"]))
+        elif hashlib.sha256(open(full, "rb").read()).hexdigest() != row["sha256"]:
+            out.append("%s has changed since it was scanned: its sha256 no longer matches" % f)
+        if not row["caption"].strip():
+            out.append("%s has no caption in MEDIA.tsv" % f)
+    return out
+
+
+@check("C22", "every contact sheet still shows its whole folder")
+def c22():
+    """A contact sheet is derived, and a stale one does not look wrong: it just
+    quietly leaves out the photograph you went looking for. Each sheet carries a
+    digest of the files it was built from in its own JPEG comment, so the
+    staleness is detectable without a second file to remember.
+
+    tools/media.py sheets rebuilds them."""
+    rows = {}
+    if not os.path.exists(os.path.join(ROOT, "MEDIA.tsv")): return []   # C21 says so
+    for line in read("MEDIA.tsv").split("\n"):
+        if not line or line.startswith("#") or line.startswith("path\t"): continue
+        f = dict(zip(MEDIA_COLUMNS, line.split("\t")))
+        if f.get("kind") in ("photo", "image") and f.get("pixels"):
+            rows.setdefault(os.path.dirname(f["path"]), []).append(f)
+    out = []
+    for d, items in sorted(rows.items()):
+        if len(items) < 2: continue
+        sheet = os.path.join(ROOT, d, SHEET)
+        if not os.path.exists(sheet):
+            out.append("%s/ has %d images and no %s" % (d, len(items), SHEET)); continue
+        body = "\n".join("%s %s" % (os.path.basename(r["path"]), r["sha256"][:16]) for r in items)
+        want = hashlib.sha256(body.encode()).hexdigest()
+        got = sheet_digest(sheet)
+        if got is None:
+            out.append("%s/%s carries no build digest; rebuild it" % (d, SHEET))
+        elif got != want:
+            out.append("%s/%s is stale: the folder has changed since it was built" % (d, SHEET))
+    for dp, dns, fns in os.walk(ROOT):
+        dns[:] = [x for x in dns if x not in SKIP_DIRS]
+        d = os.path.relpath(dp, ROOT)
+        if SHEET in fns and d not in rows:
+            out.append("%s/%s has no folder of images behind it any more" % (d, SHEET))
+    return out
+
+
+@check("C23", "tHHMM tokens are times the file actually carries")
+def c23():
+    """NAMING.txt says the token is the moment the file was made, and a token is
+    only worth anything if that is enforceable. Left alone it becomes decoration:
+    a file gets renamed, someone types a plausible four digits, and from then on
+    the archive says a thing happened at a time it did not.
+
+    Two timestamps are legitimate. "captured" is when the shutter opened.
+    "made" is when this version was written, and is the right one for a frame
+    that was drawn on afterwards. Anything else is invented."""
+    if not os.path.exists(os.path.join(ROOT, "MEDIA.tsv")): return []
+    out = []
+    for line in read("MEDIA.tsv").split("\n"):
+        if not line or line.startswith("#") or line.startswith("path\t"): continue
+        r = dict(zip(MEDIA_COLUMNS, line.split("\t")))
+        m = re.search(r"_t(\d{2})(\d{2})\.[a-z0-9]+$", r["path"])
+        if not m: continue
+        token = m.group(1) + ":" + m.group(2)
+        stamps = [t[11:16] for t in (r.get("captured", ""), r.get("made", "")) if t]
+        if not stamps:
+            out.append("%s carries a time token but no timestamp of any kind" % r["path"])
+        elif token not in stamps:
+            out.append("%s says t%s%s; the file says %s"
+                       % (r["path"], m.group(1), m.group(2), " and ".join(stamps)))
     return out
 
 

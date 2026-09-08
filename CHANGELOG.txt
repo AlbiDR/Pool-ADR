@@ -1,0 +1,157 @@
+HOW THIS ARCHIVE GOT ITS SHAPE
+
+The rule itself is in NAMING.txt. This is the record of the restructurings that
+produced it, kept because each one was a decision with a reason, and a reason
+that is not written down gets undone by the next person who cannot see it.
+
+Newest first, like LOG.txt. LOG.txt records what was done to the POOL; this
+records what was done to the ARCHIVE.
+
+
+===============================================================================
+2026-09-09  THE MEDIA LIBRARY GOT AN INDEX
+===============================================================================
+  Ninety media files, cited by number all through the survey, and no way to
+  answer "what is photograph 17?" except by opening a 3 MB file and looking.
+  04_plant-room, the folder nearly every factual claim rests on, had 33
+  photographs and no index of any kind.
+
+  MEDIA.tsv is now the one home for what each file is: one row per file, with
+  its size, pixel dimensions, capture time and sha256 computed from the file
+  itself, and a one-line caption written by hand. tools/media.py maintains it
+  and C21 fails when it drifts, so a file cannot arrive without a caption and
+  cannot be edited under a row that still describes the old one.
+
+  Each folder also gained a CONTACT-SHEET.jpg: every image in it, numbered, as
+  thumbnails. 856 KB for the whole library against 400 MB of originals. Each
+  sheet carries a digest of what it was built from in its own JPEG comment, so
+  C22 can tell a stale sheet from a current one without a second file to keep.
+
+  Four folders that had no apparatus file got one: 02_printed-sheets,
+  03_nameplates, 04_plant-room and 07_video. Every numbered folder now explains
+  itself.
+
+  THREE THINGS THE AUDIT TURNED UP.
+
+  02_printed-sheets/05 came off the phone tagged "Rotate 270 CW". The tag is
+  correct and the pixels are the original bytes, so it renders upright anywhere
+  EXIF is read and sideways anywhere it is not. It has NOT been re-encoded to
+  straighten it: that would trade real provenance for the convenience of tools
+  that are the ones in the wrong. Everything here reads the tag instead.
+
+  06_drawings/01 carries the token t1946 while its capture time is 19:41. Both
+  are real: the frame was shot at 19:41 and drawn on until 19:46, and the
+  drawing is what the file is. Rather than rename a file three documents cite,
+  the RULE was made exact, and MEDIA.tsv now carries both times so the token
+  can be verified. C23 checks every token against the timestamps its file
+  actually contains, which is what stops a plausible number being typed in
+  during a rename.
+
+  The two nameplates in 03 turn out to say something neither says alone. The
+  filter is rated 22 m3/h at its own stated 50 m3/h per m2; the pump's
+  published curve never drops below 26 m3/h. That does not measure the duty
+  point, but it does mean nothing on either plate suggests this bed is being
+  under-run. Written up in 03_nameplates/READ-ME.txt.
+
+
+===============================================================================
+2026-09-08  THE ACTIVITY LOG
+===============================================================================
+  The survey had always said "write down what you added" and "write down the
+  gauge reading" without ever saying where. LOG.txt is where. It was added
+  after the question "how long has the reintegro actually run?" was answered
+  wrongly twice in one evening, because the only record was a conversation, and
+  a conversation records when things were said rather than when they were done.
+
+  C20 enforces newest-first ordering and the category vocabulary. It caught two
+  ordering slips in the file it was written for.
+
+
+===============================================================================
+2026-09-08  DELETIONS
+===============================================================================
+  08_panoramas 01 to 03 were stitched from multiple hand-held frames and were
+  wrong: one of them drew six drops on a wall that has four, and it did not
+  look wrong. They were kept for a while as a record of how the survey was
+  built, and that was the wrong call. A file that cannot be counted from,
+  sitting in a folder of files that can, is a trap for whoever opens it next.
+  The lesson was written into that folder's READ-ME and the images went.
+
+  08_panoramas/04 was a genuine single frame and perfectly usable. It went
+  because it was byte-for-byte identical to
+  04_plant-room/20_electrical-panel-full_t1707.jpg, which is the original.
+
+  04_plant-room/28 was a second frame of the pump strainer lid, shot in the
+  same second as 27 and differing only by camera shake. They were not
+  byte-identical, so the exact-hash audit that found the panorama duplicate
+  walked straight past them. C19 now compares what pictures look like rather
+  than what bytes they contain.
+
+
+===============================================================================
+2026-09-08  THE MANUALS
+===============================================================================
+  09_manuals gained the four Maytronics documents for the robot cleaner, 06 to
+  09. Note for anyone checking them: the X70's manual is badged "CLASSIC 8+ /
+  TOP 8" and never names the X70. It is the right document; Maytronics badge
+  the same chassis differently by market. SOURCES.txt records that, and the
+  full part number the maker's portal needs, which is 99991034-MXI and not the
+  short 99991034 that returns nothing.
+
+  The robot's manual is also what narrowed the salt window. The printed sheets
+  allow 4 to 9 g/L; the robot's hard ceiling is 5.0. The usable range for
+  running both machines is 4.0 to 5.0, and that is now what the survey says.
+
+
+===============================================================================
+2026-09-07  FOUR PASSES IN ONE DAY
+===============================================================================
+  FOURTH PASS, LATE
+  08_panoramas gained four rectilinear reprojections of the 39 MP photosphere,
+  05 to 08, and a READ-ME splitting the folder in two: the older stitches must
+  not be counted or measured from, the reprojections may be. 11_scan took the
+  next free number for a 3D scan of the room. The reading order therefore runs
+  10_products then 11_scan, which is append order rather than thematic order.
+  Folder numbers may be reordered when it is worth it; these two are not.
+
+  THIRD PASS, EVENING
+  The chemical stock arrived as 17 photographs and became 10_products, taking
+  the next free folder number exactly as the padding was meant to allow. Filed
+  by function, pH then chlorine then algae then clarity then booster then
+  winter then salt, rather than in capture order, because that is how you reach
+  for them.
+
+  One source filename misled: "correttore ph+ & instructions" is not the back
+  of the first pH+ tub, it is a second and different pH+ product, dosed at
+  roughly four times the rate. FILENAMES ARE A CLAIM; THE LABEL IS THE
+  EVIDENCE. That mistake is why 10_products photographs every product with its
+  label rather than only with its front.
+
+  SECOND PASS, EVENING
+  Folder numbers were single digits while file indices were two. That breaks
+  the moment there are more than ten folders, because "10_" sorts before "9_".
+  Every folder was padded to two digits, so Products could arrive as
+  10_products with nothing to renumber.
+
+  A 06_drawings folder was added between the two rooms and the media that
+  follows, and the plant room's dimensioned sketch moved into it: it had been
+  filed as 04_plant-room/35, which made a folder of photographs contain
+  something that is not one.
+
+  FIRST PASS, AND WHY
+  Six different naming grammars were in use across seven folders. All 56 files
+  were renamed to one pattern, contents verified byte for byte unchanged. Two
+  names were also corrected on the substance:
+
+    04_plant-room/10  was "corner-probe-tube". It is the level column, not a pH
+                      or ACL probe. The probes are on the POD at floor level,
+                      seen in 04_plant-room/29.
+    04_plant-room/34  dropped "by-owner" to match the survey, which no longer
+                      attributes anything to a person.
+
+  LATER THE SAME DAY
+  Six photographs of the balance tank and its access arrived. A second room
+  made "4_room" ambiguous, so it became 4_plant-room and the balance room took
+  the next slot. Three folders shifted up by one to keep the two rooms
+  adjacent, and the restructuring was done once, before the products folder was
+  filed, rather than twice.

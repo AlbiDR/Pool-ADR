@@ -1,0 +1,44 @@
+VIDEO
+
+Three phone clips, 1080p, 163 MB between them. They are here for one thing the
+stills cannot give: continuity. A photograph tells you what is on a wall; these
+tell you what is next to what, and in which order you meet it walking in.
+
+  01_pan-360-sweep_t1704.mp4          31 s   the room from the doorway
+  02_pan-360-sweep_t1705.mp4          30 s   the same sweep, a minute later
+  03_pan-floor-and-low-pipework...    35 s   floor level, the low runs and gully
+
+WHAT THEY WERE USED FOR
+  The wall strip across the top of the survey diagram follows the order of 01.
+  That is the whole reason it reads as "stand in the doorway, turn right, and
+  this is what you pass" rather than as an arbitrary arrangement of boxes.
+  03 covers the floor, which every standing shot cuts off at the ankle.
+
+DO NOT EXTRACT FRAMES FROM THESE
+  They are 1080p, so 2.1 megapixels. The photosphere in 04_plant-room/01 is
+  39 megapixels of the same room from a fixed optical centre. Any still pulled
+  out of these clips is a downgrade on a photograph that already exists, and a
+  worse one still on the reprojections in 08_panoramas/, which were made from
+  that sphere and can be measured off. Use video for sequence, stills for fact.
+
+SIZE, AND WHY THEY ARE STILL HERE
+  All three sit past GitHub's 50 MB per-file warning line, which C16 reports
+  every run as a NOTE rather than a failure. That is deliberate and the note is
+  meant to stay visible:
+
+      the hard limit is 100 MB per file and the largest here is 57 MB
+      the site limit is 1 GB and the whole repository is well under half of it
+      the survey embeds no video, so nobody in the plant room downloads these
+
+  So they cost nothing to the thing that has to work in a basement with no
+  signal, and they are irreplaceable in the ordinary sense: the room can be
+  photographed again, but not as it stood on the day it was surveyed. If the
+  repository ever does approach the site limit, these are the first candidates
+  to move, and the honest way to move them is somewhere they stay watchable,
+  not to re-encode them down to nothing.
+
+TIME TOKENS ON VIDEO
+  MP4 records a creation time in UTC that marks the END of the recording. The
+  token here is the START, local time, which is what you would have looked at
+  on a clock. tools/media.py subtracts the duration and shifts the zone, so
+  MEDIA.tsv and the file name agree and C23 can check them against each other.

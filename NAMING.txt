@@ -1,8 +1,22 @@
 NAMING RULE
-One grammar for every file in this archive. Applied 2026-09-07 to all 96
-media files. Anything added later follows the same rule.
+One grammar for every file in this archive. Anything added follows it.
+The dated history of how it got this way is in CHANGELOG.txt.
 
-THE PATTERN
+TWO KINDS OF FILE, AND THAT IS THE WHOLE IDEA
+  EVIDENCE is numbered. A photograph, a video, a drawing, a manual: anything
+  the survey can cite. It takes an index and keeps it forever.
+
+  APPARATUS is in capitals. READ-ME.txt, CATALOGUE.txt, SOURCES.txt,
+  ANNOTATION-KEY.txt, CONTACT-SHEET.jpg: files that describe the folder they
+  sit in rather than being part of it. They take no index, they are not counted
+  as photographs, and the capitals are what tells you which kind you are
+  looking at from the file name alone.
+
+  The one exception is 01_survey, whose three files are the deliverable and are
+  named by subject, because the README and anyone you send this to point
+  straight at them.
+
+THE PATTERN, FOR EVIDENCE
   <index>_<subject>[_<qualifier>][_<token>].<extension>
 
   index       Two digits, zero padded, sequential within its own folder,
@@ -14,13 +28,13 @@ THE PATTERN
 
   qualifier   Optional, and only when a file needs distinguishing from the
               one beside it. Says what makes it different, not what it is.
-                annotated, angled, on-vessel, stitched, single-frame
+                annotated, angled, on-vessel, label, datasheet, listing
 
   token       Optional, always last, and always shaped so it cannot be read
               as an ordinary word:
-                tHHMM      capture time on a 24 hour clock  (photos, video)
-                WIDTHxHEIGHT   pixel size                   (panoramas)
-                en es fr   language of the document         (manuals)
+                tHHMM      the moment the file was made  (photos, video)
+                WIDTHxHEIGHT   pixel size                (panoramas, plots)
+                en es fr   language of the document      (manuals)
                            es-en means the document carries both
 
   extension   Lower case.
@@ -38,32 +52,40 @@ WHY IT LOOKS LIKE THIS
   name. Two photographs of the same thing carry the same subject and are
   separated by their index, not by a letter glued onto the end.
 
+WHAT A FILE SHOWS DOES NOT LIVE IN ITS NAME
+  A name is a handle, not a description, and stretching it into one produces
+  filenames nobody can type. One line per file, saying what it actually shows,
+  is in MEDIA.tsv at the top of the repository, alongside that file's size,
+  pixel dimensions, capture time and sha256:
+
+      python3 tools/media.py show 04_plant-room     as a readable list
+      python3 tools/media.py scan                   after adding or removing
+
+  C21 fails if the two ever disagree, so the manifest cannot quietly go stale
+  and a new file cannot arrive without a caption. Each folder's
+  CONTACT-SHEET.jpg is the same thing as a picture, and is rebuilt by
+  tools/media.py sheets; C22 fails when one no longer matches its folder.
+
 THE FOLDERS
   00_inbox          New material, unsorted, named however it arrived.
-  01_survey         The deliverable. Exempt from the index rule: these three
-                    files keep stable descriptive names because the README
-                    and anyone you send this to point straight at them.
+  01_survey         The deliverable. Exempt from the index rule.
   02_printed-sheets The four printed pages from the room, photographed.
   03_nameplates     Plates and labels. Ordered along the water path:
                     filter, valve, pump, then the chemical.
   04_plant-room     Photographs of the plant room, in the order taken.
-  05_balance-room   Photographs of the balance tank and the hatch that
-                    reaches it, plus ANNOTATION-KEY.txt recording what the
-                    coloured marks on photograph 04 mean.
-  06_drawings       The owner's own drawings: the dimensioned sketch of the
-                    plant room, and the scaled plan of both rooms together.
+  05_balance-room   The balance tank and the hatch that reaches it.
+  06_drawings       The owner's own drawings: the dimensioned sketch and the
+                    scaled plan of both rooms.
   07_video          Phone pans.
-  08_panoramas      Stitched and wide images.
-  09_manuals        The makers' own documents, plus SOURCES.txt giving the
-                    official link for each. Ordered along the water path.
-  11_scan           A 3D scan of the plant room, plus the plan derived from
-                    it. READ-ME.txt records what its geometry confirms and
-                    what it must not be used for.
+  08_panoramas      Wide images, all of them reprojected from one photosphere.
+  09_manuals        The makers' own documents. Ordered along the water path.
   10_products       Every chemical on the shelf, photographed with its label,
-                    grouped by function rather than by the order shot, plus
-                    CATALOGUE.txt: what each one is, its active ingredient,
-                    its dose worked out for this pool, its hazards, and a
-                    symptom-to-action guide.
+                    grouped by function rather than by the order shot.
+  11_scan           A 3D scan of the plant room, and the plan derived from it.
+
+  Every one of these carries its own apparatus file explaining what is in it,
+  what it is good for, and what it must not be used for. Read that before the
+  photographs.
 
   Folder numbers are a reading order. File indices are permanent and
   append-only, because things get cited by them ("photograph 34"); folder
@@ -87,66 +109,27 @@ DELETED INDICES
                        04_plant-room/20_electrical-panel-full_t1707.jpg.
 
 A NOTE ON TIME TOKENS
-  For photographs the tHHMM token comes from EXIF capture time. PNG files
-  carry no EXIF, so for those it comes from the file's modification time,
-  which for a drawing exported straight from the phone is the same thing to
-  within a minute.
+  The token is the moment the FILE was made, which is usually but not always
+  the moment the shutter opened. All three cases are checkable, and C23 checks
+  them: the four digits must match a timestamp the file actually carries, so a
+  plausible-looking number cannot be typed in during a rename.
 
-WHAT CHANGED, AND WHY, ON 2026-09-07
-  Six different naming grammars were in use across the seven folders. All
-  56 files were renamed to the pattern above. File contents were verified
-  byte for byte unchanged. Two names were also corrected on the substance:
-    04_plant-room/10  was "corner-probe-tube". It is the level column, not a pH or
-               ACL probe. The probes are on the POD at floor level, seen in
-               04_plant-room/29. Renamed to level-column.
-    04_plant-room/34  dropped "by-owner" to match the survey, which no longer
-               attributes anything to a person.
+  A PHOTOGRAPH carries its capture time in EXIF, and that is the token. An
+  annotated copy keeps its parent's capture time and therefore its parent's
+  token, which is right: it is the same moment in the room, marked up later.
 
-ADDED 2026-09-07, LATER THE SAME DAY
-  Six photographs of the balance tank and its access arrived. A second room
-  made "4_room" ambiguous, so it became 4_plant-room and the balance room
-  took the next slot. Three folders shifted up by one to keep the two rooms
-  adjacent:
-    4_room      -> 4_plant-room
-    5_video     -> 6_video
-    6_panoramas -> 7_panoramas
-    7_manuals   -> 8_manuals
-    new folder   = 5_balance-room
-  Restructuring was done once, before the Products folder is filed, rather
-  than twice.
+  A FILE MADE BY EDITING ONE takes the time it was made. There is exactly one:
+  06_drawings/01, a frame captured at 19:41 and drawn on until 19:46. The
+  drawing is what the file is, so the token is 1946. MEDIA.tsv carries both
+  times in its "captured" and "made" columns, which is what lets that token be
+  verified rather than merely believed.
 
-SECOND PASS, 2026-09-07 EVENING
-  Folder numbers were single digits, while file indices were two. That breaks
-  the moment there are more than ten folders, because "10_" sorts before
-  "9_". Padded every folder to two digits, so Products can arrive as
-  10_products with nothing to renumber.
-  A 06_drawings folder was added between the two rooms and the media that
-  follows, and the plant room's dimensioned sketch moved into it: it had been
-  filed as 04_plant-room/35, which made a folder of photographs contain
-  something that is not one. 04_plant-room is 34 photographs again.
+  A VIDEO takes the moment recording STARTED, in local time. MP4 records only
+  a creation time in UTC that marks the end, so tools/media.py subtracts the
+  duration and shifts the zone.
 
-THIRD PASS, 2026-09-07 EVENING
-  The chemical stock arrived as 17 photographs and became 10_products, taking
-  the next free folder number exactly as the padding was meant to allow.
-  Filed by function (pH, chlorine, algae, clarity, booster, winter, salt)
-  rather than in capture order, because that is how you reach for them.
-  One source filename misled: "correttore ph+ & instructions" is not the back
-  of the first pH+ tub, it is a second and different pH+ product. Filenames
-  are a claim; the label is the evidence.
-
-FOURTH PASS, 2026-09-07 LATE
-  08_panoramas gained four rectilinear reprojections of the 39 MP photosphere
-  (05 to 08) and a READ-ME that splits the folder in two: the older stitches
-  01 to 03 must not be counted or measured from, the reprojections may be.
-  11_scan took the next free number for a 3D scan of the room. Note the reading
-  order now runs 10_products then 11_scan, which is append order rather than
-  thematic order. Folder numbers may be reordered when it is worth it; these
-  two are not worth a rename.
-
-FIFTH PASS, 2026-09-08
-  09_manuals gained the four Maytronics documents for the robot cleaner (06 to
-  09). Note for anyone checking them: the X70's manual is badged "CLASSIC 8+ /
-  TOP 8" and never names the X70. It is the right document; Maytronics badge
-  the same chassis differently by market. SOURCES.txt records that, and the
-  full part number the maker's portal needs, which is 99991034-MXI and not the
-  short 99991034 that returns nothing.
+  A PNG carries no timestamp at all. For those the token was recovered once
+  from the file's modification time, while that still meant something, and
+  written into MEDIA.tsv. It is never read from the filesystem again: a clone
+  resets mtimes, and a token that can only be checked on the machine it was
+  made on is not checkable.

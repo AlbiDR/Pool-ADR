@@ -2,6 +2,10 @@
 .DS_Store
 **/.DS_Store
 
+# Python leaves these beside tools/
+__pycache__/
+*.py[cod]
+
 # The staging folder stays in the tree, but nothing dropped into it is tracked.
 00_inbox/*
 !00_inbox/READ-ME.txt

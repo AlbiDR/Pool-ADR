@@ -1,0 +1,24 @@
+# Text files are text everywhere. This repository is read on a phone, on a Mac
+# and through GitHub's web view, and a stray CRLF in a checked file is the kind
+# of difference that makes a checker fail for no reason anyone can see.
+*.txt     text eol=lf
+*.md      text eol=lf
+*.py      text eol=lf
+*.html    text eol=lf
+*.svg     text eol=lf
+MEDIA.tsv text eol=lf
+
+# Media is binary. Saying so stops git trying to diff or merge it, and stops it
+# reporting a re-encode as a thousand changed lines.
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.webp binary
+*.pdf  binary
+*.mp4  binary
+*.glb  binary
+
+# GitHub's language stats otherwise describe this as an HTML project, which it
+# is not: the HTML is one generated deliverable and the rest is a survey.
+01_survey/*  linguist-documentation
+*.html       linguist-documentation

@@ -146,7 +146,9 @@ ALSO ESTABLISHED 2026-09-07
 
   The reintegro discharges into the RETURN MANIFOLD, so mains water reaches
   the pool through the four wall outlets. It does not fill the tank; the tank
-  fills from the pool spilling over the deck channel.
+  fills from the pool spilling over the deck channel. That channel runs along
+  TWO of the pool's four walls, not the full perimeter. Reported on site
+  2026-09-09; which two is not yet recorded.
 
 STILL UNMEASURED
   - plant room ceiling height

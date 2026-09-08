@@ -1,0 +1,49 @@
+THE FOUR PRINTED SHEETS FROM THE ROOM
+
+These are the household reference: four printed A4 pages kept in the plant room
+and used to run this pool for years. The whole procedures section of the survey
+is transcribed and translated from them, keeping their own numbering.
+
+  01, 02   Sheet 1   PRINCIPIO DI FUNZIONAMENTO IN ESERCIZIO
+  03       Sheet 2   TRATTAMENTO ELETTROLISI AL SALE
+  04       Sheet 3   PULIZIA
+  05       Sheet 4   CONTROLLO ACQUA
+
+  Five files for four sheets: 01 and 02 are the same page, square on and at an
+  angle. Sheet 1 is the one everything else refers back to, so it is worth
+  having twice.
+
+WHY THESE MATTER MORE THAN THEIR STATUS SUGGESTS
+  Sheet 1 is where the valve letters come from. A, B, C, D, E, F, G, H, L, M
+  and the sump N are not tags invented for the survey; they are the vocabulary
+  already written on this page and already spoken in the room. The survey uses
+  them for exactly that reason, so the drawing, the sheets and anything said
+  out loud stay in one language.
+
+WHERE THEY ARE WRONG, AND WHAT WAS DONE ABOUT IT
+  They are a household reference, not a specification, and two things on them
+  do not survive contact with the makers' own manuals:
+
+  THE GAUGE.  The sheet says "about 1 bar". Kripsol's manual gives 0.5 to 0.7
+  bar as normal running and 1.0 as the point at which you stop and backwash.
+  The survey follows the manual and says so where it matters.
+
+  THE DRUM.  The fifth note on sheet 1 calls the container "il bidone del
+  cloro", the chlorine drum. It is not chlorine. The label reads ACIDO
+  SOLFORICO 36% and is photographed in 03_nameplates/05. On a salt pool the
+  chlorine is made by the cell; the drum is the pH minus the TRi PRO doses.
+  That wording is the kind of thing that gets a chlorine product stood next to
+  an acid drum, which is the one combination in this building that produces a
+  toxic gas. It is worth correcting the print-out by hand.
+
+  Nothing on the sheets has been edited here. The photographs are as found, and
+  the corrections live in the survey where they can be argued with.
+
+A NOTE ON 05
+  Sheet 4 came off the phone tagged "Rotate 270 CW". That tag is correct and
+  the pixels are the original bytes off the camera, so it renders upright in
+  anything that reads EXIF: Preview, Finder, every browser, and the contact
+  sheet in this folder. It appears on its side only in software that ignores
+  the tag. It has deliberately not been re-encoded to straighten it, because
+  that would trade real provenance for the convenience of tools that are the
+  ones in the wrong. MEDIA.tsv records the tag so nobody is surprised by it.
