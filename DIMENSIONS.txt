@@ -154,14 +154,27 @@ ALSO ESTABLISHED 2026-09-07
 
   PLAN SHAPE, from a freehand sketch supplied 2026-09-09. Topology only: the
   sketch was explicitly not to scale and nothing here is measured off it.
-    - An irregular quadrilateral, NOT a rectangle.
-    - The overflow runs the full length of one long side, roughly 12 m.
-    - A "high wall" runs opposite it. The two are not parallel, so the pool is
-      wider at one end than the other.
-    - Stairs occupy one end.
-  This is why the volume resists a tape: an irregular plan, a sloping floor and
-  a set of stairs. The hydraulic measurement at crest gives the true water
-  surface area directly and is the better route.
+    - A RIGHT TRAPEZOID: two 90 degree corners, so both ends run square off
+      the high wall and the overflow edge is the slanted side.
+    - The overflow runs the full length of that slanted side, roughly 12 m.
+    - The "high wall" is opposite it and is the base.
+    - Stairs occupy one end, inside the footprint, so the water surface covers
+      them and they do not need adding separately.
+
+  BECAUSE it is a right trapezoid, the surface area needs only three tape
+  measurements and no trigonometry:
+
+        area = (left end + right end) / 2  x  high wall
+
+  The high wall is slightly shorter than the 12 m overflow edge, by an amount
+  that depends on how much the two ends differ: 11.8 m if they differ by 2 m,
+  11.6 m if by 3 m, 10.9 m if by 5 m.
+
+  That gives TWO independent routes to the same number. The hydraulic
+  measurement at crest gives the true wetted surface directly, including the
+  stairs and any irregularity; the three tapes give it geometrically. If they
+  agree, the figure is settled. If they do not, one of the assumptions behind
+  the hydraulic method has failed and that is worth knowing too.
 
   Consequence worth keeping: a 12 m weir passing 1,300 to 3,300 L/h carries
   only 0.6 to 1.2 mm of head above the crest. The pool surface is therefore
