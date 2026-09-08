@@ -57,6 +57,19 @@ records what was done to the ARCHIVE.
   round first and was corrected against the survey before either was committed.
 
 
+  A NOTE ON WHERE THIS LANDED IN THE HISTORY.
+  All of the above was committed inside ab96726, "Record that the overflow
+  channel runs on two walls, not the perimeter", which is a message about
+  something else entirely. Two pieces of work were in the tree at the same time
+  and one commit swept up both. It is already pushed, so it stays: rewriting
+  published history to tidy a message would be a worse trade than a message that
+  under-describes its commit. This paragraph is the correction, which is the
+  same way every other mistake in this repository is handled.
+
+  The lesson, and it is the same one this archive keeps learning: commit the
+  thing you are describing, not everything the tree happens to be holding.
+
+
 ===============================================================================
 2026-09-08  THE ACTIVITY LOG
 ===============================================================================
