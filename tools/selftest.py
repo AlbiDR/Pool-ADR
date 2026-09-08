@@ -27,6 +27,12 @@ def touch(rel, data=b""):
     CREATED.append(rel)
     return True
 
+def copy_file(src, dst):
+    shutil.copyfile(os.path.join(ROOT, src), os.path.join(ROOT, dst))
+    CREATED.append(dst)
+    return True
+
+
 def edit(rel, old, new):
     p = os.path.join(ROOT, rel)
     s = open(p, encoding="utf-8").read()
@@ -73,6 +79,9 @@ FAULTS = [
                               "| `04_plant-room/` | 41 photographs")),
     ("C18", "the survey edited without rebuilding the PDF",
      lambda: edit(SURVEY, "<body>", "<body><!-- a change the PDF has not seen -->")),
+    ("C19", "a second near-identical frame filed alongside the first",
+     lambda: copy_file("04_plant-room/27_pump-strainer-lid_t2214.jpg",
+                       "04_plant-room/35_pump-strainer-lid_t2214.jpg")),
     ("C16", "a file over the 100 MB hard limit",
      lambda: touch("00_inbox/huge.bin", b"\0" * (101 * 1024 * 1024))),
 ]

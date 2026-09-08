@@ -70,6 +70,22 @@ THE FOLDERS
   numbers are not cited that way, so a new category may be inserted in the
   middle where it belongs, and the folders after it renumbered.
 
+DELETED INDICES
+  An index is never reused, so a gap in a folder means something was removed
+  rather than that something is missing. This is the register of those gaps.
+  It is deliberately terse: where a deletion carries a lesson, the lesson
+  lives in that folder's own READ-ME and this list only points at it.
+
+    04_plant-room/28   2026-09-08  A second frame of the pump strainer lid,
+                       taken in the same second as 27 and identical but for
+                       camera shake. 27 is the sharper of the two and is the
+                       one kept.
+    08_panoramas/01    2026-09-08  Stitched, and wrong. See that folder's
+    08_panoramas/02                READ-ME.txt, which explains why a stitch of
+    08_panoramas/03                this room cannot be counted from.
+    08_panoramas/04    2026-09-08  Byte-for-byte duplicate of
+                       04_plant-room/20_electrical-panel-full_t1707.jpg.
+
 A NOTE ON TIME TOKENS
   For photographs the tHHMM token comes from EXIF capture time. PNG files
   carry no EXIF, so for those it comes from the file's modification time,

@@ -378,6 +378,49 @@ def c18():
     return out
 
 
+@check("C19", "no redundant near-duplicate images")
+def c19():
+    """Two frames of the pump strainer lid were taken in the same second and
+    differed only by camera shake. They were not byte-identical, so the exact-hash
+    audit that found the panorama duplicate walked straight past them.
+
+    Needs Pillow. Every other check is standard library only; this one reports
+    itself as skipped rather than failing when Pillow is absent."""
+    try:
+        from PIL import Image
+    except ImportError:
+        return ["NOTE C19 skipped: Pillow is not installed (pip install Pillow)"]
+    import itertools
+
+    def dhash(path, s=16):
+        im = Image.open(path).convert("L").resize((s + 1, s), Image.LANCZOS)
+        px = im.load()
+        bits = 0
+        for y in range(s):
+            for x in range(s):
+                bits = (bits << 1) | (1 if px[x, y] < px[x + 1, y] else 0)
+        return bits
+
+    imgs = [rel for rel in walk((".jpg", ".jpeg", ".png"))]
+    H = {}
+    for rel in imgs:
+        try: H[rel] = dhash(os.path.join(ROOT, rel))
+        except Exception: pass
+
+    def siblings(a, b):
+        """an annotated copy of a photograph is deliberate, not redundant"""
+        base = lambda p: re.sub(r"_annotated", "", p)
+        return base(a) != a or base(b) != b
+
+    out = []
+    for a, b in itertools.combinations(sorted(H), 2):
+        d = bin(H[a] ^ H[b]).count("1")
+        if d > 8: continue
+        if siblings(a, b): continue
+        out.append("%s and %s are near-identical (distance %d of 256). Keep the sharper one and register the gap in NAMING.txt" % (a, b, d))
+    return out
+
+
 def main(argv):
     verbose = "-v" in argv
     want = [a.upper() for a in argv if re.match(r"^[Cc]\d+$", a)]

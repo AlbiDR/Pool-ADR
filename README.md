@@ -33,7 +33,7 @@ below ground, where a phone may have no signal at the moment you most need it.
 | `01_survey/` | The deliverable: the survey as HTML and PDF, plus the diagram as a PNG. |
 | `02_printed-sheets/` | The four printed pages kept in the room. The procedures section is transcribed from these. |
 | `03_nameplates/` | The plates and labels every specification rests on. |
-| `04_plant-room/` | 34 photographs, in the order they were taken. |
+| `04_plant-room/` | 33 photographs, in the order they were taken. |
 | `05_balance-room/` | The balance tank and the hatch that reaches it, plus what the coloured marks on photograph 04 mean. |
 | `06_drawings/` | Dimensioned sketches and the scaled plan of both rooms. |
 | `07_video/` | Two 360 degree pans and one floor-level survey. |
@@ -89,15 +89,17 @@ reading it and bad for editing it. One command checks the lot:
 python3 tools/check.py
 ```
 
-Eighteen checks, no dependencies. Section numbering, the nav, internal links,
+Nineteen checks, standard library only (one, the near-duplicate
+scan, uses Pillow when it is available and reports itself skipped when it is not). Section numbering, the nav, internal links,
 the folder table against the folders on disk, file references, offline
 self-containment, punctuation, superseded wording, the canonical numbers in
 [FACTS.txt](FACTS.txt), naming, stated counts, whether the PDF and the
-diagram still match the HTML they came from, and GitHub's size limits. Every
+diagram still match the HTML they came from, near-duplicate images, and
+GitHub's size limits. Every
 one of them is a mistake that actually happened here.
 
 [MAINTENANCE.md](MAINTENANCE.md) explains how to do the usual things without
-causing drift, and `python3 tools/selftest.py` breaks the repository eighteen
+causing drift, and `python3 tools/selftest.py` breaks the repository nineteen
 ways to prove the checks still detect anything.
 
 ## A disclaimer, because this is public
