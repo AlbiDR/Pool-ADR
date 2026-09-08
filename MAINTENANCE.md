@@ -42,6 +42,7 @@ being written. They are not hypothetical.
 | `C16` | Files over GitHub's size limits | 100 MB is a hard refusal, 50 MB a warning, 1 GB the site cap. |
 | `C17` | A count stated in prose drifting from the folder | The README says "34 photographs". Add one and that sentence is wrong, and nothing else will tell you. |
 | `C18` | The PDF or the diagram no longer matching the HTML | Both are generated from the survey. Editing it invalidates them, and neither looks wrong afterwards. The hashes are in `01_survey/DERIVED.txt`. |
+| `C20` | The activity log out of order, or using an invented category | Caught two ordering slips within a minute of being written, both mine. |
 | `C19` | Two frames of the same thing filed as two photographs | Photographs 27 and 28 were shot in the same second and differed only by camera shake. They were not byte-identical, so an exact-hash audit walked past them. This one compares what the pictures look like. |
 
 ## Proving the checks still work
@@ -50,7 +51,7 @@ being written. They are not hypothetical.
 python3 tools/selftest.py
 ```
 
-It breaks the repository nineteen ways, once per check, confirms each break is
+It breaks the repository twenty ways, once per check, confirms each break is
 caught, and puts everything back. It refuses to run on a dirty tree, so a crash
 cannot cost you work.
 
@@ -132,6 +133,17 @@ The SVG in the survey title block is inline, so it has to be rebuilt the same
 way and pasted in. Keep it dark on white whatever happens: a colour-inverted QR
 code will not scan on a good number of phones, which is why it carries its own
 white plate instead of using the page background.
+
+## Logging what you do
+
+`LOG.txt` is the operational record: every switch of the reintegro or the pump,
+every dose, every backwash with the gauge reading after it, every level taken
+with a tape. Newest at the top, one line each, always with the number in it.
+
+It exists because on 2026-09-08 nobody could answer "how long has the reintegro
+actually run?" The information had never been written down, only said out loud,
+and two wrong estimates were built on the gap before it was noticed. A fill that
+was paused twice looks identical in hindsight to one that ran straight through.
 
 ## The three rules underneath all of this
 

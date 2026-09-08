@@ -1,0 +1,105 @@
+ACTIVITY LOG
+
+What was actually done, and when. The survey describes the installation; this
+records its operation. They answer different questions, and the survey kept
+sending you to a place that did not exist: "write down what you added", "write
+down the gauge reading after that last backwash". This is that place.
+
+Why it exists, concretely. On 2026-09-08 the question "how long has the
+reintegro actually run?" could not be answered. Not because nobody knew, but
+because the only record was a conversation, and a conversation records when
+things were SAID, not when they were DONE. Two wrong estimates were built on
+that gap before anyone noticed. A fill that has been paused twice looks
+identical, in hindsight, to one that ran straight through.
+
+
+FORMAT
+  One line per event. Newest at the TOP, so appending is a single line and the
+  recent state is the first thing you see.
+
+      YYYY-MM-DD HH:MM  CATEGORY   what happened
+
+  Times are local wall clock, CEST in summer and CET in winter. Do not convert
+  anything; write the time on the clock in front of you.
+
+  CATEGORY is one of:
+
+      LEVEL       pool level, or a reading off the clear column
+      REINTEGRO   top-up switched, and to which position (0, A, M)
+      PUMP        pump switched, and to which position
+      KRIPSOL     six-way lever moved, and to which number
+      VALVE       any valve opened or shut, by its letter
+      GAUGE       filter pressure reading, in bar
+      BACKWASH    backwash and rinse performed
+      DOSE        a chemical added, with the amount
+      SALT        salt added or bought, with the amount
+      TEST        a water test result
+      SERVICE     maintenance done: strainer, O-ring, probe calibration
+      NOTE        anything else worth knowing later
+
+  Write the number, always. "topped up the chlorine" is worth much less in six
+  months than "160 g granular". An entry with no figure in it is usually a NOTE.
+
+
+HOW MUCH TO WRITE
+  Every switch of the reintegro or the pump. Every dose. Every backwash and the
+  gauge reading after it. Every level measurement taken with a tape rather than
+  an eye. That is enough to reconstruct anything later, and little enough that
+  it takes ten seconds.
+
+  If you did something and did not log it, log it late rather than not at all,
+  and mark the time as approximate with a "~".
+
+
+===============================================================================
+2026
+===============================================================================
+
+2026-09-08 23:42  LEVEL      9 cm below the overflow lip, tape. With the 21:52
+                             reading that gives 5.43 cm/h over 1.84 h, which is
+                             the first measured fill rate this pool has ever had.
+2026-09-08 23:25  SALT       Bought 15 x 25 kg Italkali salgemma pastiglie,
+                             105 EUR, delivery 2026-09-14. Stock before this:
+                             75 kg Atisale POSEIDON, 30 kg tablets.
+2026-09-08 21:52  LEVEL      19 cm below the overflow lip, tape.
+2026-09-08 20:54  LEVEL      ~25 cm below the lip, eyeballed by hand span. The
+                             tape reading 58 minutes later gave 19 cm, so the
+                             eye was 6 cm out, which was worth about two hours
+                             of predicted fill time.
+2026-09-08 ~20:30 REINTEGRO  On, M. Home from work.
+2026-09-08 ~08:00 REINTEGRO  Off, 0. Left for work, deliberately not running
+                             unattended.
+2026-09-08 ~01:00 REINTEGRO  Off, 0. Before bed. Exact time not recorded.
+2026-09-08 00:23  REINTEGRO  Confirmed on M, which has no cut-out.
+2026-09-07 23:52  DOSE       ~150 g granular chlorine (NaDCC 56%), pre-dissolved
+                             and poured round the perimeter, into standing water
+                             with no circulation and no sanitiser.
+2026-09-07 23:24  GAUGE      0 bar. Kripsol lever on 1, filtration. Pump off.
+2026-09-07 23:02  LEVEL      Not yet at the overflow after "a day and a half"
+                             of filling. See the gap note below.
+2026-09-07 ~23:00 PUMP       Found on M but not running. Not started: the pump
+                             seal is water-lubricated and the system was dry.
+2026-09-06 ~11:30 REINTEGRO  On. Start of the refill, inferred backwards from
+                             the "day and a half" remark on 2026-09-07 23:02.
+                             Approximate.
+2026-09-06 ~00:00 REINTEGRO  Whole system drained deliberately, including the
+                             balance tank. Pool, tank and pipework all empty.
+
+
+===============================================================================
+THE GAP IN THIS RECORD, STATED PLAINLY
+===============================================================================
+  Everything above dated before 2026-09-08 20:30 was reconstructed from a
+  conversation on 2026-09-08, not written down at the time. The entries marked
+  with "~" are approximate and the reintegro's on/off history between
+  2026-09-06 and 2026-09-08 is INCOMPLETE. It ran, it was paused at least
+  twice, and the total run time is somewhere near 40 hours rather than the
+  50 that was briefly assumed.
+
+  Do not use that figure for anything. In particular, do not divide the pool
+  volume by it: the fill rate is not constant, night mains pressure is higher
+  than daytime, and the only honest way to the pool volume is still a tape and
+  a pole in daylight.
+
+  The record from 2026-09-08 20:30 onward is contemporaneous and can be
+  trusted. That is where this log actually starts.

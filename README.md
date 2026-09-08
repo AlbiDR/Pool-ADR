@@ -41,6 +41,7 @@ below ground, where a phone may have no signal at the moment you most need it.
 | `09_manuals/` | The makers' own manuals, with the official link for each and the key figures found. |
 | `10_products/` | Every chemical on the shelf, photographed with its label, plus a catalogue and a symptom-to-action guide. |
 | `11_scan/` | A 3D scan of the plant room, and the plan derived from it. |
+| [`LOG.txt`](LOG.txt) | What was actually done and when: every switch, dose, backwash and reading. The survey describes the installation; this records its operation. |
 
 ## Two things worth knowing before you use any of it
 
@@ -89,7 +90,7 @@ reading it and bad for editing it. One command checks the lot:
 python3 tools/check.py
 ```
 
-Nineteen checks, standard library only (one, the near-duplicate
+Twenty checks, standard library only (one, the near-duplicate
 scan, uses Pillow when it is available and reports itself skipped when it is not). Section numbering, the nav, internal links,
 the folder table against the folders on disk, file references, offline
 self-containment, punctuation, superseded wording, the canonical numbers in
@@ -99,7 +100,7 @@ GitHub's size limits. Every
 one of them is a mistake that actually happened here.
 
 [MAINTENANCE.md](MAINTENANCE.md) explains how to do the usual things without
-causing drift, and `python3 tools/selftest.py` breaks the repository nineteen
+causing drift, and `python3 tools/selftest.py` breaks the repository twenty
 ways to prove the checks still detect anything.
 
 ## A disclaimer, because this is public

@@ -421,6 +421,32 @@ def c19():
     return out
 
 
+@check("C20", "the activity log stays well formed and in order")
+def c20():
+    """A log is only worth keeping if it can be read back mechanically. This
+    catches the two ways it rots: an entry filed out of order, and a category
+    invented on the spot that no later search will think to look for."""
+    if not os.path.exists(os.path.join(ROOT, "LOG.txt")):
+        return ["LOG.txt is missing"]
+    text = read("LOG.txt")
+    cats = set(re.findall(r"^      ([A-Z]+)\s{2,}", text, re.M))
+    if not cats:
+        return ["could not read the CATEGORY vocabulary out of the header"]
+    entry = re.compile(r"^(\d{4}-\d{2}-\d{2}) ~?(\d{2}:\d{2})\s+([A-Z]+)\s", re.M)
+    out, prev = [], None
+    for m in entry.finditer(text):
+        date, time, cat = m.groups()
+        if cat not in cats:
+            out.append("%s %s uses category %r, which is not in the header list" % (date, time, cat))
+        stamp = date + " " + time
+        if prev is not None and stamp > prev:
+            out.append("%s %s is newer than the entry above it; the log is newest-first" % (date, time))
+        prev = stamp
+    if prev is None:
+        out.append("LOG.txt has a header but no entries")
+    return out
+
+
 def main(argv):
     verbose = "-v" in argv
     want = [a.upper() for a in argv if re.match(r"^[Cc]\d+$", a)]

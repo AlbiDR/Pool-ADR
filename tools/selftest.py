@@ -91,6 +91,8 @@ FAULTS = [
     ("C19", "a second near-identical frame filed alongside the first",
      lambda: copy_file("04_plant-room/27_pump-strainer-lid_t2214.jpg",
                        "04_plant-room/35_pump-strainer-lid_t2214.jpg")),
+    ("C20", "a log entry filed out of order",
+     lambda: edit_re("LOG.txt", r"(2026-09-08 23:25  SALT)", r"2026-09-09 09:00  SALT")),
     ("C16", "a file over the 100 MB hard limit",
      lambda: touch("00_inbox/huge.bin", b"\0" * (101 * 1024 * 1024))),
 ]
