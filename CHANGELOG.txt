@@ -47,11 +47,14 @@ records what was done to the ARCHIVE.
   actually contains, which is what stops a plausible number being typed in
   during a rename.
 
-  The two nameplates in 03 turn out to say something neither says alone. The
-  filter is rated 22 m3/h at its own stated 50 m3/h per m2; the pump's
-  published curve never drops below 26 m3/h. That does not measure the duty
-  point, but it does mean nothing on either plate suggests this bed is being
-  under-run. Written up in 03_nameplates/READ-ME.txt.
+  The two nameplates in 03 invite a wrong answer, and 03_nameplates/READ-ME.txt
+  now says so out loud. The filter is rated 22 m3/h and the pump's curve never
+  drops below 26, which looks like proof the bed is over-run. It is not: a pump
+  plate says what the pump can do against a head, and what actually flows is
+  set by the narrowest part of the circuit. The survey's equipment section had
+  already worked that through and asks for one measurement, the suction pipe's
+  outside diameter, which settles it. The READ-ME was written the wrong way
+  round first and was corrected against the survey before either was committed.
 
 
 ===============================================================================

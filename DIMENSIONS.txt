@@ -146,11 +146,16 @@ ALSO ESTABLISHED 2026-09-07
 
   The reintegro discharges into the RETURN MANIFOLD, so mains water reaches
   the pool through the four wall outlets. It does not fill the tank; the tank
-  fills from the pool spilling over the deck channel. Reported on site
-  2026-09-09: the pool is ringed by a wooden deck, the water passes beneath it,
-  and the spill happens at two of the four walls. Whether the lip is built on
-  all four with only two carrying water, or only on two, is NOT established,
-  and nothing in this file depends on the answer.
+  fills from the pool spilling over its overflow edge. Reported on site
+  2026-09-09: the pool is ringed by a wooden deck and the water passes beneath
+  it. The overflow is an INFINITY EDGE ON ONE SIDE ONLY, the long side of
+  roughly 12 m. (Stated as 12 m here; elsewhere the pool length is given as
+  about 13 m. Both are estimates by eye and neither has been taped.)
+
+  Consequence worth keeping: a 12 m weir passing 1,300 to 3,300 L/h carries
+  only 0.6 to 1.2 mm of head above the crest. The pool surface is therefore
+  pinned to within about a millimetre once it spills, which is why the tank
+  column can be used to measure the incoming flow directly.
 
 STILL UNMEASURED
   - plant room ceiling height

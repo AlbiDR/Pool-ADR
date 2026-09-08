@@ -35,28 +35,30 @@ WHAT THE PLATES ACTUALLY SETTLE
   05   ACIDO SOLFORICO 36%, UN 2796, class 8, H314, 25 kg, Siac srl, sold as
        battery electrolyte.
 
-THE TWO PLATES, READ AGAINST EACH OTHER
-  This is what makes 01 and 04 worth more together than apart, and it narrows
-  an item the survey lists as open.
+THE TWO PLATES, READ AGAINST EACH OTHER, AND THE TRAP IN DOING SO
+  Put 01 and 04 side by side and the arithmetic is inviting. The filter is
+  rated 22 m3/h, which is its 0.45 m2 at the plate's own stated 50 m3/h per m2.
+  The pump's published curve runs from 31 m3/h at 3 m of head down to 26 at
+  12 m, and never below 26. Every point on the pump's plate is therefore above
+  every point on the filter's, and the obvious conclusion is that this bed is
+  being over-run.
 
-  The filter is rated at 22 m3/h, which is 0.45 m2 at the plate's own stated
-  50 m3/h per m2. The pump's published curve runs from 31 m3/h at 3 m of head
-  down to 26 m3/h at 12 m. So at EVERY point the maker publishes, this pump
-  delivers more than the filter is rated for: 26 m3/h through 0.45 m2 is about
-  58 m3/h per m2, some 16 percent over the plate rate, and 29 m3/h is 29
-  percent over.
+  THAT CONCLUSION DOES NOT FOLLOW, and the survey's equipment section says why.
+  A pump nameplate states what the pump can do against a given head, not what
+  this circuit lets it do. What actually flows is set by the narrowest part of
+  the loop, and the tank draws through a single modest-bore suction line. At a
+  sane suction velocity of about 2 m/s, a 63 mm line carries roughly 18 m3/h
+  and a 75 mm line roughly 26. So on 63 mm the filter is comfortably inside its
+  rating and the pump is merely oversized, which costs electricity and bearing
+  life rather than sand; on 75 mm it sits at the plate limit.
 
-  What that does not settle is the duty point, because the system head has
-  never been measured and a real installation can sit beyond the published
-  curve, where flow falls further. The survey's open list asks for the suction
-  pipe's outside diameter for exactly this reason. What the two plates do
-  settle is the direction: nothing here suggests this bed is being under-run,
-  and the arithmetic says it is probably being over-run. That is consistent
-  with the one symptom the survey describes as this pool's weak point, water
-  that looks clear but reads faintly cloudy, which is what a sand bed does when
-  it is asked to filter faster than it can.
+  Which of those is true is the open item the survey asks to have closed by
+  measuring one thing: the outside diameter of that suction pipe. The plates
+  cannot answer it, and reading them as though they could is the mistake this
+  paragraph exists to stop.
 
-  Read this as an inference from two nameplates, not as a measurement.
+  Worth carrying alongside the plate figure: DIN 19643 gives 30 m3/h per m2 for
+  single-layer sand, well below the 50 this filter's own plate allows.
 
 THE ONE THAT CONTRADICTS THE PRINTED SHEETS
   05. The sheet in the room calls that container the chlorine drum. The label
