@@ -3,7 +3,7 @@
 The media library: one manifest, one contact sheet per folder.
 
     python3 tools/media.py scan      rewrite MEDIA.tsv, keeping the captions
-    python3 tools/media.py verify    every file against the manifest, and back
+    python3 tools/media.py verify    files against the manifest, and the sheets
     python3 tools/media.py sheets    rebuild the CONTACT-SHEET.jpg files
     python3 tools/media.py show 04   print one folder's rows as a readable list
 
@@ -22,7 +22,8 @@ EXIF ORIENTATION IS HONOURED AND NEVER BAKED IN. One file in here,
 correct and the pixels are the original bytes off the camera. Re-encoding it to
 straighten it would trade real provenance for the convenience of tools that
 ignore EXIF, which is the wrong trade in an archive. Everything here reads the
-tag instead; the manifest records it; the folder's READ-ME says so.
+tag instead; the "pixels" column says it is recording the size BEFORE any
+rotation; and 02_printed-sheets/READ-ME.txt explains the file itself.
 
 Pillow is needed for sheets, and for the pixel dimensions of formats this file
 cannot parse itself. scan and verify degrade to the built-in JPEG/PNG readers
@@ -185,14 +186,6 @@ def captured(path, meta):
     return ""
 
 
-def orientation(path, meta):
-    o = meta.get(os.path.abspath(path), {}).get("Orientation")
-    try:
-        return int(o)
-    except (TypeError, ValueError):
-        return None
-
-
 def made(path, meta, capture):
     """When this version of the file was written, if that is later than capture.
 
@@ -342,9 +335,18 @@ def cmd_verify():
             bad.append("%s has changed: its sha256 no longer matches the manifest" % p)
         if not r["caption"]:
             bad.append("%s has no caption" % p)
+    for d in sorted({os.path.dirname(p) for p in disk}):
+        want_from = sheet_inputs(d)
+        sheet = os.path.join(ROOT, d, SHEET)
+        if len(want_from) < 2:
+            continue
+        if not os.path.exists(sheet):
+            bad.append("%s/ has %d images and no %s" % (d, len(want_from), SHEET))
+        elif read_sheet_digest(sheet) != sheet_digest(d):
+            bad.append("%s/%s is stale. Rebuild it: python3 tools/media.py sheets" % (d, SHEET))
     for line in bad:
         print("  %s" % line)
-    print("  %d problem(s)" % len(bad) if bad else "  manifest and disk agree")
+    print("  %d problem(s)" % len(bad) if bad else "  manifest, sheets and disk agree")
     return 1 if bad else 0
 
 
