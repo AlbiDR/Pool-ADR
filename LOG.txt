@@ -55,6 +55,14 @@ HOW MUCH TO WRITE
 2026
 ===============================================================================
 
+2026-09-09 ~04:30 REINTEGRO  Off, 0. Pool and tank both full. Fell asleep after
+                             the 00:29 reading, so it ran on unattended. Crest was
+                             never observed; predicted 01:06 from a measured
+                             6.38 cm/h. On that basis the tank sat at its safety
+                             overflow for roughly 2 hours, an estimated 5 to
+                             7.5 m3 to waste. Estimate only, nobody was awake.
+                             The planned 10-minute column timing did not happen,
+                             so the pool surface area is still unmeasured.
 2026-09-08 23:42  LEVEL      9 cm below the overflow lip, tape. With the 21:52
                              reading that gives 5.43 cm/h over 1.84 h, which is
                              the first measured fill rate this pool has ever had.
