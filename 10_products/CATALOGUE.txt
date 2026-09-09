@@ -135,15 +135,16 @@ THE STOCK
                filtration, repeating until clear
                preventive 10 g per 10 m3 in the evening, after every backwash
    This pool    curative 1,088 g; preventive 72.5 g
-   DOSE OR NONE  A fraction of the curative dose is not a gentler treatment,
-             it is a failed one. These work by neutralising the charge holding
-             fine particles apart; too little leaves them half-destabilised and
-             forms flocs too fine for the bed to catch, which is the exact
-             weakness being treated. If a small dose is wanted use the 72.5 g
-             preventive figure, which the label sanctions, and expect
-             maintenance rather than recovery. A drinking glass is roughly
-             250 g: three and a half times the preventive dose and a quarter of
-             the curative, the least useful point on the scale.
+   DOSING    START LOW AND TOP UP. The asymmetry is the whole point: too
+             little coagulant is correctable, you add more; too much reverses
+             the particle charge, re-stabilises the haze and can only be undone
+             by filtering it back out. So dose below the label figure, watch
+             the filter gauge climb and the halo round the floor grate tighten
+             over 4 to 5 hours, and add the balance if neither moves.
+             And remember the label figure is itself soft: 1,088 g is 15 g/m3
+             times an ESTIMATED 72.5 m3. 750 g is the exact curative dose for
+             a 50 m3 pool and 67 percent of it for a 75 m3 one. Until the pool
+             is measured, "the full dose" is uncertain by a third.
    TIMING    Sanitise BEFORE clarifying: a flocculant settles dead particles,
              it does not treat anything that is still growing. Do not start
              while rain is running in, or the water is being re-dirtied as fast

@@ -55,6 +55,16 @@ HOW MUCH TO WRITE
 2026
 ===============================================================================
 
+2026-09-09 ~13:00 DOSE       750 g FLOCCULANTE Klep (polyaluminium chloride
+                             under 20%), into the balance tank, pump running.
+                             Deliberately below the 1,088 g label figure, which
+                             is 15 g/m3 times an ESTIMATED 72.5 m3: 750 g is the
+                             exact curative rate for a 50 m3 pool and 67 percent
+                             of it for 75 m3. Correct approach, since too little
+                             coagulant is correctable by topping up while too
+                             much re-stabilises the haze. Watch the gauge climb
+                             off 1.18 and the grate halo tighten over 4 to 5
+                             hours; if neither moves, add the balance of 338 g.
 2026-09-09 ~12:30 TEST       CLARITY, first reading on the new scale. Grate at
                              the deepest point, roughly 1.90 to 2.00 m, read
                              straight down while standing in own shadow.
