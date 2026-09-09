@@ -750,52 +750,89 @@ html.js .top.show{display:block}
       <!-- ================= PLAN ================= -->
       <line x1="24" y1="868" x2="1416" y2="868" stroke="var(--rule)"/>
       <text x="24" y="892" font-family="Barlow Condensed, sans-serif" font-size="12" font-weight="600" letter-spacing="0.16em" fill="var(--ink-3)">PLAN OF THE PLANT ROOM</text>
-      <text x="24" y="910" font-size="11" fill="var(--ink-3)">to scale, 1 m = 200 units &#183; 4.52 m&#178; of floor</text>
+      <text x="24" y="910" font-size="11" fill="var(--ink-3)">to scale, 1 m = 200 units &#183; 4.52 m&#178; of floor &#183; positions read off the photosphere and the four reprojections</text>
 
       <line x1="250" y1="932" x2="760" y2="932" stroke="var(--ink-3)" stroke-width="1"/>
       <text x="505" y="926" text-anchor="middle" font-size="12" fill="var(--ink-3)">2.55 m</text>
       <line x1="862" y1="956" x2="862" y2="1348" stroke="var(--ink-3)" stroke-width="1"/>
-      <text x="869" y="1152" font-size="12" fill="var(--ink-3)">1.96 m</text>
+      <text x="869" y="1160" font-size="12" fill="var(--ink-3)">1.96 m</text>
 
       <path d="M250,956 L760,956 L760,1348 L570,1348 L570,1288 L250,1288 Z" fill="var(--surface)" stroke="var(--ink)" stroke-width="1.8"/>
 
-      <line x1="309" y1="1288" x2="436" y2="1288" stroke="var(--valve)" stroke-width="6"/>
-      <path d="M436,1288 A127,127 0 0 0 309,1161" fill="none" stroke="var(--valve)" stroke-width="1.2" stroke-dasharray="5 4"/>
-      <text x="372" y="1318" text-anchor="middle" font-family="Barlow Condensed, sans-serif" font-size="15" font-weight="700" letter-spacing="0.06em" fill="var(--valve)">DOOR</text>
-      <line x1="372" y1="1269" x2="372" y2="1155" stroke="var(--ink-3)" stroke-width="1.5" stroke-dasharray="6 4" marker-end="url(#arE)"/>
-
-      <text x="505" y="950" text-anchor="middle" font-size="12" fill="var(--ink-2)">PANEL &#183; TRi PRO &#183; CELL</text>
-      <circle cx="368" cy="1070" r="30" fill="var(--panel)" stroke="var(--valve)" stroke-width="2"/>
-      <text x="368" y="1075" text-anchor="middle" font-size="12" fill="var(--valve)">red filter</text>
-      <rect x="429" y="1049" width="70" height="32" fill="var(--panel)" stroke="var(--ink)" stroke-width="1.4"/>
-      <text x="464" y="1070" text-anchor="middle" font-size="12" fill="var(--ink-2)">Kripsol</text>
-      <rect x="517" y="1049" width="60" height="32" fill="var(--panel)" stroke="var(--ink)" stroke-width="1.4"/>
-      <text x="547" y="1070" text-anchor="middle" font-size="12" fill="var(--ink-2)">pump</text>
-      <text x="264" y="1016" font-size="11.5" fill="var(--ink-2)">acid drum,</text>
-      <text x="264" y="1033" font-size="11.5" fill="var(--ink-2)">top-up valves</text>
-
-      <rect x="262" y="1228" width="44" height="38" fill="url(#hatch)" stroke="var(--ink-3)" stroke-width="1.1"/>
-      <text x="284" y="1220" text-anchor="middle" font-size="11.5" fill="var(--ink-3)">gully N</text>
-
-      <g fill="var(--valve)">
-        <circle cx="482" cy="1277" r="5"/><circle cx="507" cy="1277" r="5"/>
-        <circle cx="535" cy="1277" r="5"/><circle cx="561" cy="1277" r="5"/>
+      <!-- treatment wall, mounted on it -->
+      <g fill="var(--panel)" stroke="var(--ink-3)" stroke-width="1.2">
+        <rect x="360" y="956" width="70" height="10"/><rect x="432" y="956" width="46" height="10"/>
+        <rect x="480" y="956" width="60" height="10"/><rect x="544" y="956" width="76" height="10"/>
       </g>
-      <circle cx="450" cy="1277" r="9.5" fill="var(--panel)" stroke="var(--valve)" stroke-width="1.4"/><text x="450" y="1281" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="700" fill="var(--valve)">D</text>
-      <text x="450" y="1260" text-anchor="middle" font-size="12" fill="var(--ink-2)">manifold</text>
+      <g font-size="11" fill="var(--ink-3)" text-anchor="middle">
+        <text x="395" y="948">panel</text><text x="455" y="948">TRi PRO</text>
+        <text x="510" y="948">cell</text><text x="582" y="948">top-up E F</text>
+      </g>
 
-      <rect x="609" y="1300" width="14" height="42" rx="6" fill="var(--panel)" stroke="var(--cell)" stroke-width="1.5"/>
-      <line x1="662" y1="1297" x2="662" y2="1340" stroke="var(--ink)" stroke-width="6"/>
-      <rect x="701" y="1340" width="16" height="6" fill="var(--waste)"/>
-      <rect x="725" y="1340" width="12" height="6" fill="var(--pipe)"/>
-      <text x="774" y="1298" font-size="12" fill="var(--cell)">level column</text>
-      <text x="774" y="1315" font-size="12" fill="var(--waste)">to waste</text>
-      <text x="774" y="1332" font-size="12" fill="var(--waste)">orange 110</text>
-      <text x="774" y="1349" font-size="12" fill="var(--ink-2)">low pipe L</text>
+      <!-- the low suction run: tank penetration, along the manifold wall behind the drops, round the corner, to the pump -->
+      <path d="M694,1340 L742,1340 L746,1334 L746,974 L742,968 L510,968 L506,974 L506,1032"
+            fill="none" stroke="var(--pipe)" stroke-width="2.5"/>
+      <text x="700" y="1104" text-anchor="middle" font-size="11" fill="var(--ink-3)">low suction pipe</text>
+
+      <!-- floor-standing plant -->
+      <circle cx="380" cy="1034" r="76" fill="var(--panel)" stroke="var(--valve)" stroke-width="2"/>
+      <text x="380" y="1030" text-anchor="middle" font-size="13" fill="var(--valve)">red filter</text>
+      <text x="380" y="1048" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--valve)">&#216;0.76</text>
+      <rect x="440" y="994" width="60" height="30" fill="var(--panel)" stroke="var(--ink)" stroke-width="1.4"/>
+      <text x="470" y="1013" text-anchor="middle" font-size="11" fill="var(--ink-2)">M Kripsol</text>
+      <rect x="462" y="1032" width="80" height="46" fill="var(--panel)" stroke="var(--ink)" stroke-width="1.4"/>
+      <text x="502" y="1060" text-anchor="middle" font-size="12" fill="var(--ink-2)">pump</text>
+      <rect x="546" y="976" width="46" height="46" fill="var(--panel)" stroke="var(--valve)" stroke-width="1.6"/>
+      <text x="569" y="1003" text-anchor="middle" font-size="11" fill="var(--valve)">acid</text>
+
+      <!-- the sump, in the corner diagonally opposite the door -->
+      <rect x="686" y="976" width="56" height="56" fill="url(#hatch)" stroke="var(--ink-3)" stroke-width="1.2"/>
+      <text x="676" y="1076" text-anchor="middle" font-size="11.5" fill="var(--ink-3)">gully N, the sump</text>
+
+      <!-- manifold wall: four drops into the floor, and the valves at each end of the low run -->
+      <g fill="var(--valve)">
+        <circle cx="714" cy="1138" r="6"/><circle cx="714" cy="1172" r="6"/>
+        <circle cx="714" cy="1210" r="6"/><circle cx="714" cy="1238" r="6"/>
+      </g>
+      <g font-family="IBM Plex Mono, monospace" font-size="13" font-weight="700" fill="var(--valve)" text-anchor="middle">
+        <circle cx="786" cy="972" r="9.5" fill="var(--panel)" stroke="var(--valve)" stroke-width="1.4"/><text x="786" y="976">H</text>
+        <circle cx="786" cy="1004" r="9.5" fill="var(--panel)" stroke="var(--valve)" stroke-width="1.4"/><text x="786" y="1008">L</text>
+        <circle cx="786" cy="1190" r="9.5" fill="var(--panel)" stroke="var(--valve)" stroke-width="1.4"/><text x="786" y="1194">D</text>
+        <circle cx="786" cy="1266" r="9.5" fill="var(--panel)" stroke="var(--valve)" stroke-width="1.4"/><text x="786" y="1270">G</text>
+      </g>
+      <text x="802" y="1194" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--valve)">&#215;4</text>
+      <g stroke="var(--valve)" stroke-width="1.6">
+        <line x1="752" y1="972" x2="776" y2="972"/><line x1="752" y1="1004" x2="776" y2="1004"/>
+        <line x1="722" y1="1190" x2="776" y2="1190"/><line x1="752" y1="1266" x2="776" y2="1266"/>
+      </g>
+
+      <!-- orange 110: a short barrel on the floor by the sump, out through the wall foot -->
+      <rect x="750" y="1034" width="10" height="34" fill="var(--waste)"/>
+      <rect x="700" y="1044" width="46" height="10" fill="var(--waste)"/>
+      <text x="770" y="1062" font-size="11" fill="var(--waste)">orange 110</text>
+      <text x="770" y="1076" font-size="11" fill="var(--waste)">to waste</text>
+
+      <!-- the tank wall: four crossings, the column and the safety stack -->
+      <g fill="var(--pipe)"><rect x="706" y="1340" width="16" height="8"/><rect x="686" y="1340" width="16" height="8"/></g>
+      <circle cx="682" cy="1322" r="9" fill="var(--panel)" stroke="var(--cell)" stroke-width="1.8"/>
+      <path d="M694,1316 L694,1328 L700,1322 z M706,1316 L706,1328 L700,1322 z" fill="var(--valve)"/>
+      <circle cx="622" cy="1322" r="10" fill="var(--ink)"/>
+      <text x="690" y="1282" text-anchor="middle" font-size="11" fill="var(--cell)">level column</text>
+      <text x="722" y="1306" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="var(--valve)">ISOLATOR</text>
+      <text x="600" y="1282" text-anchor="middle" font-size="11" fill="var(--waste)">safety stack</text>
 
       <line x1="570" y1="1348" x2="760" y2="1348" stroke="var(--cell)" stroke-width="5"/>
       <text x="665" y="1370" text-anchor="middle" font-family="Barlow Condensed, sans-serif" font-size="13" font-weight="700" letter-spacing="0.05em" fill="var(--cell)">ALL FOUR TANK CONNECTIONS</text>
       <text x="665" y="1386" text-anchor="middle" font-size="11.5" fill="var(--ink-3)">cross this 0.95 m of wall</text>
+
+      <!-- the door, as measured; the swing is the owner\'s own -->
+      <line x1="309" y1="1288" x2="436" y2="1288" stroke="var(--valve)" stroke-width="6"/>
+      <path d="M436,1288 A127,127 0 0 0 309,1161" fill="none" stroke="var(--valve)" stroke-width="1.2" stroke-dasharray="5 4"/>
+      <text x="372" y="1318" text-anchor="middle" font-family="Barlow Condensed, sans-serif" font-size="15" font-weight="700" letter-spacing="0.06em" fill="var(--valve)">DOOR</text>
+      <line x1="372" y1="1269" x2="372" y2="1155" stroke="var(--ink-3)" stroke-width="1.5" stroke-dasharray="6 4" marker-end="url(#arE)"/>
+      <text x="566" y="1178" text-anchor="middle" font-size="11" fill="var(--ink-3)">you come in facing the treatment wall</text>
+
+      <text transform="translate(838,1152) rotate(-90)" text-anchor="middle" font-family="Barlow Condensed, sans-serif" font-size="12" font-weight="700" letter-spacing="0.12em" fill="var(--ink-3)">MANIFOLD WALL</text>
 
       <!-- ================= SITE PLAN ================= -->
       <text x="1010" y="892" font-family="Barlow Condensed, sans-serif" font-size="12" font-weight="600" letter-spacing="0.16em" fill="var(--ink-3)">HOW THE ROOMS SIT</text>
