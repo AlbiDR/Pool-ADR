@@ -343,6 +343,7 @@ html.js .top.show{display:block}
   <a href="#d">Diagram</a>
   <a href="#rooms">The rooms</a>
   <a href="#proc">Procedures</a>
+  <a href="#care">Routine care</a>
   <a href="#water">Water &amp; salt</a>
   <a href="#fault">Faults</a>
   <a href="#stock">Chemicals</a>
@@ -1203,8 +1204,53 @@ html.js .top.show{display:block}
   </div>
 </section>
 
+<section id="care">
+  <h2><span class="n">&#167;4</span>Routine care</h2>
+  <p class="lede">What running this pool actually asks of you, and how often. The printed sheets covered
+  procedures but never the rhythm, which is the part nobody tells a first-time owner. Two things are worth
+  understanding before the table: most of this takes seconds rather than minutes, and
+  <b>the most consequential items are the ones with no symptom until it is too late</b> - a probe that has
+  drifted, a drum that has run dry, an RCD nobody has ever tested.</p>
+
+  <div class="tbl">
+    <table>
+      <thead><tr><th>How often</th><th>What</th><th>What a first-timer misses</th></tr></thead>
+      <tbody>
+        <tr><td class="tag">Walking past</td><td>Glance at gauge <code>4</code>, at the clear column, and at the TRi PRO display.</td><td>Read the gauge <b>against 1.18</b>, this installation's clean baseline, not against a number from a manual. A column that never moves is not a calm pool: it usually means the <b>ISOLATOR</b> at its foot is shut, and then the top-up has quietly stopped working with nothing else in the room looking wrong.</td></tr>
+        <tr><td class="tag">Weekly</td><td>Test pH and free chlorine. Empty the pump strainer basket. Rinse the robot's cartridges. Brush the waterline. Check the acid drum has something in it.</td><td><b>Rinse the cartridges after every run, not when they look full</b> - a loaded cartridge stops filtering and the robot just drives around. <b>Brush the waterline</b>: oils and film collect in that band and it is where scale and biofilm start, and on black resin you can see it. And an <b>empty acid drum is silent</b> - the peristaltic pump keeps running, the display keeps saying it is dosing, and the pH climbs with nothing to announce it.</td></tr>
+        <tr><td class="tag">Monthly</td><td>Read the salt figure on the TRi PRO. Look at the cell for scale. Look into the balance tank through the hatch, and at the overflow channel for leaves.</td><td><b>Salt is never consumed</b>, only lost - through backwash, splash-out and draining. So a falling salt reading is not the cell using it up, it is water that left. Top up against the reading rather than a schedule.</td></tr>
+        <tr><td class="tag">Every two<br>months</td><td>Calibrate the pH and ACL probes in buffer.</td><td>The single most-skipped job on a salt pool. <b>Probes drift</b>, so the pH the TRi PRO believes it is holding may not be the pH in the water, and every automatic acid dose is then aimed at the wrong target.</td></tr>
+        <tr><td class="tag">Every six<br>months</td><td>Press the test button on the 30 mA RCD.</td><td>It is the life-safety device in a wet underground room, and nothing in the records says it has ever been tested.</td></tr>
+        <tr><td class="tag">Each season<br>start</td><td>Run the sump pump deliberately. Open the column's ISOLATOR and watch the level move. Test cyanuric acid.</td><td>The sump pump is the only way water leaves that floor, so the first you would know of a failure is standing water over the motor and the panel. Watching the column move is the <b>only</b> check that proves the level this room reads is the level in the tank.</td></tr>
+        <tr><td class="tag">Yearly, or on<br>the reading</td><td>Descale the cell. Review the sand.</td><td>The bed was renewed about September 2025, so sand is years off. Cell scale is the one that creeps.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="warn">
+    <h3>Four things that happen on a trigger, never on a calendar</h3>
+    <ul>
+      <li><b>Backwash</b> when gauge <code>4</code> reaches about <b>1.5</b>, not on a schedule. Washing a clean bed throws away 900 to 1,500 L, the salt in it, and any flocculant layer, and buys nothing.</li>
+      <li><b>Top up the salt</b> after backwashes, because that is when it leaves. One 25 kg sack replaces four to seven backwashes.</li>
+      <li><b>Re-dose flocculant</b> after each backwash while a clarifying treatment is running, because the backwash is what removes it.</li>
+      <li><b>Dose chlorine</b> on a test result, not on a feeling. While the cell is off this is the only thing keeping the water safe.</li>
+    </ul>
+  </div>
+
+  <div class="steps">
+    <h3>Habits the sheets never mentioned</h3>
+    <ol>
+      <li><b>Calibrate the pH and ACL probes at least every two months during the season</b>, in pH 7.5 buffer. Probes drift, so the pH the unit believes it is holding may not be the pH in the pool.</li>
+      <li><b>Press the test button on the 30 mA RCD every six months.</b> It is the life-safety device in a wet underground room and nothing in the records says it has ever been tested.</li>
+      <li><b>Write down the gauge reading straight after every backwash.</b> That is this filter's clean baseline, and the climb away from it is the real signal that the sand is loading.</li>
+      <li>Move the valve as Kripsol says: motor stopped, press the handle down firmly first because it acts as a clutch, then move it.</li>
+    </ol>
+    <p class="note"><b>Note:</b> the level column's <b>ISOLATOR</b>, the red-handled valve at its foot, cuts the column off from the balance tank. Closed, the column freezes at whatever level it was showing and the automatic top-up quietly stops working, with nothing else in the room looking wrong. <b>Open it and watch the column move</b> at the start of each season, which is the only check that proves the level this room is reading is the level in the tank.</p>
+  </div>
+</section>
+
 <section id="water">
-  <h2><span class="n">&#167;4</span>Water and salt</h2>
+  <h2><span class="n">&#167;5</span>Water and salt</h2>
   <div class="tbl">
     <table>
       <thead><tr><th>Target</th><th class="num">Value</th><th>From the sheets</th></tr></thead>
@@ -1235,7 +1281,7 @@ html.js .top.show{display:block}
 </section>
 
 <section id="fault">
-  <h2><span class="n">&#167;5</span>When something goes wrong</h2>
+  <h2><span class="n">&#167;6</span>When something goes wrong</h2>
   <p class="lede">None of this was on the printed sheets. The fault table is from the makers' own manuals in
   <span class="it">09_manuals/</span>; the symptom guide below pairs each problem with a product you actually have,
   worked out for this pool. Full detail in <span class="it">10_products/CATALOGUE.txt</span>.</p>
@@ -1282,25 +1328,11 @@ html.js .top.show{display:block}
     </ul>
   </div>
 
-  <div class="steps">
-    <h3>Procedures this document still owes you</h3>
-    <p class="note">Audited 2026-09-09 against everything that had been explained in conversation but never written down. Since written up: the backwash and what the filter is doing, cleaning the pump strainer, and adding salt. <b>Still only a sentence or a dose rather than a procedure:</b> winterising, four to eight weeks away and the reason the Svernante is on the shelf; calibrating the pH probe, which the TRi PRO manual covers and which falls due once the cell runs; changing the acid drum, 36% sulfuric and deserving steps rather than a caution; cleaning the robot's cartridges. <b>Absent altogether:</b> descaling the salt cell, which is core maintenance on a salt pool; opening the pool in spring; and changing the filter sand, years off since the bed was renewed about September 2025. None is urgent today, and all are the same defect the backwash had: a task you can follow but not reason about.</p>
-  </div>
-
-  <div class="steps">
-    <h3>Maintenance the sheets never mentioned</h3>
-    <ol>
-      <li><b>Calibrate the pH and ACL probes at least every two months during the season</b>, in pH 7.5 buffer. Probes drift, so the pH the unit believes it is holding may not be the pH in the pool.</li>
-      <li><b>Press the test button on the 30 mA RCD every six months.</b> It is the life-safety device in a wet underground room and nothing in the records says it has ever been tested.</li>
-      <li><b>Write down the gauge reading straight after every backwash.</b> That is this filter's clean baseline, and the climb away from it is the real signal that the sand is loading.</li>
-      <li>Move the valve as Kripsol says: motor stopped, press the handle down firmly first because it acts as a clutch, then move it.</li>
-    </ol>
-    <p class="note"><b>Note:</b> the level column's <b>ISOLATOR</b>, the red-handled valve at its foot, cuts the column off from the balance tank. Closed, the column freezes at whatever level it was showing and the automatic top-up quietly stops working, with nothing else in the room looking wrong. <b>Open it and watch the column move</b> at the start of each season, which is the only check that proves the level this room is reading is the level in the tank.</p>
-  </div>
+    
 </section>
 
 <section id="stock">
-  <h2><span class="n">&#167;6</span>The chemical stock</h2>
+  <h2><span class="n">&#167;7</span>The chemical stock</h2>
   <p class="lede">Nine products on the shelf, plus the acid drum in this room. Every one is photographed with its
   label in <span class="it">10_products/</span>, and doses below are the label's own rate applied to 72.5 m&#179;.
   <span class="it">CATALOGUE.txt</span> in that folder carries the lot numbers, the hazard statements and the working.</p>
@@ -1337,7 +1369,7 @@ html.js .top.show{display:block}
 </section>
 
 <section id="safety">
-  <h2><span class="n">&#167;7</span>Safety notes</h2>
+  <h2><span class="n">&#167;8</span>Safety notes</h2>
   <div class="warn">
     <h3>Correct this on the printed sheet</h3>
     <ul>
@@ -1407,7 +1439,7 @@ html.js .top.show{display:block}
 </section>
 
 <section id="kit">
-  <h2><span class="n">&#167;8</span>Equipment</h2>
+  <h2><span class="n">&#167;9</span>Equipment</h2>
   <div class="tbl">
     <table>
       <thead><tr><th>Item</th><th>Detail</th><th>Source</th></tr></thead>
@@ -1431,12 +1463,17 @@ html.js .top.show{display:block}
 
 
 <section id="open">
-  <h2><span class="n">&#167;9</span>What is still open</h2>
+  <h2><span class="n">&#167;10</span>What is still open</h2>
   <p class="lede">Nothing in this list is known and simply unrecorded. It is the honest inventory of
   what this document does not know, kept here so it can be closed off later rather than quietly
   forgotten. The third column of every row says what closing it
   would change, so you can see at a glance which are worth a trip to the plant room and which are
   only tidiness.</p>
+
+  <div class="steps">
+    <h3>Procedures this document still owes you</h3>
+    <p class="note">Audited 2026-09-09 against everything that had been explained in conversation but never written down. Since written up: the backwash and what the filter is doing, cleaning the pump strainer, and adding salt. <b>Still only a sentence or a dose rather than a procedure:</b> winterising, four to eight weeks away and the reason the Svernante is on the shelf; calibrating the pH probe, which the TRi PRO manual covers and which falls due once the cell runs; changing the acid drum, 36% sulfuric and deserving steps rather than a caution; cleaning the robot's cartridges. <b>Absent altogether:</b> descaling the salt cell, which is core maintenance on a salt pool; opening the pool in spring; and changing the filter sand, years off since the bed was renewed about September 2025. None is urgent today, and all are the same defect the backwash had: a task you can follow but not reason about.</p>
+  </div>
 
   <div class="tbl">
     <table>
@@ -1501,7 +1538,7 @@ html.js .top.show{display:block}
 </section>
 
 <section id="sheets">
-  <h2><span class="n">&#167;10</span>Printed documentation</h2>
+  <h2><span class="n">&#167;11</span>Printed documentation</h2>
   <p class="lede">The four printed pages that live in the room. Everything in the procedures, the water
   figures and the safety notes above is transcribed and translated from these. Where a maker's manual
   contradicts them, that is said at the point it matters. The filter gauge was the one case where this
@@ -1517,7 +1554,7 @@ html.js .top.show{display:block}
 </section>
 
 <section id="photos">
-  <h2><span class="n">&#167;11</span>Reference photographs</h2>
+  <h2><span class="n">&#167;12</span>Reference photographs</h2>
   <p class="lede">The images every factual claim in this document rests on. If anything here ever
   looks wrong, these are what to check it against.</p>
   <div class="gal">
@@ -1532,7 +1569,7 @@ html.js .top.show{display:block}
 </section>
 
 <section id="photoindex">
-  <h2><span class="n">&#167;12</span>Every photograph, as an index</h2>
+  <h2><span class="n">&#167;13</span>Every photograph, as an index</h2>
   <p class="lede">The whole library at thumbnail size, so this document can answer
   "which picture was that?" on its own, with no network and no repository to hand. Tap any
   one to enlarge it and read what it shows. These are reductions: the full-size original of
@@ -1672,7 +1709,7 @@ html.js .top.show{display:block}
 </section>
 
 <section id="files">
-  <h2><span class="n">&#167;13</span>What is in the folder</h2>
+  <h2><span class="n">&#167;14</span>What is in the folder</h2>
   <div class="tbl">
     <table>
       <thead><tr><th>Folder</th><th>What it holds</th></tr></thead>
