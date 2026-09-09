@@ -44,7 +44,8 @@ tank_as_pct_of_pool        = 5.1
 
 [pool]
 pool_volume_dosing_m3      = 72.5
-pool_volume_stated         = approx. 70 to 75
+pool_volume_stated         = 70 to 75
+pool_volume_source         = installation documentation and family knowledge
 pool_length_approx_m       = 13
 pool_finish                = black resin
 filter_diameter_mm         = 760

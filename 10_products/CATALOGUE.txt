@@ -2,7 +2,10 @@ CHEMICAL STOCK AND WHAT EACH THING IS FOR
 Photographed 2026-09-07, 18:46 to 18:50. Nine products on the shelf, plus the
 sulphuric acid drum already plumbed into the plant room. Every figure below is
 read off the label; the "for this pool" column is that label's own rate applied
-to 72.5 m3, the midpoint of the 70 to 75 m3 estimate.
+to 72.5 m3, the midpoint of the pool's 70 to 75 m3. That figure comes from the
+installation documentation and family knowledge, not from a calculation here, and
+is consistent with the geometry: 12 m long, about 4 m wide, floor sloping to the
+1.9 to 2.0 m measured at the floor grate, averaging about 1.6 m.
 
 ===============================================================================
 THE STOCK
