@@ -363,7 +363,11 @@ html.js .top.show{display:block}
       <button class="btn" data-find-prev type="button" aria-label="Previous match">Prev</button>
       <button class="btn" data-find-next type="button" aria-label="Next match">Next</button>
     </div>
-    <div class="seg"><button class="btn" data-fold type="button" aria-pressed="true">Collapse all</button></div>
+    <div class="seg" role="group" aria-label="Move between sections">
+        <button class="btn" data-sec-prev type="button" aria-label="Previous section">Prev section</button>
+        <button class="btn" data-sec-next type="button" aria-label="Next section">Next section</button>
+      </div>
+      <div class="seg"><button class="btn" data-fold type="button" aria-pressed="true">Collapse all</button></div>
       <div class="seg" role="group" aria-label="Colour theme">
       <button class="btn" data-theme-set="auto" type="button">Auto</button>
       <button class="btn" data-theme-set="light" type="button">Light</button>
@@ -1896,6 +1900,36 @@ installed, the 39-megapixel photosphere and the panel photograph are the record.
     var tgt = d.getElementById(navLinks[n].getAttribute("href").slice(1));
     if (tgt) targets.push({ a: navLinks[n], el: tgt });
   }
+  var here = null;
+  var secPrev = d.querySelector("[data-sec-prev]"), secNext = d.querySelector("[data-sec-next]");
+
+  /* Step between sections.
+
+     The owner pressed the find bar's Prev and Next expecting exactly this, and
+     that expectation was the right one for a document of fourteen sections: it
+     is the find pair that was misnamed, not the wish. These are their own pair,
+     labelled for what they move, and they stop at the ends rather than wrapping
+     so that the disabled state tells you where you are. */
+  function secIndex() {
+    for (var i = 0; i < targets.length; i++) if (targets[i] === here) return i;
+    return 0;
+  }
+  function syncSecBtns() {
+    if (!secPrev || !secNext) return;
+    var i = secIndex();
+    secPrev.disabled = i <= 0;
+    secNext.disabled = i >= targets.length - 1;
+  }
+  function secStep(dir) {
+    var i = secIndex() + dir;
+    if (i < 0 || i >= targets.length) return;
+    var t = targets[i].el;
+    openFor(t);
+    goTo(t);
+    here = targets[i];
+    syncSecBtns();
+  }
+
   function measure() { root.style.setProperty("--bar-h", (bar ? bar.offsetHeight : 116) + "px"); }
   var ticking = false;
   function frame() {
@@ -1908,6 +1942,8 @@ installed, the 39-megapixel photosphere and the panel photograph are the record.
     /* above the first section, in the title block: mark the first entry rather
        than nothing, so the nav never looks broken on a freshly loaded page */
     if (!cur && targets.length) cur = targets[0];
+    here = cur;
+    syncSecBtns();
     for (var j = 0; j < targets.length; j++)
       if (targets[j] === cur) targets[j].a.setAttribute("aria-current", "true");
       else targets[j].a.removeAttribute("aria-current");
@@ -1923,6 +1959,9 @@ installed, the 39-megapixel photosphere and the panel photograph are the record.
   on(W, "scroll", schedule);
   on(W, "resize", function () { measure(); frame(); });
   on(d, "visibilitychange", function () { ticking = false; measure(); schedule(); });
+  if (secPrev) on(secPrev, "click", function () { secStep(-1); });
+  if (secNext) on(secNext, "click", function () { secStep(1); });
+
   measure(); frame();
 
 
