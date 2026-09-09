@@ -73,6 +73,13 @@ section>h2{font-family:var(--disp);font-weight:700;font-size:15px;letter-spacing
   padding-bottom:7px;border-bottom:1px solid var(--rule)}
 section>h2 .n{font-family:var(--mono);color:var(--valve);margin-right:9px;font-weight:600}
 .lede{color:var(--ink-2);max-width:70ch;margin:12px 0 0}
+/* On a wide screen a 70ch paragraph uses under half the page and pays for it
+   in height. Two columns keep the line length readable and give the other half
+   back: measured at 1300px, the intros were 48% of the width and 1,389px of
+   stacked height between them. */
+@media (min-width:1080px){
+  .lede,p.foot{max-width:none;columns:38em 2;column-gap:40px}
+}
 
 /* provenance banner */
 .prov{border:1px solid var(--rule);background:var(--panel);margin:0}
@@ -1848,21 +1855,17 @@ installed, the 39-megapixel photosphere and the panel photograph are the record.
   function on(x, e, f) { x.addEventListener(e, f); }
   function esc(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
 
-  /* Jump to a node.
+  /* Jump to a node, without animating.
 
-     This document is around 230,000 pixels tall, and at that length Chrome's
-     smooth-scroll animator simply declines: scrollIntoView with
-     behavior:"smooth" over a jump of a few thousand pixels leaves the page
-     exactly where it was, silently and with no error. Both the find bar and
-     the key popover used it, so their Prev and Next appeared dead - the
-     counter advanced, the page never moved. Short hops still animate; long
-     ones are taken instantly, which is what you want across a document this
-     size anyway. */
+     Both the find bar and the key popover used
+     scrollIntoView({behavior:"smooth"}), and there are environments where that
+     animation never runs and the page simply stays put: the counter advances,
+     nothing moves, and it reads as a dead button. An instant jump cannot fail
+     that way, and across a document of this length it is the better behaviour
+     regardless - you want to arrive, not to watch. */
   function goTo(node) {
     if (!node) return;
-    var y = node.getBoundingClientRect().top + W.scrollY;
-    var far = Math.abs(y - W.scrollY) > 2400;
-    node.scrollIntoView({ block: "center", behavior: far ? "auto" : "smooth" });
+    node.scrollIntoView({ block: "center" });
   }
 
   /* ---------------------------------------------------------------- theme */
