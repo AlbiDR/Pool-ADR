@@ -109,6 +109,10 @@ FAULTS = [
                   "32_level-column-and-safety-discharge_t0915.jpg")),
     ("C24", "a folder of evidence with nothing explaining it",
      lambda: touch("12_newfolder/01_something.jpg")),
+    ("C25", "a legend key with no badge left on the diagram",
+     # M is badged exactly once; N is badged in two sub-drawings, so deleting one
+     # of those proves nothing. A fault has to actually remove the key.
+     lambda: edit_re(SURVEY, r'<circle cx="238" cy="303"[^>]*/><text x="238"[^>]*>M</text>', '')),
     ("C16", "a file over the 100 MB hard limit",
      lambda: touch("00_inbox/huge.bin", b"\0" * (101 * 1024 * 1024))),
 ]

@@ -618,6 +618,40 @@ def c24():
     return out
 
 
+@check("C25", "every key in the legend is drawn on the diagram")
+def c25():
+    """The survey's opening paragraph promises "Every key is drawn as a circle, on
+    the drawing and in the text alike". It was not true: M, N, 1, 3, 4 and 7 lived
+    in the legend and the prose and appeared nowhere on the picture, and nobody
+    noticed until a reader asked why valve 7 was missing.
+
+    A key defined in the legend but absent from the drawing is the worst kind of
+    gap, because the legend is what tells you the drawing is complete."""
+    s = survey()
+    lg = re.search(r'<h4>The letters, as the sheets number them</h4>([\s\S]*?)</dl>', s)
+    if not lg:
+        return ["could not find the legend block that defines the keys"]
+    keys = set()
+    for dt in re.findall(r"<dt>([\s\S]*?)</dt>", lg.group(1)):
+        keys.update(re.findall(r"<code>([A-Z0-9]{1,2})</code>", dt))
+    if not keys:
+        return ["the legend defines no keys at all"]
+    m = re.search(r'<svg viewBox="0 0 1560 2370"[\s\S]*?</svg>', s)
+    if not m:
+        return ["could not find the schematic svg"]
+    svg = m.group(0)
+    # a badge is a circle in the valve or unsure colour with its letter beside it
+    drawn = set(re.findall(
+        r'<circle[^>]*stroke="var\(--(?:valve|unsure)\)"[^>]*/>\s*<text[^>]*>([A-Z0-9]{1,2})</text>', svg))
+    out = ["%s is defined in the legend but has no badge on the diagram" % k
+           for k in sorted(keys - drawn)]
+    # the other direction matters just as much: a badge on the picture that the
+    # legend never defines is a key the reader cannot look up. 5 was one.
+    out += ["%s is drawn on the diagram but the legend never defines it" % k
+            for k in sorted(drawn - keys)]
+    return out
+
+
 def main(argv):
     verbose = "-v" in argv
     want = [a.upper() for a in argv if re.match(r"^[Cc]\d+$", a)]

@@ -659,15 +659,14 @@ html.js .top.show{display:block}
       <!-- level sensor tube with valve G -->
       <line x1="350" y1="368" x2="420" y2="368" stroke="var(--pipe)" stroke-width="2.5"/>
       <path d="M368,361 L368,375 L376,368 z M384,361 L384,375 L376,368 z" fill="var(--valve)"/>
-      <circle cx="376" cy="348" r="9.5" fill="var(--panel)" stroke="var(--valve)" stroke-width="1.4"/><text x="376" y="352" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="700" fill="var(--valve)">G</text>
+      <text x="392" y="346" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="700" fill="var(--valve)">ISOLATOR</text>
       <rect x="420" y="350" width="26" height="40" fill="var(--panel)" stroke="var(--ink-3)" stroke-width="1.3"/>
       <polyline points="433,350 433,192 300,192 300,152" fill="none" stroke="var(--ink-3)" stroke-width="1.5" stroke-dasharray="6 4" marker-end="url(#arE)"/>
       <!-- tank outlet: G and 7 -->
       <line x1="350" y1="455" x2="490" y2="455" stroke="var(--pipe)" stroke-width="2.5"/>
-      <path d="M373,448 L373,462 L381,455 z M389,448 L389,462 L381,455 z" fill="var(--valve)"/>
-      <circle cx="381" cy="435" r="9.5" fill="var(--panel)" stroke="var(--valve)" stroke-width="1.4"/><text x="381" y="439" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="700" fill="var(--valve)">G</text>
-      <path d="M425,448 L425,462 L433,455 z M441,448 L441,462 L433,455 z" fill="var(--valve)"/>
-      <circle cx="433" cy="435" r="9.5" fill="var(--panel)" stroke="var(--valve)" stroke-width="1.4"/><text x="433" y="439" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="700" fill="var(--valve)">7</text>
+      <path d="M399,448 L399,462 L407,455 z M415,448 L415,462 L407,455 z" fill="var(--valve)"/>
+      <circle cx="383" cy="435" r="9.5" fill="var(--panel)" stroke="var(--valve)" stroke-width="1.4"/><text x="383" y="439" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="700" fill="var(--valve)">G</text>
+      <circle cx="431" cy="435" r="9.5" fill="var(--panel)" stroke="var(--valve)" stroke-width="1.4"/><text x="431" y="439" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="700" fill="var(--valve)">7</text>
       <!-- suction riser -->
       <line x1="490" y1="455" x2="490" y2="620" stroke="var(--pipe)" stroke-width="2.5"/>
       <!-- bottom drain L -->
@@ -685,7 +684,7 @@ html.js .top.show{display:block}
       <text x="341" y="604" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="700" fill="var(--valve)">H / 6</text>
 
       <!-- ===== pump ===== -->
-      <line x1="490" y1="490" x2="540" y2="490" stroke="var(--pipe)" stroke-width="2.5" marker-end="url(#ar)"/>
+      <line x1="490" y1="490" x2="540" y2="490" stroke="var(--pipe)" stroke-width="2.5" marker-end="url(#ar)"/><path d="M501,483 L501,497 L509,490 z M517,483 L517,497 L509,490 z" fill="var(--valve)"/><text x="486" y="478" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="700" fill="var(--valve)">SUCTION</text>
       <rect x="540" y="450" width="160" height="80" fill="var(--panel)" stroke="var(--ink)" stroke-width="1.4"/>
       <circle cx="572" cy="490" r="15" fill="none" stroke="var(--pipe)" stroke-width="1.8"/>
       <path d="M572,475 A15,15 0 0 1 587,490 L572,490 z" fill="var(--pipe)"/>
@@ -772,6 +771,8 @@ html.js .top.show{display:block}
       <!-- the low suction run: tank penetration, along the manifold wall behind the drops, round the corner, to the pump -->
       <path d="M694,1340 L742,1340 L746,1334 L746,974 L742,968 L466,968 L462,974 L462,1032"
             fill="none" stroke="var(--pipe)" stroke-width="2.5"/>
+      <path d="M455,1003 L469,1003 L462,1011 z M455,1019 L469,1019 L462,1011 z" fill="var(--valve)"/>
+      <text x="478" y="1015" font-family="IBM Plex Mono, monospace" font-size="10" fill="var(--valve)">SUCTION</text>
       <text x="700" y="1104" text-anchor="middle" font-size="11" fill="var(--ink-3)">low suction pipe</text>
 
       <!-- floor-standing plant -->
@@ -948,6 +949,8 @@ html.js .top.show{display:block}
         <dt><code>1</code></dt><dd>Filter drain valve. Open it before a backwash, close it after.</dd>
         <dt><code>3</code></dt><dd>Sight glass. Run the backwash until the water in it comes clear.</dd>
         <dt><code>4</code></dt><dd>Filter pressure gauge. <b>0.5 to 0.7 bar is normal running. Backwash once it passes 1.0.</b> The sheet's &#8220;about 1 bar&#8221; is the backwash trigger, not the target.</dd>
+        <dt><code>5</code></dt><dd>The vacuum point itself, the socket in the pool wall: unscrew the cover and push the hose in. A picture number from the cleaning sheet rather than a valve. The valve that opens that line is <code>6</code>, which is <code>H</code>.</dd>
+        <dt>SUCTION</dt><dd>The red-handled ball valve on the pump's suction, immediately before the clear strainer. No letter on sheet 1 and no picture number on sheet 3, so it is named here rather than given a letter of my own. <b>Keep it open.</b> It is what you shut to open the strainer basket or work on the pump without draining the balance tank, and it is the "suction valve" Kripsol's pre-start check tells you to open before filling the pump body by hand. Visible in photographs 16, 25 and 26. <b>No matching valve is visible on the discharge in any photograph</b>, so where Kripsol says "the suction and discharge valves", this installation appears to have one, not two.</dd>
         <dt><code>7</code></dt><dd><b>The same valve as <code>G</code>.</b> Balance tank outlet: close it to vacuum harder, and close it when emptying so the tank does not drain too. This was carried as unresolved until the printed sheets were read against each other. <span class="it">Sheet 1</span> letters the components on its own photograph of the room, <code>A</code> to <code>H</code>, <code>L</code>, <code>M</code>, <code>N</code>. <span class="it">Sheet 3</span> carries its own strip of seven numbered photographs and cites components by picture number, <code>1</code> to <code>7</code>. Three components appear on both and so carry both labels. Sheet 3 gives itself away: its backwash note says <b>close valve <code>G</code></b> because the tank level drops, and its vacuum step says <b>close the balance tank outlet <code>7</code></b>, which is the same valve, the same action and the same sheet. Picture 7 shows a red-handled ball valve on an elbow, which is what stands at the tank end of the low run.</dd>
       </dl>
     </div>
@@ -1124,7 +1127,7 @@ html.js .top.show{display:block}
       <li><b>Expect a day or more.</b> This line delivers roughly 1.5 to 2 m&#179;/h, so 72 m&#179; takes 36 to 48 hours. To measure your own rate: one centimetre of pool level is about 400 to 500 litres, so time the rise over an hour. If it is slower than it should be, the <b>manual bypass loop</b> past the solenoid is the biggest single improvement available, and the <b>strainer</b> on the top-up line is the most likely restriction after a drain. <b>Close the bypass before the pool crests</b>, because unlike the reintegro it will not stop itself.</li>
       <li><b>While it fills, hold the standing water.</b> It has no sanitiser and no circulation. Pre-dissolve <b>2 to 2.5 g per m&#179; of water actually in the pool</b> of the granular chlorine, so about 150 g at 60 m&#179;, and pour it round the perimeter. Repeat every two or three days. That costs about 1 mg/L of cyanuric acid, against 8 for a full shock. <b>Write it in <span class="it">LOG.txt</span></b>, with the amount.</li>
       <li><b>Watch the clear column, not the pool.</b> The instant it starts to rise, the pool is spilling and the tank is filling. From there it is <b>about 45 minutes to an hour to reach 0.55 m</b>, your start level, and roughly another hour before the reintegro satisfies and shuts off.</li>
-      <li><b>Kripsol's pre-start checks.</b> Turn the motor's fan blades by hand from the back to confirm it is not seized after standing dry. Check the thermal overload has not tripped. Open the suction and discharge valves and <b>fill the pump body with water by hand</b> through the clear strainer lid, and check that lid's O-ring, which is what stops it sucking air.</li>
+      <li><b>Kripsol's pre-start checks.</b> Turn the motor's fan blades by hand from the back to confirm it is not seized after standing dry. Check the thermal overload has not tripped. Open the suction and discharge valves and <b>fill the pump body with water by hand</b> through the clear strainer lid, and check that lid's O-ring, which is what stops it sucking air. The valve Kripsol means is <b>SUCTION</b>, the red handle immediately before the strainer; no valve is visible on the discharge, so here there is one to open, not two.</li>
       <li><b>Valves:</b> <code>G</code> open, which is the same valve as <code>7</code>, all four <code>D</code> open, <code>B</code> and <code>C</code> open, <code>A</code> almost closed, <code>L</code> and <code>H</code> shut, filter drain <code>1</code> shut, and the level column's <b>ISOLATOR</b> open so the column reads the tank rather than a level it was left at.</li>
       <li><b>First start on <code>5</code>, circulation, not <code>1</code>.</b> Kripsol's instruction, and it is not the obvious choice: circulation bypasses the filter, so you are not driving air and disturbed debris through the sand on the first run. Panel off before the lever moves, handle pressed down as a clutch. <b>Watch the strainer lid clear of air within a minute or two. If it is still churning, stop.</b></li>
       <li>Then <code>2</code> backwash until the sight glass runs clear, two to three minutes, then <code>3</code> rinse briefly, then <code>1</code> filtration. Panel off for every movement. <b>Write the gauge reading into <span class="it">LOG.txt</span> after that last backwash</b>: it is the new clean baseline and should be 0.5 to 0.7.</li>

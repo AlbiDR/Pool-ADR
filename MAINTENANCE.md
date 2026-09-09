@@ -47,6 +47,7 @@ being written. They are not hypothetical.
 | `C22` | A contact sheet that no longer shows its whole folder | A stale sheet does not look wrong. It just quietly leaves out the photograph you went looking for. Each sheet carries a digest of its inputs in its own JPEG comment. |
 | `C23` | A `tHHMM` token that is not a time the file actually carries | Left unenforced the token becomes decoration: a file is renamed, four plausible digits are typed, and from then on the archive says a thing happened at a time it did not. |
 | `C24` | A numbered folder with nothing beside it explaining what it is | Four folders went the life of the project without one, `04_plant-room` among them: thirty-three photographs, nothing saying which was better or what the gap at 28 meant. |
+| `C25` | A key the legend defines that the diagram never draws, or a badge the diagram draws that the legend never defines | `M`, `N`, `1`, `3`, `4` and `7` lived in the legend and appeared nowhere on the picture, while the opening paragraph claimed every key was drawn. `5` was the reverse: badged on the picture, defined nowhere. A reader found both, not the checker. |
 | `C19` | Two frames of the same thing filed as two photographs | Photographs 27 and 28 were shot in the same second and differed only by camera shake. They were not byte-identical, so an exact-hash audit walked past them. This one compares what the pictures look like. |
 
 ## Proving the checks still work
@@ -55,7 +56,7 @@ being written. They are not hypothetical.
 python3 tools/selftest.py
 ```
 
-It breaks the repository twenty-four ways, once per check, confirms each break is
+It breaks the repository twenty-five ways, once per check, confirms each break is
 caught, and puts everything back. It refuses to run on a dirty tree, so a crash
 cannot cost you work.
 

@@ -134,7 +134,7 @@ reading it and bad for editing it. One command checks the lot:
 python3 tools/check.py
 ```
 
-Twenty-four checks, standard library only (one, the near-duplicate
+Twenty-five checks, standard library only (one, the near-duplicate
 scan, uses Pillow when it is available and reports itself skipped when it is not). Section numbering, the nav, internal links,
 the folder table against the folders on disk, file references, offline
 self-containment, punctuation, superseded wording, the canonical numbers in
@@ -143,12 +143,13 @@ diagram still match the HTML they came from, near-duplicate images,
 GitHub's size limits, the activity log's ordering, the media manifest against
 the files on disk, whether each contact sheet still shows its whole folder, and
 whether every time token in a file name is a time that file actually carries,
-and whether every folder of evidence has something beside it explaining what it
-is. Every one of them is a mistake that actually happened here.
+whether every folder of evidence has something beside it explaining what it is,
+and whether every key the legend defines is actually drawn on the diagram.
+Every one of them is a mistake that actually happened here.
 
 [MAINTENANCE.md](MAINTENANCE.md) explains how to do the usual things without
 causing drift, and `python3 tools/selftest.py` breaks the repository
-twenty-four ways to prove the checks still detect anything.
+twenty-five ways to prove the checks still detect anything.
 
 ## A disclaimer, because this is public
 
