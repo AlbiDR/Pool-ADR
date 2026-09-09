@@ -1901,6 +1901,11 @@ installed, the 39-megapixel photosphere and the panel photograph are the record.
     if (tgt) targets.push({ a: navLinks[n], el: tgt });
   }
   var here = null;
+  function markCurrent(t) {
+    for (var j = 0; j < targets.length; j++)
+      if (targets[j] === t) targets[j].a.setAttribute("aria-current", "true");
+      else targets[j].a.removeAttribute("aria-current");
+  }
   var secPrev = d.querySelector("[data-sec-prev]"), secNext = d.querySelector("[data-sec-next]");
 
   /* Step between sections.
@@ -1925,9 +1930,12 @@ installed, the 39-megapixel photosphere and the panel photograph are the record.
     if (i < 0 || i >= targets.length) return;
     var t = targets[i].el;
     openFor(t);
-    goTo(t);
     here = targets[i];
+    markCurrent(here);
     syncSecBtns();
+    /* open first, measure second: a section that has just unfolded is taller
+       than it was, and jumping before the layout settles lands short */
+    goTo(t);
   }
 
   function measure() { root.style.setProperty("--bar-h", (bar ? bar.offsetHeight : 116) + "px"); }
@@ -1944,9 +1952,7 @@ installed, the 39-megapixel photosphere and the panel photograph are the record.
     if (!cur && targets.length) cur = targets[0];
     here = cur;
     syncSecBtns();
-    for (var j = 0; j < targets.length; j++)
-      if (targets[j] === cur) targets[j].a.setAttribute("aria-current", "true");
-      else targets[j].a.removeAttribute("aria-current");
+    markCurrent(cur);
     /* the nav wraps onto two lines now and never scrolls sideways, so there is
        nothing to keep in view */
   }
@@ -1971,9 +1977,17 @@ installed, the 39-megapixel photosphere and the panel photograph are the record.
      everything so the PDF is the whole document, and following a nav link or
      any #anchor opens the section it lands in. */
   var secs = d.querySelectorAll("details.sec");
+  /* Two directions, because the fold sits in both relations to a target. A
+     search match is INSIDE a details, so we walk up. A section is the PARENT of
+     its own details, so we also look one step down. Walking up alone left every
+     folded section still folded when you navigated to it. */
   function openFor(node) {
+    if (!node) return;
     for (var p2 = node; p2; p2 = p2.parentNode)
       if (p2.nodeName === "DETAILS" && !p2.open) p2.open = true;
+    var kids = node.children || [];
+    for (var k = 0; k < kids.length; k++)
+      if (kids[k].nodeName === "DETAILS" && !kids[k].open) kids[k].open = true;
   }
   function setAll(v) { for (var i = 0; i < secs.length; i++) secs[i].open = v; }
 
