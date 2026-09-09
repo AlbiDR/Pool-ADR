@@ -24,7 +24,9 @@ WHERE THEY ARE WRONG, AND WHAT WAS DONE ABOUT IT
   They are a household reference, not a specification, and two things on them
   do not survive contact with the makers' own manuals:
 
-  THE GAUGE.  The sheet says "about 1 bar". Kripsol's manual gives 0.5 to 0.7
+  THE GAUGE.  The sheet says "about 1 bar", and MEASUREMENT ON 2026-09-09 PROVED
+              THE SHEET RIGHT: 1.18 bar on freshly backwashed clean sand.
+              Kripsol's manual gives 0.5 to 0.7
   bar as normal running and 1.0 as the point at which you stop and backwash.
   The survey follows the manual and says so where it matters.
 

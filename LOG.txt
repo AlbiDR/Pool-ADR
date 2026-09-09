@@ -55,6 +55,28 @@ HOW MUCH TO WRITE
 2026
 ===============================================================================
 
+2026-09-09 ~10:05 DOSE       180 g granular chlorine (NaDCC 56%), pre-dissolved,
+                             into a full pool with the pump now circulating.
+2026-09-09 ~10:00 VALVE      Drain valve 1 returned to closed.
+2026-09-09 ~09:55 GAUGE      1.18 bar on 1 filtration, immediately after backwash
+                             and rinse. THIS IS THE CLEAN BASELINE. It was 1.2
+                             before the backwash, so the bed had nothing in it and
+                             the pressure is the pump, pipework, cell and throttled
+                             A, not loaded sand. Kripsol's generic 0.5 to 0.7 does
+                             not apply to this installation; the printed sheet's
+                             "about 1 bar" was right.
+2026-09-09 ~09:50 BACKWASH   Full sequence run: drain valve 1 open, Kripsol 2 until
+                             the sight glass ran clear, 3 rinse, back to 1. Panel
+                             off for every lever move.
+2026-09-09 ~09:40 PUMP       On, selector moved to M for the procedure. Strainer lid
+                             full of water, no churning, so prime was good and the
+                             seal was never at risk.
+2026-09-09 ~09:30 PUMP       Started on A (time clock). Ran noisily at 1.2 bar with
+                             the column oscillating, and Kripsol was left on 1, so
+                             the 5-circulation step was skipped. Diagnosed at the
+                             time as air in the vessel; the backwash showed it was
+                             not air, just the installation's normal pressure.
+                             First run since the system was drained.
 2026-09-09 ~04:30 REINTEGRO  Off, 0. Pool and tank both full. Fell asleep after
                              the 00:29 reading, so it ran on unattended. Crest was
                              never observed; predicted 01:06 from a measured

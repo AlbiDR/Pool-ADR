@@ -75,7 +75,7 @@ deleted; `08_panoramas/READ-ME.txt` records what they were and why they went.
 
 **Where a maker's manual contradicts the printed sheets, this follows the
 manual and says so.** The clearest case is the filter gauge: the sheet says
-"about 1 bar", but Kripsol's own manual gives 0.5 to 0.7 bar as normal running
+"about 1 bar", and Kripsol's manual gives 0.5 to 0.7 bar as normal running
 and 1.0 as the point at which you stop and backwash.
 
 ## How it is named, and how to find anything

@@ -10,7 +10,11 @@ now says so explicitly and says which one it is following.
   Source: https://cdn.hayward.fr/production/media/5/0/9/5/5e66b7.pdf
   (Hayward's CDN. Hayward owns Kripsol.)
   Key figures found:
-    - Gauge reads 0.5 to 0.7 during normal filtration.
+    - Gauge reads 0.5 to 0.7 during normal filtration. NOTE: this is the
+      filter in isolation. Measured on this installation 2026-09-09, clean
+      sand freshly backwashed, the reading is 1.18 bar. The pump, the
+      pipework, the cell and the throttled A all add head. Do not apply
+      Kripsol's figure here.
     - When it passes 1.0, stop the motor and backwash. This is a trigger,
       not a target. The printed sheet in the room says "about 1 bar",
       which is the backwash point rather than the normal reading.
