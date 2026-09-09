@@ -89,6 +89,7 @@ saying it was superseded. It fails only when asserted straight.
 The point of the list is that a future edit cannot quietly reintroduce a mistake
 this survey has already worked through.
 
+0.5-0.7 bar normal and BACKWASH ONCE IT PASSES 1.0 || WRONG for this installation, same error as the line below, and it survived the first correction sweep because that sweep searched for "0.5 to 0.7" and this file writes "0.5-0.7" || unless: an earlier version, kripsol's manual gives, describes the filter alone
 0.5 to 0.7 bar is normal running || WRONG for this installation, and it was mine. Kripsol's generic figure was preferred over the household sheet's "about 1 bar"; a measurement on clean freshly backwashed sand on 2026-09-09 gave 1.18 bar and proved the sheet right || unless: an earlier version, kripsol's manual gives, filter in isolation, generic
 correctly sized || the tank sizing verdict was revised to 5.1 percent, adequate rather than generous, once the sockets were measured at 0.35 m || unless: an earlier version
 tiled pool || the pool is finished in smooth black resin, not tile, so the grout-attack mechanism does not apply || unless: an earlier version, no grout

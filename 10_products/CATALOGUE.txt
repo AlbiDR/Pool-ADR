@@ -135,6 +135,21 @@ THE STOCK
                filtration, repeating until clear
                preventive 10 g per 10 m3 in the evening, after every backwash
    This pool    curative 1,088 g; preventive 72.5 g
+   DOSE OR NONE  A fraction of the curative dose is not a gentler treatment,
+             it is a failed one. These work by neutralising the charge holding
+             fine particles apart; too little leaves them half-destabilised and
+             forms flocs too fine for the bed to catch, which is the exact
+             weakness being treated. If a small dose is wanted use the 72.5 g
+             preventive figure, which the label sanctions, and expect
+             maintenance rather than recovery. A drinking glass is roughly
+             250 g: three and a half times the preventive dose and a quarter of
+             the curative, the least useful point on the scale.
+   TIMING    Sanitise BEFORE clarifying: a flocculant settles dead particles,
+             it does not treat anything that is still growing. Do not start
+             while rain is running in, or the water is being re-dirtied as fast
+             as it is cleared. And flocculate BEFORE adding salt where there is
+             a choice, because the treatment needs a backwash every 4 to 5
+             hours and each one costs 3.6 to 6.0 kg of salt.
    Dosing route  the label says "the farthest skimmer". This pool has no
              skimmers. The balance tank is the equivalent: it is where the
              pump draws from, so the dose reaches the filter. INFERRED, not
@@ -245,9 +260,14 @@ CLEAR BUT SLIGHTLY CLOUDY, or dull
   -> FLOCCULANTE 1,088 g pre-diluted into the balance tank. Backwash every
      4-5 hours of filtration, repeat until clear.
   -> Then keep it away: 72.5 g each evening after every backwash.
-  -> First check the filter gauge. Kripsol's own manual says 0.5-0.7 bar
-     normal and BACKWASH ONCE IT PASSES 1.0. If it sits near 1.0, the filter
-     is the cause and no chemical will fix it.
+  -> First check the filter gauge, AGAINST THIS INSTALLATION'S BASELINE OF
+     ABOUT 1.2 BAR, not against an absolute number. Measured 2026-09-09 on
+     clean freshly backwashed sand: 1.18 bar. Kripsol's manual gives 0.5-0.7
+     and a 1.0 trigger, but that describes the filter alone, not this filter
+     behind an oversized pump on limiting pipework with the cell in circuit.
+     Near 1.5 the filter is the cause and no chemical will fix it. Sitting at
+     1.2 it is NOT the filter, and reaching for sand would be chasing a fault
+     that is not there.
 
 CLOUDY AND THE WATER IS HARD, or you can see scale
   Calcium coming out of solution.

@@ -55,6 +55,24 @@ HOW MUCH TO WRITE
 2026
 ===============================================================================
 
+2026-09-09 ~10:40 NOTE       Heavy rain started. Adds unchlorinated water, plus
+                             airborne nutrients, and pushes perimeter water over
+                             the weir, so part of the 10:05 dose is diluted or
+                             carried out. No flood risk: pool caps at the weir,
+                             tank at its safety overflow.
+2026-09-09 ~10:35 PUMP       Selector moved A -> M for continuous filtration.
+                             A hands the pump to the 24 h clock, which is set for
+                             normal running, not a first clear-up. M bypasses the
+                             clock but not the low-level interlock. Return to A
+                             once the water is clear.
+2026-09-09 ~10:10 NOTE       Water pretty cloudy and very faintly smelly before
+                             dosing. The smell is the signal: fresh mains water
+                             does not smell, so this is early biological activity
+                             after ~3 days standing with no circulation and no
+                             sanitiser. Cloudiness alone could have been
+                             particulate off the drained pipework. Flocculant
+                             deliberately NOT used: sanitise before clarifying,
+                             and not while rain is running in.
 2026-09-09 ~10:05 DOSE       180 g granular chlorine (NaDCC 56%), pre-dissolved,
                              into a full pool with the pump now circulating.
 2026-09-09 ~10:00 VALVE      Drain valve 1 returned to closed.
