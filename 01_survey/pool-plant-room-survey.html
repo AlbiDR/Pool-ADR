@@ -240,7 +240,11 @@ html.js .tools{display:flex}
 .btn:hover{color:var(--panel);background:var(--ink);border-color:var(--ink)}
 .btn[aria-pressed="true"]{color:var(--panel);background:var(--ink-2);border-color:var(--ink-2)}
 .find .btn{border:0;border-left:1px solid var(--rule);background:transparent;padding:6px 9px}
-.find .btn:hover{background:var(--ink);color:var(--panel)}
+.find .btn:hover:not(:disabled){background:var(--ink);color:var(--panel)}
+/* Prev and Next belong to the find box, not to the page. With nothing searched
+   they have nothing to step through, and left looking live they read as broken
+   navigation - which is exactly how they were first reported. */
+.find .btn:disabled{opacity:.35;cursor:default}
 .seg{display:flex;flex:none}
 .seg .btn{border-right-width:0}
 .seg .btn:last-child{border-right-width:1px}
@@ -1974,7 +1978,17 @@ installed, the 39-megapixel photosphere and the panel photograph are the record.
 
   /* ----------------------------------------------------------------- find */
   var box = d.getElementById("q"), hits = d.querySelector(".hits");
+  var fPrev = d.querySelector("[data-find-prev]"), fNext = d.querySelector("[data-find-next]");
   var marks = [], at = -1, SKIP = /^(SCRIPT|STYLE|SVG|MARK|NOSCRIPT)$/;
+
+  /* Nothing searched means nothing to step to. Say so in the only way a button
+     can: by refusing the press visibly, rather than accepting it and doing
+     nothing. */
+  function syncFindBtns() {
+    var none = !marks.length;
+    if (fPrev) fPrev.disabled = none;
+    if (fNext) fNext.disabled = none;
+  }
 
   function clearMarks() {
     for (var i = 0; i < marks.length; i++) {
@@ -1984,6 +1998,7 @@ installed, the 39-megapixel photosphere and the panel photograph are the record.
       p.normalize();
     }
     marks = []; at = -1;
+    syncFindBtns();
   }
   function hunt(q) {
     clearMarks();
@@ -2014,6 +2029,7 @@ installed, the 39-megapixel photosphere and the panel photograph are the record.
       parent.replaceChild(frag, text);
     }
     hits.textContent = marks.length ? "1/" + marks.length : "none";
+    syncFindBtns();
     if (marks.length) { at = -1; step(1); }
   }
   function step(dir) {
@@ -2025,6 +2041,7 @@ installed, the 39-megapixel photosphere and the panel photograph are the record.
     hits.textContent = (at + 1) + "/" + marks.length;
     goTo(marks[at]);
   }
+  syncFindBtns();
   if (box) {
     var timer;
     on(box, "input", function () { clearTimeout(timer); timer = setTimeout(function () { hunt(box.value.trim()); }, 160); });
@@ -2032,8 +2049,8 @@ installed, the 39-megapixel photosphere and the panel photograph are the record.
       if (e.key === "Enter") { e.preventDefault(); step(e.shiftKey ? -1 : 1); }
       if (e.key === "Escape") { box.value = ""; hunt(""); box.blur(); }
     });
-    on(d.querySelector("[data-find-prev]"), "click", function () { step(-1); });
-    on(d.querySelector("[data-find-next]"), "click", function () { step(1); });
+    if (fPrev) on(fPrev, "click", function () { step(-1); });
+    if (fNext) on(fNext, "click", function () { step(1); });
     on(W, "keydown", function (e) {
       if (e.key === "/" && d.activeElement !== box && !/^(INPUT|TEXTAREA)$/.test(d.activeElement.nodeName)) {
         e.preventDefault(); box.focus(); box.select();
