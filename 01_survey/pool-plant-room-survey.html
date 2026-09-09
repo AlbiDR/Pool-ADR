@@ -368,6 +368,7 @@ html.js .top.show{display:block}
         <li>All four <code>D</code> open</li>
         <li><code>G</code> and <code>7</code> open, <code>E</code> open</li>
         <li><code>L</code> shut or barely open, <code>H</code> shut, <code>1</code> shut</li>
+        <li>Column <b>ISOLATOR</b> open, and the column moving</li>
         <li>Gauge <code>4</code> at <b>0.5 to 0.7 bar</b></li>
         <li>pH 7.2 to 7.4, chlorine 0.6 to 1.5</li>
       </ul>
@@ -554,10 +555,10 @@ html.js .top.show{display:block}
       <!-- 4. back to the door -->
       <text x="1516" y="108" text-anchor="end" font-family="Barlow Condensed, sans-serif" font-size="14" font-weight="700" letter-spacing="0.06em" fill="var(--valve)">DOOR</text>
       <line x1="1494" y1="172" x2="1494" y2="418" stroke="var(--ink)" stroke-width="7"/>
-      <rect x="1348" y="185" width="18" height="253" rx="8" fill="var(--panel)" stroke="var(--cell)" stroke-width="1.6"/>
-      <text x="1380" y="212" font-size="11.5" fill="var(--cell)">level column</text>
-      <text x="1306" y="458" font-size="11.5" fill="var(--ink-3)">both from the balance tank</text><rect x="1286" y="403" width="14" height="14" fill="url(#hatch)" stroke="var(--ink-3)" stroke-width="1.1"/><rect x="1310" y="422" width="14" height="14" fill="url(#hatch)" stroke="var(--ink-3)" stroke-width="1.1"/><line x1="1324" y1="429" x2="1348" y2="429" stroke="var(--cell)" stroke-width="2.5"/>
-      <line x1="1380" y1="418" x2="1466" y2="418" stroke="var(--ink)" stroke-width="3"/>
+      <rect x="1390" y="185" width="18" height="253" rx="8" fill="var(--panel)" stroke="var(--cell)" stroke-width="1.6"/>
+      <text x="1382" y="212" text-anchor="end" font-size="11.5" fill="var(--cell)">level column</text>
+      <text x="1306" y="458" font-size="11.5" fill="var(--ink-3)">both from the balance tank</text><rect x="1286" y="403" width="14" height="14" fill="url(#hatch)" stroke="var(--ink-3)" stroke-width="1.1"/><rect x="1310" y="422" width="14" height="14" fill="url(#hatch)" stroke="var(--ink-3)" stroke-width="1.1"/><line x1="1324" y1="429" x2="1390" y2="429" stroke="var(--cell)" stroke-width="2.5"/><path d="M1342,422 L1342,436 L1350,429 z M1358,422 L1358,436 L1350,429 z" fill="var(--valve)"/><text x="1350" y="418" text-anchor="middle" font-size="11.5" fill="var(--valve)">ISOLATOR</text>
+      <line x1="1422" y1="418" x2="1474" y2="418" stroke="var(--ink)" stroke-width="3"/>
       <path d="M560,263 L570,268 L560,273 z" fill="var(--pipe)"/>
       <path d="M760,263 L770,268 L760,273 z" fill="var(--pipe)"/>
       <path d="M950,263 L960,268 L950,273 z" fill="var(--pipe)"/>
@@ -898,6 +899,13 @@ html.js .top.show{display:block}
         <dt><code>M</code></dt><dd>Kripsol six-way valve, mounted on the filter's side. <b>Position <code>1</code>, Filtration</b> for normal running.</dd>
         <dt>POD</dt><dd>The clear probe holder clamped to the low horizontal pipe, between the filter and the cell branch. One body doing four jobs: the <b>flow switch</b> that stops the cell when the water is not moving, the <b>pH probe</b> (red), the <b>ORP probe</b> (blue), and the <b>acid injection point</b>. Zodiac's name for it, and the reason everything measured or dosed happens in one place.</dd>
         <dt>ACID</dt><dd>Sulfuric acid 36%, the pH minus. One tube runs from the drum to the TRi PRO's peristaltic pump; a second returns from the pump to the <b>POD</b>, the clear probe holder on the low horizontal pipe. That is where it injects, into the same body that carries the pH probe, the ORP probe and the flow switch. The POD sits <b>before</b> the cell, which is where Zodiac puts it: the manual specifies the POD as the first element after the filter.</dd>
+        <dt>ISOLATOR</dt><dd>The valve at the foot of the level column, on the take-off between the
+        <b>balance tank and the column</b>. Red handle, and the only valve in this room the printed sheets never
+        lettered, which is why it is named here rather than given a letter of my own. <b>Keep it open.</b>
+        Shut, it cuts the column off from the tank, and everything that follows is silent: the column freezes at
+        whatever level it was showing, the floats sitting in it read that stale level, the automatic top-up stops
+        calling for water, and <b>the low-level interlock reads a satisfied tank and will let the pump run dry</b>.
+        Nothing else in the room looks wrong. If the column has not moved in days, check this before believing it.</dd>
         <dt><code>N</code></dt><dd>Floor gully and sump with a submersible pump. The room is below ground, so this is the only way water leaves the floor.</dd>
         <dt><code>1</code></dt><dd>Filter drain valve. Open it before a backwash, close it after.</dd>
         <dt><code>3</code></dt><dd>Sight glass. Run the backwash until the water in it comes clear.</dd>
@@ -911,7 +919,7 @@ html.js .top.show{display:block}
       <dl>
         <dt>pump</dt><dd>Filtration pump on <code>A</code>, automatic, so the 24 hour time clock runs it.</dd>
         <dt>top-up</dt><dd>Reintegro on <code>A</code>, automatic, so the level relays call for water on their own. The top-up discharges into the <b>return manifold</b>, so mains water reaches the pool through the four wall outlets, not into the tank.</dd>
-        <dt>interlock</dt><dd><b>There is a low-level cut-out that will not let the pump run when the balance tank is too low.</b> The printed sheet states it plainly in the backwash procedure, "the balance tank level drops during this and will stop the pump", and it was confirmed by accident on 2026-09-07 when the pump sat on <code>M</code> for a full day with an empty tank and never started. Treat it as a backstop for the day someone forgets, never as a substitute for the selector being on <code>0</code>: the same clear column that feeds it has its own isolating valve, and closed, that valve makes the floats read a satisfied level and the interlock <b>permit</b> a dry run.</dd>
+        <dt>interlock</dt><dd><b>There is a low-level cut-out that will not let the pump run when the balance tank is too low.</b> The printed sheet states it plainly in the backwash procedure, "the balance tank level drops during this and will stop the pump", and it was confirmed by accident on 2026-09-07 when the pump sat on <code>M</code> for a full day with an empty tank and never started. Treat it as a backstop for the day someone forgets, never as a substitute for the selector being on <code>0</code>: the same clear column that feeds it has its own <b>ISOLATOR</b>, and closed, that valve makes the floats read a satisfied level and the interlock <b>permit</b> a dry run.</dd>
       </dl>
     </div>
 
@@ -962,7 +970,7 @@ html.js .top.show{display:block}
       <dl>
         <dt>in</dt><dd>The pool overflow. A large orange-brown pipe entering high, ending open and <b>lying loose on the tank floor</b>. Clipping it would cost nothing and stop it knocking when the pool spills hard.</dd>
         <dt>out</dt><dd>The tank outlet, <b>0.35 m above the tank floor</b>, through the compensation valve <code>G</code>. <b>This is the pump's entire water supply.</b> On an overflow pool the pump does not draw from the pool, it draws from the tank. Below 0.35 m the pump has nothing; start it at about 0.55 m so the socket has cover and does not vortex.</dd>
-        <dt>level</dt><dd>The take-off for the clear column in this room, alongside the outlet at <b>0.35 m</b>, so the column can only read levels above that. Communicating vessels: the column stands at exactly the tank's level, so it is a remote gauge for a room you cannot see into. Its float switches drive the two level relays, which open solenoid <code>F</code>.</dd>
+        <dt>level</dt><dd>The take-off for the clear column in this room, alongside the outlet at <b>0.35 m</b>, so the column can only read levels above that. Communicating vessels: the column stands at exactly the tank's level, so it is a remote gauge for a room you cannot see into. Its float switches drive the two level relays, which open solenoid <code>F</code>. <b>An isolator sits on this take-off at the column's foot</b>, so the one line carrying the tank's level into this room can be shut by hand; see ISOLATOR in the diagram legend for what that costs.</dd>
         <dt>safety</dt><dd>The high-level overflow to waste, <b>1.35 m above the tank floor</b>, not at the top: there is 0.65 m of coated tank above it that never holds water. No valve, no electrics, nothing to fail. If the tank fills past it, water leaves instead of rising.</dd>
       </dl>
     </div>
@@ -1079,7 +1087,7 @@ html.js .top.show{display:block}
       <li><b>While it fills, hold the standing water.</b> It has no sanitiser and no circulation. Pre-dissolve <b>2 to 2.5 g per m&#179; of water actually in the pool</b> of the granular chlorine, so about 150 g at 60 m&#179;, and pour it round the perimeter. Repeat every two or three days. That costs about 1 mg/L of cyanuric acid, against 8 for a full shock. <b>Write it in <span class="it">LOG.txt</span></b>, with the amount.</li>
       <li><b>Watch the clear column, not the pool.</b> The instant it starts to rise, the pool is spilling and the tank is filling. From there it is <b>about 45 minutes to an hour to reach 0.55 m</b>, your start level, and roughly another hour before the reintegro satisfies and shuts off.</li>
       <li><b>Kripsol's pre-start checks.</b> Turn the motor's fan blades by hand from the back to confirm it is not seized after standing dry. Check the thermal overload has not tripped. Open the suction and discharge valves and <b>fill the pump body with water by hand</b> through the clear strainer lid, and check that lid's O-ring, which is what stops it sucking air.</li>
-      <li><b>Valves:</b> <code>G</code> and <code>7</code> open, all four <code>D</code> open, <code>B</code> and <code>C</code> open, <code>A</code> almost closed, <code>L</code> and <code>H</code> shut, filter drain <code>1</code> shut.</li>
+      <li><b>Valves:</b> <code>G</code> and <code>7</code> open, all four <code>D</code> open, <code>B</code> and <code>C</code> open, <code>A</code> almost closed, <code>L</code> and <code>H</code> shut, filter drain <code>1</code> shut, and the level column's <b>ISOLATOR</b> open so the column reads the tank rather than a level it was left at.</li>
       <li><b>First start on <code>5</code>, circulation, not <code>1</code>.</b> Kripsol's instruction, and it is not the obvious choice: circulation bypasses the filter, so you are not driving air and disturbed debris through the sand on the first run. Panel off before the lever moves, handle pressed down as a clutch. <b>Watch the strainer lid clear of air within a minute or two. If it is still churning, stop.</b></li>
       <li>Then <code>2</code> backwash until the sight glass runs clear, two to three minutes, then <code>3</code> rinse briefly, then <code>1</code> filtration. Panel off for every movement. <b>Write the gauge reading into <span class="it">LOG.txt</span> after that last backwash</b>: it is the new clean baseline and should be 0.5 to 0.7.</li>
       <li><b>Salt: about 290 kg, twelve 25 kg sacks</b>, added with the pump running so it dissolves and circulates. Twelve sacks lands 72.5 m&#179; at 4.1 g/L. <b>Do not exceed 5.0 g/L</b>, the robot's ceiling. Only then switch the chlorinator on.</li>
@@ -1165,7 +1173,7 @@ html.js .top.show{display:block}
         <tr><td class="tag">Green, or slippery walls</td><td>Algae.</td><td>Algaecide, 1.45 L initial then 363 mL weekly. Expect foam, and expect the cell to work harder while a quat is in the water.</td></tr>
         <tr><td class="tag">Chlorine low though the cell is running</td><td>Either the cell is not producing, or the chlorine is locked up by cyanuric acid.</td><td>Work the fault table above first. Then measure cyanuric acid: above 50 mg/L is lock-up, and the target outdoors is 25 to 30. <b>The cure is dilution, not another chemical.</b></td></tr>
         <tr><td class="tag">pH keeps climbing</td><td>Normal on a salt pool: electrolysis drives pH up. The acid drum should be handling it.</td><td>Check the drum, the peristaltic tube and the probe calibration before dosing by hand. Then pH minus, 290 to 435 g per 0.1 unit.</td></tr>
-        <tr><td class="tag">Pump will not start</td><td>On an overflow pool the pump draws from the tank, so a <b>low-level interlock</b> holds it off when the tank is too low. On <code>M</code> you bypass the time clock but not the interlock.</td><td>Check the tank level on the clear column first, then the motor thermal reset, the C16 MCB and the RCD. The outlet is at 0.35 m, so there is nothing to draw below that; start at about 0.55 m. <b>Do not defeat it:</b> if the column's isolating valve is shut the floats read satisfied and the interlock will permit a dry run.</td></tr>
+        <tr><td class="tag">Pump will not start</td><td>On an overflow pool the pump draws from the tank, so a <b>low-level interlock</b> holds it off when the tank is too low. On <code>M</code> you bypass the time clock but not the interlock.</td><td>Check the tank level on the clear column first, then the motor thermal reset, the C16 MCB and the RCD. The outlet is at 0.35 m, so there is nothing to draw below that; start at about 0.55 m. <b>Do not defeat it:</b> if the column's <b>ISOLATOR</b> is shut the floats read satisfied and the interlock will permit a dry run. That valve is on the drawing, at the foot of the column.</td></tr>
         <tr><td class="tag">pH too low</td><td>Usually over-correction.</td><td>pH plus. <b>The two tubs are not interchangeable by volume:</b> 290 to 435 g of the Lapi against 1,450 g of the NortemBio, for the same 0.1 unit.</td></tr>
       </tbody>
     </table>
@@ -1189,7 +1197,7 @@ html.js .top.show{display:block}
       <li><b>Write down the gauge reading straight after every backwash.</b> That is this filter's clean baseline, and the climb away from it is the real signal that the sand is loading.</li>
       <li>Move the valve as Kripsol says: motor stopped, press the handle down firmly first because it acts as a clutch, then move it.</li>
     </ol>
-    <p class="note"><b>Note:</b> the clear level column has its own isolating ball valve at its foot. Closed, the column freezes at whatever level it was showing and the automatic top-up quietly stops working, with nothing else in the room looking wrong.</p>
+    <p class="note"><b>Note:</b> the level column's <b>ISOLATOR</b>, the red-handled valve at its foot, cuts the column off from the balance tank. Closed, the column freezes at whatever level it was showing and the automatic top-up quietly stops working, with nothing else in the room looking wrong. <b>Open it and watch the column move</b> at the start of each season, which is the only check that proves the level this room is reading is the level in the tank.</p>
   </div>
 </section>
 

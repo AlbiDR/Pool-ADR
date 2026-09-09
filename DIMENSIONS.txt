@@ -141,8 +141,11 @@ ALSO ESTABLISHED 2026-09-07
   backwash procedure, and it was confirmed by accident: the pump sat on M for
   a full day with an empty tank and never started. It is a backstop, not a
   protection to rely on, because the clear column that feeds it has its own
-  isolating valve and shutting that valve makes the floats read a satisfied
-  level and the interlock permit a dry run.
+  ISOLATOR, the red-handled valve at the column's foot, on the take-off between
+  the tank and the column. Shut, it cuts the column off from the tank: the
+  floats then read whatever stale level the column was left holding, and the
+  interlock permits a dry run. Keep it open. It is drawn on the survey diagram
+  and has an entry in the legend.
 
   The reintegro discharges into the RETURN MANIFOLD, so mains water reaches
   the pool through the four wall outlets. It does not fill the tank; the tank

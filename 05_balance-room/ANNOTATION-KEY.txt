@@ -22,7 +22,11 @@ one, orange the right. Red is the single socket high on the wall to the left.
 The yellow one is the take-off for the level column seen in the plant room at
 4_plant-room/32_level-column-and-safety-discharge_t2215.jpg: a clear vertical
 tube graduated 1 to 4, with a probe inside, a cap carrying the cable to the
-level relays in the panel, and a red-handled isolating valve at its foot.
+level relays in the panel, and a red-handled valve at its foot. That valve is
+the ISOLATOR, and it sits on this take-off: shut, it cuts the column off from
+the tank the yellow socket belongs to, and the level this room reads stops
+being the level in that room. The survey's diagram legend has it under that
+name.
 
 STILL OPEN
 Which of the two low sockets carries water to the pump. "An outlet to expel
