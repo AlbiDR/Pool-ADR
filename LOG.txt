@@ -55,11 +55,18 @@ HOW MUCH TO WRITE
 2026
 ===============================================================================
 
-2026-09-09 ~10:40 NOTE       Heavy rain started. Adds unchlorinated water, plus
-                             airborne nutrients, and pushes perimeter water over
-                             the weir, so part of the 10:05 dose is diluted or
-                             carried out. No flood risk: pool caps at the weir,
-                             tank at its safety overflow.
+2026-09-09 ~11:40 NOTE       Rain stopped. About one hour in total, so 1 to 3 m3
+                             at plausible intensities including deck runoff: a
+                             2 to 4 percent dilution, taking the 10:05 dose from
+                             roughly 1.39 to 1.36 mg/L. A non-event. The initial
+                             concern below was calibrated for prolonged rain and
+                             did not apply.
+2026-09-09 ~10:40 NOTE       Rain started, heavy. Concern at the time: dilution of
+                             the 10:05 dose, airborne nutrients, and perimeter
+                             water carried over the weir. No flood risk either
+                             way: pool caps at the weir, tank at its safety
+                             overflow. See the 11:40 entry for what it actually
+                             amounted to.
 2026-09-09 ~10:35 PUMP       Selector moved A -> M for continuous filtration.
                              A hands the pump to the 24 h clock, which is set for
                              normal running, not a first clear-up. M bypasses the
