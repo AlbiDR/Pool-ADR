@@ -55,6 +55,20 @@ HOW MUCH TO WRITE
 2026
 ===============================================================================
 
+2026-09-09 ~12:30 TEST       CLARITY, first reading on the new scale. Grate at
+                             the deepest point, roughly 1.90 to 2.00 m, read
+                             straight down while standing in own shadow.
+                             Concentric slot pattern RESOLVABLE, so between
+                             clear and slight haze, and it passes the standard
+                             test of seeing the drain at the deepest point.
+                             But a pronounced halo around it, spreading well
+                             past the grate's edge. That is forward scattering:
+                             halo plus preserved detail means the suspended
+                             particles are very fine, sub-micron or close, which
+                             is below anything the sand bed will hold. Do not
+                             read slow filtration progress as a filter fault.
+                             Also visible: no green, no settled debris, water
+                             reading grey-blue rather than black.
 2026-09-09 ~11:40 NOTE       Rain stopped. About one hour in total, so 1 to 3 m3
                              at plausible intensities including deck runoff: a
                              2 to 4 percent dilution, taking the 10:05 dose from
