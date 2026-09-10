@@ -54,6 +54,32 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-10 21:59  TEST       FIRST WATER TEST. Photographs 23 to 25, Lovibond
+                             comparator, item 11. FREE CHLORINE at or below 0.1
+                             mg/L, the bottom step, against a target of 0.6 to
+                             1.5. Effectively ZERO. Robust: all three frames
+                             agree, the sample sits at a scale endpoint, and
+                             the gap to the next step is wide. NOT the
+                             bleaching artefact, because bleaching needs free
+                             chlorine far above this scale and the last dose
+                             was 180 g on 09-09 at 10:05, about 1.39 mg/L, 36
+                             hours ago with nothing added since. PH HIGH, VALUE
+                             NOT RESOLVED. The sample sits at the red end,
+                             somewhere around 7.8 to 8.2 or beyond, against a
+                             target of 7.2 to 7.4. It cannot be called to a
+                             step from these photographs: measured on the green
+                             fraction, which is the channel phenol red varies
+                             monotonically in, the three frames give >=8.2,
+                             7.84 and >=8.2, and the frame-to-frame scatter in
+                             the 8.2 REFERENCE PATCH ITSELF is 0.248 to 0.281,
+                             several times the 0.005 to 0.015 that separates
+                             adjacent steps. Read at 22:00 under artificial
+                             light at ISO 752 to 4109, which is the flaw. RE-
+                             READ IN DAYLIGHT before dosing acid on it, and
+                             cross-check against the TRi PRO's own pH probe,
+                             which is a second instrument sitting in the plant
+                             room. The PHOTOMETER tablet question is also still
+                             open and bears on the pH figure only.
 2026-09-10 ~21:30 TEST       CLARITY improving. Halo around the floor grate
                              still present but visibly SMALLER than the
                              2026-09-09 12:30 reading, water described as
