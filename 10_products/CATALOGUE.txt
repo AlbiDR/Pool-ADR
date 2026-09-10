@@ -160,6 +160,15 @@ THE STOCK
              skimmers. The balance tank is the equivalent: it is where the
              pump draws from, so the dose reaches the filter. INFERRED, not
              from the label.
+             ONLY WITH THE PUMP RUNNING. The tank is a stop on the circuit,
+             not a mixing vessel: the pool spills into it over an open pipe
+             with an air break and the floor suction L is shut, so nothing
+             passes through it unless the pump is drawing. Dosed into a still
+             tank the product coagulates that tank's own 3 m3 rather than the
+             pool's, and the floc settles. The outlet is 0.35 m above the tank
+             floor, so whatever reaches the bottom is under the pump's reach
+             and stays there. Not lost, but spent on the wrong water and part
+             of it spent for good.
    Hazard    Attenzione. H319.
    NOTE      This is the right tool for this particular pool. Its sand is
              being asked to filter at a high velocity, which is exactly the
