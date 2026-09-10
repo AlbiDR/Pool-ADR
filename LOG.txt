@@ -54,6 +54,32 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-10 ~22:40 LEVEL      COLUMN LOW AND THE PUMP WILL NOT START ON M. Found
+                             on going down to work on the TRi PRO. This is the
+                             low-level interlock holding the pump off because
+                             the balance tank is near the bottom of its band,
+                             and it is the system working, not a fault: the
+                             same cut-out was confirmed by accident on
+                             2026-09-07. Nothing ran dry. CAUSE, almost
+                             certainly: the reintegro has been at 0 since
+                             2026-09-09 04:30, forty-two hours, twenty of them
+                             with the pump running continuously. On an overflow
+                             pool the pool level is pinned at the weir, so
+                             EVERY loss comes out of the tank's 2,700 L working
+                             band and none of it out of the pool's 72,500.
+                             Evaporation off warm black water with the overflow
+                             film running, plus the few hundred litres that sit
+                             in pipework, filter and the sheet above the crest
+                             while the pump runs, is enough. Rough arithmetic:
+                             26 to 41 cm of column against a post-backwash
+                             start of 80 to 102 cm, which lands at or under the
+                             cut-out. FIX: reintegro to A, not M, and let the
+                             level relay stop it. The pump restarts by itself
+                             once the band recovers. RULE OUT A LEAK ANYWAY:
+                             check the waste outlet for a trickle, which is a
+                             worn multiport spider gasket bleeding
+                             continuously, check the floor gully and sump N,
+                             and check drain valve 1 really is horizontal.
 2026-09-10 ~22:20 NOTE       THE TRi PRO IS OFF, AND THAT IS WHY THE pH IS
                              HIGH. Reported by the owner, with the fair
                              observation that nobody ever said to turn it back
