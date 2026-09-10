@@ -54,6 +54,53 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-10 ~23:45 NOTE       VOLUME LEVEL: I SAID 3, IT IS 2. Correcting before
+                             it is acted on. The two manuals disagree and I
+                             read the wrong one. Manual 04 is the TRi pH notice
+                             and bands the levels 1 to 40 m3, 2 to 60, 3 to
+                             110. Manual 03 is the TRi PRO notice, which is the
+                             module actually installed, and bands them 1 to 60,
+                             2 for 60 to 90, 3 for 90 to 120. At 70 to 75 m3
+                             this pool is LEVEL 2. Manual 03 also puts the
+                             factory default at level 1, the minimum, chosen
+                             for safety, not at 2 as I wrote. Getting this
+                             wrong hurts both ways: too low and the two-hourly
+                             dose cannot move a pool this size; too high and it
+                             over-doses 36 percent sulphuric. Survey corrected
+                             in both places.
+2026-09-10 ~23:42 NOTE       ZODIAC'S OWN WATER BALANCE TABLE, read out of
+                             manual 03 and added to the survey. pH 7.2-7.4,
+                             free chlorine 0.5-2.0, TAC 80-150 ppm, TH 100-300
+                             ppm, cyanuric under 30, salt 4 g/L, metals about
+                             zero. Frequencies: pH and chlorine WEEKLY, TAC and
+                             TH MONTHLY, cyanuric and salt QUARTERLY. Three of
+                             those seven cannot be measured in this house:
+                             cyanuric, hardness and ALKALINITY. Alkalinity is
+                             now the pressing one, because it is the buffer: at
+                             a high TAC the unit injects acid every two hours
+                             and pH does not move, which from outside is
+                             indistinguishable from a dead probe or an empty
+                             drum. A fresh hard-water fill is exactly the
+                             condition that produces it. Added to the missing-
+                             from-the-shelf list above the DPD No.3.
+2026-09-10 ~23:40 NOTE       TRi PRO POWERED ON. Display alternates REGOL
+                             PH/ACL with setpoints PH 7.2 ACL 1, and ERRORE PH.
+                             Two readings from that. FIRST, IT IS SHOWING A
+                             SETPOINT AND NOT "pH ---", so pH regulation is
+                             already enabled and the peristaltic is armed; the
+                             8-hour arming wait does not apply. SECOND, per
+                             manual 03 section 10.3, ERRORE PH has exactly two
+                             meanings: the peristaltic ran 3 full dosing cycles
+                             without reaching setpoint, OR it has not run for a
+                             cumulative 72 hours. THE SECOND ALMOST CERTAINLY
+                             APPLIES, because the unit was switched off for
+                             days. Benign, and it should clear once dosing
+                             resumes. Listed causes: acid container empty,
+                             probe dirty or uncalibrated, probe dead, pool
+                             volume level too low, peristaltic lost prime. The
+                             unit's own six suggestions match, and two of them
+                             were already open items here before it said them:
+                             check pool size, and check total alkalinity.
 2026-09-10 ~23:30 LEVEL      SETTLED AT EXACTLY 3, from a start between the 4
                              and the white line. So the TRANSIT VOLUME is JUST
                              OVER ONE MARK: one full interval, 4 to 3, plus

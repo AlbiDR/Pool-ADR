@@ -374,6 +374,14 @@ WHAT IS MISSING FROM THE SHELF
   stabiliser with it, roughly 1.2 mg/L a time on this pool. At 50 mg/L the
   chlorine locks up, and the only cure is dilution.
 
+  A TOTAL ALKALINITY TEST. Promoted on 2026-09-10 when the TRi PRO threw
+  ERRORE PH and listed "CONTR. ALCALIN. TOTALE" as its fourth suggested
+  action. Alkalinity is the buffer: at a high TAC the unit injects acid
+  every two hours and the pH does not move, which is indistinguishable
+  from a broken probe or an empty drum. Zodiac's own balance table in
+  manual 03 wants 80 to 150 ppm and a monthly reading. Nothing here can
+  give either.
+
   A DPD No.3 TABLET, to go with item 11. No.1 alone reads free chlorine;
   the difference between No.1 and No.3 is the combined chlorine, which is
   what tells you a shock is needed rather than more of the same.
