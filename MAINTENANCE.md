@@ -177,6 +177,35 @@ actually run?" The information had never been written down, only said out loud,
 and two wrong estimates were built on the gap before it was noticed. A fill that
 was paused twice looks identical in hindsight to one that ran straight through.
 
+## When a better photograph arrives
+
+New media that is sharper, wider or simply more legible than something already
+here is a **replacement**, not an addition. Adding it and leaving the old one
+referenced is the worst of both worlds: the reader still looks at the weaker
+evidence, and now there are two files to reconcile.
+
+0. **Copy it in untouched. Never re-encode archive media.** Not to save space,
+   not to "optimise", not to straighten it. This repository has been through
+   that once already and most of the library came back unusable, which is the
+   expensive way to learn that a photograph in an archive is evidence and its
+   pixels are the evidence. `cp` it, then check the hash matches the original
+   before you delete anything. The survey embeds its own downsized copies, and
+   that is the only place a re-encoded version of anything belongs.
+1. Bring it in on the next free index, then `python3 tools/media.py scan`, write
+   its caption in `MEDIA.tsv`, and `python3 tools/media.py sheets`.
+2. **Repoint everything the old file was doing.** The inline figure in the
+   survey, that folder's `READ-ME.txt`, the photo index, and any sentence that
+   hedged only because the old frame could not resolve the detail.
+3. **Keep the old file.** Indices are permanent and append-only, and a dated
+   frame records the state of the room on its date. Photograph 20 still shows
+   where every switch stood on 2026-09-06, which 35 cannot.
+4. Say in both places which file superseded which, and when.
+5. **Then read the new one properly, at full resolution.** This is the step
+   that pays. Photograph 35 settled that the reintegro's automatic control is a
+   level relay and not a timer, which retired two entries from the `NEVER` list,
+   and it caught a pump clock running about four hours slow that nobody had
+   thought to question. Neither was legible in 20.
+
 ## The four rules underneath all of this
 
 1. **One fact, one home.** `FACTS.txt` holds the numbers. Everything else quotes

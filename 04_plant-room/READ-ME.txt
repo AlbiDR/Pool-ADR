@@ -28,8 +28,13 @@ THE ONES EVERYTHING ELSE RESTS ON
   01   the photosphere. 39 megapixels from a single optical centre, and the
        source every image in 08_panoramas/ is reprojected from. If a wide view
        and this disagree, this wins.
-  20   the electrical panel, complete and every label readable. The reference
-       for anything electrical.
+  35   the electrical panel, complete and every label readable. The reference
+       for anything electrical, and the frame every component name in the
+       survey's equipment table was read off. It superseded 20 on 2026-09-10.
+  20   the same panel from the same spot on 2026-09-06, and softer. Kept, not
+       replaced: it is the dated record of where every switch stood before the
+       system was drained, which 35 cannot show. Read 35 for what the gear IS,
+       20 for what it was set to that day.
   29   the TRi PRO with its cables running down to the POD, whose lid carries
        the pH probe, the ORP probe, the flow switch and the acid injection.
        This is what settled where the acid goes in.
@@ -48,6 +53,16 @@ THE GAP AT 28
   27 and differing only by camera shake. 27 is the sharper and is the one kept.
   Indices are permanent, so the gap stays: it means something was removed, not
   that something is missing. The register of every such gap is in NAMING.txt.
+
+WHEN A BETTER FRAME ARRIVES
+  It replaces what the documents POINT AT, and never the file on disk. The old
+  index stays, because it is dated and records a state; the survey, this
+  READ-ME and the photo index all move to the new one, and both say which
+  superseded which and when. 35 over 20 is the worked example. The step that
+  actually pays is reading the new frame at full resolution afterwards: 35
+  settled that the top-up's automatic control is a level relay rather than a
+  timer, and caught the pump clock sitting about four hours slow. Neither was
+  legible in 20. The procedure is in MAINTENANCE.md.
 
 WHAT THIS FOLDER IS NOT FOR
   Counting anything on a wall. Use 08_panoramas/07, which is a reprojection of

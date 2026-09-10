@@ -9,6 +9,69 @@ records what was done to the ARCHIVE.
 
 
 ===============================================================================
+2026-09-10  A SHARPER PANEL PHOTOGRAPH, AND WHAT IT SETTLED
+===============================================================================
+  Two photographs of the electrical panel arrived, shot at 01:47 and 01:48,
+  and they are the reason this entry exists. They came in as 35 and 36, and
+  35 is sharper than 20 in the way that matters: every legend strip under
+  both rows is legible, and the component labels can be read rather than
+  guessed at.
+
+  SO IT REPLACED 20 WHERE 20 WAS DOING WORK. The inline figure in the survey,
+  the "the ones everything else rests on" list in 04_plant-room/READ-ME.txt,
+  and the equipment table now all point at 35. 20 stays on disk and keeps its
+  index: it is dated 2026-09-06 and records where every switch stood before
+  the system was drained, which 35 cannot show. The rule that produced this,
+  and the order to do it in, is now written down in MAINTENANCE.md under
+  "When a better photograph arrives", so it does not have to be rediscovered.
+
+  WHAT 35 SETTLED. The panel carries two Lovato LVM 20 level relays for
+  conductive liquids, and the legend under the second one reads CONTROLLO
+  LIVELLO REINTEGRO. The top-up's automatic control is therefore a level
+  relay and not a timer. That question had been open since 2026-09-06, and it
+  was open in a specific and awkward way: the phrases "stops automatically"
+  and "self-terminates" were both on the NEVER list precisely because nobody
+  had verified them.
+
+  Retiring a ban needed somewhere to put it. Deleting the two lines would
+  have lost the reason they were ever in doubt, which is the one thing this
+  archive tries hardest not to do. FACTS.txt now has a SETTLED block above
+  NEVER, carrying both retired lines, the evidence that retired them, and the
+  uncertainty that survives: no wiring diagram has been seen, and the probe
+  positions and set levels are still unknown. It sits above the NEVER header
+  rather than below it because C11 reads everything after that header as a
+  ban, and a retired entry filed there would be enforced as one.
+
+  It also corrected a component that is not in this panel. The equipment
+  table said "Two Lovato LVM 20 and LVM 25 level relays". There is no LVM 25.
+  Both are LVM 20, and the survey now names the rest of the gear from the
+  same frame: MN513N motor protector, ESC 225 contactor, SVN 126 indicator,
+  EH011 time switch, ST314 transformer, LS501 fuse holders, CDC 724H RCD,
+  MJN516A MCB.
+
+  AND IT CAUGHT SOMETHING NOBODY WAS LOOKING FOR. The pump clock is the EH011
+  in the upper row, under PROG. POMPA. Its index sat near 22:00 in a frame
+  whose EXIF says 01:47: about four hours slow. These are synchronous motor
+  clocks, they stop whenever the panel is switched off, they never catch up,
+  and this panel is switched off for every Kripsol lever move. So the A
+  position has been running the pump at hours nobody chose, and it will drift
+  again after the next backwash. That is now an open item, and the survey
+  says to read the clock before trusting A.
+
+  36 opened a question rather than closing one. It is the round 24 h rider
+  dial in the LOWER row, riders pushed down from 2 to 21, and no legend strip
+  claims it. It is not the filtration pump, because that is the EH011. What
+  it switches is recorded as unknown, with the test for finding out, and the
+  caption on 22 was corrected: it had asserted this dial ran the pump.
+
+  One thing was deliberately not done. Both files were copied in byte for
+  byte and the hashes checked against the originals, because this library was
+  "optimised" once before and most of it came back unusable. That is now rule
+  zero of the same MAINTENANCE.md section: in an archive the pixels are the
+  evidence, a smaller file is not a better one, and the only re-encoded
+  copies that belong anywhere are the ones the survey generates for itself.
+
+===============================================================================
 2026-09-09  THE MEDIA LIBRARY GOT AN INDEX
 ===============================================================================
   Ninety media files, cited by number all through the survey, and no way to

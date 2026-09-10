@@ -70,9 +70,37 @@ manifold_drops             = 4
 acid_injection_point       = POD
 acid_injection_vs_cell     = before
 
+[panel]
+# Read off photograph 35 (2026-09-10), which supersedes 20 as the reference
+# frame for the panel: same enclosure, sharper, every legend strip legible.
+panel_maker                = Tele-Matic
+pump_motor_protector       = Hager MN513N 6.3-10.0 A
+pump_contactor             = Hager ESC 225 25 A
+pump_time_switch           = Hager EH011
+pump_time_switch_label     = PROG. POMPA
+aux_transformer            = Hager ST314 40 VA
+rcd                        = Hager CDC 724H 25 A 30 mA
+main_mcb                   = Hager MJN516A C16
+level_relay_type           = Lovato LVM 20
+level_relay_count          = 2
+level_relay_low            = CONTROLLO MINIMO LIVELLO
+level_relay_topup          = CONTROLLO LIVELLO REINTEGRO
+reintegro_auto_control     = level relay, not a timer
+
 [hosting]
 pages_url                  = https://albidr.github.io/Pool-ADR/
 pages_url_short            = albidr.github.io/Pool-ADR
+
+
+SETTLED
+=======
+Entries retired from the NEVER list below, with the evidence that retired them.
+A ban is only worth keeping while the thing banned is still wrong; when the
+archive later proves the claim true, deleting the line quietly would lose the
+reason it was ever in doubt. So the line moves here instead. Same format.
+
+stops automatically || RETIRED 2026-09-10. Banned because the reintegro's A setting had never been verified as level-driven and might have been a timer. Photograph 35 shows a Lovato LVM 20 level relay for conductive liquids on the legend strip as CONTROLLO LIVELLO REINTEGRO, beside a REINT. M-0-A selector of the same pattern as the pump's. The top-up's automatic control is a level relay. Residual uncertainty: no wiring diagram has been seen, and the probe positions and set levels are still unknown
+self-terminates || RETIRED 2026-09-10. Same evidence, same residual uncertainty
 
 
 NEVER
@@ -97,8 +125,6 @@ tiled pool || the pool is finished in smooth black resin, not tile, so the grout
 between the tiles || same, there is no grout in this pool
 tops up the balance tank || the reintegro feeds the return manifold and fills the pool through four wall outlets, it does not feed the tank
 fills the balance tank || same
-stops automatically || said of the reintegro A setting, which was never verified as float-driven and may simply be a timer
-self-terminates || same
 upstream would put concentrated acid across the plates || WRONG, and it was mine. Zodiac specifies the POD, which carries the pH minus injection, as the FIRST element after the filter, so injecting before the cell is the designed arrangement, not a fault || unless: an earlier version
 injection point is still not established || settled 2026-09-08 from photograph 04: the tube terminates on the POD lid || unless: an earlier version
 my father || the survey attributes nothing to any person other than you

@@ -43,7 +43,7 @@ the same document, top to bottom.
 | `01_survey/` | The deliverable: the survey as HTML and PDF, plus the diagram as a PNG. |
 | `02_printed-sheets/` | The four printed pages kept in the room. The procedures section is transcribed from these. |
 | `03_nameplates/` | The plates and labels every specification rests on. |
-| `04_plant-room/` | 33 photographs, in the order they were taken. The evidence nearly every claim rests on. |
+| `04_plant-room/` | 35 photographs, in the order they were taken. The evidence nearly every claim rests on. |
 | `05_balance-room/` | The balance tank and the hatch that reaches it, plus what the coloured marks on photograph 04 mean. |
 | `06_drawings/` | Dimensioned sketches and the scaled plan of both rooms. |
 | `07_video/` | Two 360 degree pans and one floor-level survey. |

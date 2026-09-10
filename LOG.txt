@@ -54,6 +54,90 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-10 ~01:50 DOSE       Two full glasses FLOCCULANTE Klep into the balance
+                             tank, not weighed. A glass is 200 to 250 mL, so
+                             400 to 600 g depending on a density this archive
+                             has never measured. RUNNING TOTAL 1,150 to 1,350 g
+                             against a label curative of 1,088 g for 72.5 m3:
+                             the label full dose has now been passed. It went
+                             in AFTER the gauge had already moved, and a moved
+                             gauge is the signal that the first dose took and
+                             no more was needed. Watch the next 4 to 5 hours.
+                             If the halo tightens, no harm done. If it stalls
+                             or worsens, that is charge reversal, the particles
+                             have been re-stabilised, and the only cure is to
+                             keep filtering it back out. Weigh the next one;
+                             the 5 kg tub and a kitchen scale cost nothing.
+2026-09-10 01:48  NOTE       Photograph 36, the round rider dial in the LOWER
+                             row, face on. Riders pushed DOWN from 2 to 21,
+                             read off the panel by hand; the photograph cannot
+                             settle rider height because the dial was shot
+                             obliquely and the perspective ellipse swamps the
+                             travel. Yellow riders span 7 to 18 and blue 19 to
+                             6, a 12/12 day-night split that matches neither
+                             band, so the colours are decoration and carry no
+                             state. WHAT THIS DIAL CONTROLS IS NOT KNOWN. It is
+                             not on the legend strip, and it is not the
+                             filtration pump: that is the EH011 in the upper
+                             row. See the entry below.
+2026-09-10 01:47  NOTE       Photograph 35. THE PUMP CLOCK IS ABOUT FOUR HOURS
+                             SLOW. The EH011's index arrow sits between 21 and
+                             22, nearer 22, in a frame whose EXIF says 01:47.
+                             These are synchronous motor clocks: they stop dead
+                             when the panel is switched off and never catch the
+                             time back up. The panel was switched off for every
+                             Kripsol lever move on 2026-09-09. CONSEQUENCE: the
+                             A position does not run the pump when you think it
+                             does, and everything this archive says about "the
+                             clock is set for normal running" is unverified.
+                             Set the clock before trusting A again.
+2026-09-10 01:47  NOTE       Photograph 35 again, the whole Tele-Matic panel,
+                             sharper than 20 and with every legend readable.
+                             Identified from it: pump motor protector Hager
+                             MN513N 6.3-10 A, contactor ESC 225, pump selector
+                             M-0-A, indicator SVN 126, time switch EH011 under
+                             PROG. POMPA, transformer ST314 40 VA, fuse holders
+                             LS501, and in the lower row an RCD CDC 724H 25 A
+                             30 mA with an MJN516A C16. The two level controls
+                             are LOVATO LVM 20 relays for conductive liquids,
+                             labelled CONTROLLO MINIMO LIVELLO and CONTROLLO
+                             LIVELLO REINTEGRO. The second of those settles a
+                             question open since 2026-09-06: the reintegro on A
+                             is probe-driven, not a timer.
+2026-09-10 ~01:45 PUMP       Selector M -> A, reasoning given as letting the
+                             pump "cool down a bit". It does not need to. The
+                             DAB EuroPro is continuous-duty rated, class F
+                             insulation, IP 55, and it was doing no more work
+                             than usual: a rising FILTER gauge is the sand
+                             loading with floc, which is the treatment working,
+                             not the pump straining. Against a suction
+                             restriction a centrifugal pump draws LESS current,
+                             not more. No harm done, but two costs: it hands
+                             the clear-up back to a clock that is four hours
+                             out (see above), and the flocculant logged at
+                             01:50 may have gone into a tank with no flow
+                             through it.
+2026-09-10 ~01:45 GAUGE      1.28 bar. First reported as "increased at .29",
+                             then corrected to 1.28 off the needle; the
+                             difference is smaller than this gauge can be read
+                             to and either figure means the same thing. Up 0.10
+                             from the 1.18 clean baseline after about 12 hours
+                             of continuous filtration on the 750 g dose. THE
+                             FLOCCULANT TOOK: the bed is holding what it
+                             caught, which is exactly what the 2026-09-09 13:00
+                             entry said to watch for. Still 0.22 short of the
+                             1.5 backwash trigger, so do not wash it yet; a bed
+                             that is loading is a bed that is working.
+2026-09-10 ~01:40 NOTE       Rain reported again, "today", with more expected
+                             tomorrow. This timestamp is when it was SAID, not
+                             when it fell: neither the hours nor the amount
+                             were observed, and the day meant may have been
+                             09-09. Logged anyway, because the 09-09 10:40
+                             spell is the precedent for how fast this turns
+                             into a guess. An hour of it is 1 to 3 m3 including
+                             deck runoff, a 2 to 4 percent dilution, and the
+                             pool is full, so it leaves again through the
+                             tank's safety overflow.
 
 2026-09-09 ~13:00 DOSE       750 g FLOCCULANTE Klep (polyaluminium chloride
                              under 20%), into the balance tank, pump running.
