@@ -54,6 +54,32 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-11 ~00:15 DOSE       200 g granular chlorine (NaDCC 56%), pre-
+                             dissolved, into the balance tank with the pump
+                             running on M. Rounded up from the 180 g suggested
+                             because 200 is easier to weigh, which is the right
+                             trade: a measurable 200 beats an approximate 180.
+                             That is 112 g available chlorine, about 1.54 mg/L
+                             into 72.5 m3, at the top of the printed sheets'
+                             0.6 to 1.5 band and inside Zodiac's 0.5 to 2.0.
+                             Dosed at night, so no UV loss overnight. NOTE THE
+                             pH: at the red end of the scale only a quarter or
+                             so of this is hypochlorous acid, so it will read
+                             on the tablets at full strength but sanitise at
+                             much less. THIS DOSE IS ALSO A TEST. Read free
+                             chlorine in the morning and again in the evening.
+                             Holding near 1.5 in the morning and around 1 by
+                             evening is normal demand. Back at zero by morning
+                             means a real chlorine demand in the water, and the
+                             answer to that is a proper shock once pH is down,
+                             not more maintenance doses. RUNNING CYANURIC ACID,
+                             computed because nothing here can measure it: this
+                             product carries its own stabiliser at roughly 0.9
+                             mg/L per mg/L of free chlorine. 09-07 1.04, 09-09
+                             2.29, 09-10 3.68 mg/L cumulative. Against Zodiac's
+                             ceiling of 30 that is about NINETEEN more doses of
+                             this size, and it only ever goes up. One more
+                             reason the cell earning its keep matters.
 2026-09-10 ~23:55 LEVEL      COLUMN MARKS MEASURED, and this closes an open
                              item that had been sitting since the survey was
                              written. By tape, up the column: 1 at 64 cm, 2 at
