@@ -54,6 +54,32 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-10 ~21:30 TEST       CLARITY improving. Halo around the floor grate
+                             still present but visibly SMALLER than the
+                             2026-09-09 12:30 reading, water described as
+                             cleaned up a bit. That is the flocculant working:
+                             the particles are being bound into flocs the bed
+                             can hold, which is the same thing the gauge said
+                             when it moved off 1.18. On the survey's scale this
+                             is still between clear and slight haze, but moving
+                             the right way. No backwash done, and none due: the
+                             last gauge reading was 1.29 and the trigger is
+                             1.5. Next reading of both is what decides
+                             anything.
+2026-09-10 ~21:25 NOTE       BACKWASH PROCEDURE CORRECTED IN THE SURVEY, found
+                             while answering whether it was written down. It
+                             was, and its last steps were in the wrong order:
+                             close the drain, lever back to 1 Filtration, then
+                             "do a rinse" with no position given. Followed
+                             literally that sends the vessel's remaining dirty
+                             water into the pool through a bed left loose by
+                             fluidising, which is the exact thing the rinse
+                             exists to prevent. Correct order is 2 Lavage until
+                             the glass runs clear, then 3 Rinse with drain
+                             valve 1 STILL OPEN, 20 to 40 seconds, then 1
+                             Filtration, then close the drain. Also added: the
+                             two numbering systems that collide here, where 3
+                             is both the sight glass and Rinse.
 2026-09-10 20:56  NOTE       TEST KIT ON THE SHELF. Lovibond tablet comparator,
                              photographs 20 to 22, catalogue item 11. Reads pH
                              by phenol red 6.8 to 8.2, and FREE chlorine by DPD

@@ -1161,18 +1161,23 @@ html.js .top.show{display:block}
 
   <div class="steps">
     <h3>Backwash the filter (controlavaggio)</h3>
+    <p class="note"><b>Two numbering systems meet in this procedure, so read the labels not the digits.</b> <code>1</code>, <code>3</code> and <code>4</code> are components on the plan: the filter drain valve, the sight glass and the pressure gauge. <code>1</code> to <code>6</code> after the words "lever <code>M</code>" are positions on the Kripsol. The same digit means two different things, and <code>3</code> is the worst of them: the sight glass, and Rinse.</p>
     <ol>
-      <li>Switch off the main switch on the panel.</li>
+      <li><b>Panel off.</b></li>
       <li>Open filter drain valve <code>1</code> (vertical).</li>
-      <li>Move Kripsol lever <code>M</code> to position <code>2</code> (Lavage).</li>
-      <li>Switch the panel back on.</li>
-      <li>Leave it running until the water in sight glass <code>3</code> runs clear.</li>
-      <li>Switch the panel off.</li>
-      <li>Return drain valve <code>1</code> to horizontal.</li>
-      <li>Return lever <code>M</code> to position <code>1</code> (Filtration).</li>
-      <li>Switch the panel back on.</li>
-      <li>Do a rinse.</li>
+      <li>Lever <code>M</code> to <b><code>2</code>, Lavage</b>.</li>
+      <li><b>Panel on.</b> Run until the water in sight glass <code>3</code> runs clear. <b>The glass decides, not the clock</b>; two to three minutes is typical.</li>
+      <li><b>Panel off.</b></li>
+      <li>Lever <code>M</code> to <b><code>3</code>, Rinse</b>. <b>Leave drain valve <code>1</code> open.</b> The rinse is still routed to waste and that is the whole point of it.</li>
+      <li><b>Panel on</b> for <b>20 to 40 seconds</b>.</li>
+      <li><b>Panel off.</b></li>
+      <li>Lever <code>M</code> back to <b><code>1</code>, Filtration</b>.</li>
+      <li><b>Now</b> return drain valve <code>1</code> to horizontal (closed).</li>
+      <li><b>Panel on.</b></li>
+      <li><b>Read gauge <code>4</code> and write it into <code>LOG.txt</code>.</b> That reading is the new clean baseline, and it is the number every later one is judged against. On 2026-09-09 it was 1.18.</li>
+      <li>If a flocculant treatment is running, <b>put about 72 g back in</b>. The backwash strips the layer off the sand along with the dirt, which is why the label asks for a smaller dose after every wash.</li>
     </ol>
+    <p class="note"><b>The order of the last steps was wrong here until 2026-09-10</b>, and it is worth saying why rather than quietly fixing it. This document used to close the drain and return the lever to Filtration, and only then say "do a rinse", with no position given. Followed literally that sends the vessel's remaining dirty water straight into the pool through a bed that fluidising has just left loose and unpacked, which is precisely what the rinse exists to prevent. Rinse <b>before</b> filtration, with the drain still open.</p>
     <p class="note"><b>Note from the sheet:</b> the balance tank level drops during this and will stop
     the pump. Close valve <code>G</code> temporarily. Gauge <code>4</code> reads <b>about 1.18 bar</b> on this installation when the sand is clean.
     <b>This document does not follow the sheet on <code>G</code>.</b> <code>G</code> is the pump's entire water supply, and
