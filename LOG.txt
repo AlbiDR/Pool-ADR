@@ -54,6 +54,45 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-10 ~22:50 GAUGE      About 1.4 bar, read shortly after the pump
+                             restarted. Up from 1.29 at 02:28 and now in the
+                             1.3 to 1.4 "loading and working properly" band,
+                             close to the 1.5 trigger. Third signal agreeing
+                             with the other two: the halo shrank and the bed is
+                             loading, so the flocculant is still doing its job.
+                             TREAT AS PROVISIONAL. It was taken within moments
+                             of a start, on a tank that had just been at the
+                             interlock, so the reading is not settled. Re-read
+                             after 10 to 15 minutes of steady running. AND DO
+                             NOT BACKWASH ON IT UNTIL THE TANK IS FULL: a
+                             backwash and rinse takes 900 to 1,500 L, a third
+                             to a half of the working band, so the tank is
+                             topped up BEFORE, never after.
+2026-09-10 ~22:48 PUMP       Started by itself as soon as the tank recovered.
+                             Correct: the low-level interlock releases on its
+                             own, there is nothing to reset by hand. Confirms
+                             the pump was never faulty and never at risk; it
+                             was held off deliberately.
+2026-09-10 ~22:47 REINTEGRO  ON as a test after the low-level finding, and it
+                             SHUT OFF BY ITSELF after a few seconds. That is
+                             the behaviour the panel legend predicted on
+                             2026-09-10 from photograph 35: CONTROLLO LIVELLO
+                             REINTEGRO, a Lovato LVM 20 conductive-level relay.
+                             FIRST LIVE CONFIRMATION that the top-up is level-
+                             driven rather than timed, IF it was on A. WHICH
+                             POSITION IT WAS SET TO IS NOT RECORDED and it
+                             decides the meaning: on A the relay stopped it and
+                             everything agrees; on M there is supposed to be no
+                             cut-out at all, and a self-stop would mean the
+                             document is wrong about M. Ask before treating
+                             this as settled. Note the sequence is not odd: the
+                             reintegro feeds the RETURN MANIFOLD and fills the
+                             pool, not the tank, and with the pool pinned at
+                             the weir essentially every litre goes straight
+                             over the edge into the tank, so a tank sitting
+                             just under the cut-out recovers in seconds rather
+                             than minutes. "Very low" on the column can be only
+                             a few centimetres below the threshold.
 2026-09-10 ~22:40 LEVEL      COLUMN LOW AND THE PUMP WILL NOT START ON M. Found
                              on going down to work on the TRi PRO. This is the
                              low-level interlock holding the pump off because
