@@ -54,6 +54,38 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-10 ~22:55 REINTEGRO  IT WAS ON M. So the self-stop contradicts this
+                             archive, which has said in three places that M
+                             forces the solenoid open with no cut-out. THE
+                             OBSERVATION WINS, because it is the only one there
+                             has ever been. Checking what that claim was built
+                             on: the 2026-09-08 00:23 entry reads "Confirmed on
+                             M, which has no cut-out", where "confirmed"
+                             plainly refers to the POSITION and no observation
+                             of the cut-out is cited; and the 2026-09-09 04:30
+                             entry's 5 to 7.5 m3 of waste is flagged in its own
+                             text as "Estimate only, nobody was awake" with
+                             "Crest was never observed". Neither is evidence.
+                             Leading explanation: M answers to the level relay
+                             after all. The panel is built on ONE pattern, and
+                             on the pump M bypasses the CLOCK but not the LEVEL
+                             INTERLOCK; by that analogy M on the top-up
+                             bypasses whatever A adds and still answers to
+                             CONTROLLO LIVELLO REINTEGRO. If so the 09-09
+                             overflow never happened, the tank was "full" at
+                             04:30 because the relay stopped the fill, and this
+                             log invented several cubic metres of waste. Second
+                             explanation to separate first: the top-up
+                             discharges into the RETURN MANIFOLD, which the
+                             pump also pressurises, so the flow may have been
+                             killed by the pump starting rather than by any
+                             relay. It stopped seconds AFTER the pump started,
+                             which fits either. THE TEST: with the pump running
+                             and steady, set M and watch the column. Stops at a
+                             level, the relay governs M. Runs on toward the
+                             safety overflow, it does not. And if on M it
+                             barely flows at all while the pump runs, the
+                             answer is back-pressure.
 2026-09-10 ~22:50 GAUGE      About 1.4 bar, read shortly after the pump
                              restarted. Up from 1.29 at 02:28 and now in the
                              1.3 to 1.4 "loading and working properly" band,
@@ -401,6 +433,13 @@ HOW MUCH TO WRITE
                              6.38 cm/h. On that basis the tank sat at its safety
                              overflow for roughly 2 hours, an estimated 5 to
                              7.5 m3 to waste. Estimate only, nobody was awake.
+                             [2026-09-10: THIS WASTE MAY NEVER HAVE HAPPENED.
+                             It assumed M has no cut-out. The top-up was run on
+                             M that night and stopped itself, so the relay may
+                             govern M too, in which case the fill ended when
+                             the tank was satisfied and nothing went to waste.
+                             "Pool and tank both full" is equally what that
+                             looks like. Do not quote the 5 to 7.5 m3.]
                              The planned 10-minute column timing did not happen,
                              so the pool surface area is still unmeasured.
 2026-09-08 23:42  LEVEL      9 cm below the overflow lip, tape. With the 21:52
