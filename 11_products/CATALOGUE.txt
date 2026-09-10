@@ -234,7 +234,8 @@ THE STOCK
              photo of one, when both exist.
 
 11 TEST KIT, TABLET COMPARATOR         photos 20, 21, 22
-   Lovibond. Visual comparator card plus two tablet reagents.
+   Lovibond. Visual comparator, the sample chambers reading against a
+   reference scale printed on its own face, plus two tablet reagents.
    Reads     pH by PHENOL RED, 6.8 to 8.2 in seven steps
              FREE CHLORINE by DPD No.1, 0.1 to 3.0 mg/L in seven steps
    Stock     DPD No.1 Rapid, batch ZA2C0233, ten to a strip
@@ -266,6 +267,10 @@ THE STOCK
              develops the same colour against a visual card is not settled
              here. Read the kit's own leaflet before trusting a tenth of a
              pH unit. Photograph 22 is the foil.
+   PHOTOS    20, 21 and 22 are the equipment ONLY. The comparator in 20 was
+             empty when it was shot: every colour visible on it is printed
+             reference, not a sample. NO TEST HAS BEEN RUN ON THIS POOL.
+             The first result belongs in LOG.txt as a TEST entry.
 
    PLUS, NOT ON THIS SHELF
    SULPHURIC ACID 36%, 25 kg drum, in the plant room, plumbed to the TRi PRO
