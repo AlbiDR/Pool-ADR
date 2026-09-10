@@ -54,6 +54,23 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-10 02:28  GAUGE      1.29 bar, photograph 37, and the first close-up of
+                             gauge 4 this archive holds. Read off the pixels
+                             rather than by eye: needle at 109 degrees on a
+                             270-degree sweep from 0 at 225 degrees, which puts
+                             it 19 degrees below the 1.5 mark. FLAT against the
+                             1.28 read at 01:45, so nothing ran away while the
+                             pump sat on A. Same frame settles something else:
+                             the dial's own green-to-red break measures 1.48
+                             bar. The backwash trigger this document argued its
+                             way to from Kripsol's manual, the household sheet
+                             and one measurement is printed on the instrument.
+2026-09-10 ~02:25 PUMP       Selector A -> M. Continuous filtration resumed for
+                             the clear-up, and the 400 g of flocculant that had
+                             been sitting in a still tank since 01:50 now has
+                             flow through it. G confirmed open, which is where
+                             it stays: with L and H shut it is the pump's
+                             entire water supply.
 2026-09-10 ~01:50 DOSE       400 g FLOCCULANTE Klep into the balance tank: two
                              glasses of 200 g each, the product confirmed as a
                              LIQUID, figure given by eye rather than by scale.
