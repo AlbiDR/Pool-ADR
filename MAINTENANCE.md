@@ -29,7 +29,7 @@ being written. They are not hypothetical.
 | `C3` | Section numbers not running 1..n in document order | Sections were reordered and the numbers stayed put. |
 | `C4` | Nav entries that point at nothing, or in the wrong order | |
 | `C5` | Internal links with no target | |
-| `C6` | The folder table disagreeing with the folders on disk | `10_products/` was listed after `11_scan/`. |
+| `C6` | The folder table disagreeing with the folders on disk | `11_products/` was listed after `12_scan/`. |
 | `C7` | Prose naming a file that does not exist | Four panorama files were deleted; three documents still pointed at them. |
 | `C8` | The survey reaching out to the network | It has to work in a basement with no signal. Every image is a `data:` URI and it must stay that way. |
 | `C9` | Em dashes, en dashes, curly quotes, emoji | |

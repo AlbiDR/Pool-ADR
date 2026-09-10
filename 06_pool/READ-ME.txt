@@ -1,0 +1,55 @@
+THE POOL ITSELF
+
+Two photographs, taken 52 seconds apart from opposite ends on 2026-09-09 at
+13:42. Until they arrived this archive documented the plant room, the balance
+room, the drawings, the manuals and the chemicals, and held not one picture of
+the thing all of it exists to serve.
+
+  01   from the far end, looking down the length toward the steps. The house
+       is on the right, the clipped hedge and the deck on the left.
+  02   from the steps end, looking back. The same pool with the sides
+       reversed: house left, hedge and deck right.
+
+WHAT THEY ARE GOOD FOR
+  The shape and the layout, which no other file here shows. A long rectangle
+  of dark water with a timber deck on all four sides, a tall hedge down one
+  long side and the house down the other, its terrace looking straight onto
+  the water. The steps are at the short end 02 was taken from.
+
+  The overflow, best in 02. The water runs right up to the deck on the hedge
+  side with no coping and no visible lip, and passes underneath it. That is the
+  infinity edge, on the long side opposite the white wall, and it is the whole
+  reason there is a balance tank next door. In 01 you are looking along the
+  same edge from the other end.
+
+  And they show why this pool cannot be judged by looking at it. Both frames
+  read as a black mirror: at a shallow angle a dark finish returns reflected
+  sky, not water, and in 02 the clouds are sharper on the surface than anything
+  under it. Cloudiness here has to be read straight down against a submerged
+  white target, never along the surface. The survey's water section gives that
+  method and the scale that goes with it.
+
+WHAT THIS FOLDER IS NOT FOR
+  MEASURING ANYTHING. Both were shot on the phone's ultra-wide, and this is not
+  a guess: the EXIF says 2.15 mm at f/2.2, an 18 mm equivalent, which is the
+  0.6x lens. At that focal length the near deck is stretched, the far end is
+  compressed, and parallel lines converge hard. Length, width and depth all
+  read wrong, and reading them off anyway is a mistake this archive has already
+  made once: a volume estimate taken from these frames came out roughly a third
+  low and was withdrawn.
+
+  The pool's volume is 70 to 75 m3 from the installation documentation and
+  family knowledge. It has never been measured, and when it is, it will be with
+  a tape in daylight and not with a camera. FACTS.txt holds the figure and
+  every dose in the survey hangs off it.
+
+WHAT IS MISSING
+  A clarity reference frame: the water photographed straight down against the
+  white floor grate, so one day can be compared with the next on the survey's
+  own scale. One was taken on 2026-09-09 and deliberately not kept. Shooting a
+  replacement is a two-minute job and worth doing on a clear day, as the
+  baseline every later reading is compared against.
+
+  A dimensioned plan of the pool, which would close the volume question and
+  with it the salt charge, the flocculant dose and every other figure quoted
+  per cubic metre.

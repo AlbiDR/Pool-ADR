@@ -129,7 +129,7 @@ upstream would put concentrated acid across the plates || WRONG, and it was mine
 injection point is still not established || settled 2026-09-08 from photograph 04: the tube terminates on the POD lid || unless: an earlier version
 my father || the survey attributes nothing to any person other than you
 his father || same
-01_control-wall || deleted from 08_panoramas on 2026-09-08 || except: 08_panoramas/READ-ME.txt
-02_room-arc || deleted from 08_panoramas on 2026-09-08 || except: 08_panoramas/READ-ME.txt
-03_electrical-panel_stitched || deleted from 08_panoramas on 2026-09-08 || except: 08_panoramas/READ-ME.txt
-04_electrical-panel_single-frame || deleted, it duplicated 04_plant-room/20_electrical-panel-full_t1707.jpg || except: 08_panoramas/READ-ME.txt
+01_control-wall || deleted from 09_panoramas on 2026-09-08 || except: 09_panoramas/READ-ME.txt
+02_room-arc || deleted from 09_panoramas on 2026-09-08 || except: 09_panoramas/READ-ME.txt
+03_electrical-panel_stitched || deleted from 09_panoramas on 2026-09-08 || except: 09_panoramas/READ-ME.txt
+04_electrical-panel_single-frame || deleted, it duplicated 04_plant-room/20_electrical-panel-full_t1707.jpg || except: 09_panoramas/READ-ME.txt

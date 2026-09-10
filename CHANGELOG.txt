@@ -9,6 +9,58 @@ records what was done to the ARCHIVE.
 
 
 ===============================================================================
+2026-09-10  THE POOL GOT A FOLDER, AND SIX FOLDERS MOVED UP ONE
+===============================================================================
+  The archive documented the plant room, the balance room, the drawings, the
+  manuals, the chemicals and a 3D scan, and held not one photograph of the
+  pool. Two arrived, taken 52 seconds apart from opposite ends on 2026-09-09,
+  and there was nowhere to put them. 04_plant-room would have been wrong and
+  05_balance-room worse.
+
+  SO THE POOL GOT A FOLDER, AND IT WENT IN THE MIDDLE. NAMING.txt already
+  allowed for this: file indices are permanent and append-only because the
+  survey cites them by number, but folder numbers are only a reading order,
+  so a new category may be inserted where it belongs and the folders after it
+  renumbered. The pool belongs with the two rooms, after them, so it is
+  06_pool and 06_drawings through 11_scan became 07 through 12. Six git mv
+  operations and 171 path references rewritten across fourteen files.
+
+  Earlier CHANGELOG entries were rewritten too, so their paths still resolve.
+  That trades a little historical literalness for links that work, which is
+  the right way round here: the folders are the same folders, and an entry
+  pointing at 08_panoramas when no such directory exists helps nobody. Where
+  a number is quoted below in an older entry, it is the number that folder
+  carries now.
+
+  WHAT THE POOL PHOTOGRAPHS ARE FOR, AND WHAT THEY ARE NOT. They show the
+  shape, the layout, and the overflow edge running under the deck on the
+  hedge side, which is the whole reason there is a balance tank next door.
+  They also show why this water cannot be judged by looking at it: both
+  frames read as a black mirror, with the clouds sharper on the surface than
+  anything beneath it.
+
+  They must never be measured. Both were shot on the phone's ultra-wide, and
+  that is now established rather than reported: the EXIF says 2.15 mm at
+  f/2.2, an 18 mm equivalent, which is the 0.6x lens. At that focal length
+  the near deck stretches, the far end compresses and parallels converge
+  hard. This is not a theoretical caution. A pool volume was once read off
+  these very frames, came out roughly a third low, and was withdrawn. The
+  folder's READ-ME, its caption, the folder table and the photo index all say
+  so.
+
+  One file was deliberately not kept. A clarity frame from the same
+  afternoon, looking straight down at the white floor grate, was the visual
+  record behind the 2026-09-09 12:30 TEST entry. It was deleted at the
+  owner's request. The cost is recorded in 06_pool/READ-ME.txt: the log's
+  first clarity reading now has no image behind it, and the baseline every
+  later reading would have been compared against has to be reshot.
+
+  Also swept up: 04_plant-room/READ-ME.txt still said thirty-three
+  photographs and the survey's folder table said thirty-four. There are
+  thirty-six, and the session list now names the night pass, 35 to 37, that
+  produced them.
+
+===============================================================================
 2026-09-10  A SHARPER PANEL PHOTOGRAPH, AND WHAT IT SETTLED
 ===============================================================================
   Two photographs of the electrical panel arrived, shot at 01:47 and 01:48,
@@ -91,14 +143,14 @@ records what was done to the ARCHIVE.
   C22 can tell a stale sheet from a current one without a second file to keep.
 
   Four folders that had no apparatus file got one: 02_printed-sheets,
-  03_nameplates, 04_plant-room and 07_video. Every numbered folder now explains
+  03_nameplates, 04_plant-room and 08_video. Every numbered folder now explains
   itself, and C24 keeps it that way: a folder of evidence with no note beside it
   is a folder only its author can use, and only for as long as they remember.
 
   Writing that up produced the twenty-fourth mistake immediately. The README was
   given the sentence "every numbered folder carries its own READ-ME.txt", which
   is false in four of them: 05_balance-room has an ANNOTATION-KEY.txt,
-  09_manuals a SOURCES.txt, 10_products a CATALOGUE.txt, and 01_survey a
+  10_manuals a SOURCES.txt, 11_products a CATALOGUE.txt, and 01_survey a
   DERIVED.txt. The sentence now describes the rule as it actually is, and C24
   checks the rule rather than the sentence.
 
@@ -110,7 +162,7 @@ records what was done to the ARCHIVE.
   straighten it: that would trade real provenance for the convenience of tools
   that are the ones in the wrong. Everything here reads the tag instead.
 
-  06_drawings/01 carries the token t1946 while its capture time is 19:41. Both
+  07_drawings/01 carries the token t1946 while its capture time is 19:41. Both
   are real: the frame was shot at 19:41 and drawn on until 19:46, and the
   drawing is what the file is. Rather than rename a file three documents cite,
   the RULE was made exact, and MEDIA.tsv now carries both times so the token
@@ -169,14 +221,14 @@ records what was done to the ARCHIVE.
 ===============================================================================
 2026-09-08  DELETIONS
 ===============================================================================
-  08_panoramas 01 to 03 were stitched from multiple hand-held frames and were
+  09_panoramas 01 to 03 were stitched from multiple hand-held frames and were
   wrong: one of them drew six drops on a wall that has four, and it did not
   look wrong. They were kept for a while as a record of how the survey was
   built, and that was the wrong call. A file that cannot be counted from,
   sitting in a folder of files that can, is a trap for whoever opens it next.
   The lesson was written into that folder's READ-ME and the images went.
 
-  08_panoramas/04 was a genuine single frame and perfectly usable. It went
+  09_panoramas/04 was a genuine single frame and perfectly usable. It went
   because it was byte-for-byte identical to
   04_plant-room/20_electrical-panel-full_t1707.jpg, which is the original.
 
@@ -190,7 +242,7 @@ records what was done to the ARCHIVE.
 ===============================================================================
 2026-09-08  THE MANUALS
 ===============================================================================
-  09_manuals gained the four Maytronics documents for the robot cleaner, 06 to
+  10_manuals gained the four Maytronics documents for the robot cleaner, 06 to
   09. Note for anyone checking them: the X70's manual is badged "CLASSIC 8+ /
   TOP 8" and never names the X70. It is the right document; Maytronics badge
   the same chassis differently by market. SOURCES.txt records that, and the
@@ -206,15 +258,15 @@ records what was done to the ARCHIVE.
 2026-09-07  FOUR PASSES IN ONE DAY
 ===============================================================================
   FOURTH PASS, LATE
-  08_panoramas gained four rectilinear reprojections of the 39 MP photosphere,
+  09_panoramas gained four rectilinear reprojections of the 39 MP photosphere,
   05 to 08, and a READ-ME splitting the folder in two: the older stitches must
-  not be counted or measured from, the reprojections may be. 11_scan took the
+  not be counted or measured from, the reprojections may be. 12_scan took the
   next free number for a 3D scan of the room. The reading order therefore runs
-  10_products then 11_scan, which is append order rather than thematic order.
+  11_products then 12_scan, which is append order rather than thematic order.
   Folder numbers may be reordered when it is worth it; these two are not.
 
   THIRD PASS, EVENING
-  The chemical stock arrived as 17 photographs and became 10_products, taking
+  The chemical stock arrived as 17 photographs and became 11_products, taking
   the next free folder number exactly as the padding was meant to allow. Filed
   by function, pH then chlorine then algae then clarity then booster then
   winter then salt, rather than in capture order, because that is how you reach
@@ -223,16 +275,16 @@ records what was done to the ARCHIVE.
   One source filename misled: "correttore ph+ & instructions" is not the back
   of the first pH+ tub, it is a second and different pH+ product, dosed at
   roughly four times the rate. FILENAMES ARE A CLAIM; THE LABEL IS THE
-  EVIDENCE. That mistake is why 10_products photographs every product with its
+  EVIDENCE. That mistake is why 11_products photographs every product with its
   label rather than only with its front.
 
   SECOND PASS, EVENING
   Folder numbers were single digits while file indices were two. That breaks
   the moment there are more than ten folders, because "10_" sorts before "9_".
   Every folder was padded to two digits, so Products could arrive as
-  10_products with nothing to renumber.
+  11_products with nothing to renumber.
 
-  A 06_drawings folder was added between the two rooms and the media that
+  A 07_drawings folder was added between the two rooms and the media that
   follows, and the plant room's dimensioned sketch moved into it: it had been
   filed as 04_plant-room/35, which made a folder of photographs contain
   something that is not one.
@@ -261,8 +313,8 @@ records what was done to the ARCHIVE.
 
   The restructuring was done once, before the products folder was filed, rather
   than twice. Those three then moved again in the SECOND PASS below, when
-  06_drawings was inserted and everything after it was pushed up, which is how
-  they reach today's 07_video, 08_panoramas and 09_manuals. The table is kept
+  07_drawings was inserted and everything after it was pushed up, which is how
+  they reach today's 08_video, 09_panoramas and 10_manuals. The table is kept
   because an old citation is only decodable if the intermediate numbering is
   written down somewhere; condensing it to "three folders shifted up by one",
   as an earlier version of this file did, loses exactly the part you would need.

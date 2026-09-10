@@ -100,7 +100,7 @@ FAULTS = [
     ("C20", "a log entry filed out of order",
      lambda: edit_re("LOG.txt", r"(2026-09-08 23:25  SALT)", r"2026-09-09 09:00  SALT")),
     ("C21", "a photograph edited under a row that still has the old hash",
-     lambda: append_bytes("06_drawings/01_plant-room-dimensions_t1946.jpg", b"\x00")),
+     lambda: append_bytes("07_drawings/01_plant-room-dimensions_t1946.jpg", b"\x00")),
     ("C22", "a photograph added without rebuilding the folder's contact sheet",
      lambda: copy_file("05_balance-room/06_low-level-sockets_t1843.jpg",
                        "05_balance-room/07_low-level-sockets_t1843.jpg")),

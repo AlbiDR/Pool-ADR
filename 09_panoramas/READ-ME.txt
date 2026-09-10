@@ -81,5 +81,5 @@ IF YOU WANT MORE WIDE VIEWS
   about one point. Do not walk along a wall. A rotation has no parallax and
   reprojects cleanly; a translation does not and never will.
 
-  The 07_video pans are 1080p, so frames from them would be a downgrade on the
+  The 08_video pans are 1080p, so frames from them would be a downgrade on the
   39-megapixel sphere and are not worth extracting.

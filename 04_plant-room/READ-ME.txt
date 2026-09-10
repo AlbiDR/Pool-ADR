@@ -1,6 +1,6 @@
 THE PLANT ROOM, IN THE ORDER IT WAS PHOTOGRAPHED
 
-Thirty-three photographs. This is the evidence folder: nearly every factual
+Thirty-six photographs. This is the evidence folder: nearly every factual
 claim in the survey is read off something in here, and the survey cites these
 by number, so "photograph 34" always means 34 in this folder.
 
@@ -9,7 +9,7 @@ WHAT EACH ONE SHOWS
 
       python3 tools/media.py show 04_plant-room
 
-  CONTACT-SHEET.jpg in this folder is all thirty-three as thumbnails, numbered.
+  CONTACT-SHEET.jpg in this folder is all thirty-six as thumbnails, numbered.
   Open that first. It is 385 KB against 91 MB of originals, and it answers
   "which one do I want?" without opening anything.
 
@@ -20,13 +20,15 @@ THREE SESSIONS, NOT ONE
       02 to 11     16:35   a walk round at eye level
       12 to 22     17:05   a second walk, wider, then the panel in detail
       23 to 34     22:12   an evening pass with better light, closer in
+      35 to 37     01:47   a night pass at the panel and the gauge, sharp
+                           enough to read component labels and a needle
 
   Later is generally better lit and closer. Where two photographs show the same
   thing, prefer the higher number unless the caption says otherwise.
 
 THE ONES EVERYTHING ELSE RESTS ON
   01   the photosphere. 39 megapixels from a single optical centre, and the
-       source every image in 08_panoramas/ is reprojected from. If a wide view
+       source every image in 09_panoramas/ is reprojected from. If a wide view
        and this disagree, this wins.
   35   the electrical panel, complete and every label readable. The reference
        for anything electrical, and the frame every component name in the
@@ -65,7 +67,7 @@ WHEN A BETTER FRAME ARRIVES
   legible in 20. The procedure is in MAINTENANCE.md.
 
 WHAT THIS FOLDER IS NOT FOR
-  Counting anything on a wall. Use 08_panoramas/07, which is a reprojection of
+  Counting anything on a wall. Use 09_panoramas/07, which is a reprojection of
   01 and has been counted: four drops, four handles, four pipes into the floor.
   A hand-held frame at this range foreshortens, and the room is small enough
   that you cannot stand back from anything.

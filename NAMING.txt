@@ -74,14 +74,15 @@ THE FOLDERS
                     filter, valve, pump, then the chemical.
   04_plant-room     Photographs of the plant room, in the order taken.
   05_balance-room   The balance tank and the hatch that reaches it.
-  06_drawings       The owner's own drawings: the dimensioned sketch and the
+  06_pool           The pool itself. Shape and layout, never dimensions.
+  07_drawings       The owner's own drawings: the dimensioned sketch and the
                     scaled plan of both rooms.
-  07_video          Phone pans.
-  08_panoramas      Wide images, all of them reprojected from one photosphere.
-  09_manuals        The makers' own documents. Ordered along the water path.
-  10_products       Every chemical on the shelf, photographed with its label,
+  08_video          Phone pans.
+  09_panoramas      Wide images, all of them reprojected from one photosphere.
+  10_manuals        The makers' own documents. Ordered along the water path.
+  11_products       Every chemical on the shelf, photographed with its label,
                     grouped by function rather than by the order shot.
-  11_scan           A 3D scan of the plant room, and the plan derived from it.
+  12_scan           A 3D scan of the plant room, and the plan derived from it.
 
   Every one of these carries its own apparatus file explaining what is in it,
   what it is good for, and what it must not be used for. Read that before the
@@ -102,10 +103,10 @@ DELETED INDICES
                        taken in the same second as 27 and identical but for
                        camera shake. 27 is the sharper of the two and is the
                        one kept.
-    08_panoramas/01    2026-09-08  Stitched, and wrong. See that folder's
-    08_panoramas/02                READ-ME.txt, which explains why a stitch of
-    08_panoramas/03                this room cannot be counted from.
-    08_panoramas/04    2026-09-08  Byte-for-byte duplicate of
+    09_panoramas/01    2026-09-08  Stitched, and wrong. See that folder's
+    09_panoramas/02                READ-ME.txt, which explains why a stitch of
+    09_panoramas/03                this room cannot be counted from.
+    09_panoramas/04    2026-09-08  Byte-for-byte duplicate of
                        04_plant-room/20_electrical-panel-full_t1707.jpg.
 
 A NOTE ON TIME TOKENS
@@ -119,7 +120,7 @@ A NOTE ON TIME TOKENS
   token, which is right: it is the same moment in the room, marked up later.
 
   A FILE MADE BY EDITING ONE takes the time it was made. There is exactly one:
-  06_drawings/01, a frame captured at 19:41 and drawn on until 19:46. The
+  07_drawings/01, a frame captured at 19:41 and drawn on until 19:46. The
   drawing is what the file is, so the token is 1946. MEDIA.tsv carries both
   times in its "captured" and "made" columns, which is what lets that token be
   verified rather than merely believed.

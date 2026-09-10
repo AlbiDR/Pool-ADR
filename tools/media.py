@@ -189,7 +189,7 @@ def captured(path, meta):
 def made(path, meta, capture):
     """When this version of the file was written, if that is later than capture.
 
-    06_drawings/01 is the case this exists for: a frame shot at 19:41 and drawn
+    07_drawings/01 is the case this exists for: a frame shot at 19:41 and drawn
     on until 19:46. The drawing is what the file is, so its name carries 19:46,
     and without this column that token looks invented.
     """
@@ -246,7 +246,7 @@ TOKEN_RE = re.compile(r"_t\d{4}\.[a-z0-9]+$")
 def recovered_time(path, kept):
     """For a token-bearing file with no timestamp inside it, when it was made.
 
-    The PNG exports in 06_drawings are the case. A PNG carries no EXIF, so the
+    The PNG exports in 07_drawings are the case. A PNG carries no EXIF, so the
     only evidence of when one was written is its modification time, and a git
     clone resets that to the moment of checkout. The recovery is therefore
     one-way: read the mtime while it still means something, write it here, and

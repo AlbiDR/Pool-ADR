@@ -18,7 +18,7 @@ DO NOT EXTRACT FRAMES FROM THESE
   They are 1080p, so 2.1 megapixels. The photosphere in 04_plant-room/01 is
   39 megapixels of the same room from a fixed optical centre. Any still pulled
   out of these clips is a downgrade on a photograph that already exists, and a
-  worse one still on the reprojections in 08_panoramas/, which were made from
+  worse one still on the reprojections in 09_panoramas/, which were made from
   that sphere and can be measured off. Use video for sequence, stills for fact.
 
 SIZE, AND WHY THEY ARE STILL HERE

@@ -41,7 +41,7 @@ WHAT IT IS NOT GOOD FOR
 
   Counting or identifying anything. Thin objects do not survive a scan at this
   density: the manifold appears as a row of blobs, not as four countable
-  drops. For that, use 08_panoramas/07, which is a reprojection of the
+  drops. For that, use 09_panoramas/07, which is a reprojection of the
   photosphere and has been counted, or the photographs themselves.
 
   Positions. The scan's coordinate frame is arbitrary and its handedness is

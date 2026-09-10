@@ -4,9 +4,9 @@ and partly as text in conversation, so they are written down here rather than
 left to live in one photograph and one message.
 
 Sources
-  06_drawings/01_plant-room-dimensions_t1946.jpg    dimensioned sketch
-  06_drawings/02_rooms-plan-to-scale_t2012.png      both rooms, to scale
-  06_drawings/03_rooms-plan-to-scale_labelled_t2013.png   the same, labelled
+  07_drawings/01_plant-room-dimensions_t1946.jpg    dimensioned sketch
+  07_drawings/02_rooms-plan-to-scale_t2012.png      both rooms, to scale
+  07_drawings/03_rooms-plan-to-scale_labelled_t2013.png   the same, labelled
   Balance room dimensions: stated in conversation, 2026-09-07.
 
 THE SCALED PLAN IS GENUINELY TO SCALE

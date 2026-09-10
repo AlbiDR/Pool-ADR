@@ -45,12 +45,13 @@ the same document, top to bottom.
 | `03_nameplates/` | The plates and labels every specification rests on. |
 | `04_plant-room/` | 36 photographs, in the order they were taken. The evidence nearly every claim rests on. |
 | `05_balance-room/` | The balance tank and the hatch that reaches it, plus what the coloured marks on photograph 04 mean. |
-| `06_drawings/` | Dimensioned sketches and the scaled plan of both rooms. |
-| `07_video/` | Two 360 degree pans and one floor-level survey. |
-| `08_panoramas/` | Straightened wall views reprojected from the photosphere, safe to count from. Its `READ-ME.txt` says why the earlier stitched versions were deleted. |
-| `09_manuals/` | The makers' own manuals, with the official link for each and the key figures found. |
-| `10_products/` | Every chemical on the shelf, photographed with its label, plus a catalogue and a symptom-to-action guide. |
-| `11_scan/` | A 3D scan of the plant room, and the plan derived from it. |
+| `06_pool/` | The pool itself from both ends: shape, layout and the overflow edge. Ultra-wide, so never dimensions. |
+| `07_drawings/` | Dimensioned sketches and the scaled plan of both rooms. |
+| `08_video/` | Two 360 degree pans and one floor-level survey. |
+| `09_panoramas/` | Straightened wall views reprojected from the photosphere, safe to count from. Its `READ-ME.txt` says why the earlier stitched versions were deleted. |
+| `10_manuals/` | The makers' own manuals, with the official link for each and the key figures found. |
+| `11_products/` | Every chemical on the shelf, photographed with its label, plus a catalogue and a symptom-to-action guide. |
+| `12_scan/` | A 3D scan of the plant room, and the plan derived from it. |
 | [`LOG.txt`](LOG.txt) | What was actually done and when: every switch, dose, backwash and reading. The survey describes the installation; this records its operation. |
 | [`MEDIA.tsv`](MEDIA.tsv) | One row for every media file: what it shows, its size, its dimensions, when it was taken, and its `sha256`. The one place a file's description lives. |
 | [`CHANGELOG.txt`](CHANGELOG.txt) | What was done to the **archive**, and why. `LOG.txt` is the pool; this is the filing. |
@@ -71,7 +72,7 @@ anything.
 drew six drops where there are four, and it did not look wrong. Every wide
 image kept here is now a reprojection of a single photosphere instead, which
 cannot invent geometry because there is no stitching in it. The stitches were
-deleted; `08_panoramas/READ-ME.txt` records what they were and why they went.
+deleted; `09_panoramas/READ-ME.txt` records what they were and why they went.
 
 **Where a maker's manual contradicts the printed sheets, this follows the
 manual and says so.** The clearest case is the filter gauge: the sheet says
