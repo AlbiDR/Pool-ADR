@@ -54,6 +54,21 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-11 ~00:30 NOTE       COLUMN GEOMETRY, measured. The horizontal pipe
+                             from the balance room enters at 30 cm to its
+                             centre, the ISOLATOR valve sits at 53, and the
+                             tube ends at 153. The column can therefore show 30
+                             to 153 cm, a 123 cm span. The tank's safety
+                             overflow is 135 above the tank floor, leaving
+                             about 18 cm of tube above it, so THE COLUMN CAN
+                             SHOW THE OVERFLOW rather than running out of scale
+                             first. That is what makes "fill above the white
+                             line before a backwash" watchable instead of
+                             guesswork. It also brackets the interlock without
+                             finding it: above the pump's own outlet at 35 cm,
+                             since below that there is nothing to draw, and
+                             below mark 1 at 64, since the pump was running at
+                             64 tonight. A 29 cm window, about 790 L wide.
 2026-09-11 ~00:15 DOSE       200 g granular chlorine (NaDCC 56%), pre-
                              dissolved, into the balance tank with the pump
                              running on M. Rounded up from the 180 g suggested

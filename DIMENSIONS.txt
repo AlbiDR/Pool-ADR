@@ -188,6 +188,14 @@ THE LEVEL COLUMN, MEASURED 2026-09-10
   Heights up the column, by tape. 1: 64 cm.  2: 76.  3: 86.5.  4: 92.5.
   WHITE indicator line: 99.5.
 
+  And the column itself: the horizontal pipe from the balance room enters at
+  30 cm to its centre, the ISOLATOR valve sits at 53, and the tube ends at
+  153. So the column can show 30 to 153 cm, a 123 cm span. The tank's safety
+  overflow is at 135 above the TANK floor, which leaves 18 cm of tube above
+  it: the column can show the overflow level rather than running out of scale
+  first, which is what makes filling above the WHITE line before a backwash a
+  thing you can actually watch.
+
   The spacing is uneven, 12 then 10.5 then 6 then 7 cm, so these are not a
   ruler. They are operating levels somebody marked, and two of them showed
   their meaning the same night: the pump settled at EXACTLY 3 once the circuit
