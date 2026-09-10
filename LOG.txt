@@ -54,6 +54,31 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-10 ~23:30 LEVEL      SETTLED AT EXACTLY 3, from a start between the 4
+                             and the white line. So the TRANSIT VOLUME is JUST
+                             OVER ONE MARK: one full interval, 4 to 3, plus
+                             whatever sat above the 4. It settled rather than
+                             walking on down to the interlock, which is the
+                             thing that matters tonight: the pool is spilling
+                             again and the circuit is balanced. IN LITRES IT IS
+                             STILL UNKNOWN, and that is the whole point of the
+                             column open item. At 27.3 L per cm a mark is 273 L
+                             if the spacing is 10 cm, 410 L at 15, 683 L at 25.
+                             A tape on that column for two minutes converts
+                             every future reading, and this one retroactively.
+                             TWO CAVEATS ON THE FIGURE. It is a LOWER BOUND if
+                             the reintegro fed any water in during the
+                             drawdown, since that would mask part of the drop;
+                             the top-up was on A and whether it ran was not
+                             observed. And if it did NOT run, then the relay's
+                             call-for-water level sits BELOW mark 3, which is
+                             itself worth knowing and has never been
+                             established. WHAT IT MEANS EITHER WAY: something
+                             like a quarter of the usable column is unavailable
+                             while the plant runs. Fill the tank to the top
+                             BEFORE a backwash, never after, because the
+                             transit volume is already spent before the 900 to
+                             1,500 L of the wash is taken.
 2026-09-10 ~23:20 LEVEL      Pump started on M. Column was between the 4 mark
                              and the white line, and drew down to 3 and still
                              falling. EXPECTED, and the reason is worth
