@@ -54,6 +54,30 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-10 ~22:20 NOTE       THE TRi PRO IS OFF, AND THAT IS WHY THE pH IS
+                             HIGH. Reported by the owner, with the fair
+                             observation that nobody ever said to turn it back
+                             on. Correct: the refill procedure said
+                             "chlorinator off", which is right about the CELL
+                             and wrong about the box. That box does three jobs
+                             and only one needs salt. It also carries the pH
+                             probe and drives the peristaltic pump on the acid
+                             drum, so switching it off stopped pH regulation on
+                             a pool freshly filled with hard mains water, which
+                             is when pH climbs fastest. Four days later the
+                             first test put pH at the red end. Cause and
+                             effect, and the gap was in the instruction. Survey
+                             corrected: the step now separates stopping the
+                             cell from killing the unit, and a procedure for
+                             bringing the pH side back has been written from
+                             manual 04. Two things it turned up that were never
+                             checked. The peristaltic ships DISABLED and only
+                             self-enables about 8 hours after power-on, which
+                             is what "pH ---" means; DOSAGE ON skips the wait.
+                             And VOLUME BASSIN should be level 3, the 60 to 110
+                             m3 band, while the factory default is level 2, 40
+                             to 60. On level 2 every acid dose is sized for a
+                             pool half this one.
 2026-09-10 21:59  TEST       FIRST WATER TEST. Photographs 23 to 25, Lovibond
                              comparator, item 11. FREE CHLORINE at or below 0.1
                              mg/L, the bottom step, against a target of 0.6 to
