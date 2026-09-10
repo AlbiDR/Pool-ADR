@@ -373,15 +373,34 @@ def c16():
     return out
 
 
+# spelled-out counts, because prose does not always use digits. The survey's
+# folder table says "Thirty-six photographs" and went stale unnoticed for exactly
+# as long as this check could only read numerals.
+_UNITS = ("one two three four five six seven eight nine ten eleven twelve thirteen "
+          "fourteen fifteen sixteen seventeen eighteen nineteen").split()
+_TENS = {"twenty": 20, "thirty": 30, "forty": 40, "fifty": 50,
+         "sixty": 60, "seventy": 70, "eighty": 80, "ninety": 90}
+WORD_NUMBERS = {w: i + 1 for i, w in enumerate(_UNITS)}
+for _t, _v in _TENS.items():
+    WORD_NUMBERS[_t] = _v
+    for _w, _u in list(WORD_NUMBERS.items())[:19]:
+        WORD_NUMBERS["%s-%s" % (_t, _w)] = _v + _u
+
+
 @check("C17", "counts stated in prose match the folders")
 def c17():
-    """The README says "34 photographs". Add one and that sentence is wrong, and
-    nothing else in the world will tell you."""
+    """A folder count written into a sentence goes stale the moment a file is
+    added, and nothing else in the world will tell you. Numerals and words both:
+    "36 photographs" and "Thirty-six photographs" rot the same way."""
     out = []
+    nouns = "photograph|photographs|files|images|videos|manuals|products"
+    words = "|".join(sorted(WORD_NUMBERS, key=len, reverse=True))
+    pat = re.compile(r"(\d\d_[a-z-]+)/[^\n]{0,60}?\b(\d{1,3}|%s)\s+(%s)\b" % (words, nouns), re.I)
     for rel in ("README.md", SURVEY):
         text = read(rel)
-        for m in re.finditer(r"(\d\d_[a-z-]+)/[^\n]{0,60}?\b(\d{1,3})\s+(photograph|photographs|files|images|videos|manuals|products)\b", text):
-            folder, stated, noun = m.group(1), int(m.group(2)), m.group(3)
+        for m in pat.finditer(text):
+            folder, raw, noun = m.group(1), m.group(2), m.group(3)
+            stated = int(raw) if raw.isdigit() else WORD_NUMBERS[raw.lower()]
             d = os.path.join(ROOT, folder)
             if not os.path.isdir(d): continue
             actual = len([f for f in os.listdir(d)

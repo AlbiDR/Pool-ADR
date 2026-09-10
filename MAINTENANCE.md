@@ -40,7 +40,7 @@ being written. They are not hypothetical.
 | `C14` | File names outside the convention in `NAMING.txt` | |
 | `C15` | The published URL differing between files | |
 | `C16` | Files over GitHub's size limits | 100 MB is a hard refusal, 50 MB a warning, 1 GB the site cap. |
-| `C17` | A count stated in prose drifting from the folder | The README says "34 photographs". Add one and that sentence is wrong, and nothing else will tell you. |
+| `C17` | A count stated in prose drifting from the folder | Both files state how many photographs each folder holds. Add one and those sentences are wrong, and nothing else will tell you. It reads numerals and words alike, because the survey's folder table spells them out and went stale unnoticed for exactly as long as the check could only read digits. |
 | `C18` | The PDF or the diagram no longer matching the HTML | Both are generated from the survey. Editing it invalidates them, and neither looks wrong afterwards. The hashes are in `01_survey/DERIVED.txt`. |
 | `C20` | The activity log out of order, or using an invented category | Caught two ordering slips within a minute of being written, both mine. |
 | `C21` | `MEDIA.tsv` disagreeing with the files on disk | A file added and never scanned, a photograph edited under a row still carrying the old hash, or a new file with no caption written. All three are silent. |
