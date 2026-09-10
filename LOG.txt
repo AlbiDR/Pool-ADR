@@ -110,9 +110,12 @@ HOW MUCH TO WRITE
                              insulation, IP 55, and it was doing no more work
                              than usual: a rising FILTER gauge is the sand
                              loading with floc, which is the treatment working,
-                             not the pump straining. Against a suction
-                             restriction a centrifugal pump draws LESS current,
-                             not more. No harm done, but two costs: it hands
+                             not the pump straining. The filter sits DOWNSTREAM
+                             of the pump, and throttling a centrifugal pump's
+                             discharge moves it back along its own curve to
+                             less flow and LESS power, not more. A restriction
+                             on the suction side would be the one to worry
+                             about, and that is the strainer basket, not this. No harm done, but two costs: it hands
                              the clear-up back to a clock that is four hours
                              out (see above), and the flocculant logged at
                              01:50 may have gone into a tank with no flow
