@@ -54,6 +54,32 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-10 20:56  NOTE       TEST KIT ON THE SHELF. Lovibond tablet comparator,
+                             photographs 20 to 22, catalogue item 11. Reads pH
+                             by phenol red 6.8 to 8.2, and FREE chlorine by DPD
+                             No.1, 0.1 to 3.0 mg/L. This closes the largest
+                             hole in the archive: every target in the water
+                             section was unreadable before it, and every dose
+                             through the drain and refill went in blind. Four
+                             things to know before the first reading. Its
+                             ceiling is 3.0, and the shock dose (about 8) and
+                             the robot's limit (4) are both above it, so dilute
+                             half and half and double. Very high chlorine
+                             BLEACHES DPD back to clear, which reads as zero
+                             and is not. Test chlorine before pH, because over
+                             about 3 mg/L phenol red reads high. And the phenol
+                             red foil says PHOTOMETER, which Lovibond sells as
+                             a different article from the comparator tablet, so
+                             check the leaflet before trusting a tenth of a
+                             unit. NO READING TAKEN YET.
+2026-09-10 ~20:55 NOTE       GAP: nothing recorded between 02:28 and now,
+                             eighteen hours. The plan set at 02:30 was grate,
+                             gauge, then pump to M at about 08:10 before work.
+                             Whether any of it happened is not known, so it is
+                             not written down as if it were. If it did, log it
+                             late with a "~" rather than not at all: this is
+                             exactly the shape of the hole that made this file
+                             necessary on 2026-09-08.
 2026-09-10 02:28  GAUGE      1.29 bar, photograph 37, and the first close-up of
                              gauge 4 this archive holds. Read off the pixels
                              rather than by eye: needle at 109 degrees on a

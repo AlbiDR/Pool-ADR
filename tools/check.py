@@ -274,6 +274,7 @@ def c12():
         ("plant_room_area_m2",      s, r"([\d.]+)\s*m&#178;,\s*below\s*ground"),
         ("balance_tank_capacity_m3",s, r"([\d.]+)\s*m&#179;,\s*next\s*door"),
         ("filter_sand_kg",          s, r"&#216;760,\s*([\d]+)\s*kg"),
+        ("filter_clean_baseline_bar", s, r"About\s*([\d.]+)\s*bar is normal running on this installation"),
         ("litres_per_cm_of_column", read("DIMENSIONS.txt"), r"1\s*cm\s+of\s+depth\s*=\s*([\d.]+)\s*litres"),
     ]
     for key, text, pat in probes:

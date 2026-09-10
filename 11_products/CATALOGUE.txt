@@ -233,6 +233,40 @@ THE STOCK
              than datasheet 18 already does: a composition table beats a
              photo of one, when both exist.
 
+11 TEST KIT, TABLET COMPARATOR         photos 20, 21, 22
+   Lovibond. Visual comparator card plus two tablet reagents.
+   Reads     pH by PHENOL RED, 6.8 to 8.2 in seven steps
+             FREE CHLORINE by DPD No.1, 0.1 to 3.0 mg/L in seven steps
+   Stock     DPD No.1 Rapid, batch ZA2C0233, ten to a strip
+             Phenol Red Photometer, batch ZA3K0333, ten to a strip
+   This pool  targets are pH 7.2 to 7.4 and free chlorine 0.6 to 1.5 mg/L.
+              Both sit comfortably inside the card, which is the point: the
+              scale is dense where this pool actually lives.
+   ARRIVED   2026-09-10, and it closes the largest hole in this archive.
+             Every target in the survey's water section was unreadable
+             before it, and every dose through the drain and refill went in
+             blind. The procedure for using it is in the survey.
+   CEILING   3.0 mg/L, and TWO FIGURES IN THIS DOCUMENT ARE ABOVE IT. The
+             commissioning shock is about 8 mg/L and the robot's limit is 4.
+             Neither can be read straight. Dilute half sample, half tap
+             water, read, and double.
+   THE TRAP  Well above the top of the scale DPD is BLEACHED BACK TO
+             COLOURLESS. A cell that flushes pink then clears, or refuses to
+             colour at all in the hour after a dose, means chlorine is very
+             HIGH, not absent. Same dilution settles it.
+   ORDER     Chlorine first, then pH. Above about 3 mg/L free chlorine,
+             phenol red reads high and can go purple, so a pH taken beside
+             an over-scale chlorine is not a pH.
+   NO.1 ONLY There is no DPD No.3 here, so this kit reads FREE chlorine and
+             cannot give you combined. You will not see chloramine build-up,
+             which is the usual reason to shock a pool. Not urgent while the
+             cell is off and the water is being hand-dosed, but it is a gap.
+   UNVERIFIED The phenol red foil reads PHOTOMETER. Lovibond sells that as a
+             different article from the comparator tablet, and whether it
+             develops the same colour against a visual card is not settled
+             here. Read the kit's own leaflet before trusting a tenth of a
+             pH unit. Photograph 22 is the foil.
+
    PLUS, NOT ON THIS SHELF
    SULPHURIC ACID 36%, 25 kg drum, in the plant room, plumbed to the TRi PRO
    peristaltic pump. See the SAFETY NOTES section of the survey: at 36% it is above the
@@ -276,8 +310,9 @@ CLEAR BUT SLIGHTLY CLOUDY, or dull
      4-5 hours of filtration, repeat until clear.
   -> Then keep it away: 72.5 g each evening after every backwash.
   -> First check the filter gauge, AGAINST THIS INSTALLATION'S BASELINE OF
-     ABOUT 1.2 BAR, not against an absolute number. Measured 2026-09-09 on
-     clean freshly backwashed sand: 1.18 bar. Kripsol's manual gives 0.5-0.7
+     1.18 BAR, not against an absolute number. That figure was measured on
+     2026-09-09 on clean freshly backwashed sand, and the gauge's own face is
+     banded green up to 1.48. Kripsol's manual gives 0.5-0.7
      and a 1.0 trigger, but that describes the filter alone, not this filter
      behind an oversized pump on limiting pipework with the cell in circuit.
      Near 1.5 the filter is the cause and no chemical will fix it. Sitting at
@@ -327,6 +362,16 @@ WHAT IS MISSING FROM THE SHELF
 ===============================================================================
   A CYANURIC ACID TEST. Three products on this shelf depend on knowing that
   number and none of them can tell you it. Without it, item 6 is guesswork.
+  THIS IS NOW THE TOP GAP. Item 11 arrived on 2026-09-10 and answers pH and
+  free chlorine, which leaves cyanuric acid as the one number that matters
+  here and cannot be measured. It only ever goes up: every dose of the
+  granular chlorine is sodium dichloroisocyanurate and brings its own
+  stabiliser with it, roughly 1.2 mg/L a time on this pool. At 50 mg/L the
+  chlorine locks up, and the only cure is dilution.
+
+  A DPD No.3 TABLET, to go with item 11. No.1 alone reads free chlorine;
+  the difference between No.1 and No.3 is the combined chlorine, which is
+  what tells you a shock is needed rather than more of the same.
 
   AN UNSTABILISED CHLORINE for shock, calcium hypochlorite or similar. The
   Recupero and Svernante labels both call for one and there is none here.
