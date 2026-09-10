@@ -54,20 +54,18 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
-2026-09-10 ~01:50 DOSE       Two full glasses FLOCCULANTE Klep into the balance
-                             tank, not weighed. A glass is 200 to 250 mL, so
-                             400 to 600 g depending on a density this archive
-                             has never measured. RUNNING TOTAL 1,150 to 1,350 g
-                             against a label curative of 1,088 g for 72.5 m3:
-                             the label full dose has now been passed. It went
-                             in AFTER the gauge had already moved, and a moved
-                             gauge is the signal that the first dose took and
-                             no more was needed. Watch the next 4 to 5 hours.
-                             If the halo tightens, no harm done. If it stalls
-                             or worsens, that is charge reversal, the particles
-                             have been re-stabilised, and the only cure is to
-                             keep filtering it back out. Weigh the next one;
-                             the 5 kg tub and a kitchen scale cost nothing.
+2026-09-10 ~01:50 DOSE       400 g FLOCCULANTE Klep into the balance tank: two
+                             glasses of 200 g each, the product confirmed as a
+                             LIQUID, figure given by eye rather than by scale.
+                             RUNNING TOTAL 1,150 g since 2026-09-09, which on
+                             72.5 m3 is 15.9 g/m3 against a label curative rate
+                             of 15. Between 2 and 10 percent over depending on
+                             where the true volume sits in the 70 to 75 range,
+                             and the label figure is itself soft. Comfortably
+                             inside the noise, and NOT the over-dose the first
+                             estimate of this entry allowed for: that assumed
+                             glasses of up to 300 g. Still add nothing further,
+                             and weigh the next one.
 2026-09-10 01:48  NOTE       Photograph 36, the round rider dial in the LOWER
                              row, face on. Riders pushed DOWN from 2 to 21,
                              read off the panel by hand; the photograph cannot
