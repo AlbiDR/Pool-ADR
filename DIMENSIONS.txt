@@ -184,10 +184,23 @@ ALSO ESTABLISHED 2026-09-07
   pinned to within about a millimetre once it spills, which is why the tank
   column can be used to measure the incoming flow directly.
 
+THE LEVEL COLUMN, MEASURED 2026-09-10
+  Heights up the column, by tape. 1: 64 cm.  2: 76.  3: 86.5.  4: 92.5.
+  WHITE indicator line: 99.5.
+
+  The spacing is uneven, 12 then 10.5 then 6 then 7 cm, so these are not a
+  ruler. They are operating levels somebody marked, and two of them showed
+  their meaning the same night: the pump settled at EXACTLY 3 once the circuit
+  balanced, and the top-up on A stopped just under the WHITE.
+
+  At 27.3 L/cm the whole marked span, 1 to WHITE, is 35.5 cm and 969 litres.
+  Hold that number next to the backwash: 900 to 1,500 L is 33 to 55 cm. A
+  single backwash is as large as everything the column can show you, or larger.
+
 STILL UNMEASURED
   - plant room ceiling height
-  - spacing of the marks 1 to 4 on the level column, which would let the
-    column be read in litres rather than as a position
+  - the height of the low-level interlock, which is the one level on the
+    column that matters most and is still not marked on it
   - outside diameter of the suction pipe (50, 63, 75 or 90 mm), which decides
     whether the filter is being over-flowed or not
   - thickness of the wall between the two rooms. The scaled plan leaves about

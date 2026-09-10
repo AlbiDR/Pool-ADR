@@ -54,6 +54,32 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-10 ~23:55 LEVEL      COLUMN MARKS MEASURED, and this closes an open
+                             item that had been sitting since the survey was
+                             written. By tape, up the column: 1 at 64 cm, 2 at
+                             76, 3 at 86.5, 4 at 92.5, WHITE at 99.5. THE
+                             SPACING IS UNEVEN, 12 then 10.5 then 6 then 7, so
+                             these are not a ruler, they are operating levels
+                             somebody marked. Two revealed themselves tonight:
+                             the running level settled at EXACTLY 3, and the
+                             top-up on A stopped just under WHITE. TRANSIT
+                             VOLUME now in litres: the drop from just above 4
+                             to exactly 3 is 6.5 to 9.5 cm, so 180 to 260 L.
+                             Smaller than the 300 to 500 guessed earlier. THE
+                             FINDING THAT MATTERS: the whole marked span, 1 to
+                             WHITE, is 35.5 cm and 969 L. A backwash and rinse
+                             is 900 to 1,500 L, which is 33 to 55 cm. A SINGLE
+                             BACKWASH IS AS BIG AS EVERYTHING THE COLUMN CAN
+                             SHOW, OR BIGGER. Start one at WHITE and it ends
+                             between 44.6 and 66.5 cm, at or below mark 1 and
+                             at the bad end below the 55 cm this archive
+                             already called the lowest safe draw. Start from
+                             the safety overflow at 135 cm and it lands 80 to
+                             102, comfortable. So the printed sheet's warning
+                             that the pump stops during a backwash is now
+                             arithmetic rather than caution, and the rule is:
+                             fill ABOVE the white line first, which means the
+                             manual bypass, watched, because A stops at white.
 2026-09-10 ~23:45 NOTE       VOLUME LEVEL: I SAID 3, IT IS 2. Correcting before
                              it is acted on. The two manuals disagree and I
                              read the wrong one. Manual 04 is the TRi pH notice

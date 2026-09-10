@@ -87,6 +87,20 @@ level_relay_low            = CONTROLLO MINIMO LIVELLO
 level_relay_topup          = CONTROLLO LIVELLO REINTEGRO
 reintegro_auto_control     = level relay, not a timer
 
+[column]
+# Measured 2026-09-10 with a tape, heights up the clear column. The marks are
+# hand-written in sharpie; the white line is a printed indicator above the 4.
+# Spacing is deliberately UNEVEN, so these are operating levels and not a ruler.
+column_mark_1_cm           = 64
+column_mark_2_cm           = 76
+column_mark_3_cm           = 86.5
+column_mark_4_cm           = 92.5
+column_mark_white_cm       = 99.5
+column_marked_span_cm      = 35.5
+column_marked_span_l       = 969
+transit_volume_cm          = 6.5 to 9.5
+transit_volume_l           = 180 to 260
+
 [hosting]
 pages_url                  = https://albidr.github.io/Pool-ADR/
 pages_url_short            = albidr.github.io/Pool-ADR
