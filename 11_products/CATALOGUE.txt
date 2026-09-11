@@ -403,6 +403,10 @@ SHUTTING DOWN FOR WINTER
 ===============================================================================
 WHAT IS MISSING FROM THE SHELF
 ===============================================================================
+  This is the shelf's own view: what a bottle-by-bottle audit finds absent.
+  The survey's "What to buy" section is the same gaps ordered by what they
+  are blocking, with the words to type into a search box. If the two ever
+  disagree, the survey is the one written to be acted on.
   A CYANURIC ACID TEST. Three products on this shelf depend on knowing that
   number and none of them can tell you it. Without it, item 6 is guesswork.
   THIS IS NOW THE TOP GAP. Item 11 arrived on 2026-09-10 and answers pH and
