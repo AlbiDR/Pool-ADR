@@ -54,6 +54,25 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-12 ~00:45 DOSE       100 g FLOCCULANTE Klep into the balance tank after
+                             the backwash. CORRECT IN EVERY RESPECT. Right
+                             place: the tank is the dosing route for flocculant
+                             because it is where the pump draws from, so the
+                             dose reaches the sand. Right time: the label asks
+                             for a smaller dose after every backwash, because
+                             the wash strips the layer off with the dirt, and
+                             this bed was washed back to bare 1.18 an hour
+                             earlier. Right amount, near enough: the label's
+                             preventive rate is 10 g per 10 m3, so 72.5 g here,
+                             and 100 is generously over that but nowhere near
+                             the 1,088 g curative. RUNNING TOTAL IS NOW 1,250
+                             g, but that number has stopped meaning much: the
+                             backwash carried most of the earlier 1,150 g out
+                             with the dirt it had caught. This 100 g is
+                             effectively a fresh preventive layer on a clean
+                             bed, which is exactly the condition the label
+                             describes. Pump must be running for any of it to
+                             matter.
 2026-09-12 ~00:30 GAUGE      1.18 bar after 10 to 15 minutes running, post-
                              backwash. EXACTLY THE CLEAN BASELINE, hit a second
                              time and independently. That figure has been the
