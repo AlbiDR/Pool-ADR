@@ -54,6 +54,37 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-12 ~01:20 TEST       PH PROBE DIAGNOSED: IT READS ABOUT ONE UNIT LOW.
+                             MISURA PH = 7.0, inside CALIB PH, against a tablet
+                             test of 7.8 to 8.2 on 09-10. The two instruments
+                             in this house have finally been compared and they
+                             disagree by roughly a whole pH unit. WHICH IS
+                             WRONG IS NOT A JUDGEMENT CALL, because the
+                             physical argument does not need either instrument
+                             to be trusted: NOTHING HAS PUT ACID INTO THIS POOL
+                             SINCE IT WAS REFILLED. That is now established
+                             rather than assumed, because the peristaltic's own
+                             72-hour idleness is what raised ERRORE PH in the
+                             first place. The fill was fresh hard mains and
+                             another 900 L of it went in with tonight's
+                             backwash. There is no route by which that water
+                             reaches 7.0. A tired glass electrode drifts TOWARD
+                             NEUTRAL, and 7.0 is exactly where a dead one
+                             parks. THE WHOLE CHAIN NOW CLOSES: probe reads
+                             low, so the measured value never exceeds the 7.2
+                             setpoint, so no ^ appears, so the unit never calls
+                             for acid, so the peristaltic sits idle past 72
+                             cumulative hours, so ERRORE PH. Every observation
+                             accounted for, nothing left over. WORTH RECORDING
+                             AS A LIMITATION: manual 03 section 4.1 says a
+                             reading above 8.2 or below 6.4 means a dirty or
+                             damaged probe. 7.0 passes that test comfortably
+                             and is still a unit wrong. The window catches only
+                             gross failures. The only thing that found this was
+                             a second instrument. BLOCKER: calibration needs
+                             the pH 7.5 buffer, which shipped with the unit
+                             years ago and which buffer solutions outlive. Find
+                             it, read its date.
 2026-09-12 ~01:00 NOTE       STATE OF THE PLANT, settled after the backwash.
                              Pump selector M, running. Reintegro A. Kripsol
                              lever 1, filtration. Drain valve 1 closed. L
