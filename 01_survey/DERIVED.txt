@@ -12,5 +12,5 @@ Rebuild commands are in MAINTENANCE.md. After rebuilding, update the hash here.
 
     file || source || sha256 of that source
 
-pool-plant-room-survey.pdf || the whole survey HTML || 80c00091ad20e17ed2b0b000c61e97c41d5d9f72fb67e2d5f2fbf87506f00917
+pool-plant-room-survey.pdf || the whole survey HTML || 757e7368c0c68fba28ce198cc36504538a83d14a9e98afcf6811b80c4a3042d0
 pool-plant-room-diagram.png || the 1560x2370 schematic svg || 0a1f1183b45bf71e89bc38c6f55a332711edef7ef9db3d9967aa55bd635c6149

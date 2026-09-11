@@ -54,6 +54,45 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-12 ~01:35 NOTE       TEST ACID RUN, NOTHING VISIBLE IN THE TUBE, AND
+                             THAT IS NOT A RESULT. The acid is 36 percent
+                             sulphuric and it is COLOURLESS. Once the 5 m line
+                             is primed the test asks you to watch a clear tube
+                             full of a clear liquid, where there is nothing to
+                             see whether it works or not. Manual 03's "the pH
+                             minus will be visible in the translucent tubes"
+                             only holds while the line is still FILLING, which
+                             is the state it is in right after installation and
+                             has not been in for years. JUDGE IT BY THE PUMP
+                             INSTEAD. A peristaltic whirrs and its rollers
+                             click audibly for the full thirty seconds, and the
+                             rotor is visible through its cover. Silent and
+                             still is a fault. Turning and audible with an
+                             unchanged tube means it is working and the
+                             evidence was simply unobtainable. An air bubble
+                             anywhere in the line is a marker and will travel.
+                             SO THIS IS STILL OPEN: did it make a sound, did
+                             the rotor turn.
+2026-09-12 ~01:30 NOTE       DIMENS PISC = 3. Not the factory default of 1, so
+                             somebody set it. THIS IS NOT THE CAUSE OF ERRORE
+                             PH: on 3 the doses are generous, not inadequate,
+                             and "volume level too low" was one of the manual's
+                             listed causes. Note also that 3 is precisely what
+                             manual 04's table gives for a 70 to 75 m3 pool, so
+                             whoever commissioned this was probably reading the
+                             same table I first read, which makes the setting
+                             deliberate rather than stray. AND THE TWO-MANUAL
+                             CONFLICT DISSOLVES, on a closer reading of manual
+                             03 itself: "the values above are given as examples
+                             only and the choice may vary according to
+                             conditions of use". The level is a STARTING POINT
+                             TUNED BY WATCHING THE POOL, not a figure to look
+                             up, so neither manual was ever going to settle it.
+                             DECISION: leave it on 3 while the probe is being
+                             fixed. Changing two things at once is the one rule
+                             the printed sheet puts in bold. Then watch the
+                             first day of real dosing and drop to 2 if the pH
+                             overshoots downward.
 2026-09-12 ~01:20 TEST       PH PROBE DIAGNOSED: IT READS ABOUT ONE UNIT LOW.
                              MISURA PH = 7.0, inside CALIB PH, against a tablet
                              test of 7.8 to 8.2 on 09-10. The two instruments
