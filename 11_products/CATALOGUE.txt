@@ -374,6 +374,19 @@ WHAT IS MISSING FROM THE SHELF
   stabiliser with it, roughly 1.2 mg/L a time on this pool. At 50 mg/L the
   chlorine locks up, and the only cure is dilution.
 
+  FRESH pH 7,5 BUFFER SOLUTION, soluzione tampone pH 7,5. Promoted to the
+  top of this list on 2026-09-12, when the TRi PRO's pH probe was found
+  reading 7.0 against a tablet test of 7.8 to 8.2. Nothing else will fix
+  that: a probe can only be corrected against a liquid whose true pH is
+  already known, and this is that liquid. It came in the unit's box years
+  ago as item 9, dyed bluish to distinguish it from the red probe's
+  ORP 700 mV buffer. Buffer keeps a year or two sealed and much less once
+  opened, because it absorbs CO2 and drifts. AN EXPIRED BOTTLE IS WORSE
+  THAN NONE: it calibrates the probe confidently to the wrong number.
+  Buy single-use sachets, which cannot have drifted unopened. A few euros.
+  While ordering, an ORP 700 mV sachet for the red probe too: that one
+  falls due the moment the cell starts producing.
+
   A TOTAL ALKALINITY TEST. Promoted on 2026-09-10 when the TRi PRO threw
   ERRORE PH and listed "CONTR. ALCALIN. TOTALE" as its fourth suggested
   action. Alkalinity is the buffer: at a high TAC the unit injects acid
