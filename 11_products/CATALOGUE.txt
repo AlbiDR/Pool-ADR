@@ -272,6 +272,44 @@ THE STOCK
              reference, not a sample. NO TEST HAS BEEN RUN ON THIS POOL.
              The first result belongs in LOG.txt as a TEST entry.
 
+12 SOLUZIONI TAMPONE pH             photos 26, 27, 28, 29
+   Hanna Instruments, two sachets of 20 mL each, +/- 0.01 pH at 25 C.
+             HI 70007   pH 7.01    lot 8756   EXPIRED 04-2020
+             HI 70010   pH 10.01   lot 7906   EXPIRED 07-2019
+   Each front carries its own temperature table, 0 to 95 C, because the
+   value moves with temperature: the 7.01 is 7.03 at 20 C, the 10.01 is
+   10.06. Read the table, not the headline, when it matters.
+   WHAT THEY ARE  reference liquids of known pH, used to correct a probe
+             that has no absolute reference of its own. Never for the pool.
+             See the survey's explanation of soluzione tampone.
+   THEY CANNOT CALIBRATE THE TRi PRO, AND THIS IS THE IMPORTANT LINE.
+             That unit's procedure is single-point and hardwired to 7.5: it
+             forces whatever the probe reads to mean 7.5, regardless of what
+             the probe is standing in. Calibrating in the 7.01 would buy a
+             guaranteed +0.49 offset and convert a probe that reads LOW and
+             therefore never doses into one that reads HIGH and over-doses
+             36% sulphuric. That is a worse failure than the present one.
+             pH 7.5 is a pool-industry buffer, not a laboratory standard;
+             Hanna's lab points are 4.01, 7.01 and 10.01.
+   BUT THEY ARE THE BEST DIAGNOSTIC IN THE HOUSE, and better than the 7.5
+             sachet would be, because TWO points measure both the probe's
+             OFFSET and its SLOPE where one point can only find an offset.
+             Read in each, back out without confirming, write both down:
+               7.0 and 10.0      probe is sound, the fault is elsewhere,
+                                 and the water is not at 8.0 after all
+               6.0 and 9.0       offset shifted about a unit, slope fine.
+                                 This is what the current diagnosis predicts
+               7.0 and 9.0 or less  slope collapsed, the classic ageing
+                                 pattern: right at neutral, deaf further out
+               6.0 and 6.5       dead or dried out, reads near neutral
+                                 whatever you put it in
+   ON THE EXPIRY  six and seven years past, though both sachets are still
+             SEALED, which is the barrier that matters since the failure mode
+             is absorbing CO2 from the air. Do not calibrate on them. DO use
+             them to diagnose: a degraded pH 7 buffer drifts a tenth or three,
+             not a whole unit, so a one-unit discrepancy cannot be blamed on
+             their age and the reading stays decisive at that size.
+
    PLUS, NOT ON THIS SHELF
    SULPHURIC ACID 36%, 25 kg drum, in the plant room, plumbed to the TRi PRO
    peristaltic pump. See the SAFETY NOTES section of the survey: at 36% it is above the
@@ -374,7 +412,8 @@ WHAT IS MISSING FROM THE SHELF
   stabiliser with it, roughly 1.2 mg/L a time on this pool. At 50 mg/L the
   chlorine locks up, and the only cure is dilution.
 
-  FRESH pH 7,5 BUFFER SOLUTION, soluzione tampone pH 7,5. Promoted to the
+  FRESH pH 7,5 BUFFER SOLUTION, soluzione tampone pH 7,5. Still missing:
+  item 12 is 7.01 and 10.01, and neither can calibrate this unit. Promoted to the
   top of this list on 2026-09-12, when the TRi PRO's pH probe was found
   reading 7.0 against a tablet test of 7.8 to 8.2. Nothing else will fix
   that: a probe can only be corrected against a liquid whose true pH is

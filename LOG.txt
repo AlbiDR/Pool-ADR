@@ -143,6 +143,39 @@ HOW MUCH TO WRITE
                              are there READ WHICH RIDERS ARE DOWN, because that
                              is the one thing standing between A and being
                              trustworthy.
+2026-09-12 ~00:48 NOTE       BUFFER SACHETS FOUND, AND THEY ARE THE WRONG
+                             VALUE. Hanna Instruments, photographs 26 to 29,
+                             catalogue item 12. HI 70007 at pH 7.01, lot 8756,
+                             expired 04-2020. HI 70010 at pH 10.01, lot 7906,
+                             expired 07-2019. Both still SEALED, which is the
+                             barrier that matters since the failure mode is
+                             absorbing CO2 from the air. NEITHER CAN CALIBRATE
+                             THE TRi PRO. Its procedure is single-point and
+                             hardwired to 7.5: it forces whatever the probe
+                             reads to MEAN 7.5, regardless of what the probe is
+                             standing in. Calibrating in the 7.01 would buy a
+                             guaranteed +0.49 offset and convert a probe that
+                             reads LOW and never doses into one that reads HIGH
+                             and over-doses 36 percent sulphuric, which is the
+                             worse failure. pH 7.5 is a pool-industry buffer,
+                             not a laboratory standard, which is why a lab
+                             brand does not stock it. So the shopping item
+                             stands: a fresh pool-grade 7,5 sachet, plus an ORP
+                             700 mV for the red probe. BUT THEY ARE THE BEST
+                             DIAGNOSTIC AVAILABLE AND BETTER THAN THE 7.5 WOULD
+                             BE: two points measure the probe's OFFSET and its
+                             SLOPE, where one point finds only an offset. Read
+                             in each, back out without confirming, and the pair
+                             names the fault. 7.0/10.0 the probe is sound and
+                             the water is not at 8.0 after all, which would
+                             overturn the diagnosis. 6.0/9.0 offset out by a
+                             unit with slope intact, which is what the
+                             diagnosis predicts. 7.0/9.0-or-less the slope has
+                             collapsed, the classic ageing pattern. 6.0/6.5
+                             dead or dried out. A degraded pH 7 buffer drifts a
+                             tenth or three, never a whole unit, so six years
+                             past date cannot explain a discrepancy this size
+                             and the reading stays decisive.
 2026-09-12 ~00:45 DOSE       100 g FLOCCULANTE Klep into the balance tank after
                              the backwash. CORRECT IN EVERY RESPECT. Right
                              place: the tank is the dosing route for flocculant
