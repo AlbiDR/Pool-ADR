@@ -54,6 +54,45 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-12 ~00:30 GAUGE      1.18 bar after 10 to 15 minutes running, post-
+                             backwash. EXACTLY THE CLEAN BASELINE, hit a second
+                             time and independently. That figure has been the
+                             contested number in this archive: Kripsol's manual
+                             says 0.5 to 0.7 for the filter alone, the printed
+                             household sheet said "about 1 bar", and 1.18 came
+                             from one measurement on 2026-09-09. It is now
+                             REPRODUCED, by a different wash, from a different
+                             starting pressure, three days later. One reading
+                             was evidence; two matching readings are a
+                             baseline. Treat 1.18 as settled. THE WASH ALSO
+                             WORKED COMPLETELY: 1.42 before, 1.18 after, so the
+                             whole 0.24 bar of loading came out and the bed is
+                             back to bare system resistance, which is pump,
+                             pipework, cell and valves, not sand. Working band
+                             to the dial's green/red break at 1.48 is therefore
+                             0.30 bar, and that is the room available before
+                             the next wash.
+2026-09-12 ~00:25 BACKWASH   FULL SEQUENCE RUN, and the water budget was not
+                             kept. Column from between 4 and WHITE down to
+                             between 1 and 2 on the wash, about 26 cm; paused
+                             with the pump on O and the reintegro on M to
+                             recover to between 2 and 3, about 307 L of mains;
+                             then the rinse took it back below 2, about 7 cm.
+                             TOTAL TO WASTE ABOUT 33 cm, 900 L, against a 450 L
+                             budget. WORTH SAYING PLAINLY: 900 L IS NOT
+                             EXTRAVAGANT, it is the bottom of the 900 to 1,500
+                             L this archive already predicted for a complete
+                             wash. The budget was the thing that was
+                             optimistic, not the execution. The sight glass
+                             took what it took, which is the correct way to run
+                             it. The mid-procedure pause was the right call and
+                             not in any procedure here: rinsing from mark 1
+                             would have landed around 59 cm, inside the 35 to
+                             64 window the interlock is bracketed to, and the
+                             pump could have cut out with the drain still open.
+                             Pool diluted about 1.25 percent by fresh mains,
+                             which nudges pH and alkalinity UP very slightly,
+                             the wrong way but not by much.
 2026-09-11 ~20:10 NOTE       SETPOINT MISREAD AS A MEASUREMENT, and the
                              document let it happen. The PH 7.2 on the TRi
                              PRO's home screen is the SETPOINT, the target the

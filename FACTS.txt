@@ -50,6 +50,8 @@ pool_length_approx_m       = 13
 pool_finish                = black resin
 filter_diameter_mm         = 760
 filter_sand_kg             = 225
+# 1.18 is REPRODUCED, not asserted: measured 2026-09-09 after a backwash and
+# again 2026-09-12 after a much longer one from a different starting pressure.
 filter_clean_baseline_bar  = 1.18
 filter_backwash_at_bar     = 1.5
 filter_vessel_rating_bar   = 1.6
