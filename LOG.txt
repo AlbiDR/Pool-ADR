@@ -54,6 +54,25 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-12 ~01:00 NOTE       STATE OF THE PLANT, settled after the backwash.
+                             Pump selector M, running. Reintegro A. Kripsol
+                             lever 1, filtration. Drain valve 1 closed. L
+                             closed, G open, orange valve behind the Kripsol
+                             closed. Gauge 1.18, the reproduced clean baseline.
+                             Column refilling on A toward its satisfied point
+                             just under the WHITE at 99.5. Flocculant 100 g in
+                             the tank from 00:45, circulating. Chlorine last
+                             dosed 200 g at 2026-09-11 00:15 and NOT measured
+                             since. TRi PRO powered, setpoints PH 7.2 / ACL 1,
+                             still showing ERRORE PH. NOTE FOR AFTER EVERY
+                             BACKWASH FROM NOW ON: the panel is switched off
+                             nine times in that procedure and the Perry clock
+                             is a synchronous motor, so it has lost about that
+                             much time again. Its time was set correctly on
+                             09-10; it will now be out. Reset it, and while you
+                             are there READ WHICH RIDERS ARE DOWN, because that
+                             is the one thing standing between A and being
+                             trustworthy.
 2026-09-12 ~00:45 DOSE       100 g FLOCCULANTE Klep into the balance tank after
                              the backwash. CORRECT IN EVERY RESPECT. Right
                              place: the tank is the dosing route for flocculant
@@ -467,6 +486,14 @@ HOW MUCH TO WRITE
                              m3 band, while the factory default is level 2, 40
                              to 60. On level 2 every acid dose is sized for a
                              pool half this one.
+                             [2026-09-11: WRONG, AND FROM THE WRONG MANUAL.
+                             That is manual 04, the TRi pH notice. This is a
+                             TRi PRO, so manual 03 governs: level 1 up to
+                             60 m3, LEVEL 2 for 60 to 90, level 3 for 90 to
+                             120. At 70 to 75 m3 this pool is LEVEL 2, and the
+                             factory default is 1, not 2. The menu is also not
+                             called VOLUME BASSIN on this unit; it is VOLUME
+                             ACQUA. Do not act on the line above.]
 2026-09-10 21:59  TEST       FIRST WATER TEST. Photographs 23 to 25, Lovibond
                              comparator, item 11. FREE CHLORINE at or below 0.1
                              mg/L, the bottom step, against a target of 0.6 to
