@@ -238,8 +238,17 @@ THE STOCK
    reference scale printed on its own face, plus two tablet reagents.
    Reads     pH by PHENOL RED, 6.8 to 8.2 in seven steps
              FREE CHLORINE by DPD No.1, 0.1 to 3.0 mg/L in seven steps
-   Stock     DPD No.1 Rapid, batch ZA2C0233, ten to a strip
-             Phenol Red Photometer, batch ZA3K0333, ten to a strip
+   Stock     DPD No.1 Rapid, batch ZA2C0233, ten to a blister strip
+             Phenol Red Photometer, batch ZA3K0333, ten to a blister strip
+   NOT STRIPS  "strip" above means the foil BLISTER the tablets come in, and
+             that wording has already caused one misunderstanding. TEST
+             STRIPS are a different product entirely: dip-and-read paper,
+             several pads on one stick, reading five or six parameters at
+             once. THERE ARE NONE IN THIS HOUSE. This shelf has exactly one
+             water test, item 11, and it reads exactly two things: pH and
+             free chlorine. Alkalinity, hardness and cyanuric acid cannot be
+             measured here at all, which is why multi-parameter strips sit
+             in the survey's "What to buy" section as the best value on it.
    This pool  targets are pH 7.2 to 7.4 and free chlorine 0.6 to 1.5 mg/L.
               Both sit comfortably inside the card, which is the point: the
               scale is dense where this pool actually lives.
