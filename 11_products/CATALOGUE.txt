@@ -8,6 +8,30 @@ is consistent with the geometry: 12 m long, about 4 m wide, floor sloping to the
 1.9 to 2.0 m measured at the floor grate, averaging about 1.6 m.
 
 ===============================================================================
+NAME THEM BY NUMBER. NEVER BY "THE GRANULAR ONE".
+===============================================================================
+  THREE of the items below carry the word GRANULARE on the label:
+
+      1  CORRETTORE PH PIU' GRANULARE      raises pH
+      3  CLORO GRANULARE 56% RAPIDO        chlorine
+      4  CORRETTORE PH MENO GRANULARE      lowers pH
+
+  Items 1 and 4 are pH correctors pointing in OPPOSITE DIRECTIONS, and all
+  three are white granules in tubs. "The granular" identifies nothing, and
+  at the shelf, in a hurry, it is the shape of an accident rather than a
+  vagueness: reach for the wrong tub between 1 and 4 and you have moved the
+  pool the wrong way and then have to move it back, and confusing either
+  with 3 puts a chlorine donor where an acid was meant or the reverse. Item
+  3 carries EUH031: contact with acids liberates chlorine gas.
+
+  SO EVERY INSTRUCTION, WRITTEN OR SPOKEN, NAMES THE NUMBER AND THE LABEL.
+  Not "200 g of the granular" but "200 g of item 3, CLORO GRANULARE 56%
+  RAPIDO". The number is unambiguous and the label is what is printed on
+  the thing in your hand; either alone can be misread, and together they
+  cannot. This rule exists because the looser form was used on 2026-09-12
+  and was rightly challenged.
+
+===============================================================================
 THE STOCK
 ===============================================================================
 
