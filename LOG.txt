@@ -54,6 +54,31 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-12 ~19:00 NOTE       BUFFER DECISION: DO NOT BUY YET. The 7.5 solution
+                             prices at about 16 EUR and that looked like a lot
+                             for one calibration, which prompted the right
+                             reordering: THE FREE TEST COMES FIRST. The 7.01
+                             and 10.01 sachets already in the house decide
+                             whether the buffer is even the correct purchase.
+                             Probe tracks both, and it does not need
+                             calibrating at all. Slope fault, and it needs
+                             REPLACING, so a buffer would be 16 EUR spent on a
+                             probe about to be binned. Only a clean offset
+                             makes the buffer right. Ten minutes, no money.
+                             THREE THINGS ALSO WORTH KNOWING ABOUT THE PRICE.
+                             It is not per calibration: pour 20 to 30 mL into a
+                             clean cup, dip, discard the cup, never dip into
+                             the bottle and never pour used buffer back, and a
+                             250 mL bottle covers about ten calibrations, so a
+                             season or two. Sachets cost more per use and buy
+                             freshness, which matters after years of storage
+                             and little across one season, which is exactly the
+                             lesson of the 2019 and 2020 sachets found here.
+                             And the same solution stores the probe WET over
+                             winter, which it must be, so suppliers sell
+                             combined calibrazione e winterizzazione kits and
+                             winterising is 4 to 8 weeks out and already on the
+                             list of procedures owed. Two jobs, not one.
 2026-09-12 ~14:00 TEST       FULL TEST WITH THE COMPARATOR. FREE CHLORINE STILL
                              0 and pH still high, called "at the very least 7.8
                              and not less". CHLORINE AT ZERO IS THE ANSWER TO
