@@ -1176,6 +1176,30 @@ html.js .top.show{display:block}
   </div>
 
   <div class="steps">
+    <h3>Hand the TRi PRO to a technician</h3>
+    <p class="note"><b>This is a legitimate place to stop.</b> Running this pool and calibrating a pH electrode are different trades, and the second is a thirty-minute job for someone who does it weekly. <b>Nothing below is urgent and none of it blocks the pool.</b> Print this page or send the link.</p>
+    <p class="note"><b>First, the thing that makes it not urgent.</b> The TRi PRO does two separate jobs: it regulates <b>pH</b> through the peristaltic pump, and it drives the <b>salt cell</b> through the ACL side. <code>ERRORE PH</code> is a fault on the pH half only. <b>The cell will still make chlorine with that message on the screen</b>, so the salt charge and everything that follows from it go ahead regardless. What is lost meanwhile is automatic pH correction, and that can be done by hand with item 4 and a test strip.</p>
+    <h4>What to tell them</h4>
+    <ul>
+      <li><b>Unit:</b> Zodiac TRi salt chlorinator with the TRi PRO module. <b>Symptom:</b> <code>ERRORE PH</code>, persistent over days.</li>
+      <li><b>The probe reads about a unit low.</b> <code>MISURA PH</code> showed <b>7.0</b> while a tablet comparator put the water at <b>7.8 or above</b>, twice, on different days. No <code>^</code> beside the setpoint, so the unit never calls for acid, so the peristaltic has been idle past the 72 hours that raises this error by itself.</li>
+      <li><b>Nothing has put acid in this pool since it was refilled</b>, and the fill was fresh hard mains, so the water cannot have reached 7.0 on its own. That is why the probe rather than the water is suspected.</li>
+      <li><b><code>DIMENS PISC</code> reads 3.</b> Manual 03 bands level 2 as 60 to 90 m&#179; and this pool is 70 to 75, so it may want changing to 2. Worth their judgement rather than ours.</li>
+      <li><b>Unverified:</b> whether the peristaltic actually pumps. <code>TEST ACID</code> showed nothing moving, but the acid is colourless and the line was already primed, so the test proved nothing either way.</li>
+      <li><b>On site already:</b> a spare peristaltic tube, probe storage solution, and buffer sachets at <b>7.01 and 10.01</b>, both expired. <b>The unit's calibration wants 7.5</b>, which is not in the house.</li>
+    </ul>
+    <h4>What to ask for</h4>
+    <ol>
+      <li>Calibrate the pH probe, <b>or replace it if its slope has gone</b>.</li>
+      <li>Confirm the peristaltic pump actually delivers, and fit the spare tube if it does not.</li>
+      <li>Set the pool volume level to whatever they judge correct, and <b>say which and why</b>.</li>
+      <li>Clear <code>ERRORE PH</code> and confirm the unit dispenses.</li>
+      <li><b>Leave the numbers:</b> what the probe read before and after, and what the volume level was set to. Those go in <code>LOG.txt</code>.</li>
+    </ol>
+    <p class="foot">The acid drum is <b>36 percent sulphuric</b>, above the 25 percent PWTAG ceiling for pool supply, and the plant room is about 4.5 m&#178; below ground with one door. Tell them before they open anything.</p>
+  </div>
+
+  <div class="steps">
     <h3>Check the pH probe against a buffer</h3>
     <p class="note"><b>Ten minutes, no money, and it decides what to buy.</b> You are not calibrating. You are reading what the probe says about two liquids whose real value is printed on the packet, and writing both numbers down. <b>Never press the confirm key at any point</b>, because that starts a calibration.</p>
     <p class="note"><b>You need:</b> the two sachets, two clean glasses, a bottle of clean water for rinsing, a towel. <b>Do not let the probe tip dry out</b> at any stage, and <b>never wipe the glass bulb</b> at the tip; rinse and shake only.</p>
