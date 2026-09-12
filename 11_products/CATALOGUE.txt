@@ -306,6 +306,32 @@ THE STOCK
              develops the same colour against a visual card is not settled
              here. Read the kit's own leaflet before trusting a tenth of a
              pH unit. Photograph 22 is the foil.
+   VERSUS STRIPS, WHICH INSTRUMENT FOR WHICH JOB. Multi-parameter strips
+             overlap this kit on two lines and add five. Where they overlap,
+             TRUST THE TABLETS: a tablet develops a colour in a measured
+             volume of water, a strip is a pad of dried reagent read wet, and
+             the tablet is the more precise every time.
+
+               pH              BOTH.  tablets 6.8 to 8.2, strips to about
+                               8.4 or 9. Tablets normally, BUT see below
+               free chlorine   BOTH.  tablets 0.1 to 3.0. Tablets
+               total chlorine  STRIPS ONLY
+               combined Cl     STRIPS, by subtracting free from total, and
+                               roughly: two coarse numbers subtracted give a
+                               coarser one. DPD No.3 does it properly
+               alkalinity      STRIPS ONLY
+               cyanuric acid   STRIPS ONLY
+               hardness        STRIPS ONLY
+               bromine         STRIPS, and useless here. Not a bromine pool
+
+   THE EXCEPTION ON pH, AND IT APPLIES RIGHT NOW. The tablet card stops at
+             8.2 and this pool is above it, which is why the colour could not
+             be matched on 09-10 or 09-12. Strips generally run to 8.4 or
+             beyond, so for water off the top of the tablet scale the COARSER
+             instrument is the only one that can give a number at all. Use
+             them together while the pH is high: the strip for the figure,
+             the tablets for everything once it is back inside 8.2.
+
    PHOTOS    20, 21 and 22 are the equipment ONLY. The comparator in 20 was
              empty when it was shot: every colour visible on it is printed
              reference, not a sample. NO TEST HAS BEEN RUN ON THIS POOL.
