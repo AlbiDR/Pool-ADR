@@ -375,6 +375,31 @@ THE STOCK
              not a whole unit, so a one-unit discrepancy cannot be blamed on
              their age and the reading stays decisive at that size.
 
+13 SPARES, FOUND 2026-09-12               no photograph kept
+   In the same box as the buffer sachets. Not photographed at the owner's
+   request, so this entry is the only record; re-photograph if any of it
+   ever matters enough to cite.
+   PERISTALTIC TUBE, spare. Beige flexible tube with moulded grey
+             connectors at both ends, the pattern the TRi PRO's dosing pump
+             uses. THIS MATTERS TODAY: a perished tube is one of the named
+             causes of ERRORE PH and was a live suspect when TEST ACID
+             appeared to do nothing. If the tube is the fault it is now
+             fixable this afternoon and for nothing.
+   PROBE STORAGE SOLUTION, a small pot labelled "STORAGE SOLUTION -
+             UNSCREW CAP BEFORE INSERTING OR REMOVING ELECTRODE". This is
+             what a pH probe ships in and what it must sit in over winter:
+             the glass bulb has to stay WET or it is ruined. It was on the
+             buy list under winterising. It is not any more.
+   ALSO IN THE BOX, not identified with confidence and worth a proper look
+             before anything is bought that might duplicate them: a ribbed
+             black probe holder or sensor housing; a black threaded nipple
+             carrying barcode 50605; a small black fitting with a ribbed
+             cap, possibly an injection nozzle; a white translucent sleeve,
+             probably probe protection; and a bagged assembly with a white
+             paddle and a small magnet, which has the look of a spare FLOW
+             SWITCH, the device on the POD that stops the cell when the
+             water is not moving. That last one is a guess from shape.
+
    PLUS, NOT ON THIS SHELF
    SULPHURIC ACID 36%, 25 kg drum, in the plant room, plumbed to the TRi PRO
    peristaltic pump. See the SAFETY NOTES section of the survey: at 36% it is above the
@@ -482,7 +507,9 @@ WHAT IS MISSING FROM THE SHELF
   chlorine locks up, and the only cure is dilution.
 
   FRESH pH 7,5 BUFFER SOLUTION, soluzione tampone pH 7,5. Still missing:
-  item 12 is 7.01 and 10.01, and neither can calibrate this unit. Promoted to the
+  item 12 is 7.01 and 10.01, and neither can calibrate this unit. NOTE the
+  storage solution in item 13 does NOT substitute: storage keeps a probe
+  alive, calibration tells it the truth, and they are different liquids. Promoted to the
   top of this list on 2026-09-12, when the TRi PRO's pH probe was found
   reading 7.0 against a tablet test of 7.8 to 8.2. Nothing else will fix
   that: a probe can only be corrected against a liquid whose true pH is
