@@ -24,6 +24,12 @@ NAME THEM BY NUMBER. NEVER BY "THE GRANULAR ONE".
   with 3 puts a chlorine donor where an acid was meant or the reverse. Item
   3 carries EUH031: contact with acids liberates chlorine gas.
 
+  AND EVERY NUMBER CARRIES ITS UNIT. 1.5 means two different things here and
+  both are thresholds: 1.5 BAR on gauge 4 is the backwash trigger, where the
+  dial turns green to red, and 1.5 MG/L is the top of the free chlorine band
+  on the comparator card. One says wash the filter, the other says the water
+  is correctly sanitised. A bare "watch for 1.5" points at both.
+
   SO EVERY INSTRUCTION, WRITTEN OR SPOKEN, NAMES THE NUMBER AND THE LABEL.
   Not "200 g of the granular" but "200 g of item 3, CLORO GRANULARE 56%
   RAPIDO". The number is unambiguous and the label is what is printed on
