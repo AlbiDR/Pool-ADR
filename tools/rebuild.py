@@ -73,7 +73,6 @@ def refresh_hashes():
     s = survey()
     m = re.search(DIAGRAM_RE, s)
     want = {
-        "pool-plant-room-survey.pdf": hashlib.sha256(s.encode()).hexdigest(),
         "pool-plant-room-diagram.png": hashlib.sha256(m.group(0).encode()).hexdigest(),
     }
     lines = open(DERIVED, encoding="utf-8").read().split("\n")

@@ -413,14 +413,17 @@ def c17():
 
 @check("C18", "derived files match the source they were built from")
 def c18():
-    """The PDF and the diagram PNG are generated from the HTML. Editing the survey
-    silently invalidates both, and neither one looks wrong afterwards."""
+    """The diagram PNG is generated from the HTML. Editing the survey silently
+    invalidates it, and it does not look wrong afterwards.
+
+    The PDF used to be checked here too. It is no longer tracked: nothing ever
+    linked to it, and ninety committed versions of a 6 MB binary that re-renders
+    to different bytes each time came to 471 MB of history."""
     rec = os.path.join(ROOT, "01_survey/DERIVED.txt")
     if not os.path.exists(rec): return ["01_survey/DERIVED.txt is missing"]
     s = survey()
     m = re.search(r'<svg viewBox="0 0 1560 2370"[\s\S]*?</svg>', s)
     sources = {
-        "pool-plant-room-survey.pdf":  s,
         "pool-plant-room-diagram.png": m.group(0) if m else None,
     }
     out = []

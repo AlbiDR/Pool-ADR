@@ -114,10 +114,13 @@ The survey has a section listing it: what has not been measured, what has not
 been tested, and what nobody can measure without finding out. Nothing there is
 known and merely unrecorded.
 
-## Regenerating the PDF and the diagram
+## Regenerating the diagram, and the PDF if you want one
 
-Both are tracked, so a fresh clone has them. They are generated from the HTML,
-so after editing the survey:
+The diagram PNG is tracked, so a fresh clone has it. **The PDF is not.** It is
+generated from the HTML like the diagram, but nothing links to it, and ninety
+committed versions of a 6 MB binary that re-renders to different bytes each time
+came to 471 MB of history. Build one when you need one; the HTML is the
+deliverable and prints on its own. After editing the survey:
 
 ```bash
 python3 tools/rebuild.py
@@ -139,8 +142,8 @@ Twenty-five checks, standard library only (one, the near-duplicate
 scan, uses Pillow when it is available and reports itself skipped when it is not). Section numbering, the nav, internal links,
 the folder table against the folders on disk, file references, offline
 self-containment, punctuation, superseded wording, the canonical numbers in
-[FACTS.txt](FACTS.txt), naming, stated counts, whether the PDF and the
-diagram still match the HTML they came from, near-duplicate images,
+[FACTS.txt](FACTS.txt), naming, stated counts, whether the diagram still
+matches the HTML it came from, near-duplicate images,
 GitHub's size limits, the activity log's ordering, the media manifest against
 the files on disk, whether each contact sheet still shows its whole folder, and
 whether every time token in a file name is a time that file actually carries,

@@ -9,3 +9,9 @@ __pycache__/
 # The staging folder stays in the tree, but nothing dropped into it is tracked.
 00_inbox/*
 !00_inbox/READ-ME.txt
+
+# The PDF is generated from the survey HTML and nothing links to it. Tracking it
+# cost 471 MB of history across 90 versions, because it is a 6 MB binary that
+# re-renders to different bytes even when the source has not changed. Build one
+# when you want one: python3 tools/rebuild.py pdf
+01_survey/pool-plant-room-survey.pdf

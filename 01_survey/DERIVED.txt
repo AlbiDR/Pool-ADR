@@ -1,6 +1,6 @@
 DERIVED FILES AND WHAT THEY WERE BUILT FROM
 
-Both files in this folder beside the HTML are generated from it. Nothing stops
+The diagram PNG in this folder is generated from the HTML. Nothing stops
 them going stale except this record: tools/check.py (C18) recomputes each hash
 and fails when a derived file no longer matches its source.
 
@@ -10,7 +10,10 @@ diagram does not slip through because a file happened to be touched.
 
 Rebuild commands are in MAINTENANCE.md. After rebuilding, update the hash here.
 
+The PDF is no longer tracked and no longer listed here. Nothing linked to it,
+and ninety committed versions of a 6 MB binary that re-renders to different
+bytes each time came to 471 MB of history. Build one when you want one.
+
     file || source || sha256 of that source
 
-pool-plant-room-survey.pdf || the whole survey HTML || aa77fdc10e2ba0fabccd86246713aac0dff61e16abf43496669003160ec460b6
 pool-plant-room-diagram.png || the 1560x2370 schematic svg || 0a1f1183b45bf71e89bc38c6f55a332711edef7ef9db3d9967aa55bd635c6149
