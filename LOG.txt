@@ -54,6 +54,60 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-12 ~14:00 TEST       FULL TEST WITH THE COMPARATOR. FREE CHLORINE STILL
+                             0 and pH still high, called "at the very least 7.8
+                             and not less". CHLORINE AT ZERO IS THE ANSWER TO
+                             THE TEST SET ON 09-11: 200 g went in at 00:15 that
+                             day, about 1.54 mg/L, and roughly 38 hours later
+                             there is nothing left. BUT READ IT CAREFULLY,
+                             because the obvious conclusion is probably the
+                             wrong one. A chlorine DEMAND in the organic sense
+                             would show as cloudiness and smell, and both have
+                             gone: the water is transparent and odourless. The
+                             likelier destroyer is SUNLIGHT. Cyanuric acid
+                             stands at about 3.7 mg/L against Zodiac's target
+                             of under 30 and the printed sheets' 25 to 30
+                             outdoors, which is to say this water is
+                             effectively UNSTABILISED, and unstabilised
+                             chlorine in September sun can lose half its
+                             content in a day. Losing 1.54 mg/L over 38 hours
+                             is exactly what that looks like. THE DISCRIMINATOR
+                             IS FREE: dose at night and read before the sun
+                             reaches the water. Holding overnight and vanishing
+                             through the day is UV. Gone by morning as well is
+                             a real demand. THE REAL FIX IS THE CELL, which
+                             produces continuously and simply outruns UV loss,
+                             and that is Monday's salt. Hand-dosing an
+                             unstabilised outdoor pool is fighting the sun with
+                             a bucket.
+2026-09-12 ~14:00 TEST       CLARITY: DONE. Water transparent, no smell,
+                             notably cleaner. The halo that has been tracked
+                             since 09-09 is gone. The flocculant campaign that
+                             began with 750 g on 09-09 and ended with 100 g
+                             onto a freshly washed bed on 09-12 has finished
+                             its work, and the three signals that tracked it
+                             all agree: halo gone, gauge back to a reproduced
+                             1.18, smell absent.
+2026-09-12 ~14:00 NOTE       COULD NOT MATCH THE pH COLOUR, TWICE, AND THAT IS
+                             A READING RATHER THAN A FAILURE. Reported by
+                             someone who says they have never had trouble with
+                             this kit in previous years, which rules out the
+                             eye and the method. A sample inside the scale
+                             matches easily because one swatch is plainly
+                             closest; A SAMPLE PAST THE END OF THE SCALE
+                             MATCHES NOTHING, being more saturated than the top
+                             patch, and every comparison looks slightly wrong.
+                             That is precisely what the difficulty feels like.
+                             So the honest record is "at least 8.2", the top of
+                             the card, and the inability to decide is the
+                             evidence for it. Written into the survey beside
+                             the DPD bleaching trap, with the mirror case: a
+                             chlorine sample too pale to match the 0.1 patch is
+                             a reading of "less than 0.1", not a failed test.
+                             CONSISTENT WITH EVERYTHING ELSE: the probe reads
+                             7.0, the card cannot reach the water, and the gap
+                             between the two instruments is at least 0.8 and
+                             probably more.
 2026-09-12 ~01:35 NOTE       TEST ACID RUN, NOTHING VISIBLE IN THE TUBE, AND
                              THAT IS NOT A RESULT. The acid is 36 percent
                              sulphuric and it is COLOURLESS. Once the 5 m line
