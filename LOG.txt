@@ -54,6 +54,39 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-14 ~20:00 SALT       THE CHARGE IS IN. 10 of the 15 Italkali 25 kg bags
+                             spread in the pool, 250 kg. Exact time not
+                             recorded; "in the evening". Two more to follow
+                             within a day or two, which lands the charge at 12
+                             bags, 300 kg, 4.14 g/L on the 72.5 m3 estimate.
+                             That is the documented full charge, and the reason
+                             for holding the last two back is unchanged: read
+                             the salt figure on the TRi PRO first and add the
+                             balance against a reading, not an estimate.
+                             THE BANKED STOCK DOES NOT GO IN ON TOP. 105 kg of
+                             item 9 and the 10 kg bags of item 10 added to 300
+                             kg would reach 5.59 g/L, and that breaches the
+                             robot's 5.0 ceiling at every volume in the 65 to
+                             80 m3 range, not just at the 72.5 estimate. With
+                             the three unused 25 kg bags that is 180 kg banked
+                             dry for backwash losses, which at 3.6 to 6.0 kg a
+                             wash is most of a season.
+                             THE BAGS WENT IN LOOSE, not in a weighted mesh bag
+                             as the procedure asks. On an overflow pool with L
+                             shut nothing on the floor can reach the pump, so
+                             the risk the bag guards against is not live here;
+                             what is lost is the ability to see how much is
+                             left, and a heap sitting against the finish. Brush
+                             the heaps flat and spread them, and expect days
+                             rather than hours: pastiglie are designed to
+                             dissolve slowly.
+                             PUMP RUNS THROUGHOUT and for hours after, Kripsol
+                             on 1. DO NOT BACKWASH until the charge has
+                             dissolved and been read; every wash from here on
+                             costs 3.6 to 6.0 kg of salt. The cell stays off
+                             until the reading sits between 4.0 and 5.0, and
+                             Check Salt on the display until then is correct
+                             behaviour.
 2026-09-12 ~19:00 NOTE       BUFFER DECISION: DO NOT BUY YET. The 7.5 solution
                              prices at about 16 EUR and that looked like a lot
                              for one calibration, which prompted the right
