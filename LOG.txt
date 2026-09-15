@@ -54,6 +54,20 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-15 ~14:15 NOTE       CAUTION ON THE PROBE-VS-TABLET AGREEMENT ABOVE.
+                             Checked manual 03 section 4.1: it flags a reading
+                             above 8.2 or below 6.4 DURING CALIBRATION as a
+                             sign of a dirty or damaged probe. That is a sanity
+                             band around the 7.5 buffer, not a stated ceiling
+                             on what the unit can measure or display, and the
+                             tablet card's own top step happens to be 8.2 too.
+                             Two instruments both independently topping out
+                             near the same conventional boundary is not the
+                             same as two instruments confirming a true value,
+                             and the manual gives no spec for how high MISURA
+                             PH actually goes. The 16-in-1 strips read further
+                             up scale, to about 8.4, and are the one thing on
+                             Monday's list that can actually tell these apart.
 2026-09-15 ~14:00 TEST       TRI PRO, MISURA PH = 8.1. This is a live reading,
                              not a stored or benchmark value: same screen as
                              the 7.0 read on 09-12, "SELECT=CALIBRAGG
