@@ -1,6 +1,6 @@
 THE PLANT ROOM, IN THE ORDER IT WAS PHOTOGRAPHED
 
-Thirty-eight photographs. This is the evidence folder: nearly every factual
+Forty photographs. This is the evidence folder: nearly every factual
 claim in the survey is read off something in here, and the survey cites these
 by number, so "photograph 34" always means 34 in this folder.
 
@@ -9,7 +9,7 @@ WHAT EACH ONE SHOWS
 
       python3 tools/media.py show 04_plant-room
 
-  CONTACT-SHEET.jpg in this folder is all thirty-eight as thumbnails, numbered.
+  CONTACT-SHEET.jpg in this folder is all forty as thumbnails, numbered.
   Open that first. It is 385 KB against 91 MB of originals, and it answers
   "which one do I want?" without opening anything.
 
@@ -29,6 +29,11 @@ FOUR SESSIONS, NOT ONE
       39           19:17   the same evening, a few hours on: the caret
                            finally showing next to the pH setpoint, the
                            first photograph anywhere in the archive of it
+      40           20:25   the same evening again, an hour later:
+                           CONTROLL. SALE cycling in where ERRORE PH used
+                           to be
+      41           20:25   two seconds later: BOOST active, blue LED lit,
+                           the pH caret still showing
 
   Later is generally better lit and closer. Where two photographs show the same
   thing, prefer the higher number unless the caption says otherwise.

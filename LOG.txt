@@ -54,6 +54,40 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-15 ~20:24 SERVICE    TEST ACID RUN PROPERLY, AND THE PUMP WORKS. The
+                             earlier attempt was never valid: the warning
+                             screen needs SELECT held to actually confirm the
+                             pump starts, and that confirm was never given
+                             before now. Tonight it was, and the pump pulls
+                             acid. Photographs 40 and 41.
+                             AIR WAS IN ONE OF THE TWO LINES, NOT BOTH. The
+                             tube from the TRi PRO to the POD injection point
+                             had air in it; the tube from the drum to the TRi
+                             PRO did not. The line was under-primed on the
+                             discharge side only, consistent with acid never
+                             having actually reached the pool before, whatever
+                             the pump was doing. Running the test should have
+                             pushed most of that air through.
+                             ERRORE PH DID NOT CYCLE IN. Watched the screen
+                             alternate for a few seconds: it showed CONTROLL.
+                             SALE, RIFERISI AL MENU DIAGNOSI, not ERRORE PH.
+                             Promising, but only a few seconds were watched,
+                             not a full cycle. Worth confirming properly: watch
+                             the display for a full minute or two and note
+                             everything that appears.
+                             THE ORANGE SALT LIGHT IS CHECK SALT, and it is lit
+                             because the charge is genuinely short of 4.0 g/L
+                             right now. Expected, not a new fault: the
+                             CONTROLL. SALE message on screen says the same
+                             thing in words.
+                             BOOST IS ACTIVE. Blue LED lit on the Boost button,
+                             BOOST on the screen. This queues 100 percent
+                             chlorine output for whenever the cell can next
+                             produce, not the tuned, modest start the salt-
+                             charge procedure planned for. Unconfirmed whether
+                             this was pressed deliberately. Worth turning off
+                             before the cell comes off Check Salt, unless a
+                             full-strength start is actually wanted.
 2026-09-15 ~19:17 NOTE       THE CARET APPEARED. Default screen, "pH 7.2^ ACL
                              1", photographed at 19:17:24, about seven minutes
                              after tonight's pH minus went in. First time this
