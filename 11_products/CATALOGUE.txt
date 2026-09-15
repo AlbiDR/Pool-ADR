@@ -209,7 +209,8 @@ THE STOCK
    Atisale POSEIDON
    100% natural sea salt, NO ADDITIVES, EN 16401 QUALITY A, Art. 95 BPR
    listed, sold specifically for electrolysis pools.
-   Size      25 kg sacks, more than one in stock
+   Size      25 kg sacks, more than one in stock, 30 EUR a sack, owner's
+             recollection, not a kept receipt: 1.20 EUR/kg.
    CEILING   Do NOT exceed 5.0 g/L. The printed sheets allow up to 9 g/L, but
              the Maytronics robot cleaner's manual states a hard maximum of
              5,000 ppm. The window for running both machines is 4.0 to 5.0.
@@ -229,6 +230,11 @@ THE STOCK
    about that gap, not a purity problem.
    Size      25 kg and 10 kg bags. In stock: three 10 kg (used for years),
              plus 15 x 25 kg ordered 2026-09-08, arriving 2026-09-14.
+   Price     105 EUR for the 15 x 25 kg order: 0.28 EUR/kg. Against item 9's
+             1.20 EUR/kg that is 4.3 times cheaper per kilogram, not an order
+             of magnitude. A real saving, and the whole reason it is worth
+             checking the softener-vs-pool certification gap noted below
+             rather than switching on price alone.
    Source    https://www.zona.eu/ebsn/api/sidal-datasheet/pdf?product_id=710185
              Downloaded 2026-09-08, saved as 18_salt-italkali-pastiglie_datasheet_it.pdf
    Composition, from the manufacturer's own datasheet (18, in this folder):

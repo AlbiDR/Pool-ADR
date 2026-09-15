@@ -54,6 +54,41 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-15 ~14:00 TEST       TRI PRO, MISURA PH = 8.1. This is a live reading,
+                             not a stored or benchmark value: same screen as
+                             the 7.0 read on 09-12, "SELECT=CALIBRAGG
+                             MENU=USCITA" underneath it, which is the
+                             measurement display inside CALIB PH, not a
+                             settings page.
+                             UP 1.1 FROM THE LAST READING, with no SERVICE
+                             entry in between: nothing has cleaned, calibrated
+                             or touched the probe since 09-12. Either the probe
+                             is drifting on its own, or the water itself has
+                             moved, which is plausible: nothing has added acid
+                             since the refill, and pH climbs on its own in
+                             hard, de-gassing mains water with no acid going
+                             in.
+                             IT IS ALSO THE FIRST TIME SINCE 09-10 that this
+                             figure sits inside the tablet comparator's own
+                             range, which tops out at 8.2. Worth running an
+                             actual tablet test now: it could not be read
+                             against the card at 7.8+ before, and it can be
+                             now. The two comparator photos taken today are the
+                             same as photo 20 in the catalogue, the equipment
+                             empty. No sample has been run yet.
+2026-09-15 ~14:00 SALT       THE TABLETS ARE FULLY DISSOLVED, about 15 hours
+                             after going in loose on the evening of 09-14. That
+                             is a correction to last night's entry, which
+                             expected days rather than hours on the strength of
+                             the format being designed for slow release.
+                             THE LIKELY REASON IS THE METHOD, NOT THE PRODUCT.
+                             Loose and spread across the shallow end gives
+                             every tablet direct contact with circulating
+                             water; the datasheet's slow-release behaviour is
+                             written for a softener's confined brine tank, and
+                             the survey's own mesh-bag procedure would restrict
+                             flow the same way. Loose in an open pool is closer
+                             to the fast case, not the slow one.
 2026-09-14 ~20:00 SALT       THE CHARGE IS IN. 10 of the 15 Italkali 25 kg bags
                              spread in the pool, 250 kg. Exact time not
                              recorded; "in the evening". Two more to follow
