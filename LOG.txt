@@ -54,6 +54,12 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-15 ~20:10 DOSE       250 g item 4, CORRETTORE PH MENO GRANULARE, into
+                             the balance tank, pump running, 10 minutes after
+                             the chlorine below. 50 g over the planned 200.
+2026-09-15 ~20:00 DOSE       150 g item 3, CLORO GRANULARE 56% RAPIDO, pre-
+                             dissolved into the balance tank, pump running.
+                             Exact time not recorded.
 2026-09-15 ~14:15 NOTE       CAUTION ON THE PROBE-VS-TABLET AGREEMENT ABOVE.
                              Checked manual 03 section 4.1: it flags a reading
                              above 8.2 or below 6.4 DURING CALIBRATION as a
