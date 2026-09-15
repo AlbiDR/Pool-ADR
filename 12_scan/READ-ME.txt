@@ -1,5 +1,5 @@
 3D SCAN OF THE PLANT ROOM
-Supplied 2026-09-07 as 07_09_2026.zip. The owner's description is "poor
+Supplied 2026-09-07 as 07_09_2026.zip. Your description is "poor
 quality", and for the mesh that is fair. The GEOMETRY, however, is sound, and
 that is the part worth having.
 
@@ -14,7 +14,7 @@ that is the part worth having.
   02_plan-from-scan_855x1082.png    DERIVED. A top-down density plot of every
                                     vertex between 0.35 m and 1.80 m above the
                                     floor, which is the wall band. 380 px per
-                                    metre. Red is the owner's tape measure,
+                                    metre. Red is your tape measure,
                                     blue is the wall planes the scan itself
                                     contains.
 
@@ -46,7 +46,7 @@ WHAT IT IS NOT GOOD FOR
 
   Positions. The scan's coordinate frame is arbitrary and its handedness is
   not established, so the plan above can be mirrored without contradicting
-  anything in the file. The door position in the survey comes from the owner's
+  anything in the file. The door position in the survey comes from your
   direct testimony and was corrected twice; it has NOT been re-derived from
   this scan and should not be. To orient the scan properly one unambiguous
   anchor is needed, for example which corner the filter stands in relative to

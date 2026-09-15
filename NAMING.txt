@@ -75,7 +75,7 @@ THE FOLDERS
   04_plant-room     Photographs of the plant room, in the order taken.
   05_balance-room   The balance tank and the hatch that reaches it.
   06_pool           The pool itself. Shape and layout, never dimensions.
-  07_drawings       The owner's own drawings: the dimensioned sketch and the
+  07_drawings       Your own drawings: the dimensioned sketch and the
                     scaled plan of both rooms.
   08_video          Phone pans.
   09_panoramas      Wide images, all of them reprojected from one photosphere.
