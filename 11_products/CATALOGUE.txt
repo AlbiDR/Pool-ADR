@@ -424,6 +424,36 @@ THE STOCK
    PWTAG ceiling of 25% for pool supply and above the 15% w/w general-public
    limit in EU Regulation 2019/1148.
 
+14 AC-50, FOUND EMPTY 2026-09-15            photo 31
+   Controlchemi Srl, Ovada (AL). Cod. 030221. Found in the stock room, empty.
+   Not on any earlier inventory of this house.
+   Contains  Sulphuric acid, CAS 7664-93-9. Concentration not printed on the
+             visible label.
+   Size      20 kg, empty. UN 2796, same transport code as the plumbed drum.
+   Label dose  1 kg per 0.1 pH unit per 200 m3. At 72.5 m3 that is about
+             360 g per 0.1 unit, roughly a third of item 4's rate for the
+             same move, consistent with this being a stronger or more
+             concentrated acid than the granular corrector, not a like-for-
+             like substitute.
+   Hazard    PERICOLO. H314, severe skin burns and serious eye damage.
+             Corrosive. Same class as the plumbed drum.
+   NOTE      The label's own words: "particolarmente adatto per l'impiego
+             con pompa dosatrice comandata da centralina pH", suited to a
+             controller-driven dosing pump. This is not a hand-dosing
+             product like item 4: it is the same kind of thing as the
+             plumbed 36% drum, from a different maker, used to the point of
+             running out.
+   WHAT IT MEANS  A full 20 kg drum of automatic-dosing acid was consumed
+             here at some point before this survey existed, by a product
+             that is not the one currently plumbed in. Nothing in this
+             archive says when, or whether it predates the TRi PRO
+             installation, ran alongside the current Siac drum, or was its
+             predecessor. Empty, so not stock; kept as evidence of a pH
+             history this house does not otherwise have a record of.
+   DISPOSAL  It held 36%-class sulphuric acid. Empty does not mean inert:
+             dispose of the container through a household hazardous-waste
+             point, not general rubbish.
+
 ===============================================================================
 SAFETY, CONSOLIDATED
 ===============================================================================
