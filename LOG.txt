@@ -54,6 +54,19 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-15 ~20:35 REINTEGRO  Confirmed on A. Closes the gap open since 09-10
+                             22:55, the last recorded position (M, mid-
+                             backwash). Exact switch time not recorded, only
+                             that it is on A now.
+2026-09-15 ~20:35 NOTE       DECISION: NO SEPARATE TECHNICIAN VISIT. Tonight
+                             closed two of the four things a technician would
+                             have been asked to do: the pump is confirmed
+                             working, and ERRORE PH is confirmed gone. What is
+                             left, chiefly whether the probe itself is
+                             trustworthy after the 7.0-to-8.1 swing, will wait
+                             for the winter closing visit rather than a paid
+                             callout of its own. Hand-testing and hand-dosing
+                             pH in the meantime, as already being done.
 2026-09-15 ~20:26 NOTE       ERRORE PH CONFIRMED GONE. Photographs 40 and 41
                              are the whole cycle that was watched, not a two-
                              second sample: CONTROLL. SALE and the default
