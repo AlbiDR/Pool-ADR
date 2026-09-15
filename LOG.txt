@@ -54,6 +54,11 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-15 ~20:26 NOTE       ERRORE PH CONFIRMED GONE. Photographs 40 and 41
+                             are the whole cycle that was watched, not a two-
+                             second sample: CONTROLL. SALE and the default
+                             screen, nothing else. Closes the caution in the
+                             entry above.
 2026-09-15 ~20:24 SERVICE    TEST ACID RUN PROPERLY, AND THE PUMP WORKS. The
                              earlier attempt was never valid: the warning
                              screen needs SELECT held to actually confirm the
