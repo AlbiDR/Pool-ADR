@@ -54,12 +54,43 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
-2026-09-15 ~20:10 DOSE       250 g item 4, CORRETTORE PH MENO GRANULARE, into
+2026-09-15 ~19:17 NOTE       THE CARET APPEARED. Default screen, "pH 7.2^ ACL
+                             1", photographed at 19:17:24, about seven minutes
+                             after tonight's pH minus went in. First time this
+                             archive has a photograph of it: every earlier
+                             check found it absent.
+                             TIMING CHECKED AND IT DOES NOT IMPLICATE THE DOSE.
+                             A pH minus dose lowers pH, so if anything it
+                             should make the caret LESS likely, not more: the
+                             caret means measured pH is ABOVE setpoint and
+                             rising is what triggers it, not falling. Seven to
+                             seventeen minutes is also not enough for 250 g to
+                             reach 7.2 to 7.4 across a 72.5 m3 pool. The far
+                             more likely explanation: the probe has read above
+                             the 7.2 setpoint since at least 14:00 today, when
+                             it showed 8.1, and the unit's own call-for-acid
+                             logic runs on its own cycle (a dose every two
+                             hours per manual 03) rather than updating the
+                             instant a menu screen is checked. This is that
+                             logic catching up to a fact that was already true
+                             hours earlier, not a response to tonight's dosing.
+                             DOES NOT MEAN IT IS ACTUALLY DOSING. Checked the
+                             same evening: the acid drum is very full, so an
+                             empty drum is ruled out. UNCONFIRMED: whether the
+                             peristaltic is actually pulling from it. TEST
+                             ACID, watching the translucent tube for movement,
+                             would settle that and has not been run since the
+                             drum was confirmed full.
+                             ERRORE PH itself was not seen on screen during
+                             this check, only the normal display. Unconfirmed
+                             whether it has stopped appearing or was just not
+                             showing at that moment; this unit is known to
+                             cycle between the two.
+2026-09-15 ~19:10 DOSE       250 g item 4, CORRETTORE PH MENO GRANULARE, into
                              the balance tank, pump running, 10 minutes after
                              the chlorine below. 50 g over the planned 200.
-2026-09-15 ~20:00 DOSE       150 g item 3, CLORO GRANULARE 56% RAPIDO, pre-
+2026-09-15 ~19:00 DOSE       150 g item 3, CLORO GRANULARE 56% RAPIDO, pre-
                              dissolved into the balance tank, pump running.
-                             Exact time not recorded.
 2026-09-15 ~14:15 NOTE       CAUTION ON THE PROBE-VS-TABLET AGREEMENT ABOVE.
                              Checked manual 03 section 4.1: it flags a reading
                              above 8.2 or below 6.4 DURING CALIBRATION as a

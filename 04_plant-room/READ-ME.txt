@@ -1,6 +1,6 @@
 THE PLANT ROOM, IN THE ORDER IT WAS PHOTOGRAPHED
 
-Thirty-seven photographs. This is the evidence folder: nearly every factual
+Thirty-eight photographs. This is the evidence folder: nearly every factual
 claim in the survey is read off something in here, and the survey cites these
 by number, so "photograph 34" always means 34 in this folder.
 
@@ -9,12 +9,12 @@ WHAT EACH ONE SHOWS
 
       python3 tools/media.py show 04_plant-room
 
-  CONTACT-SHEET.jpg in this folder is all thirty-seven as thumbnails, numbered.
+  CONTACT-SHEET.jpg in this folder is all thirty-eight as thumbnails, numbered.
   Open that first. It is 385 KB against 91 MB of originals, and it answers
   "which one do I want?" without opening anything.
 
 FOUR SESSIONS, NOT ONE
-  The index runs in capture order, so the folder reads as four visits:
+  The index runs in capture order, so the folder reads as four visits, the last one twice in one evening:
 
       01           16:26   the photosphere, shot first and on its own
       02 to 11     16:35   a walk round at eye level
@@ -26,6 +26,9 @@ FOUR SESSIONS, NOT ONE
                            screen, the first photograph anywhere in the
                            archive of a live reading rather than a typed
                            one
+      39           19:17   the same evening, a few hours on: the caret
+                           finally showing next to the pH setpoint, the
+                           first photograph anywhere in the archive of it
 
   Later is generally better lit and closer. Where two photographs show the same
   thing, prefer the higher number unless the caption says otherwise.
