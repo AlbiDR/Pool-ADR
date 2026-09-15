@@ -86,8 +86,12 @@ THE STOCK
    Contains  SODIUM HYDROGEN SULFATE, CAS 7681-38-1. Sodium bisulfate.
    Size      8 kg     Lot 6G16
    Lowers pH, by hand. The plumbed acid drum does this automatically.
-   Label dose  400-600 g per 100 m3 per 0.1 pH
-   This pool    290-435 g per 0.1 pH unit
+   Label dose  400-600 g per 100 m3 per 0.1 pH. The label adds one line:
+             "la dose suggerita e indicativa e puo variare a seconda
+             dell'alcalinita dell'acqua" (indicative, varies with
+             alkalinity). No second number given, unlike item 1's label,
+             which prints two: over 150 mg/L and under 125.
+   This pool    290-435 g per 0.1 pH unit, on the one number given.
    Hazard    PERICOLO. H318 serious eye damage. Corrosive.
    NOTE      Not the gentle alternative to the acid drum it looks like. For
              the same pH movement it leaves roughly 2.15 times the sulphate.
