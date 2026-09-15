@@ -269,7 +269,7 @@ THE STOCK
              than datasheet 18 already does: a composition table beats a
              photo of one, when both exist.
 
-11 TEST KIT, TABLET COMPARATOR         photos 20, 21, 22
+11 TEST KIT, TABLET COMPARATOR         photos 20, 21, 22, 30
    Lovibond. Visual comparator, the sample chambers reading against a
    reference scale printed on its own face, plus two tablet reagents.
    Reads     pH by PHENOL RED, 6.8 to 8.2 in seven steps
@@ -340,8 +340,16 @@ THE STOCK
 
    PHOTOS    20, 21 and 22 are the equipment ONLY. The comparator in 20 was
              empty when it was shot: every colour visible on it is printed
-             reference, not a sample. NO TEST HAS BEEN RUN ON THIS POOL.
-             The first result belongs in LOG.txt as a TEST entry.
+             reference, not a sample.
+   TESTED SINCE, TWICE  23 to 25 are the first result, 2026-09-10 at night,
+             flagged in its own LOG.txt entry as read under artificial light
+             and due a re-read in daylight. 30 is that re-read, 2026-09-15,
+             and agrees: free chlorine at or below 0.1 mg/L both times, pH at
+             or past the 8.2 top step both times. Read the external columns,
+             the ones with the tablet and water in them, against the internal
+             printed gradient beside each: strong pink against Phenol Red
+             means high pH, at or past the darkest step; colourless against
+             DPD means low chlorine, at or below the palest step.
 
 12 SOLUZIONI TAMPONE pH             photos 26, 27, 28, 29
    Hanna Instruments, two sachets of 20 mL each, +/- 0.01 pH at 25 C.

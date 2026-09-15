@@ -89,6 +89,34 @@ HOW MUCH TO WRITE
                              the survey's own mesh-bag procedure would restrict
                              flow the same way. Loose in an open pool is closer
                              to the fast case, not the slow one.
+2026-09-15 ~13:30 TEST       SECOND WATER TEST, THE DAYLIGHT RE-READ THE FIRST
+                             ONE ASKED FOR. Corrects the 14:00 entry above: the
+                             comparator was not empty and a sample had been
+                             run, both wrong. How to read it, for next time:
+                             the OUTER columns, pH and mg/l, are the sample
+                             chambers, tablet and water sealed behind the
+                             number labels; the INNER columns, Phenol Red and
+                             DPD, are the printed reference gradient you match
+                             them against.
+                             RESULT. PH: the sample matches or exceeds the
+                             darkest step, so at or past 8.2, same bracket as
+                             the flawed night reading on 09-10 and unmoved by
+                             it: the night reading was not a lighting artefact
+                             after all. FREE CHLORINE: the sample is
+                             colourless, at or below the palest step, same as
+                             09-10. Even less ambiguous than then: the last
+                             dose was 09-11 ~00:15, so 4.5 days ago against 36
+                             hours before, further from the range where DPD
+                             bleaches back to colourless, not closer. Archived
+                             as 11_products/30.
+                             SET AGAINST THE 14:00 READING ABOVE, this is the
+                             more interesting fact: the water has not moved
+                             between the two tablet tests, five days apart, but
+                             the probe has, from 7.0 to 8.1, with no service
+                             done to it either time. A fixed offset would
+                             repeat the same wrong number; this does not. Worth
+                             telling the technician as its own point, not
+                             folded into "reads low".
 2026-09-14 ~20:00 SALT       THE CHARGE IS IN. 10 of the 15 Italkali 25 kg bags
                              spread in the pool, 250 kg. Exact time not
                              recorded; "in the evening". Two more to follow
