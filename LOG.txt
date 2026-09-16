@@ -54,6 +54,13 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-17 01:15 DOSE        500 g item 4, CORRETTORE PH MENO GRANULARE, into
+                             the balance tank, pump running. Continues the
+                             09-15 ~19:10 dose (250 g); MISURA PH read 8.4 at
+                             the last check, ~01:00, before this one. AT THIS
+                             POOL'S RATE (290-435 g per 0.1 pH unit), 500 g
+                             is roughly 0.12 to 0.17 of a unit, the largest
+                             single item 4 dose logged so far.
 2026-09-17 ~01:00 SERVICE    ACL SETPOINT SET TO 3, at the panel (CALIB
                              PH\ACL menu). NOT THE 4 DECIDED AT ~00:45 ABOVE:
                              chose 3 instead once actually at the panel, no
