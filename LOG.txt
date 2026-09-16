@@ -54,6 +54,24 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-17 ~00:45 NOTE       DECISION: ACL SETPOINT TO 4, NOT YET APPLIED AT
+                             THE PANEL. Manual 03 (zodiac-tri-pro-module),
+                             section 4.5, p.52-53: "se recomienda ajustar el
+                             punto de consigna ACL en 3 o 4 durante los dias
+                             siguientes a la instalacion... Si despues de
+                             este periodo el nivel de cloro libre no es
+                             adecuado, sera necesario modificar el punto de
+                             consigna" - 3 or 4, no rule between them, re-
+                             check free chlorine after a few days and adjust
+                             either way. REASON FOR 4 OVER 3: cyanuric is
+                             essentially zero right now (09-12 ~14:00,
+                             "effectively unstabilised"), so whatever the
+                             cell makes is lost to UV fast. Overshoot is not
+                             the live risk at ~1.5 mg/L with no stabiliser
+                             yet. BOOST STAYS OFF: it brings Check Salt into
+                             the display for reasons still unexplained (09-17
+                             ~00:30), and 4 is already the aggressive end of
+                             the manual's own range without it.
 2026-09-17 ~00:30 TEST       TRI PRO, MISURA PH = 8.4, same CALIB PH screen
                              as before. Checked twice, bracketing the
                              Boost/Test Acid run below: 8.4 before it and 8.4
