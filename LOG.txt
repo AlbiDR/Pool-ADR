@@ -54,6 +54,56 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-16 ~21:00 NOTE       ERRORE PH IS BACK, reopening the 09-15 ~20:26
+                             entry ("CONFIRMED GONE"). That entry's own
+                             caution is the one that turned out to matter:
+                             unconfirmed whether it had stopped appearing or
+                             simply was not showing at that moment. It was
+                             the latter; photographs 40 and 41 covered one
+                             full cycle and happened not to catch it. THIS
+                             ALSO REOPENS THE 09-15 ~20:35 NO-CALLOUT
+                             DECISION, which counted ERRORE PH gone as one of
+                             the two resolved items. Whether that changes the
+                             decision is separate and not answered here.
+2026-09-16 ~21:00 TEST       TRI PRO, MISURA PH = 8.3, same CALIB PH screen
+                             as the 09-15 ~14:00 read. UP 0.2 IN ABOUT 31
+                             HOURS, nothing done to the probe in between: a
+                             third point on the same 7.0 (09-12) to 8.1
+                             (09-15) drift, not a new question. Still above
+                             the tablet comparator's 8.2 top step and manual
+                             03's own 8.2 calibration-fault band, same caveat
+                             as before about two instruments sharing a
+                             boundary rather than confirming a true value.
+2026-09-16 ~21:00 GAUGE      1.2 bar. Panel check, not tied to a backwash.
+                             Last reading was 1.18 on 09-12 ~00:30, so
+                             effectively unchanged over 4.5 days. Pump still
+                             on M and Kripsol still on 1, unchanged since the
+                             salt charge began 09-14 ~20:00; reintegro on A
+                             per the 09-15 ~20:35 confirmation.
+2026-09-15 ~22:00 SALT       Remaining 2 of the planned 12 Italkali 25 kg
+                             bags spread in, 50 kg. CLOSES THE 09-14 ~20:00
+                             PLAN: 12 of 12 bags in, 300 kg total, the
+                             documented full charge at an estimated 4.14 g/L
+                             on the 72.5 m3 figure. Three 25 kg bags remain
+                             banked dry for backwash losses, per that entry.
+                             STILL AN ESTIMATE, NOT A READING: that entry was
+                             explicit that the TRi PRO's own salt figure
+                             decides this, not the m3 estimate, and the
+                             display has not yet been checked against it.
+2026-09-15 ~22:00 TEST       Tablet comparator (Phenol Red / DPD, same kit as
+                             before). FREE CHLORINE ~1.5 mg/L, an eye-matched
+                             reading against the printed gradient rather than
+                             a precise value, the kit's own limitation rather
+                             than a new one. WORTH FLAGGING: the first free
+                             chlorine reading since the refill to land inside
+                             the comparator's range at all; every prior
+                             result was at or below the palest step (09-10,
+                             09-12, 09-15 ~13:30). More likely the 09-15
+                             19:00 dose (150 g) landing than the cell, which
+                             was still on Check Salt as of the ~19:17 check.
+                             PH: at or past the comparator's 8.2 top step,
+                             same bracket as every reading since 09-10,
+                             unmoved by the 250 g pH minus dosed at 19:10.
 2026-09-15 ~20:35 REINTEGRO  Confirmed on A. Closes the gap open since 09-10
                              22:55, the last recorded position (M, mid-
                              backwash). Exact switch time not recorded, only
