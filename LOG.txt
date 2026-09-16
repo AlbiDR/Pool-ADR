@@ -54,6 +54,43 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-17 ~00:30 TEST       TRI PRO, MISURA PH = 8.4, same CALIB PH screen
+                             as before. Checked twice, bracketing the
+                             Boost/Test Acid run below: 8.4 before it and 8.4
+                             after. UP 0.1 FROM THE 09-16 ~21:00 READING, a
+                             fourth point on the same climb: 7.0 (09-12), 8.1
+                             (09-15), 8.3 (09-16 ~21:00), 8.4 now. The
+                             unchanged reading across the test is not
+                             evidence the acid is not reaching the pool: 5
+                             minutes of pumping into 72.5 m3 has no
+                             measurable effect within the same session;
+                             dilution and mixing take longer than that.
+2026-09-17 ~00:30 SERVICE    BOOST switched on deliberately, and TEST ACID
+                             run for about 5 minutes, longer than the 09-15
+                             run. CONTROLLO SALE (Check Salt) appeared on
+                             screen during this, and only during this: the
+                             default screen checked minutes earlier, Boost
+                             off, showed no such message. THE SAME PATTERN
+                             HELD ON 09-15: Check Salt was seen at ~19:17 to
+                             ~20:24, exactly the window Boost was separately
+                             found active. Two instances now, not coincidence
+                             by itself but not yet a mechanism either.
+                             UNEXPLAINED BY THE MANUAL:
+                             10_manuals/SOURCES.txt gives Check Salt as a
+                             straight ppm-versus-temperature threshold, with
+                             no stated dependency on Boost. Unconfirmed
+                             whether Boost forces a stricter recheck against
+                             a higher demand, or the warning is simply not
+                             rendered on the default screen without it.
+2026-09-17 ~00:30 NOTE       Default screen (REGOL. PH/ACL), checked before
+                             the test above. ERRORE PH still on screen.
+                             Setpoints read PH 7.2^ ACL 1. ACL UNCHANGED AT
+                             THE FACTORY DEFAULT OF 1, still not bumped to
+                             the 3 or 4 Zodiac's own manual asks for after a
+                             fresh salt charge. The caret on PH 7.2 means the
+                             same thing it did on 09-15: measured pH is above
+                             setpoint and calling for acid that is not
+                             arriving on its own.
 2026-09-16 ~21:00 NOTE       ERRORE PH IS BACK, reopening the 09-15 ~20:26
                              entry ("CONFIRMED GONE"). That entry's own
                              caution is the one that turned out to matter:
