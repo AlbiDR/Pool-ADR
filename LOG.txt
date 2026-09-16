@@ -54,6 +54,15 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-17 ~01:00 SERVICE    ACL SETPOINT SET TO 3, at the panel (CALIB
+                             PH\ACL menu). NOT THE 4 DECIDED AT ~00:45 ABOVE:
+                             chose 3 instead once actually at the panel, no
+                             further reason given. Still inside the manual's
+                             3-or-4 range for the days following
+                             installation; its own follow-up applies
+                             regardless of which was picked: re-check free
+                             chlorine after a few days and adjust again if it
+                             is not adequate.
 2026-09-17 ~00:45 NOTE       DECISION: ACL SETPOINT TO 4, NOT YET APPLIED AT
                              THE PANEL. Manual 03 (zodiac-tri-pro-module),
                              section 4.5, p.52-53: "se recomienda ajustar el
