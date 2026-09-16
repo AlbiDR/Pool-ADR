@@ -54,6 +54,35 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-17 ~01:25 NOTE       PLAN: BUY A PIOUS 5-IN-1 METER
+                             (pH/TDS/EC/salinity/temperature, about 31 EUR)
+                             IN PLACE OF A FRESH 7.5 BUFFER. Ships with the
+                             standard 4.01/6.86/9.18 calibration set, cheap
+                             and widely stocked, unlike the pool-industry-
+                             only 7.5 sachet this house could never source
+                             fresh. ALSO THE FIRST INSTRUMENT HERE THAT READS
+                             SALT AT ALL: the TRi PRO has no numeric salt
+                             figure on any menu (settled 09-17 ~01:20 area
+                             above), only the Check Salt threshold. PROCEDURE
+                             ONCE BOUGHT: calibrate the Pious on its own 3
+                             points. Make two fresh reference solutions, not
+                             true buffers so prepare and use each
+                             immediately: about 7 from plain water, nudged
+                             with item 4 if needed; about 10 with a pinch of
+                             item 1 (soda ash, already on the shelf as the pH
+                             plus). Verify each on the Pious, then read the
+                             TRi PRO's MISURA PH against both. THIS IS THE
+                             TWO-POINT CHECK THE 09-12 ~01:20 DIAGNOSIS
+                             WANTED and could never run, blocked on the
+                             house's only 7.01/10.01 sachets being years
+                             expired. 7.0/10.0: probe sound, water not
+                             actually high, diagnosis overturned. 6.0/9.0:
+                             offset only, fixed by a single-point
+                             recalibration to a homemade 7.5 (same soda-ash
+                             method, titrated to 7.5 on the Pious first).
+                             7.0/9.0-or-less: slope has collapsed,
+                             recalibration will not fix it, the probe needs
+                             replacing regardless. NOT YET BOUGHT.
 2026-09-17 01:15 DOSE        500 g item 4, CORRETTORE PH MENO GRANULARE, into
                              the balance tank, pump running. Continues the
                              09-15 ~19:10 dose (250 g); MISURA PH read 8.4 at
