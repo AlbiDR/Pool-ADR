@@ -116,6 +116,22 @@ HOW MUCH TO WRITE
                              whether Boost forces a stricter recheck against
                              a higher demand, or the warning is simply not
                              rendered on the default screen without it.
+                             [2026-09-17 ~01:20: SHARPER. The 09-15 sighting
+                             does not need Boost to explain it: only 250 kg
+                             of the 12 bags were in then, genuinely under the
+                             4.0 g/L target, so Check Salt was expected
+                             regardless of Boost. The clean comparisons are
+                             the two AFTER the charge completed (09-15
+                             ~22:00): 09-16 ~21:00 and this same night's
+                             ~00:30 default-screen check, both Boost off,
+                             both no Check Salt. Since the full charge went
+                             in, Check Salt has not appeared without Boost.
+                             Also worth carrying: manual 02 (zodiac-tri-
+                             chlorinator) section 8.1 gives Check Salt as low
+                             salt OR water under 18 degrees C, so Boost
+                             demanding 100 percent hitting a temperature
+                             ceiling explains the correlation without needing
+                             the salt to be short at all.]
 2026-09-17 ~00:30 NOTE       Default screen (REGOL. PH/ACL), checked before
                              the test above. ERRORE PH still on screen.
                              Setpoints read PH 7.2^ ACL 1. ACL UNCHANGED AT
