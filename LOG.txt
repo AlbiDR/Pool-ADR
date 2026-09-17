@@ -54,6 +54,30 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-17 ~08:30 SERVICE    TEST ACID run for 10 minutes, the longest run
+                             yet (versus about 5 on 09-17 ~00:30). BOOST OFF
+                             THROUGHOUT, and CONTROLLO SALE did not appear.
+                             THIRD CLEAN DATA POINT for the same pattern:
+                             since the charge completed (09-15 ~22:00), Check
+                             Salt has never shown with Boost off, on three
+                             separate checks now (09-16 ~21:00, 09-17 ~00:30,
+                             and this one), only when Boost was deliberately
+                             switched on.
+2026-09-17 ~08:30 TEST       TRI PRO, MISURA PH = 8.4, unchanged from the
+                             09-17 ~00:30 reading. Flat for about 7 hours
+                             now, after five days of climbing (7.0 to 8.4).
+                             Follows the 500 g dose at 01:15 by about 7
+                             hours; too early to credit the dose specifically
+                             for the plateau, could equally be the climb
+                             settling on its own. Worth another reading later
+                             today before concluding anything.
+2026-09-17 ~08:30 NOTE       Default screen (REGOL. PH/ACL) checked again.
+                             ERRORE PH still on screen. ACL CONFIRMED STILL
+                             3, explicitly re-checked rather than assumed: no
+                             reversion since the 09-17 ~01:00 change.
+2026-09-17 ~08:30 GAUGE      1.2 bar, unchanged from 09-16 ~21:00, about 11.5
+                             hours. Filter still well inside the clean-to-
+                             loading band, no backwash indicated.
 2026-09-17 ~01:25 NOTE       PLAN: BUY A PIOUS 5-IN-1 METER
                              (pH/TDS/EC/salinity/temperature, about 31 EUR)
                              IN PLACE OF A FRESH 7.5 BUFFER. Ships with the
