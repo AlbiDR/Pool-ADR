@@ -54,6 +54,14 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-17 19:45 TEST        TRI PRO, MISURA PH = 8.5, same CALIB PH screen.
+                             THE PLATEAU BROKE: flat at 8.4 from ~01:00 to
+                             ~08:30, about 7.5 hours, then up another 0.1 by
+                             evening. Fifth point on the same climb: 7.0
+                             (09-12), 8.1 (09-15), 8.3 (09-16 ~21:00), 8.4
+                             (09-17 ~00:30 to ~08:30), 8.5 now. The morning
+                             flat spell does not read as the climb stopping;
+                             it has resumed.
 2026-09-17 ~08:30 SERVICE    TEST ACID run for 10 minutes, the longest run
                              yet (versus about 5 on 09-17 ~00:30). BOOST OFF
                              THROUGHOUT, and CONTROLLO SALE did not appear.
