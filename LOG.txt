@@ -54,6 +54,23 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-17 ~20:00 NOTE       STOCK CHECK: item 4 (CORRETTORE PH MENO
+                             GRANULARE) down to about 1.5 kg. 750 g of it
+                             went in this week alone (250 g 09-15, 500 g
+                             09-17). NOT A DISCREPANCY against the 8 kg tub
+                             size: this log has no record of the fill level
+                             before it started tracking doses, only of the
+                             two most recent ones. AT THIS POOL'S RATE
+                             (290-435 g per 0.1 pH unit), 1.5 kg is roughly 3
+                             to 5 more units, maybe 2 to 4 more doses at
+                             recent sizes. OPEN ITEM: restock with a liquid
+                             (HCl-based) pH minus instead of another granular
+                             tub. Same commodity chemistry across brands
+                             either way, but liquid avoids the roughly 2.15x
+                             sulphate load item 4 leaves for the same pH
+                             movement, per its own catalogue entry, worth
+                             acting on now that a restock is actually due
+                             rather than as a someday swap.
 2026-09-17 19:45 TEST        TRI PRO, MISURA PH = 8.5, same CALIB PH screen.
                              THE PLATEAU BROKE: flat at 8.4 from ~01:00 to
                              ~08:30, about 7.5 hours, then up another 0.1 by
