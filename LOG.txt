@@ -54,6 +54,56 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-23 ~12:00 NOTE       SLIGHT CLOUDINESS NOTICED, first time since the
+                             flocculant campaign closed it out on 09-12.
+                             Exact time not recorded, seen sometime today.
+                             GAUGE CHECKED FIRST AND RULES OUT THE FILTER:
+                             1.2 bar, unchanged from 09-17 ~08:30, so the bed
+                             has not loaded up in the eleven days since the
+                             last backwash. LEADING EXPLANATION INSTEAD: no
+                             chlorine has gone in since 09-17, six days ago,
+                             and this pool loses roughly half its free
+                             chlorine a day to UV with cyanuric near zero. At
+                             the technician's 7.9 from 09-22, whatever is
+                             left works worse too. Close to the same
+                             standing-water condition that caused the
+                             original cloudiness on 09-09. Worth a chlorine
+                             and pH test before dosing anything: 7.9 is
+                             inside the tablet kit's own range now, the first
+                             time that has been true in two weeks.
+2026-09-22 19:00 TEST        PH MEASURED AT EXACTLY 7.9, by the technician's
+                             own calibrated digital meter, not the household
+                             tablet kit and not the TRi PRO's probe. High
+                             enough above the 7.2 to 7.4 target to still
+                             matter, but well short of the 8.5 the TRi PRO's
+                             own probe was showing on 09-17. A third,
+                             independent instrument, and the most trustworthy
+                             reading this pool has had.
+2026-09-22 19:00 SERVICE     CONFIRMED THE PERISTALTIC ACTUALLY DELIVERS
+                             UNDER NORMAL OPERATION, not just a manual Test
+                             Acid run. With the technician: pulled the
+                             discharge tube from the probe/POD injection
+                             point and put the open end in a container. It
+                             filled slowly with acid on its own. This is a
+                             stronger confirmation than the 09-15 Test Acid
+                             runs, which only showed the pump working when
+                             triggered by hand.
+2026-09-22 19:00 NOTE        TECHNICIAN CALL, NOT THE PLANNED WINTER-CLOSING
+                             VISIT: an additional, separate one. HIS
+                             GUIDANCE: do not worry too much about the TRi
+                             PRO itself for now, that gets looked at properly
+                             at the winter closing, which is not far off. HE
+                             DID NOT TOUCH THE PROBE: no calibration, no
+                             replacement, this visit was diagnosis alongside
+                             the owner, not a fix. BUT the water still needs
+                             to be right before closing regardless of when
+                             the TRi PRO itself gets serviced, so this does
+                             not remove the pH question, only reprioritises
+                             the probe question.
+2026-09-19 ~12:00 PUMP       Selector M -> A, Saturday midday. Ends the
+                             continuous run kept for the salt charge since
+                             09-14 ~20:00, about 5 days. No issue noted
+                             since.
 2026-09-17 ~20:00 NOTE       STOCK CHECK: item 4 (CORRETTORE PH MENO
                              GRANULARE) down to about 1.5 kg. 750 g of it
                              went in this week alone (250 g 09-15, 500 g
