@@ -601,3 +601,71 @@ WHAT IS MISSING FROM THE SHELF
 
   SODA ASH IN THE PLANT ROOM for acid spills. You own 25 kg of it as item 1.
   It is simply in the wrong place.
+
+===============================================================================
+CHEAPER OR BETTER ALTERNATIVES, AUDITED 2026-09-24
+===============================================================================
+  General market knowledge below, not this shelf's own prices unless said so.
+  Marked separately on purpose, so it is never confused with the rest of this
+  catalogue, which is read off labels in your hand.
+
+  ITEM 4, CORRETTORE PH MENO GRANULARE. THE ONE WORTH ACTING ON. Granular pH-
+  minus is sodium bisulfate under every brand; liquid pH-minus is dilute
+  hydrochloric acid under every brand. Same commodity chemistry within each
+  form, so switching BRAND of granular buys nothing. Switching FORM to liquid
+  does: for the same pH movement it leaves no sulphate at all, against this
+  product's own 2.15x figure above, and bottled pool-branded liquid is not
+  obviously more dangerous to hand-dose than this tub is. Raw, undiluted
+  muriatic acid is cheaper again, but concentrated enough (30%+ against a
+  bottled product's 9-15%) that it is a real step up in handling risk, not a
+  free saving: worth it only with real care around dilution and splash.
+  Restock liquid, bottled, not raw, when this tub runs out.
+
+  ITEM 2, NortemBio POOL pH+ INCREASER IS ALREADY THE WORSE ALTERNATIVE, AND
+  ALREADY OWNED. Its own entry above says it: about four times item 1's rate
+  for the same pH movement. There is no scenario where reaching for item 2
+  over item 1 saves money, only one where its tub happens to be nearer to
+  hand. Use item 1 first; keep item 2 as backup once item 1 runs out, not
+  before.
+
+  ITEM 1, CORRETTORE PH PIU' GRANULARE. No cheaper alternative identified.
+  Soda ash IS the commodity pH-raising chemical; there is no common liquid
+  form the way there is for pH-minus, so there is no switch-the-form saving
+  available here.
+
+  ITEM 3, CLORO GRANULARE 56% RAPIDO. Already the source of the cyanuric acid
+  problem: every dose is stabilised chlorine and adds stabiliser that never
+  leaves except by dilution. Not a candidate for cal-hypo yet, for the reasons
+  already given below under "What is missing from the shelf". WORTH KNOWING
+  FOR LATER: liquid sodium hypochlorite is unstabilised like cal-hypo, without
+  cal-hypo's calcium-hardness and pH problems, and in a SALT pool the sodium
+  it leaves behind is a non-issue, the water is already salted. The better
+  occasional top-up product once pH and hardness are sorted, not this week.
+
+  ITEM 7, ANTIALGHE CONCENTRATO. The one entry here where a better product
+  costs MORE, not less, worth saying plainly since it cuts against the rest of
+  this section. A polyquat algaecide avoids the foaming this product's own
+  entry already warns about, at a higher price per litre than a benzalkonium-
+  chloride quat like this one. Not a saving, a different trade: money for less
+  foam in the balance tank.
+
+  ITEMS 5 (SVERNANTE) AND 8 (FLOCCULANTE). No meaningfully cheaper alternative
+  chemistry identified. Phosphonate winterisers and polyaluminium chloride
+  flocculants are already the commodity choices in their categories; brand
+  mostly buys packaging and price, not a different result, the same finding as
+  items 1, 3 and 4 above.
+
+  ITEM 6, RECUPERO. Not a pricing question. Its own entry already argues
+  against reaching for it again on a salt pool; the actual fix for what it
+  treats is dilution, not a different product.
+
+  ITEMS 9 AND 10, SALT. Already audited against each other in their own
+  entries: item 10 at 0.28 EUR/kg against item 9's 1.20, a real 4.3x saving,
+  weighed there against the EN 16401 certification gap. Nothing to add here.
+
+  ITEMS 11 AND 12, INSTRUMENTS. See LOG.txt, 2026-09-17: a Pious 5-in-1 meter
+  (pH/TDS/EC/salinity/temperature) ships with the standard cheap
+  4.01/6.86/9.18 buffer set that item 12 needed and never had, at a fraction
+  of what the pool-specific 7.5 sachet alone would have cost, and reads salt
+  directly, which nothing on this shelf or the TRi PRO's own menus can do at
+  all. Not yet bought.
