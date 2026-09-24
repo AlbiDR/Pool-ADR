@@ -67,6 +67,16 @@ HOW MUCH TO WRITE
                              its own, on top of whatever the auto-doser has
                              already done. Owner's decision, made against the
                              logged caution above.
+                             [2026-09-24 23:05: "CONTINUOUS CONFIRMED AUTO-
+                             DOSING" OVERSTATED, corrected on the 09-22
+                             ~19:00 SERVICE entry above: only a single
+                             moment of pump flow was actually confirmed, not
+                             sustained correction, and the probe itself
+                             could still be fouled. This dose's effect is
+                             therefore less predictable, not more. ALSO:
+                             owner has explicitly accepted overshoot risk
+                             here, comfortably inside the target band now
+                             matters more than staying near its top edge.]
 2026-09-24 23:00 DOSE        150 g item 3, CLORO GRANULARE 56% RAPIDO, pre-
                              dissolved, into the balance tank, pump running.
                              Answers the 09-24 ~12:00 zero reading; should
@@ -117,6 +127,17 @@ HOW MUCH TO WRITE
                              stronger confirmation than the 09-15 Test Acid
                              runs, which only showed the pump working when
                              triggered by hand.
+                             [2026-09-24: NARROWER THAN IT READS. What this
+                             confirms is the PUMP mechanism: motor turns,
+                             tube is not blocked, liquid moves when the unit
+                             calls for it. It does not confirm the BLUE
+                             (pH) probe is reading accurately, nor that
+                             dosing is well-targeted or continuous over the
+                             days since. A fouled or clogged probe is a
+                             live, unconfirmed possibility, not ruled out
+                             by this test. Do not extrapolate a single
+                             observed moment of flow into "the system has
+                             been correcting pH properly since."]
 2026-09-22 19:00 NOTE        TECHNICIAN CALL, NOT THE PLANNED WINTER-CLOSING
                              VISIT: an additional, separate one. HIS
                              GUIDANCE: do not worry too much about the TRi
