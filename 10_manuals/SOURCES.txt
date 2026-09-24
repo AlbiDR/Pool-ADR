@@ -89,6 +89,17 @@ now says so explicitly and says which one it is following.
   (The short form 99991034 does not resolve. That is what defeated an earlier
   attempt to find this.)
 
+  PRODUCT PAGE, a second source, confirmed 2026-09-24 as the same unit
+  (product no. 99991034-MXI matches the manual portal's part number):
+  https://www.maytronics.com/global/robotic-pool-cleaners/dolphin-pool-cleaners/best-seller/dolphin-maximus-x70/99991034-MXI.html
+  Figures not in the operating-limits table above: 4 year warranty, WiFi
+  and the MyDolphin Plus app, maximum pool length 15 m (this pool is 12 to
+  13 m, comfortably inside it), cable 17 m, robot weight 11.17 kg, suction
+  rate 17 m3/h, default cycle 2.5 hours, 3 standard brushes, top-access
+  filter with both a Fine and an Ultra-Fine kit included, no remote
+  control. Cleans floor, walls and waterline; rated for in-ground
+  rectangular, round, free-shape and kidney pools, which covers this one.
+
   READ THIS BEFORE YOU DECIDE IT IS THE WRONG MANUAL. The document is badged
   "CLASSIC 8+ / TOP 8" and never says Maximus X70 anywhere in it. It is the
   right manual: Maytronics badge the same chassis differently by market, and
