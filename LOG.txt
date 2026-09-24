@@ -54,6 +54,19 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-25 ~12:00 SERVICE    ROBOT CLEANER SWITCHED TO THE ULTRA-FINE FILTER
+                             KIT, exact time not recorded. The Dolphin
+                             Maximus X70 shipped with both kits
+                             (10_manuals/SOURCES.txt); only the default Fine
+                             kit has been used until today. REASON GIVEN:
+                             water now free of larger particles worth
+                             catching with the finer one. WORTH WATCHING,
+                             general knowledge not from this pool's own
+                             record: ultra-fine kits typically clog faster
+                             than fine ones for the same debris load, so may
+                             need rinsing more often than the fine kit did,
+                             at least until it is clear how this pool's water
+                             loads it.
 2026-09-24 23:00 DOSE        750 g item 4, CORRETTORE PH MENO GRANULARE, into
                              the balance tank, pump running, a few minutes
                              after the chlorine below. HALF THE REMAINING
