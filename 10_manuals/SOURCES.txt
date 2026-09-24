@@ -124,6 +124,41 @@ now says so explicitly and says which one it is following.
 
   Storage: upright on the caddy, out of sun, rain and frost, 5 to 45 C.
 
+10_dab-eurocover-pump_manual_en.pdf         2 pp, 14 languages
+  DAB EuroCover, the pump that sits on top of the winter pool cover and
+  removes rainwater so its weight cannot break the cover. New to this
+  archive 2026-09-24; not previously catalogued anywhere in this survey.
+  Source: https://www.dabpumps.com/en_en/products/catalog/eurocover/eurocover
+  Manual: https://www.dabpumps.com/content/dam/dabpumps-dam/products/dab/eng_master/swimming_pool_pumps/eurocover/documentation/r-d-documentation/instruction-manual/eurocover_dab_instruction_manual_printed_version_60121606.pdf
+
+  WHAT IT IS, from the product page. Fully automatic submersible pump,
+  built-in float switch, large support base for stability on an uneven
+  surface. Thermoplastic body, stainless steel motor, shaft, bolts and
+  screws. Threefold seal with an oil pre-chamber. IP68.
+
+  FIGURES: flow rate 0.5 to 6 m3/h, head 6.5 m, liquid temperature 0 to
+  35 C.
+
+  NOT RATED FOR SALT WATER, in the manual's own words: "may not be used
+  to pump salt water, slurry, flammable, corrosive or explosive liquids,
+  grease, oils or food products." WORTH HOLDING ONTO ON THIS INSTALLATION
+  SPECIFICALLY, since this is a salt pool: the pump sits on the cover and
+  handles rainwater collecting on top of it, not pool water, so this does
+  not apply in normal use. It would matter if the cover ever tore or
+  overflowed enough that pool water reached the top surface.
+
+  REMOVE BEFORE A FREEZE: "any ice could cause damage to the pump or
+  float." Not automatic, a seasonal task to remember.
+
+  MAINTENANCE: check it periodically while it is out, more often in
+  rainy periods, and clear the suction screen with a water jet if leaves
+  or debris block it.
+
+  The downloaded document is a 2-page multi-language safety and quick-use
+  sheet (IT, FR, GB, DE, NL, ES, SE, PL, SK, TR, RU, RO, GR), not a full
+  technical manual; the figures above come from the product page itself,
+  cited separately.
+
 NOT FOUND AS A DOCUMENT
   Safety data sheet for the exact acid in the room. The drum is a battery
   electrolyte product rather than a pool-branded one, so there is no pool
