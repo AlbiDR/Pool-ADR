@@ -54,6 +54,26 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-24 23:00 DOSE        750 g item 4, CORRETTORE PH MENO GRANULARE, into
+                             the balance tank, pump running, a few minutes
+                             after the chlorine below. HALF THE REMAINING
+                             STOCK IN ONE DOSE: about 750 g of item 4 left
+                             after this, against the ~1.5 kg on hand as of
+                             09-17. Against no fresher anchor than the
+                             technician's 7.9 (09-22 19:00, now 29+ hours
+                             old) plus continuous confirmed auto-dosing since
+                             then. At this pool's rate (290-435 g per 0.1
+                             unit) this is roughly 0.17 to 0.26 pH unit on
+                             its own, on top of whatever the auto-doser has
+                             already done. Owner's decision, made against the
+                             logged caution above.
+2026-09-24 23:00 DOSE        150 g item 3, CLORO GRANULARE 56% RAPIDO, pre-
+                             dissolved, into the balance tank, pump running.
+                             Answers the 09-24 ~12:00 zero reading; should
+                             land free chlorine near 1.1 to 1.2 mg/L, inside
+                             the 0.6-1.5 target, same as every prior 150 g
+                             dose. Adds roughly 1.2 mg/L more cyanuric acid,
+                             same as every dose of this product.
 2026-09-24 ~12:00 TEST       Tablet comparator, exact time not recorded. FREE
                              CHLORINE APPARENT 0, at or below the palest
                              step, same bottom result as every prior zero
