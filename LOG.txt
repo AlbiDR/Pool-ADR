@@ -54,6 +54,17 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-26 11:30 TEST        Tablet comparator. PH 7.8, back inside the
+                             tablet kit's own range for the first time in
+                             over two weeks, and close to the technician's
+                             7.9 from 09-22: the 750 g dose on 09-24 barely
+                             moved it, if at all, a 0.1 gap that could just
+                             as easily be the tablet's own coarseness. FREE
+                             CHLORINE 0.2 mg/L, well under the 0.6-1.5
+                             target: the 09-24 150 g dose has mostly gone,
+                             consistent with this pool's known UV-loss rate.
+                             CLOUDINESS RISK IS BACK ON THE TABLE at this
+                             chlorine level.
 2026-09-25 ~12:00 SERVICE    ROBOT CLEANER SWITCHED TO THE ULTRA-FINE FILTER
                              KIT, exact time not recorded. The Dolphin
                              Maximus X70 shipped with both kits
