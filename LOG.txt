@@ -54,6 +54,13 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-27 ~00:30 SERVICE    TEST ACID started from the TriPRO menu shortly
+                             after the chlorine dose below and allowed to
+                             complete. IT STOPPED AUTOMATICALLY. Exact start,
+                             stop, and elapsed time were not recorded. This
+                             confirms the test cycle's automatic stop on this
+                             run; it does not establish the amount injected or
+                             whether normal probe-controlled dosing works.
 2026-09-27 00:30 DOSE        250 g item 3, CLORO GRANULARE 56% RAPIDO, into
                              the balance tank. Responds to the 09-26 11:30
                              free-chlorine reading of 0.2 mg/L and the later
@@ -63,6 +70,12 @@ HOW MUCH TO WRITE
                              across the estimated 72.5 m3 before chlorine
                              demand and losses; re-testing is needed to see
                              what remains in the water.
+                             [2026-09-27 ~00:30 CORRECTION: ACTUAL DOSE WAS
+                             200 g, NOT 250 g. That is 112 g available
+                             chlorine, theoretically about 1.54 mg/L across
+                             72.5 m3 before demand and losses. The original
+                             entry is retained above as the contemporaneous
+                             report; use this correction for the actual dose.]
 2026-09-26 11:30 TEST        Tablet comparator. PH 7.8, back inside the
                              tablet kit's own range for the first time in
                              over two weeks, and close to the technician's
