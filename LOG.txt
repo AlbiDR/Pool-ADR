@@ -54,6 +54,10 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-27 ~13:45 GAUGE      1.19 to 1.2 bar, unchanged since the last
+                             backwash. Filter ruled out again as a factor in
+                             either the 09-23 or the 09-26 cloudiness
+                             episode.
 2026-09-27 13:45 TEST        CLARITY, by eye. Definitely cleaner, NO GREEN AT
                              ALL, the tint from 09-26 is gone. Still slightly
                              cloudy, not clear yet. NO ALGAECIDE WAS USED:
