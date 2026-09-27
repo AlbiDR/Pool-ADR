@@ -54,6 +54,17 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-27 13:45 TEST        CLARITY, by eye. Definitely cleaner, NO GREEN AT
+                             ALL, the tint from 09-26 is gone. Still slightly
+                             cloudy, not clear yet. NO ALGAECIDE WAS USED:
+                             only the 09-27 ~00:30 200 g chlorine dose went
+                             in, no item 7 dose is logged anywhere. The green
+                             reversed on a chlorine correction alone, which
+                             reads as caught early rather than an established
+                             bloom. Residual cloudiness is plausibly just
+                             settling time, about 13 hours after the dose;
+                             re-check before assuming anything more is
+                             needed.
 2026-09-27 ~00:30 SERVICE    TEST ACID started from the TriPRO menu shortly
                              after the chlorine dose below and allowed to
                              complete. IT STOPPED AUTOMATICALLY. Exact start,
