@@ -54,6 +54,31 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-09-28 ~20:00 NOTE       OPEN ITEM, DELIBERATELY LEFT OPEN: the menu that
+                             opens after erasing a blinking error (11_zodiac-
+                             tri-pro-module_manual_en.pdf, section 10.3) has
+                             other settings options beyond CURRENT pH that
+                             have not been checked. Go through them and
+                             report back before assuming this menu is fully
+                             understood.
+2026-09-28 ~20:00 TEST       CURRENT pH STILL 8.5, checked again after the
+                             error-erase found on the same visit. SAME NUMBER
+                             AS 09-17 ~19:45, ELEVEN DAYS UNCHANGED, across a
+                             stretch that included a 750 g hand dose, at
+                             least one confirmed live acid-pump delivery, and
+                             an independent tablet reading of 7.8 (09-26).
+                             OWNER'S OWN READ, and it holds up: if the probe
+                             has not moved at all while true pH demonstrably
+                             has, this reads less like a fixed offset and
+                             more like a stuck or dead sensor, one of the
+                             four outcomes the item 12 buffer-sachet table
+                             already anticipated. CONSEQUENCE: the unit is
+                             not just reading wrong, it is very likely still
+                             chasing a fictitious 8.5-to-7.2 gap and dosing
+                             acid accordingly, regardless of where the water
+                             actually sits. The erase-error trick unstuck the
+                             dosing loop; it did not fix what the loop is
+                             chasing.
 2026-09-27 21:00 DOSE        150 g item 8, FLOCCULANTE, into the balance
                              tank, pump running. Answers the residual slight
                              cloudiness noted at 13:45, after the gauge
