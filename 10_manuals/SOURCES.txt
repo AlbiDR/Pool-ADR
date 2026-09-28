@@ -66,6 +66,29 @@ now says so explicitly and says which one it is following.
       without reaching set point, OR when it has not run for over 72 hours.
     - ACL ERROR fires after 30 cumulative hours of production without
       reaching set point, or 30 hours without operating.
+    - HOLD SELECT FOR 3 SECONDS TO ERASE A BLINKING ERROR CODE (section
+      10.3, PH ERROR). Never found in this archive until the English
+      edition was actually downloaded and read on 2026-09-28, despite
+      ERRORE PH being the single most recurring open question in LOG.txt.
+      See 11_zodiac-tri-pro-module_manual_en.pdf below.
+
+11_zodiac-tri-pro-module_manual_en.pdf      19 pp, English
+  The English edition of manual 03 above, actually downloaded and read
+  2026-09-28: until now this archive only linked to it online (see the
+  "English edition" line above) without ever opening it. Same TRi PRO
+  module, same content, confirmed by matching package contents, error
+  codes and the pH 7.5 buffer requirement against the Spanish copy.
+  Source: found online 2026-09-28, saved locally as 39599461.pdf; no
+  URL was kept, only the file. Worth finding the URL again if this ever
+  needs re-downloading, since the manualslib link above may or may not
+  be the same rendering.
+  THE ONE NEW FACT MANUAL 03 HAD BEEN READ FOR YEARS WITHOUT SURFACING:
+  the erase-error hold, noted above against manual 03's own entry since
+  it is the same document. CURRENT pH (section 4.1, steps 7 and 9) is
+  the English name for what this archive has been calling MISURA PH the
+  whole time under CALIB PH\ACL - same screen, not a new one, confirmed
+  by the identical 6.4/8.2 dirty-probe band and the identical 7.5-buffer
+  calibration steps in both language editions.
 
 04_zodiac-tri-ph-module_manual_fr.pdf       14 pp, French
   The pH-only module. Same peristaltic pump, POD and calibration procedure as
