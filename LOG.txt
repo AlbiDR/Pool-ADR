@@ -54,6 +54,67 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-10-05 ~21:20 NOTE       NOTHING LOGGED SINCE 09-28 ~20:00; the pool was
+                             left untouched for a week, by report. The four
+                             doses below are in the order given (pH minus,
+                             chlorine, algicide, flocculant), listed newest
+                             first as usual; the gaps between them were not
+                             recorded.
+                             WATCH NEXT: the gauge sits at its clean baseline
+                             and will now start to load as the flocculant is
+                             caught. Backwash trigger is 1.5 bar, and with the
+                             salt charge in, each backwash costs 3.6 to 6.0 kg
+                             of salt and 900 to 1,500 L of water.
+2026-10-05 ~21:20 DOSE       150 g item 8, FLOCCULANTE, into the balance tank,
+                             pump running (the gauge was reading). Same size as
+                             09-27 21:00, eight days on; label curative is
+                             1,088 g, preventive 72.5 g. Chlorine went in
+                             ahead of it, which is the right order: sanitise
+                             before clarifying.
+2026-10-05 ~21:20 DOSE       150 g item 7, ANTIALGHE CONCENTRATO, into the
+                             balance tank, pump running. FIRST ALGAECIDE DOSE
+                             ON RECORD. A liquid, so roughly 150 mL, against a
+                             label initial dose of 1.45 L and weekly
+                             maintenance of 363 mL for this pool. Quats foam in
+                             the balance tank and use up chlorine (catalogue
+                             item 7), which matters with 500 g of chlorine in
+                             the same visit.
+2026-10-05 ~21:20 DOSE       500 g item 3, CLORO GRANULARE 56% RAPIDO, into the
+                             balance tank, pump running. LARGEST HAND DOSE OF
+                             CHLORINE ON RECORD (previous largest 200 g, 09-11
+                             and 09-27). At 56 percent available that is up to
+                             about 3.9 mg/L on 72.5 m3 before any loss, and
+                             about 3.7 mg/L more cyanuric acid by the survey's
+                             own scaling, which nothing in this house can
+                             measure.
+                             WHEN IT IS TESTED it can read above the
+                             comparator's 3.0 ceiling: dilute half sample, half
+                             tap water, read, double, and remember DPD bleaches
+                             to colourless far above the scale. Robot stays out
+                             until free chlorine is under 4 mg/L.
+2026-10-05 ~21:20 DOSE       500 g item 4, CORRETTORE PH MENO GRANULARE, into
+                             the balance tank, pump running. On the label's one
+                             rate (290 to 435 g per 0.1 pH here) that is about
+                             0.1 to 0.3 pH, depending on an alkalinity nobody
+                             has measured. Last true reading is the tablets'
+                             7.8 on 09-26; the probe read 8.5 unchanged right
+                             through 09-28 and is not the number to dose
+                             against.
+                             TUB NEARLY OUT. The 09-17 stock estimate was about
+                             1.5 kg; 750 g went in on 09-24 and 500 g now,
+                             which leaves roughly 250 g if that estimate held.
+                             No restock is on record, so the liquid pH minus
+                             replacement flagged on 09-17 is now due.
+2026-10-05 ~21:20 GAUGE      Unchanged, by report: "exactly the same" as the
+                             last logged figure, 1.19 to 1.2 bar (09-27
+                             ~13:45). The reading itself was not stated. Filter
+                             ruled out again as the cause of the haze.
+2026-10-05 ~21:20 TEST       CLARITY, by eye. A bit cloudy again, not super
+                             clear. Another cloudiness episode against a clean
+                             gauge (earlier ones 09-23 and 09-26), so the sand
+                             is not the cause: fine suspended matter is passing
+                             it, which is what item 8 is for. No pH or free
+                             chlorine reading was reported with this visit.
 2026-09-28 ~20:00 NOTE       OPEN ITEM, DELIBERATELY LEFT OPEN: the menu that
                              opens after erasing a blinking error (11_zodiac-
                              tri-pro-module_manual_en.pdf, section 10.3) has
