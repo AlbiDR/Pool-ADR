@@ -79,6 +79,20 @@ HOW MUCH TO WRITE
                              actually sits. The erase-error trick unstuck the
                              dosing loop; it did not fix what the loop is
                              chasing.
+                             [2026-09-28 SHARPER, owner's correction: "stuck
+                             or dead" overstates it. A dead sensor would not
+                             move at any true pH; a SLOPE-COLLAPSED one, the
+                             OTHER outcome the item 12 table already names,
+                             reads correctly near its calibration anchor and
+                             goes progressively deaf moving away from it, on
+                             one side or both. This fits better: the climb
+                             from 7.0 to 8.5 over 09-12 to 09-17 was real
+                             movement, not a frozen number, and it may well
+                             move again if true pH drops far enough, just not
+                             sensitively in the 7.2-8.5 band that actually
+                             matters here. Practically the same problem for
+                             THIS installation either way, but a different,
+                             more precise fault than "will never move again."]
 2026-09-27 21:00 DOSE        150 g item 8, FLOCCULANTE, into the balance
                              tank, pump running. Answers the residual slight
                              cloudiness noted at 13:45, after the gauge
