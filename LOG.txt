@@ -506,6 +506,12 @@ HOW MUCH TO WRITE
                              movement, per its own catalogue entry, worth
                              acting on now that a restock is actually due
                              rather than as a someday swap.
+                             [2026-10-15: THE HCl-BASED PART WAS WRONG. Most
+                             liquid pH minus sold in Italy is sulphuric acid,
+                             which halves the sulphate load of item 4 rather
+                             than removing it; see the correction at the end
+                             of the catalogue. Read the Contains line before
+                             restocking.]
 2026-09-17 19:45 TEST        TRI PRO, MISURA PH = 8.5, same CALIB PH screen.
                              THE PLATEAU BROKE: flat at 8.4 from ~01:00 to
                              ~08:30, about 7.5 hours, then up another 0.1 by

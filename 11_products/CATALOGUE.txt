@@ -438,6 +438,12 @@ THE STOCK
              same move, consistent with this being a stronger or more
              concentrated acid than the granular corrector, not a like-for-
              like substitute.
+             [2026-10-15: THE 'THIRD' DOES NOT SURVIVE THE ARITHMETIC. 1 kg per
+             200 m3 is 362 g at 72.5 m3, inside item 4's own 290-435 g, not a
+             third of it. The chemistry says the same: 36 percent sulphuric
+             delivers about 7.3 mol of acid per kg against about 8.3 for pure
+             bisulfate, so a similar mass per pH move, a little more of the
+             sulphuric.]
    Hazard    PERICOLO. H314, severe skin burns and serious eye damage.
              Corrosive. Same class as the plumbed drum.
    NOTE      The label's own words: "particolarmente adatto per l'impiego
@@ -623,6 +629,19 @@ CHEAPER OR BETTER ALTERNATIVES, AUDITED 2026-09-24
   bottled product's 9-15%) that it is a real step up in handling risk, not a
   free saving: worth it only with real care around dilution and splash.
   Restock liquid, bottled, not raw, when this tub runs out.
+  [2026-10-15: PART OF THIS WAS WRONG. 'Liquid pH-minus is dilute hydrochloric
+  acid under every brand' does not hold in Italy: a search of Italian sellers
+  found the common liquids are SULPHURIC acid (Bayrol Professional 45 percent,
+  San Marco 15, Acti 50, another at 14, and Zep states no hydrochloric), with
+  hydrochloric the minority choice. Per unit of pH moved, sulphuric acid
+  carries half the sulphate of bisulfate (two hydrogen ions per sulphate
+  against one), so a sulphuric liquid roughly HALVES the sulphate load and
+  does not remove it; only a hydrochloric one does, and it adds chloride,
+  which this salt pool has plenty of. Read the 'Contains' line before buying:
+  sulphuric (CAS 7664-93-9) or hydrochloric (CAS 7647-01-0). And compare
+  strength, not price per kilo: 15 percent liquid does about 0.4 of what the
+  same weight of bisulfate does, 45 to 50 percent about the same, which is
+  most of why the prices differ so much.]
 
   ITEM 2, NortemBio POOL pH+ INCREASER IS ALREADY THE WORSE ALTERNATIVE, AND
   ALREADY OWNED. Its own entry above says it: about four times item 1's rate
