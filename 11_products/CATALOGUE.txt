@@ -668,6 +668,23 @@ CHEAPER OR BETTER ALTERNATIVES, AUDITED 2026-09-24
   ABOUT TWICE AS MUCH. What it still buys is half the sulphate, 1.6 to 2.4
   mg/L per correction against 3.2 to 4.8 for the bisulfate, small beside the
   360 mg/L limit unless a great deal is used.]
+  [2026-10-16: THE CHEAPEST FOUND. San Marco PH MINUS GRANULARE, code SMC4040,
+  25 kg at 44.90 EUR (Leroy Merlin; the maker's own site shows 44.90 too and
+  ships free). Safety data sheet (https://www.grupposanmarco.eu/schede-di-
+  sicurezza/scheda_di_sicurezza_smc4040.pdf, dated 28/06/2022): sodium
+  hydrogen sulphate, CAS 7681-38-1, the same substance as item 4; white
+  granules, relative density 2.43, solution pH about 1, Eye Dam. 1 H318. NO
+  PURITY FIGURE AND NO DOSE RATE are printed in the sheet or on the product
+  page, so the figures here assume it is as strong as item 4: 1.80 EUR/kg,
+  0.52 to 0.78 EUR per 0.1 pH, against 0.64 to 0.96 for the 25 kg tub at 55.07
+  and 1.26 to 1.89 for the liquid. Check the bag for its own dose. STORE IT
+  DRY: the sheet says original container, away from moisture, 10 to 55 percent
+  relative humidity, which the below-ground plant room is not. THE SULPHATE
+  POINT, RESTATED: per correction it is small (3 to 5 mg/L), but a whole 25 kg
+  bag used in this one water, undiluted, would add about 276 mg/L against the
+  360 limit, where the 2.35 kg of item 4 dosed since the refill added about
+  26. Worth a sulphate reading from the closers before buying a multi-season
+  quantity of anything sulphate-based.]
 
   ITEM 2, NortemBio POOL pH+ INCREASER IS ALREADY THE WORSE ALTERNATIVE, AND
   ALREADY OWNED. Its own entry above says it: about four times item 1's rate
