@@ -85,6 +85,7 @@ THE STOCK
    Piscina Semplice, Lapi Chimici SpA
    Contains  SODIUM HYDROGEN SULFATE, CAS 7681-38-1. Sodium bisulfate.
    Size      8 kg     Lot 6G16
+   Price     55.07 EUR for the 8 kg tub, your own figure: 6.88 EUR/kg.
    Lowers pH, by hand. The plumbed acid drum does this automatically.
    Label dose  400-600 g per 100 m3 per 0.1 pH. The label adds one line:
              "la dose suggerita e indicativa e puo variare a seconda
@@ -658,6 +659,10 @@ CHEAPER OR BETTER ALTERNATIVES, AUDITED 2026-09-24
   sulphate per pH unit, nothing to pre-dissolve. What it costs: 22.6 L of
   corrosive liquid. Store it upright in its own plastic, off metal shelving
   (the data sheet says it releases hydrogen on metal), and away from item 3.]
+  [2026-10-16: AGAINST ITEM 4 AT 6.88 EUR/KG the liquid is about 37 percent
+  cheaper per correction: 1.26 to 1.89 EUR against 2.00 to 2.99 for the tub,
+  and the can is the work of about 63 EUR of tub for 39.90. A granular bag
+  would have to come in under about 4.35 EUR/kg to match it.]
 
   ITEM 2, NortemBio POOL pH+ INCREASER IS ALREADY THE WORSE ALTERNATIVE, AND
   ALREADY OWNED. Its own entry above says it: about four times item 1's rate
