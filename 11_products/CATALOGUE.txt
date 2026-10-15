@@ -642,6 +642,22 @@ CHEAPER OR BETTER ALTERNATIVES, AUDITED 2026-09-24
   strength, not price per kilo: 15 percent liquid does about 0.4 of what the
   same weight of bisulfate does, 45 to 50 percent about the same, which is
   most of why the prices differ so much.]
+  [2026-10-16: WORKED EXAMPLE. San Marco CORRETTORE PH-15 MENO LIQUIDO, code
+  SMC4038, 25 kg at 39.90 EUR (Leroy Merlin), supplied by Lapi Chimici, the
+  same maker as items 1 and 4. Its safety data sheet
+  (https://www.grupposanmarco.eu/schede-di-sicurezza/SMC4038.pdf) gives 15
+  percent sulphuric acid, density 1.105 g/cm3, Skin Corr. 1A H314, Eye Dam. 1
+  H318, and 'never dilute by pouring water onto the product, always add the
+  product to water'. THE ARITHMETIC: 1.60 EUR/kg, 10.64 EUR per kg of actual
+  sulphuric acid. It does about 0.37 of what the same weight of bisulfate
+  does, so the can is the work of about 9.2 kg of bisulfate and beats a
+  granular tub only if the tub costs more than about 4.35 EUR/kg. At this
+  pool's rate that is 0.8 to 1.2 kg (0.7 to 1.1 L) per 0.1 pH, so 21 to 32
+  such corrections per can at 1.26 to 1.89 EUR each, on the same unmeasured-
+  alkalinity caveat as every dose here. What it buys beyond price: half the
+  sulphate per pH unit, nothing to pre-dissolve. What it costs: 22.6 L of
+  corrosive liquid. Store it upright in its own plastic, off metal shelving
+  (the data sheet says it releases hydrogen on metal), and away from item 3.]
 
   ITEM 2, NortemBio POOL pH+ INCREASER IS ALREADY THE WORSE ALTERNATIVE, AND
   ALREADY OWNED. Its own entry above says it: about four times item 1's rate
