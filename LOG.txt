@@ -54,6 +54,81 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-10-15 ~22:30 NOTE       MANUAL 02 FINDING, A NEW CANDIDATE FOR WHY THE
+                             CELL DID NOT KEEP THE CHLORINE UP. Section 4.1:
+                             with no STOP time set and no external
+                             controller, the TRi stops chlorine production by
+                             itself after 30 hours and goes to OFF. Section
+                             4.5: if the filtering command box does not cut
+                             the power after 24 hours of continuous running,
+                             it trips its production safety, and production
+                             'can be reinitiated manually (ON/OFF button)'.
+                             The pump sat on M, continuous, 09-14 to 09-19.
+                             If either safety tripped then, the cell may have
+                             stayed OFF since, straight through the move to
+                             A, until somebody pressed ON/OFF. UNCONFIRMED.
+                             Free to look: is the blue Power light lit while
+                             the pump runs (the panel legend in manual 02)?
+                             Also unknown: whether the TRi follows the pump
+                             clock or runs its own timers (a T on the default
+                             screen means timers are set).
+2026-10-15 ~22:30 NOTE       BASELINE FOR THE ONE OBJECTIVE ANSWER TO 'IS THE
+                             CELL EVER RUNNING': Contadori read hrs swc
+                             18514, hrs cell 2533. Read both again in 24
+                             hours, then weekly. The rise in the cell figure
+                             divided by the hours elapsed is its average run
+                             time. No rise over a day with the pump running
+                             means it is not producing, whatever any screen
+                             says.
+2026-10-15 ~22:30 PUMP       Left on A, running at the time, by choice ('it
+                             is already going'). The 21:00 WATCH NEXT asked
+                             for M; see the manual 02 finding above, A is the
+                             safer side of that. Exact time not recorded.
+2026-10-15 ~22:30 GAUGE      1.25 bar, up from the 1.19-1.2 clean baseline:
+                             about 0.05 of loading, the flocculant and dead
+                             matter starting to be caught, as expected.
+                             Backwash trigger is 1.5.
+2026-10-15 ~22:30 TEST       TRI PRO MISURA pH/ACL: pH 8.1, and a second
+                             figure written as 'pro 700', read as ACL 700,
+                             probably a typo for ORP and not checked against
+                             the screen. FIRST ACL FIGURE EVER IN THIS LOG.
+                             PH 8.1 IS DOWN FROM 8.5, UNCHANGED 09-17 TO
+                             09-28: the probe moved, after 850 g of item 4 in
+                             ten days (500 g 10-05, 350 g 10-15) plus
+                             whatever the auto-doser did. That is the owner's
+                             09-28 expectation, that it would move once true
+                             pH fell far enough, and it fits slope-collapsed
+                             better than dead. ONE READING, and true pH was
+                             not measured: the last true figure is the
+                             tablets' 7.8 on 09-26. 700 is also the nominal
+                             value of the red probe's calibration buffer, so
+                             a figure that round deserves a second look
+                             tomorrow.
+2026-10-15 ~22:30 SERVICE    ERRORE PH erased again by holding SELECT, the
+                             second time (first 09-28), so it came back
+                             within 17 days. Erasing clears the message, not
+                             the cause.
+2026-10-15 ~22:30 NOTE       HIDDEN MENU, OPTION BY OPTION, opened by that
+                             hold (manual 11 section 10.3); menu text is
+                             Italian, as reported. DURAT. POLARITA: 5 hours,
+                             switchable 2.5 or 5; the polarity-inversion
+                             cycle that manual 02 says can be changed for
+                             water harder than 400 ppm TH, 'contact your
+                             reseller (professional access)'. Hardness here
+                             is unmeasured; leave it at 5. CONTADORI: hrs swc
+                             18514, hrs cell 2533, and SELECT RESETS THEM: DO
+                             NOT PRESS SELECT THERE. Manual 02 gives no cell
+                             life figure (searched hours, life), so there is
+                             no threshold to compare against; the use is the
+                             difference. MISURA pH/ACL: the TEST entry above.
+                             CLORAZIONE: troppo alta / normale / troppo
+                             bassa, too high / normal / too low, the ACL
+                             HIGH, LOW or OK of manual 11 section 4.4. WHICH
+                             ONE WAS SHOWING WAS NOT REPORTED: write it down
+                             at tomorrow's morning test. FERMARSI ACL: off,
+                             switchable on/off. Not found in manuals 02, 03
+                             or 11, so what it does is unknown: do not change
+                             it blind.
 2026-10-15 21:00 NOTE        WATCH NEXT, in this order. (1) FREE CHLORINE
                              BEFORE THE SUN REACHES THE WATER tomorrow: this
                              is the 09-12 discriminator again. Holding at 2
@@ -77,6 +152,11 @@ HOW MUCH TO WRITE
                              soon, date not given. They want clear, in-range
                              water, and item 5's own label says add it only
                              to clear water.
+                             [2026-10-15 ~22:30: ITEM (5) QUALIFIED. M for
+                             more than 24 hours makes the TRi stop its own
+                             chlorine production (manual 02 sections 4.1 and
+                             4.5), so M is not free; A was kept, see the
+                             entries above.]
 2026-10-15 21:00 DOSE        IN THE TANK, pump running, order as given: 500 g
                              item 3, CLORO GRANULARE 56% RAPIDO; 350 g item
                              4, CORRETTORE PH MENO GRANULARE, WHICH FINISHED
