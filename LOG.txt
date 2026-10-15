@@ -54,6 +54,89 @@ HOW MUCH TO WRITE
 ===============================================================================
 2026
 ===============================================================================
+2026-10-15 21:00 NOTE        WATCH NEXT, in this order. (1) FREE CHLORINE
+                             BEFORE THE SUN REACHES THE WATER tomorrow: this
+                             is the 09-12 discriminator again. Holding at 2
+                             mg/L or more overnight means the bloom is dying;
+                             near zero by morning means it is still eating it
+                             and needs more. (2) DPD BLEACHES TO COLOURLESS
+                             far above its 3.0 scale (catalogue item 11): if
+                             the tablet flashes pink then clears, or stays
+                             clear, dilute half sample, half tap water, read,
+                             double. Do not log that as zero. (3) Chlorine
+                             BEFORE pH: above about 3 mg/L the phenol red
+                             reads high and is not a pH. (4) GAUGE: dead
+                             algae plus 300 g of flocculant will load the bed
+                             fast; backwash at 1.5 bar, tank above the white
+                             line first. (5) PUMP ON M, not A, until it
+                             clears: A hands the pump to a clock nobody has
+                             read (09-09 reasoning). (6) ROBOT OUT until free
+                             chlorine is under 4 mg/L, and back to the Fine
+                             kit when it returns: the Ultra-Fine will blind
+                             on dead algae. DEADLINE: the closers are due
+                             soon, date not given. They want clear, in-range
+                             water, and item 5's own label says add it only
+                             to clear water.
+2026-10-15 21:00 DOSE        IN THE TANK, pump running, order as given: 500 g
+                             item 3, CLORO GRANULARE 56% RAPIDO; 350 g item
+                             4, CORRETTORE PH MENO GRANULARE, WHICH FINISHED
+                             THE TUB (the 10-05 estimate of about 250 g left
+                             was roughly 100 g low); about 200 mL item 7,
+                             ANTIALGHE CONCENTRATO (given as 200, no unit; a
+                             liquid, so mL and g are the same to within a few
+                             percent); 150 g item 8, FLOCCULANTE. CHLORINE
+                             AND PH MINUS WENT INTO THE SAME SMALL TANK IN
+                             ONE VISIT, AGAIN, as on 10-05; item 3 carries
+                             EUH031, toxic gas on contact with acid. The gap
+                             between them and whether the chlorine was pre-
+                             dissolved were not recorded; no smell or
+                             irritation was reported either time. 350 g of
+                             item 4 is about 0.08 to 0.12 pH on the label
+                             rate, small. Stock of item 4 is now zero.
+2026-10-15 21:00 DOSE        IN THE POOL, directly: 200 g item 3, CLORO
+                             GRANULARE 56% RAPIDO; 150 g item 8, FLOCCULANTE;
+                             about 200 mL item 7, ANTIALGHE CONCENTRATO (unit
+                             as above). THE FLOCCULANT HALF WENT INTO THE
+                             POOL, NOT THE TANK, against the catalogue's
+                             tank-only routing: floc formed out there reaches
+                             the filter only over the weir, or when the robot
+                             can pick up what settles, and with L shut
+                             nothing else sweeps the floor. TOTALS FOR THE
+                             VISIT: chlorine 700 g, 392 g available, up to
+                             about 5.4 mg/L on 72.5 m3 before demand, bottom
+                             of the label's 725-1,088 g shock range and about
+                             5 mg/L more cyanuric acid by the survey's own
+                             scaling; algaecide about 400 mL against a 1.45 L
+                             label initial dose; flocculant 300 g against
+                             1,088 g curative.
+2026-10-15 21:00 TEST        CLARITY, by eye. EXTREMELY CLOUDY AND VERY
+                             GREEN: a full bloom, a long way past the faint
+                             tint of 09-26 that cleared on chlorine alone,
+                             and past the 'a bit cloudy' of 10-05. No
+                             chlorine, pH or gauge figure was reported with
+                             it. Last chlorine reading on record is 0.2 mg/L,
+                             09-26 11:30; last true pH is the tablets' 7.8
+                             the same day. The 10-05 doses (500 g chlorine,
+                             about 150 mL algaecide, 150 g flocculant) did
+                             not stop this.
+2026-10-15 21:00 NOTE        NOTHING LOGGED SINCE 10-05 ~21:20, TEN DAYS. The
+                             10-05 chlorine did not hold, and the cell, which
+                             is meant to keep it up, evidently did not
+                             either. UNCHECKED CANDIDATES, none of them
+                             confirmed: the pump on A runs an unread clock
+                             schedule (survey section 11) and the cell only
+                             makes chlorine while water flows; October water
+                             may be cool enough to throttle the cell (manual
+                             02 section 8.1, below about 18 C); ACL 3 has
+                             never been checked against a measured chlorine
+                             since 09-17. THE RED (ACL) PROBE HAS NEVER BEEN
+                             READ IN THIS LOG, while the blue one reads
+                             falsely high. If the red one does too, the cell
+                             could be idling because it believes the water is
+                             sanitised. Free to look: pH/ACL SETUP, CALIBRATE
+                             ACL, CURRENT ACL shows HIGH, LOW or OK (manual
+                             11 section 4.4). Read only: SELECT there starts
+                             a calibration.
 2026-10-05 ~21:20 NOTE       NOTHING LOGGED SINCE 09-28 ~20:00; the pool was
                              left untouched for a week, by report. The four
                              doses below are in the order given (pH minus,
